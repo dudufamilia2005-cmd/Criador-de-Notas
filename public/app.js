@@ -21,6 +21,10 @@ async function iniciar() {
 
   $('filtro').addEventListener('input', desenhaLista);
   $('gerar').addEventListener('click', gerar);
+  for (const id of ['especie', 'titulo', 'judicial'])
+    $(id).addEventListener('input', pedePrevia);
+  $('judicial').addEventListener('change', pedePrevia);
+  atualizaPrevia();
   $('modal-fechar').addEventListener('click', () => $('modal').hidden = true);
 }
 
@@ -49,6 +53,7 @@ function desenhaLista() {
       div.classList.toggle('marcado', cx.checked);
       desenhaCampos();
       atualizaContagem();
+      pedePrevia();
     });
 
     const texto = document.createElement('div');
@@ -123,13 +128,56 @@ function desenhaCampos() {
       inp.value = valores.get(e.id + '|' + c) || '';
       inp.placeholder = info.exemplo || '';
       if (info.padrao) inp.title = `Em branco, a nota diz: "${info.padrao}"`;
-      inp.addEventListener('input', () => valores.set(e.id + '|' + c, inp.value));
+      inp.addEventListener('input', () => {
+        valores.set(e.id + '|' + c, inp.value);
+        pedePrevia();
+      });
 
       linha.append(lab, inp);
       g.append(linha);
     }
     alvo.append(g);
   }
+}
+
+// A prévia é refeita no servidor, que é quem sabe montar a nota. O atraso
+// evita uma requisição por tecla digitada.
+let relogioPrevia;
+function pedePrevia() {
+  clearTimeout(relogioPrevia);
+  relogioPrevia = setTimeout(atualizaPrevia, 350);
+}
+
+function montaItens() {
+  return [...marcadas].map(id => {
+    const e = CAT.exigencias.find(x => x.id === id);
+    const v = {};
+    for (const c of e.campos) v[c] = (valores.get(id + '|' + c) || '').trim();
+    return { exigencia: id, valores: v };
+  });
+}
+
+async function atualizaPrevia() {
+  const alvo = $('previa');
+  if (!marcadas.size) {
+    alvo.innerHTML = '<div class="vazio">A nota aparece aqui conforme você marca as pendências.</div>';
+    $('previa-aviso').textContent = '';
+    return;
+  }
+  const r = await fetch('api/previa', {
+    method: 'POST',
+    body: JSON.stringify({
+      especie: $('especie').value,
+      titulo: $('titulo').value.trim(),
+      judicial: $('judicial').checked,
+      itens: montaItens(),
+    }),
+  });
+  const res = await r.json();
+  alvo.innerHTML = res.html || `<div class="vazio">${res.erro || ''}</div>`;
+  $('previa-aviso').textContent = res.faltando && res.faltando.length
+    ? `falta preencher: ${res.faltando.join(', ')}`
+    : '';
 }
 
 function atualizaContagem() {
@@ -169,12 +217,7 @@ async function gerar() {
   if (!$('titulo').value.trim())
     return avisa('Falta o título', '<p>Informe o título apresentado — ele entra no preâmbulo.</p>');
 
-  const itens = [...marcadas].map(id => {
-    const e = CAT.exigencias.find(x => x.id === id);
-    const v = {};
-    for (const c of e.campos) v[c] = (valores.get(id + '|' + c) || '').trim();
-    return { exigencia: id, valores: v };
-  });
+  const itens = montaItens();
 
   $('gerar').disabled = true;
   try {

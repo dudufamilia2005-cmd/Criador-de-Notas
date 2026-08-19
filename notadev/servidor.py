@@ -158,6 +158,58 @@ def revisao(r):
     return saida
 
 
+def _esc(t):
+    return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def previa(r, dados):
+    """A nota como ela vai sair, montada a cada mudança na tela.
+
+    Campo ainda em branco nao derruba a previa: entra marcado entre guilhemes,
+    para o escrevente ver o que falta no lugar onde vai faltar.
+    """
+    cru = json.loads((BASE / "dados" / "exigencias.json").read_text(encoding="utf-8"))
+    rotulos = {c: v.get("rotulo", c) for c, v in cru.get("campos", {}).items()}
+
+    itens, faltando = [], []
+    for i in dados.get("itens", []):
+        e = r.cat.exigencia(i["exigencia"])
+        valores = {}
+        for c in e.get("campos", []):
+            v = (i.get("valores", {}).get(c) or "").strip()
+            if not v and not r.cat.campos.get(c, {}).get("padrao"):
+                v = f"«{rotulos.get(c, c)}»"
+                faltando.append(rotulos.get(c, c))
+            valores[c] = v
+        itens.append(Item(i["exigencia"], valores))
+
+    if not itens:
+        return {"html": "", "faltando": []}
+
+    titulo = (dados.get("titulo") or "").strip() or "«título apresentado»"
+    blocos = r.redige(dados.get("especie", "devolutiva"), titulo, itens,
+                      judicial=dados.get("judicial", False))
+
+    partes = []
+    for b in blocos:
+        if b.papel in ("vazio", "vazio_fund"):
+            partes.append('<div class="p-vazio"></div>')
+            continue
+        corpo = ""
+        if b.papel == "exigencia":
+            corpo += f'<span class="numero">{b.numero}.</span> '
+        for texto, marcas in b.partes:
+            t = _esc(texto).replace("«", '<span class="falta">«').replace("»", '»</span>')
+            if "negrito" in marcas and "sublinhado" in marcas:
+                t = f"<strong><u>{t}</u></strong>"
+            elif "negrito" in marcas:
+                t = f"<strong>{t}</strong>"
+            corpo += t
+        partes.append(f'<div class="p-{b.papel}">{corpo}</div>')
+
+    return {"html": "".join(partes), "faltando": sorted(set(faltando))}
+
+
 def marca_revisado(redator, eid, revisado):
     """Grava a validacao no catalogo e recarrega o que esta em memoria."""
     p = BASE / "dados" / "exigencias.json"
@@ -230,6 +282,12 @@ class Manipulador(BaseHTTPRequestHandler):
             if alvo.exists():
                 subprocess.Popen(["explorer", "/select,", str(alvo)])
             return self._envia({"ok": True})
+
+        if self.path.strip("/") == "api/previa":
+            try:
+                return self._envia(previa(self.redator, dados))
+            except (ValueError, KeyError) as erro:
+                return self._envia({"html": "", "erro": str(erro)})
 
         if self.path.strip("/") == "api/revisar":
             if SOMENTE_LEITURA:

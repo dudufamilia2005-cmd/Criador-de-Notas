@@ -267,3 +267,40 @@ button:disabled { opacity: .5; cursor: default; filter: none; }
 .pilula.impossivel { background: transparent; color: var(--texto-fraco); }
 .artigo.precedente { border-left-color: var(--destaque); }
 .artigo .fonte { margin-top: 6px; font-size: 11.5px; font-style: italic; opacity: .8; }
+
+/* ------------------------------------------------------------------ prévia */
+
+/* Três colunas em tela larga; em telas menores a prévia vai para baixo, e
+   depois tudo empilha. */
+.colunas { grid-template-columns: 1fr 1fr 1.15fr; }
+@media (max-width: 1280px) { .colunas { grid-template-columns: 1fr 1fr; } }
+@media (max-width:  900px) { .colunas { grid-template-columns: 1fr; } }
+
+.previa {
+  overflow-y: auto; flex: 1; padding: 18px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--superficie);
+}
+.previa-aviso { font-size: 11.5px; color: var(--alerta); }
+
+/* mesmas camadas do documento: corpo, exigência e lei */
+.previa .p-corpo {
+  font-size: 12px; line-height: 1.5; text-align: justify; text-indent: 1.25em;
+}
+.previa .p-exigencia {
+  font-size: 12px; line-height: 1.5; text-align: justify;
+  padding-left: 1.6em; text-indent: -1.6em; margin-top: 7px;
+}
+.previa .p-exigencia .numero { font-weight: 600; }
+.previa .p-fund_norma, .previa .p-fund_artigo {
+  font-size: 10.5px; line-height: 1.35; text-align: justify;
+  margin-left: 2.6em; color: var(--texto-fraco);
+}
+.previa .p-fund_norma { font-weight: 600; color: var(--texto); }
+.previa .p-vazio { height: 8px; }
+
+/* campo ainda não preenchido, no lugar onde vai faltar */
+.previa .falta {
+  background: var(--alerta-sup); color: var(--alerta);
+  border-radius: 4px; padding: 0 3px; font-style: italic;
+}
