@@ -6,6 +6,7 @@
   "Os fundamentos apontam norma, artigo e - quando o artigo e longo - quais partes",
   "citar. Sem 'partes' sai so o caput; com elas, o caput e os trechos pedidos,",
   "separados por '(...)'. O texto vem da lei, lida dos PDFs de Fundamentacoes.",
+  "Trecho entre [colchetes] so entra se os campos dele estiverem preenchidos.",
   "Campo com 'padrao' e opcional: em branco, entra a redacao generica.",
   "Exigencia com 'precedentes' cita jurisprudencia, de dados/precedentes.json.",
   "'impossibilidade': true marca a que devolve o titulo em vez de pedir conserto.",
@@ -344,9 +345,11 @@
    "rotulo": "CCIR não apresentado",
    "assunto": "ccir",
    "revisado": false,
-   "campos": [],
-   "defeito": "Verifica-se que não foi apresentado o Certificado de Cadastro de Imóvel Rural (CCIR), exigido para a prática de ato relativo a imóvel rural.",
-   "providencia": "a apresentação do CCIR vigente e quitado",
+   "campos": [
+    "matricula"
+   ],
+   "defeito": "Verifica-se que não foi apresentado o Certificado de Cadastro de Imóvel Rural (CCIR)[ do imóvel da matrícula n.º {matricula}], documento exigido para a prática de ato relativo a imóvel rural.",
+   "providencia": "a apresentação do CCIR vigente e quitado[, referente à matrícula n.º {matricula}]",
    "fecho": "fecho",
    "fundamentos": [
     {

@@ -89,6 +89,10 @@ Para achar o artigo pertinente a uma exigência nova, lendo a lei:
 6. **A cláusula de assinatura é fragmento, não texto repetido.** Cabe em quase
    toda exigência; mora uma vez em `fragmentos.assinatura`. O mesmo vale
    para o fecho e para o protocolo apartado.
+6-A. **Dado que enriquece a frase vai entre colchetes.** `(CCIR)[ do imóvel da
+   matrícula n.º {matricula}]` some inteiro quando o campo fica vazio, em vez de
+   deixar buraco ou obrigar o escrevente a preencher. Campo usado só dentro de
+   colchetes é opcional por construção — não precisa de `padrao`.
 7-A. **O mesmo código roda local e no Vercel.** `SOMENTE_LEITURA` (variável de
    ambiente `VERCEL`) desliga o que grava: a validação da fundamentação e a
    gravação em `saida/`. Lá a nota volta em base64 e o navegador a baixa. Não

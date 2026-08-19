@@ -55,6 +55,8 @@ def catalogo_para_tela(r):
         "campos": cru.get("campos", {}),
         "exigencias": [{"id": e["id"], "rotulo": e["rotulo"], "assunto": e["assunto"],
                         "defeito": e["defeito"], "campos": e.get("campos", []),
+                        # campo fora de colchetes e obrigatorio; dentro, enriquece
+                        "obrigatorios": r.campos_obrigatorios(e),
                         "revisado": bool(e.get("revisado")),
                         "impossibilidade": bool(e.get("impossibilidade")),
                         "precedentes": len(e.get("precedentes", [])),
@@ -174,10 +176,11 @@ def previa(r, dados):
     itens, faltando = [], []
     for i in dados.get("itens", []):
         e = r.cat.exigencia(i["exigencia"])
+        obrigatorios = set(r.campos_obrigatorios(e))
         valores = {}
         for c in e.get("campos", []):
             v = (i.get("valores", {}).get(c) or "").strip()
-            if not v and not r.cat.campos.get(c, {}).get("padrao"):
+            if not v and c in obrigatorios:
                 v = f"«{rotulos.get(c, c)}»"
                 faltando.append(rotulos.get(c, c))
             valores[c] = v

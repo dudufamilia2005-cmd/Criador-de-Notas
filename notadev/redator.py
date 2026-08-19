@@ -47,6 +47,28 @@ class Redator:
 
     # ---------------------------------------------------------------- textos
 
+    # Trecho entre colchetes so entra se os campos dele estiverem preenchidos:
+    # "(CCIR)[ do imóvel da matrícula n.º {matricula}], documento exigido..."
+    # Serve para o dado que enriquece a frase mas nao a sustenta.
+    SEGMENTO = re.compile(r"\[([^\[\]]*)\]")
+
+    def campos_obrigatorios(self, e):
+        """Campos fora de colchetes - os que, faltando, impedem a nota."""
+        fora = self.SEGMENTO.sub("", e["defeito"] + " " + e["providencia"])
+        usados = set(re.findall(r"\{(\w+)\}", fora))
+        return [c for c in e.get("campos", [])
+                if c in usados and not self.cat.campos.get(c, {}).get("padrao")]
+
+    def _resolve_segmentos(self, texto, valores):
+        def decide(m):
+            dentro = m.group(1)
+            for chave in re.findall(r"\{(\w+)\}", dentro):
+                v = str(valores.get(chave, "")).strip()
+                if not v and not self.cat.campos.get(chave, {}).get("padrao"):
+                    return ""
+            return dentro
+        return self.SEGMENTO.sub(decide, texto)
+
     def _preenche(self, texto, valores):
         """Troca {campo} pelos valores e pelos fragmentos. Nao aceita buraco.
 
@@ -70,12 +92,11 @@ class Redator:
             if padrao:
                 return padrao
             raise ValueError(f"falta informar o campo '{chave}'")
-        return re.sub(r"\{(\w+)\}", troca, texto)
+        return re.sub(r"\{(\w+)\}", troca, self._resolve_segmentos(texto, valores))
 
     def _exigencia(self, item, numero):
         e = self.cat.exigencia(item.exigencia)
-        faltando = [c for c in e.get("campos", [])
-                    if c not in item.valores and not self.cat.campos.get(c, {}).get("padrao")]
+        faltando = [c for c in self.campos_obrigatorios(e) if c not in item.valores]
         if faltando:
             raise ValueError(f"exigencia '{e['id']}': falta informar "
                              + ", ".join(faltando))

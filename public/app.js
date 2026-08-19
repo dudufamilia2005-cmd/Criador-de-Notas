@@ -117,8 +117,10 @@ function desenhaCampos() {
 
       const lab = document.createElement('label');
       lab.textContent = info.rotulo || c;
-      // campo com 'padrao' é opcional: em branco, entra a redação genérica
-      if (info.padrao) {
+      // opcional de dois jeitos: campo com 'padrao', ou usado só dentro de
+      // colchetes na exigência — aí o trecho inteiro some se ficar vazio
+      const opcional = info.padrao || !(e.obrigatorios || []).includes(c);
+      if (opcional) {
         const op = document.createElement('span');
         op.className = 'opcional';
         op.textContent = ' (opcional)';
@@ -127,7 +129,8 @@ function desenhaCampos() {
       const inp = document.createElement('input');
       inp.value = valores.get(e.id + '|' + c) || '';
       inp.placeholder = info.exemplo || '';
-      if (info.padrao) inp.title = `Em branco, a nota diz: "${info.padrao}"`;
+      inp.title = info.padrao ? `Em branco, a nota diz: "${info.padrao}"`
+                              : (opcional ? 'Em branco, o trecho não entra na nota.' : '');
       inp.addEventListener('input', () => {
         valores.set(e.id + '|' + c, inp.value);
         pedePrevia();
