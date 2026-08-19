@@ -35,6 +35,14 @@
    "fonte": "lei"
   },
   {
+   "norma": "L6496",
+   "artigo": "Art. 1",
+   "texto": "Art 1º - Todo contrato, escrito ou verbal, para a execução de obras ou prestação de quaisquer serviços profissionais referentes à Engenharia, à Arquitetura e à Agronomia fica sujeito à \"Anotação de Responsabilidade Técnica\" (ART).",
+   "caput": "Art 1º - Todo contrato, escrito ou verbal, para a execução de obras ou prestação de quaisquer serviços profissionais referentes à Engenharia, à Arquitetura e à Agronomia fica sujeito à \"Anotação de Responsabilidade Técnica\" (ART).",
+   "partes": [],
+   "fonte": "lei"
+  },
+  {
    "norma": "DEC4449",
    "artigo": "Art. 9",
    "texto": "Art. 9o A identificação do imóvel rural, na forma do § 3o do art. 176 e do § 3o do art. 225 da Lei no 6.015, de 1973, será obtida a partir de memorial descritivo elaborado, executado e assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica - ART, contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, georreferenciadas ao Sistema Geodésico Brasileiro, e com precisão posicional a ser estabelecida em ato normativo, inclusive em manual técnico, expedido pelo INCRA. § 1o Caberá ao INCRA certificar que a poligonal objeto do memorial descritivo não se sobrepõe a nenhuma outra constante de seu cadastro georreferenciado e que o memorial atende às exigências técnicas, conforme ato normativo próprio. § 2o A certificação do memorial descritivo pelo INCRA não implicará reconhecimento do domínio ou a exatidão dos limites e confrontações indicados pelo proprietário. § 3o Para os fins e efeitos do § 2o do art. 225 da Lei no 6.015, de 1973, a primeira apresentação do memorial descritivo segundo os ditames do § 3o do art. 176 e do § 3o do art. 225 da mesma Lei, e nos termos deste Decreto, respeitadas as divisas do imóvel e os direitos de terceiros confrontantes, não caracterizará irregularidade impeditiva de novo registro, devendo, no entanto, os subseqüentes estar rigorosamente de acordo com o referido § 2o, sob pena de incorrer em irregularidade sempre que a caracterização do imóvel não for coincidente com a constante do primeiro registro de memorial georreferenciado, excetuadas as hipóteses de alterações expressamente previstas em lei. § 3o Para os fins e efeitos do § 2o do art. 225 da Lei no 6.015, de 1973, a primeira apresentação do memorial descritivo segundo os ditames do § 3o do art. 176 e do § 3o do art. 225 da mesma Lei, e nos termos deste Decreto, respeitados os direitos de terceiros confrontantes, não caracterizará irregularidade impeditiva de novo registro desde que presente o requisito do § 13 do art. 213 da Lei no 6.015, de 1973, devendo, no entanto, os subseqüentes estar rigorosamente de acordo com o referido § 2o, sob pena de incorrer em irregularidade sempre que a caracterização do imóvel não for coincidente com a constante do primeiro registro de memorial georreferenciado, excetuadas as hipóteses de alterações expressamente previstas em lei. § 4o Visando a finalidade do § 3o, e desde que mantida a descrição das divisas do imóvel e os direitos de terceiros confrontantes, não serão opostas ao memorial georreferenciado as discrepâncias de área que não excederem os limites preceituados na legislação vigente. § 4o Visando a finalidade do § 3o, e desde que mantidos os direitos de terceiros confrontantes, não serão opostas ao memorial georreferenciado as discrepâncias de área constantes da matrícula do imóvel. § 5o O memorial descritivo, que de qualquer modo possa alterar o registro, será averbado no serviço de registro de imóveis competente mediante requerimento do interessado, contendo declaração firmada sob pena de responsabilidade civil e criminal, com firma reconhecida, de que não houve alteração das divisas do imóvel registrado e de que foram respeitados os direitos dos confrontantes, acompanhado da certificação prevista no § 1o deste artigo, do CCIR e da prova de quitação do ITR dos últimos cinco exercícios, quando for o caso. § 5o O memorial descritivo, que de qualquer modo possa alterar o registro, resultará numa nova matrícula com encerramento da matrícula anterior no serviço de registro de imóveis competente, mediante requerimento do interessado, contendo declaração firmada sob pena de responsabilidade civil e criminal, com firma reconhecida, de que foram respeitados os direitos dos confrontantes, acompanhado da certificação prevista no § 1o deste artigo, do CCIR e da prova de quitação do ITR dos últimos cinco exercícios, quando for o caso. § 6o A documentação prevista no § 5o deverá ser acompanhada de declaração expressa dos confinantes de que os limites divisórios foram respeitados, com suas respectivas firmas reconhecidas. § 7o Quando a declaração for manifestada mediante escritura pública, constituir-se-á produção antecipada de prova. § 8o Não sendo apresentadas as declarações constantes no § 6o e a certidão prevista no § 1o, o oficial encaminhará a documentação ao juiz de direito competente, para que a retificação seja processada nos termos do art. 213 da Lei no 6.015, de 1973. § 8o Não sendo apresentadas as declarações constantes do § 6o, o interessado, após obter a certificação prevista no § 1o, requererá ao oficial de registro que proceda de acordo com os §§ 2o, 3o, 4o, 5o e 6o do art. 213 da Lei no 6.015, de 1973. § 9o Em nenhuma hipótese a adequação do imóvel às exigências do art.176, §§ 3o e 4o, e do art. 225, § 3o, da Lei no 6.015, de 1973, poderá ser feita sem a certificação do memorial descritivo expedida pelo INCRA. § 10. É dispensada a declaração dos confinantes prevista no § 6º quando a retificação de matrícula de imóvel rural relativo à área pública da União ou do INCRA for formulada pela Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário da Casa Civil da Presidência da República ou pelo INCRA, acompanhada de declaração de que o memorial descritivo apresentado refere-se somente ao perímetro originário do imóvel cuja matricula esteja sendo retificada.",
@@ -104,14 +112,6 @@
    "artigo": "Art. 800",
    "texto": "Art. 800. As cópias de documentos fiscais ou emitidos por órgãos ou entidades públicos consideram-se válidas desde que autenticadas por tabelião ou, em se tratando de documento eletrônico, contenha código de validação por sistema digital do emitente.",
    "caput": "Art. 800. As cópias de documentos fiscais ou emitidos por órgãos ou entidades públicos consideram-se válidas desde que autenticadas por tabelião ou, em se tratando de documento eletrônico, contenha código de validação por sistema digital do emitente.",
-   "partes": [],
-   "fonte": "lei"
-  },
-  {
-   "norma": "L6496",
-   "artigo": "Art. 1",
-   "texto": "Art 1º - Todo contrato, escrito ou verbal, para a execução de obras ou prestação de quaisquer serviços profissionais referentes à Engenharia, à Arquitetura e à Agronomia fica sujeito à \"Anotação de Responsabilidade Técnica\" (ART).",
-   "caput": "Art 1º - Todo contrato, escrito ou verbal, para a execução de obras ou prestação de quaisquer serviços profissionais referentes à Engenharia, à Arquitetura e à Agronomia fica sujeito à \"Anotação de Responsabilidade Técnica\" (ART).",
    "partes": [],
    "fonte": "lei"
   },
@@ -914,6 +914,63 @@
     {
      "rotulo": "§ 5 o",
      "texto": "§ 5 o O terraço de cobertura é parte comum, salvo disposição contrária da escritura de constituição do condomínio."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNN-CNJ",
+   "artigo": "Art. 440-AX",
+   "texto": "Art. 440 -AX. A averbação de retificação de área de imóveis urbanos e rurais será realizada na forma dos arts. 212 e 213 da Lei n. 6.015/1973 , resultando em posterior averbação de encerramento da matrícula retificada e abertura de nova matrícula com a atual descrição e as devidas remissões recíprocas. § 1.º. A declaração expressa dos confinantes de que os limites divisórios foram respeitados poderá ser realizada na planta, no memorial descritivo ou em instrumento apartado, observando o disposto no art. 220 do Código Civil. § 2.º. As declarações apresentadas pelo proprietário, pelo profissional técnico e pelos confinantes deverão ser assinadas com firma reconhecida ou mediante assinatura eletrônica avançada ou qualificada. § 3.º. É dispensada a anuência do confinante: I - no caso de imóveis rurais, se o imóvel confrontante e a nova descrição do imóvel objeto da retificação tiverem sido certificados pelo Incra na forma do § 5.º do art. 176 da Lei n. 6.015/1973; e II – se o imóvel confrontante for bem público e consistir em: a) águas públicas, tais como rios navegáveis, correntes ou depósitos hídricos, com respeito aos pertinentes terrenos reservados, nos termos do art. 14 do Código de Águas (Decreto n. 24.643/1934); e b) bem público de uso comum, tais como estradas, rodovias, ferrovias e outras vias de circulação, respeitada a faixa de domínio público e eventual área non aedificandi. § 4.º. Havendo necessidade de retificação da área global do imóvel rural e tendo o requerente apresentado pedido concomitante de desmembramento, cujas poligonais desmembradas estejam georreferenciadas e certificadas no Incra, deverá o oficial, nesta ordem: I - realizar a averbação de retificação administrativa da área global; e II - posteriormente, realizar averbação de desmembramento, com posterior averbação de encerramento da matrícula anterior, abrindo tantas matrículas quantas forem as parcelas desmembradas. § 5.º. Na hipótese do § 4.º deste artigo, é dispensada a certificação pelo Incra da área global objeto do memorial descritivo (art. 176, § 5.º, da Lei n. 6.015/1973), desde que as parcelas desmembradas tenham sido certificadas pelo Incra e correspondam integralmente ao somatório da área global, conforme mapa e memorial descritivo elaborados por profissional técnico habilitado, caso em que os prazos de eficácia da prenotação em relação ao desmembramento ficarão suspensos enquanto o procedimento de retificação extrajudicial estiver em curso. § 6.º. Aplica-se à unificação ou fusão de imóveis, no que couber, a regra procedimental prevista nos §§ 4.º e 5.º deste artigo. § 7.º. O deferimento do pedido de retificação de área dependerá do cumprimento dos requisitos legais e do convencimento do oficial de registro de imóveis, na forma da Lei de Registros Públicos e da legislação processual. § 8.º. Em caso de indeferimento, deverá ser expedida nota devolutiva fundamentada na qual o oficial de registro de imóveis indicará as razões da formação de seu convencimento e, sempre que possível, informará os meios de o requerente cumprir as exigências legais, podendo requisitar a apresentação de declarações, laudos, arquivos eletrônicos ou outros documentos complementares, especialmente, como meios de prova e de análise da conformidade dos trabalhos técnicos. § 9.º. Havendo indícios de grilagem de terras, fraude procedimental, declaração falsa ou cometimento de qualquer outro ato ilícito pelo requerente ou pelo profissional técnico, o oficial de registro comunicará o fato ao juízo competente e ao Ministério Público com as cópias dos documentos necessários à análise. Seção III Do Saneamento de Irregularidades Existentes nas Matrículas Subseção I Da Sobreposição de Área entre Imóveis",
+   "caput": "Art. 440 -AX. A averbação de retificação de área de imóveis urbanos e rurais será realizada na forma dos arts. 212 e 213 da Lei n. 6.015/1973 , resultando em posterior averbação de encerramento da matrícula retificada e abertura de nova matrícula com a atual descrição e as devidas remissões recíprocas.",
+   "partes": [
+    {
+     "rotulo": "§ 1",
+     "texto": "§ 1.º. A declaração expressa dos confinantes de que os limites divisórios foram respeitados poderá ser realizada na planta, no memorial descritivo ou em instrumento apartado, observando o disposto no art. 220 do Código Civil."
+    },
+    {
+     "rotulo": "§ 2",
+     "texto": "§ 2.º. As declarações apresentadas pelo proprietário, pelo profissional técnico e pelos confinantes deverão ser assinadas com firma reconhecida ou mediante assinatura eletrônica avançada ou qualificada."
+    },
+    {
+     "rotulo": "§ 3",
+     "texto": "§ 3.º. É dispensada a anuência do confinante:"
+    },
+    {
+     "rotulo": "I",
+     "texto": "I - no caso de imóveis rurais, se o imóvel confrontante e a nova descrição do imóvel objeto da retificação tiverem sido certificados pelo Incra na forma do § 5.º do art. 176 da Lei n. 6.015/1973; e II – se o imóvel confrontante for bem público e consistir em:"
+    },
+    {
+     "rotulo": "a)",
+     "texto": "a) águas públicas, tais como rios navegáveis, correntes ou depósitos hídricos, com respeito aos pertinentes terrenos reservados, nos termos do art. 14 do Código de Águas (Decreto n. 24.643/1934); e b) bem público de uso comum, tais como estradas, rodovias, ferrovias e outras vias de circulação, respeitada a faixa de domínio público e eventual área non aedificandi."
+    },
+    {
+     "rotulo": "§ 4",
+     "texto": "§ 4.º. Havendo necessidade de retificação da área global do imóvel rural e tendo o requerente apresentado pedido concomitante de desmembramento, cujas poligonais desmembradas estejam georreferenciadas e certificadas no Incra, deverá o oficial, nesta ordem:"
+    },
+    {
+     "rotulo": "I (2)",
+     "texto": "I - realizar a averbação de retificação administrativa da área global; e II - posteriormente, realizar averbação de desmembramento, com posterior averbação de encerramento da matrícula anterior, abrindo tantas matrículas quantas forem as parcelas desmembradas."
+    },
+    {
+     "rotulo": "§ 5",
+     "texto": "§ 5.º. Na hipótese do § 4.º deste artigo, é dispensada a certificação pelo Incra da área global objeto do memorial descritivo (art. 176, § 5.º, da Lei n. 6.015/1973), desde que as parcelas desmembradas tenham sido certificadas pelo Incra e correspondam integralmente ao somatório da área global, conforme mapa e memorial descritivo elaborados por profissional técnico habilitado, caso em que os prazos de eficácia da prenotação em relação ao desmembramento ficarão suspensos enquanto o procedimento de retificação extrajudicial estiver em curso."
+    },
+    {
+     "rotulo": "§ 6",
+     "texto": "§ 6.º. Aplica-se à unificação ou fusão de imóveis, no que couber, a regra procedimental prevista nos §§ 4.º e 5.º deste artigo."
+    },
+    {
+     "rotulo": "§ 7",
+     "texto": "§ 7.º. O deferimento do pedido de retificação de área dependerá do cumprimento dos requisitos legais e do convencimento do oficial de registro de imóveis, na forma da Lei de Registros Públicos e da legislação processual."
+    },
+    {
+     "rotulo": "§ 8",
+     "texto": "§ 8.º. Em caso de indeferimento, deverá ser expedida nota devolutiva fundamentada na qual o oficial de registro de imóveis indicará as razões da formação de seu convencimento e, sempre que possível, informará os meios de o requerente cumprir as exigências legais, podendo requisitar a apresentação de declarações, laudos, arquivos eletrônicos ou outros documentos complementares, especialmente, como meios de prova e de análise da conformidade dos trabalhos técnicos."
+    },
+    {
+     "rotulo": "§ 9",
+     "texto": "§ 9.º. Havendo indícios de grilagem de terras, fraude procedimental, declaração falsa ou cometimento de qualquer outro ato ilícito pelo requerente ou pelo profissional técnico, o oficial de registro comunicará o fato ao juízo competente e ao Ministério Público com as cópias dos documentos necessários à análise. Seção III Do Saneamento de Irregularidades Existentes nas Matrículas"
     }
    ],
    "fonte": "lei"

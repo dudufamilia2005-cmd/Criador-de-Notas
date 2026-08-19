@@ -176,6 +176,10 @@
   "diferenca": {
    "rotulo": "Diferença apurada",
    "exemplo": "35,96%"
+  },
+  "peca_tecnica": {
+   "rotulo": "Peça técnica",
+   "exemplo": "planta apresentada"
   }
  },
  "exigencias": [
@@ -198,6 +202,28 @@
      "partes": [
       "§4º"
      ]
+    }
+   ]
+  },
+  {
+   "id": "art-nao-apresentada",
+   "rotulo": "ART não apresentada",
+   "assunto": "art_tec",
+   "revisado": false,
+   "campos": [
+    "peca_tecnica"
+   ],
+   "defeito": "Verifica-se que não foi apresentada a Anotação de Responsabilidade Técnica (ART)[ da {peca_tecnica}]. Todo serviço de engenharia, arquitetura ou agronomia está sujeito a ela, e sem a ART não se afere quem responde pelo trabalho técnico.",
+   "providencia": "a apresentação da Anotação de Responsabilidade Técnica correspondente ao trabalho técnico apresentado, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "L6496",
+     "artigo": "Art. 1"
+    },
+    {
+     "norma": "DEC4449",
+     "artigo": "Art. 9"
     }
    ]
   },
@@ -498,6 +524,36 @@
     {
      "norma": "LRP",
      "artigo": "Art. 176"
+    }
+   ]
+  },
+  {
+   "id": "confrontante-sem-declaracao",
+   "rotulo": "Falta a declaração de confrontação de um confrontante",
+   "assunto": "confront",
+   "revisado": false,
+   "campos": [
+    "matricula_confrontante",
+    "proprietario"
+   ],
+   "defeito": "Verifica-se que não veio a declaração de confrontação referente à matrícula n.º {matricula_confrontante}[, de titularidade de {proprietario}]. Sem ela não se comprova que os limites divisórios daquele imóvel foram respeitados.",
+   "providencia": "a apresentação da declaração de confrontação da matrícula n.º {matricula_confrontante}, firmada pelo respectivo titular, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNN-CNJ",
+     "artigo": "Art. 440-AX",
+     "partes": [
+      "§ 1",
+      "§ 2"
+     ]
+    },
+    {
+     "norma": "DEC4449",
+     "artigo": "Art. 9",
+     "partes": [
+      "§ 6o"
+     ]
     }
    ]
   },
