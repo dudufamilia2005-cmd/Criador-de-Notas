@@ -106,7 +106,7 @@ def quebra(texto):
 
 
 def main():
-    artigos = json.loads((CACHE / "artigos.json").read_text(encoding="utf-8"))
+    artigos = json.loads((BASE / "dados" / "artigos.json").read_text(encoding="utf-8"))
     indice = {(n, a["artigo"]): a["texto"] for n, lista in artigos.items() for a in lista}
 
     cat = json.loads((BASE / "dados" / "exigencias.json").read_text(encoding="utf-8"))

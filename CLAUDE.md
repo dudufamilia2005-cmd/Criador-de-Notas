@@ -49,8 +49,10 @@ Para achar o artigo pertinente a uma exigência nova, lendo a lei:
   produção** — o sistema não o lê, o catálogo não o referencia, e nenhum arquivo
   em `dados\` guarda contagem ou citação dele. As ferramentas de levantamento
   continuam no repositório apenas como registro de como o estudo foi feito.
-- `.cache-texto\` — texto extraído dos PDFs e dos levantamentos. Artefato
-  gerado, descartável, não versionar.
+- `.cache-texto\` — texto extraído dos PDFs. Artefato gerado, descartável.
+- `dados/artigos.json` — o índice das leis. Também é gerado, mas **é
+  versionado**: sem ele a implantação no Vercel não tem o que consultar, e os
+  PDFs ficam de fora de lá por peso.
 
 ## Invariantes
 
@@ -87,6 +89,10 @@ Para achar o artigo pertinente a uma exigência nova, lendo a lei:
 6. **A cláusula de assinatura é fragmento, não texto repetido.** Cabe em quase
    toda exigência; mora uma vez em `fragmentos.assinatura`. O mesmo vale
    para o fecho e para o protocolo apartado.
+7-A. **O mesmo código roda local e no Vercel.** `SOMENTE_LEITURA` (variável de
+   ambiente `VERCEL`) desliga o que grava: a validação da fundamentação e a
+   gravação em `saida/`. Lá a nota volta em base64 e o navegador a baixa. Não
+   crie um segundo caminho de código para a nuvem.
 7. **O texto do artigo citado sai em Arial 9 recuado**, o corpo em Arial 10
    justificado com entrelinhas 1,5. São camadas visuais distintas, e é o que
    dá à nota a cara que ela tem hoje.
@@ -102,7 +108,7 @@ Fundamentação: Arial 9, recuo esquerdo 3,75–4,00 cm, entrelinhas 1,0.
 
 - Provimento CNJ 161/2024: o PDF não tem texto extraível — traz só índices de
   glifos. Precisa de OCR ou de outra cópia. Nenhuma exigência o usa hoje.
-- Nenhuma das 30 exigências foi revisada por registrador: todas saem com aviso.
+- Nenhuma das 54 exigências foi revisada por registrador: todas saem com aviso.
 - `notadev/tela.py` é a interface antiga, em Tkinter, mantida até a nova ser
   aprovada. Quem roda pelo `.bat` é `notadev/servidor.py`, servida no navegador.
 - Não definido ainda: se a nota é impressa em papel timbrado ou se o sistema

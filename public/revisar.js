@@ -5,7 +5,11 @@
 const $ = (id) => document.getElementById(id);
 let DADOS = [];
 
+let SOMENTE_LEITURA = false;
+
 async function iniciar() {
+  const cat = await (await fetch('api/catalogo')).json();
+  SOMENTE_LEITURA = !!cat.somente_leitura;
   DADOS = await (await fetch('api/revisao')).json();
   desenha();
 }
@@ -25,7 +29,12 @@ function desenha() {
     const b = document.createElement('button');
     b.className = e.revisado ? 'secundario' : 'primario';
     b.textContent = e.revisado ? 'Validada — desfazer' : 'Validar fundamentação';
-    b.onclick = () => alterna(e.id, !e.revisado, b);
+    if (SOMENTE_LEITURA) {
+      b.disabled = true;
+      b.title = 'A validação grava no catálogo e só funciona na instalação do cartório.';
+    } else {
+      b.onclick = () => alterna(e.id, !e.revisado, b);
+    }
     cab.append(h, b);
 
     const corpo = document.createElement('div');

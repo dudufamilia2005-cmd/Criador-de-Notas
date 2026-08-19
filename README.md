@@ -31,6 +31,12 @@ para extrair o texto dos PDFs das normas.
 ```
 python -m venv .venv
 .venv\Scripts\python.exe -m pip install pypdf
+```
+
+O índice das leis já vem pronto em `dados/artigos.json`. Refazê-lo, depois de
+acrescentar ou trocar um PDF:
+
+```
 .venv\Scripts\python.exe ferramentas\indexa_normas.py
 .venv\Scripts\python.exe ferramentas\monta_dispositivos.py
 ```
@@ -45,6 +51,23 @@ Três telas:
   número ou por assunto.
 - **Revisão da fundamentação** — onde um registrador confere se o artigo citado
   sustenta mesmo a exigência, e valida.
+
+## Publicando no Vercel
+
+O mesmo código serve as duas situações. Na máquina do cartório ele roda como
+servidor local; no Vercel roda como função, e aí duas coisas mudam sozinhas,
+porque lá o disco é somente leitura:
+
+- a nota volta como **download** em vez de virar arquivo em `saida/`;
+- a **validação da fundamentação fica desabilitada** — ela grava no catálogo, e
+  isso só funciona na instalação do cartório.
+
+`vercel.json` encaminha `/api/*` para a função em `api/index.py`; o resto é
+servido de `public/`. O `.vercelignore` deixa os PDFs das normas de fora: eles
+só servem para gerar o índice, e ele já vai pronto em `dados/artigos.json`.
+
+Convém manter a proteção de implantação ligada. A ferramenta gera documentos em
+nome da serventia e não tem controle de acesso próprio.
 
 ## Acrescentando uma norma
 

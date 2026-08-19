@@ -32,7 +32,7 @@ def main():
     ap.add_argument("--largura", type=int, default=190, help="caracteres de cada trecho")
     a = ap.parse_args()
 
-    artigos = json.loads((BASE / ".cache-texto" / "artigos.json").read_text(encoding="utf-8"))
+    artigos = json.loads((BASE / "dados" / "artigos.json").read_text(encoding="utf-8"))
     nomes = {n["id"]: n["nome"] for n in
              json.loads((BASE / "dados" / "normas.json").read_text(encoding="utf-8"))["normas"]}
 

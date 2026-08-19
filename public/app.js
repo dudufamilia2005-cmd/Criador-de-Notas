@@ -143,6 +143,16 @@ function atualizaContagem() {
     : '';
 }
 
+function baixa(base64, nome) {
+  const bytes = Uint8Array.from(atob(base64), c => c.charCodeAt(0));
+  const url = URL.createObjectURL(new Blob([bytes],
+    { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' }));
+  const a = document.createElement('a');
+  a.href = url; a.download = nome;
+  document.body.append(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 5000);
+}
+
 function avisa(titulo, html, caminho) {
   $('modal-titulo').textContent = titulo;
   $('modal-corpo').innerHTML = html;
@@ -181,7 +191,14 @@ async function gerar() {
     const res = await r.json();
     if (!res.ok) return avisa('Falta preencher', `<p>${res.erro}</p>`);
 
-    let html = `<p>Nota gravada em:</p><div class="caminho">${res.caminho}</div>`;
+    let html;
+    if (res.conteudo) {
+      // servidor sem disco: a nota volta embutida e o navegador a salva
+      baixa(res.conteudo, res.arquivo);
+      html = `<p>Nota gerada e baixada:</p><div class="caminho">${res.arquivo}</div>`;
+    } else {
+      html = `<p>Nota gravada em:</p><div class="caminho">${res.caminho}</div>`;
+    }
     if (res.nao_revisadas.length) {
       html += '<p><strong>Fundamentação ainda não revisada por registrador:</strong></p><ul>'
             + res.nao_revisadas.map(x => `<li>${x}</li>`).join('') + '</ul>'

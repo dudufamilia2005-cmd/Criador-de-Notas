@@ -9,11 +9,13 @@ aparencia vira HTML e CSS, sem nenhuma dependencia nova.
 Escuta so em 127.0.0.1, em porta sorteada pelo sistema: nada fica exposto na
 rede do cartorio.
 """
+import base64
 import json
 import os
 import re
 import unicodedata
 import subprocess
+import tempfile
 import threading
 import urllib.parse
 import webbrowser
@@ -24,7 +26,11 @@ from .catalogo import BASE
 from .redator import Item, Redator
 from . import documento
 
-WEB = Path(__file__).resolve().parent / "web"
+WEB = BASE / "public"
+
+# No Vercel o disco e somente leitura e nao ha para onde salvar: as rotas que
+# gravam ficam desligadas e a nota volta como download, em vez de virar arquivo.
+SOMENTE_LEITURA = bool(os.environ.get("VERCEL"))
 MOLDE = BASE / "modelo" / "molde-nota.docx"
 SAIDA = BASE / "saida"
 
@@ -43,6 +49,7 @@ def catalogo_para_tela(r):
     exigencias = sorted(r.cat.exigencias.values(),
                         key=lambda e: (e["assunto"], e["rotulo"]))
     return {
+        "somente_leitura": SOMENTE_LEITURA,
         "especies": [{"id": k, "rotulo": v["rotulo"]}
                      for k, v in r.modelo["especies"].items()],
         "campos": cru.get("campos", {}),
@@ -63,7 +70,7 @@ def indice_artigos():
     """Indice das normas, carregado uma vez e mantido em memoria."""
     global _artigos
     if _artigos is None:
-        p = BASE / ".cache-texto" / "artigos.json"
+        p = BASE / "dados" / "artigos.json"
         _artigos = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
     return _artigos
 
@@ -79,7 +86,8 @@ def legislacao(r):
         saida.append({
             "id": n["id"], "nome": n["nome"], "referencia": n.get("referencia", ""),
             "esfera": n.get("esfera", ""), "arquivo": n["fonte"] + ".pdf",
-            "tem_pdf": pdf.is_file(),
+            # No Vercel os PDFs nao sao enviados: so o indice ja extraido deles.
+            "tem_pdf": True if SOMENTE_LEITURA else pdf.is_file(),
             "artigos": len(idx.get(n["id"], [])),
         })
     saida.sort(key=lambda x: x["nome"])
@@ -216,12 +224,18 @@ class Manipulador(BaseHTTPRequestHandler):
         dados = json.loads(self.rfile.read(tamanho) or b"{}")
 
         if self.path.strip("/") == "api/abrir-pasta":
+            if SOMENTE_LEITURA:
+                return self._envia({"ok": False, "erro": "sem pasta local"})
             alvo = Path(dados.get("caminho", ""))
             if alvo.exists():
                 subprocess.Popen(["explorer", "/select,", str(alvo)])
             return self._envia({"ok": True})
 
         if self.path.strip("/") == "api/revisar":
+            if SOMENTE_LEITURA:
+                return self._envia({"ok": False, "erro":
+                                    "a validação grava no catálogo e só funciona na "
+                                    "instalação do cartório, onde o arquivo é gravável"})
             ok = marca_revisado(self.redator, dados.get("id"), dados.get("revisado"))
             return self._envia({"ok": ok})
 
@@ -235,11 +249,24 @@ class Manipulador(BaseHTTPRequestHandler):
         except (ValueError, KeyError) as erro:
             return self._envia({"ok": False, "erro": str(erro)})
 
-        SAIDA.mkdir(exist_ok=True)
-        destino = SAIDA / nome_arquivo(dados.get("protocolo", ""), dados["especie"])
-        documento.grava(blocos, MOLDE, destino)
-        self._envia({"ok": True, "caminho": str(destino),
-                     "nao_revisadas": self.redator.nao_revisadas(itens)})
+        nome = nome_arquivo(dados.get("protocolo", ""), dados["especie"])
+        resposta = {"ok": True, "arquivo": nome,
+                    "nao_revisadas": self.redator.nao_revisadas(itens)}
+
+        if SOMENTE_LEITURA:
+            # Sem disco para gravar: a nota volta embutida na resposta e o
+            # navegador a salva onde o usuario quiser.
+            with tempfile.TemporaryDirectory() as tmp:
+                destino = Path(tmp) / nome
+                documento.grava(blocos, MOLDE, destino)
+                resposta["conteudo"] = base64.b64encode(destino.read_bytes()).decode()
+        else:
+            SAIDA.mkdir(exist_ok=True)
+            destino = SAIDA / nome
+            documento.grava(blocos, MOLDE, destino)
+            resposta["caminho"] = str(destino)
+
+        self._envia(resposta)
 
 
 def main():

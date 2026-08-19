@@ -121,8 +121,10 @@ def main():
         ultimo = arts[-1]["artigo"] if arts else "-"
         resumo.append((n["id"], len(por_rotulo), f"vai ate {ultimo}"))
 
-    CACHE.mkdir(exist_ok=True)
-    (CACHE / "artigos.json").write_text(
+    # O indice vai para dados/, e nao para o cache: sem ele o servidor nao tem o
+    # que consultar, e a implantacao no Vercel so leva o que esta no repositorio.
+    (BASE / "dados").mkdir(exist_ok=True)
+    (BASE / "dados" / "artigos.json").write_text(
         json.dumps({k: list(v.values()) for k, v in indice.items()},
                    ensure_ascii=False), encoding="utf-8")
 
@@ -131,7 +133,7 @@ def main():
         print(f"{id_:<10}{n:>8}   {obs}")
     total = sum(len(v) for v in indice.values())
     print(f"\ntotal: {total} artigos indexados em {len(indice)} normas")
-    print(f"gravado: {CACHE / 'artigos.json'}")
+    print(f"gravado: {BASE / 'dados' / 'artigos.json'}")
 
 
 if __name__ == "__main__":

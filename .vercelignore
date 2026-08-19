@@ -1,0 +1,11 @@
+# Os PDFs das normas só servem para gerar o índice, e ele já vai pronto em
+# dados/artigos.json. Mandá-los engorda a função em 45 MB sem serventia.
+Fundamentações/
+
+.venv/
+.cache-texto/
+saida/
+tests/
+exemplo.py
+ferramentas/
+CLAUDE.md
