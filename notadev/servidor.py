@@ -49,6 +49,8 @@ def catalogo_para_tela(r):
         "exigencias": [{"id": e["id"], "rotulo": e["rotulo"], "assunto": e["assunto"],
                         "defeito": e["defeito"], "campos": e.get("campos", []),
                         "revisado": bool(e.get("revisado")),
+                        "impossibilidade": bool(e.get("impossibilidade")),
+                        "precedentes": len(e.get("precedentes", [])),
                         "fundamentos": len(e.get("fundamentos", []))}
                        for e in exigencias],
     }
@@ -71,12 +73,6 @@ def legislacao(r):
     normas = json.loads((BASE / "dados" / "normas.json").read_text(encoding="utf-8"))["normas"]
     idx = indice_artigos()
 
-    usos = {}
-    for e in sorted(r.cat.exigencias.values(), key=lambda x: x["rotulo"]):
-        for f in e.get("fundamentos", []):
-            usos.setdefault(f["norma"], []).append(
-                {"artigo": f["artigo"], "exigencia": e["rotulo"]})
-
     saida = []
     for n in normas:
         pdf = BASE / "Fundamentações" / (n["fonte"] + ".pdf")
@@ -85,9 +81,8 @@ def legislacao(r):
             "esfera": n.get("esfera", ""), "arquivo": n["fonte"] + ".pdf",
             "tem_pdf": pdf.is_file(),
             "artigos": len(idx.get(n["id"], [])),
-            "usos": usos.get(n["id"], []),
         })
-    saida.sort(key=lambda x: (not x["usos"], x["nome"]))
+    saida.sort(key=lambda x: x["nome"])
     return saida
 
 
@@ -142,8 +137,15 @@ def revisao(r):
                 "artigo": f["artigo"],
                 "texto": r.cat.texto_dispositivo(f["norma"], f["artigo"], f.get("partes")),
             })
+        precedentes = [{"identificacao": r.cat.precedente(x)["identificacao"],
+                        "tipo": r.cat.precedente(x)["tipo"],
+                        "texto": r.cat.precedente(x)["texto"],
+                        "fonte": r.cat.precedente(x)["fonte"]}
+                       for x in e.get("precedentes", [])]
         saida.append({"id": e["id"], "rotulo": e["rotulo"], "texto": texto,
                       "revisado": bool(e.get("revisado")), "fundamentos": fundamentos,
+                      "precedentes": precedentes,
+                      "impossibilidade": bool(e.get("impossibilidade")),
                       "pendente": e.get("fundamentacao_pendente")})
     return saida
 

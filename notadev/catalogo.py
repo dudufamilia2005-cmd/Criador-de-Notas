@@ -18,6 +18,18 @@ class Catalogo:
         self.campos = cat.get("campos", {})
         self.exigencias = {e["id"]: e for e in cat["exigencias"]}
 
+        # Precedentes: para a regra que nao esta em artigo de lei. Arquivo
+        # opcional - o catalogo funciona sem ele.
+        p = d / "precedentes.json"
+        self.precedentes = ({x["id"]: x for x in
+                             json.loads(p.read_text(encoding="utf-8"))["precedentes"]}
+                            if p.exists() else {})
+
+    def precedente(self, id_):
+        if id_ not in self.precedentes:
+            raise KeyError(f"precedente '{id_}' nao existe em precedentes.json")
+        return self.precedentes[id_]
+
     def exigencia(self, id_):
         if id_ not in self.exigencias:
             raise KeyError(f"exigencia '{id_}' nao existe no catalogo")

@@ -17,8 +17,11 @@ CACHE = BASE / ".cache-texto"
 # So conta se vier depois de ponto, ponto-e-virgula ou dois-pontos: sem isso o
 # "2 -" de "Livro nº 2 - Registro Geral" abria um inciso no meio do caput do
 # art. 176, que saia truncado em "Art. 176 - O Livro nº".
+# O fecho de aspas conta como pontuacao: lei que altera outra escreve os
+# dispositivos citados entre aspas ("... comunhao parcial." 8) "Art. 267...),
+# e sem isso o item seguinte nao se separava.
 PARTE = re.compile(
-    r"(?<=[;:.])\s+(?=(?:§\s*\d+|Par[aá]grafo\s+[uú]nico|[IVXLC]{1,6}\s*[-–]\s|"
+    r"(?<=[;:.”\"])\s+(?=(?:§\s*\d+|Par[aá]grafo\s+[uú]nico|[IVXLC]{1,6}\s*[-–]\s|"
     r"[a-z]\)\s|\d{1,2}\s*[-–.)]\s))", re.U)
 
 # Titulo de divisao do codigo: nao pertence ao artigo, so vem coloado depois dele
@@ -38,6 +41,14 @@ ANOTACAO = re.compile(
     r"|\s*\((?:vide|vig[êe]ncia)[^)]{0,140}\)"
     r"|\s*NOTAS?:\s*Reda[çc][ãa]o (?:com|sem) vig[êe]ncia[^A-ZÀ-Ú]{0,90}", re.I)
 
+# Cabecalho e rodape de impressao do site do Planalto, que a extracao do PDF
+# joga no meio do artigo: "17/08/2026, 17:23 L6.015compilada https://... 55/60".
+# Alem de sujar a citacao, ele nao termina em pontuacao e por isso impedia a
+# separacao do paragrafo seguinte.
+RODAPE = re.compile(
+    r"\s*\d{1,2}/\d{1,2}/\d{4},?\s*\d{1,2}:\d{2}\s+\S+\s+https?://\S+\s+\d{1,4}/\d{1,4}"
+    r"|\s*https?://\S*(?:planalto|gov\.br)\S*\s*\d{0,4}/?\d{0,4}", re.I)
+
 CAPUT_MINIMO = 60          # abaixo disso, "parte" achada e ruido dentro do caput
 
 
@@ -52,6 +63,7 @@ def rotulo_parte(t):
 
 
 def limpa_anotacoes(t):
+    t = RODAPE.sub(" ", t)
     t = ANOTACAO.sub("", t)
     # Numero de pagina do PDF, que cai solto entre o fim de um periodo e o
     # inicio do proximo dispositivo: "... SEFAZ. 363 §1º. Comprova-se ..."
@@ -113,7 +125,7 @@ def main():
             ausentes.append(f"{norma} {art}")
             continue
         caput, partes = quebra(oficial)
-        d = {"norma": norma, "artigo": art, "texto": oficial,
+        d = {"norma": norma, "artigo": art, "texto": limpa_anotacoes(oficial),
              "caput": caput, "partes": partes, "fonte": "lei"}
         # Nada do acervo de notas entra no arquivo: ele serviu para aprender a
         # forma da nota, nao para lastrear a fundamentacao. O texto e o da lei.

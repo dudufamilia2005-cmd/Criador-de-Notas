@@ -26,6 +26,9 @@ def main():
     normas = {n["id"] for n in carrega("normas.json")["normas"]}
     disp = {(d["norma"], d["artigo"]): d
             for d in carrega("dispositivos.json")["dispositivos"]}
+    pr = BASE / "dados" / "precedentes.json"
+    precedentes = ({x["id"]: x for x in carrega("precedentes.json")["precedentes"]}
+                   if pr.exists() else {})
     cat = carrega("exigencias.json")
     frag = cat["fragmentos"]
     campos_conhecidos = cat.get("campos", {})
@@ -54,8 +57,15 @@ def main():
         if e.get("fecho") not in frag:
             erros.append(f"{eid}: fecho '{e.get('fecho')}' nao existe em fragmentos")
 
+        for pid in e.get("precedentes", []):
+            p = precedentes.get(pid)
+            if p is None:
+                erros.append(f"{eid}: precedente '{pid}' nao existe em precedentes.json")
+            elif not p.get("revisado"):
+                avisos.append(f"{eid}: precedente '{pid}' ainda nao revisado")
+
         fund = e.get("fundamentos", [])
-        if not fund:
+        if not fund and not e.get("precedentes"):
             pend = e.get("fundamentacao_pendente")
             avisos.append(f"{eid}: sem fundamentacao"
                           + (f" - {pend}" if pend else " e sem motivo declarado"))

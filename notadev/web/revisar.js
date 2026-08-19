@@ -60,6 +60,24 @@ function desenha() {
       corpo.append(a);
     }
 
+    if (e.precedentes && e.precedentes.length) {
+      const h = document.createElement('div');
+      h.className = 'norma';
+      h.textContent = 'Jurisprudência';
+      corpo.append(h);
+      for (const j of e.precedentes) {
+        const a = document.createElement('div');
+        a.className = 'artigo precedente';
+        const t = document.createElement('strong');
+        t.textContent = j.identificacao + ' — ';
+        const f = document.createElement('div');
+        f.className = 'fonte';
+        f.textContent = 'Origem da transcrição: ' + j.fonte;
+        a.append(t, document.createTextNode('“' + j.texto + '”'), f);
+        corpo.append(a);
+      }
+    }
+
     cx.append(cab, corpo);
     lista.append(cx);
   }

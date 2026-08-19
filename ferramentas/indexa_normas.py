@@ -27,7 +27,11 @@ ABERTURA = re.compile(
     # O hifen com espaco depois e travessao: em "Art. 176 - O Livro nº 2", o "O"
     # e artigo da lingua, nao sufixo. Espaco ANTES do hifen e tolerado porque a
     # extracao do PDF do CNN produz "Art. 440 -AV".
-    r"(?:\s*[-–]([A-Z]{1,3})\b)?\s*[\.\-–:]?\s",
+    # A pontuacao depois do numero pode vir repetida - a Lei 6.015 traz
+    # "Art. 290.." -, e exigir um sinal so fazia o artigo ser engolido pelo
+    # anterior. Foi assim que o art. 290, do desconto na primeira aquisicao,
+    # sumiu do indice.
+    r"(?:\s*[-–]([A-Z]{1,3})\b)?\s*[\.\-–:]*\s",
 )
 
 

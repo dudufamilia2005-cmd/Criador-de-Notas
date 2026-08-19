@@ -117,7 +117,20 @@ class Redator:
             corpo = re.sub(r"\.{2,}$", ".", corpo)
             blocos.append(Bloco("fund_artigo", partes=[
                 (artigo + ".", {"negrito"}), (" " + corpo, set())]))
-        if e.get("fundamentos"):
+
+        # Jurisprudencia: entra depois da lei, sob cabecalho proprio, porque nao
+        # e norma - e o modo como os tribunais leem a norma.
+        if e.get("precedentes"):
+            if e.get("fundamentos"):
+                blocos.append(Bloco("vazio_fund"))
+            blocos.append(Bloco("fund_norma", partes=[("Jurisprudência", {"negrito"})]))
+            for pid in e["precedentes"]:
+                p = self.cat.precedente(pid)
+                blocos.append(Bloco("fund_artigo", partes=[
+                    (p["identificacao"] + ":", {"negrito"}),
+                    (" “" + p["texto"] + "”", set())]))
+
+        if e.get("fundamentos") or e.get("precedentes"):
             blocos.append(Bloco("vazio"))
         return blocos
 

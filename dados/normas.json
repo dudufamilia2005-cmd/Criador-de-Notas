@@ -161,6 +161,48 @@
    "referencia": "Lei n.º 9.393, de 19 de dezembro de 1996 (Imposto sobre a Propriedade Territorial Rural)",
    "esfera": "federal",
    "fonte": "Lei do ITR"
+  },
+  {
+   "id": "L4591",
+   "nome": "Lei Federal n.º 4.591/1964",
+   "referencia": "Lei n.º 4.591, de 16 de dezembro de 1964 (condomínio em edificações e incorporações imobiliárias)",
+   "esfera": "federal",
+   "fonte": "Lei 4.591-1964 (Condomínio e incorporações)"
+  },
+  {
+   "id": "CTN",
+   "nome": "Código Tributário Nacional",
+   "referencia": "Lei n.º 5.172, de 25 de outubro de 1966",
+   "esfera": "federal",
+   "fonte": "CTN — Lei 5.172-1966"
+  },
+  {
+   "id": "L6766",
+   "nome": "Lei Federal n.º 6.766/1979",
+   "referencia": "Lei n.º 6.766, de 19 de dezembro de 1979 (parcelamento do solo urbano)",
+   "esfera": "federal",
+   "fonte": "Lei 6.766-1979 (Parcelamento do solo urbano)"
+  },
+  {
+   "id": "L6515",
+   "nome": "Lei Federal n.º 6.515/1977",
+   "referencia": "Lei n.º 6.515, de 26 de dezembro de 1977 (dissolução da sociedade conjugal)",
+   "esfera": "federal",
+   "fonte": "L6515-77"
+  },
+  {
+   "id": "L13097",
+   "nome": "Lei Federal n.º 13.097/2015",
+   "referencia": "Lei n.º 13.097, de 19 de janeiro de 2015 (concentração de atos na matrícula)",
+   "esfera": "federal",
+   "fonte": "L13097"
+  },
+  {
+   "id": "NE92-INCRA",
+   "nome": "Norma de Execução INCRA/DF n.º 92/2010",
+   "referencia": "Norma de Execução INCRA/DF n.º 92, de 22 de fevereiro de 2010 (certificação e atualização cadastral de imóveis rurais)",
+   "esfera": "federal",
+   "fonte": "Nota Técnica INCRA-DFG nº 01-2010, de 22.02.2010"
   }
  ]
 }

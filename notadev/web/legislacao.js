@@ -11,11 +11,10 @@ async function iniciar() {
   NORMAS = await (await fetch('api/legislacao')).json();
 
   const artigos = NORMAS.reduce((s, n) => s + n.artigos, 0);
-  const usadas = NORMAS.filter(n => n.usos.length).length;
   $('contagem').textContent =
     `${NORMAS.length} normas · ${artigos.toLocaleString('pt-BR')} artigos indexados`;
   $('rodape').textContent =
-    `${usadas} normas sustentam alguma exigência do catálogo; as demais estão cadastradas e prontas para uso.`;
+    'Para acrescentar uma norma: salve o PDF em Fundamentações e cadastre-a em dados/normas.json.';
 
   desenhaNormas();
   $('filtro').addEventListener('input', desenhaNormas);
@@ -53,12 +52,6 @@ function desenhaNormas() {
     const meta = document.createElement('div');
     meta.className = 'meta';
     meta.append(`${ESFERA[n.esfera] || n.esfera} · ${n.artigos} artigos`);
-    if (n.usos.length) {
-      const p = document.createElement('span');
-      p.className = 'pilula usada';
-      p.textContent = `${n.usos.length} citação${n.usos.length > 1 ? 'ões' : ''}`;
-      meta.append(p);
-    }
     if (!n.tem_pdf) {
       const p = document.createElement('span');
       p.className = 'pilula';
@@ -89,26 +82,6 @@ async function selecionar(id) {
     `<div><span>Arquivo</span>${n.arquivo}</div>` +
     `<div><span>Artigos indexados</span>${n.artigos}</div>`;
   alvo.append(ficha);
-
-  if (n.usos.length) {
-    const h = document.createElement('div');
-    h.className = 'norma';
-    h.textContent = 'Sustenta estas exigências';
-    alvo.append(h);
-    for (const u of n.usos) {
-      const d = document.createElement('div');
-      d.className = 'uso';
-      const a = document.createElement('strong');
-      a.textContent = u.artigo;
-      d.append(a, document.createTextNode(' — ' + u.exigencia));
-      alvo.append(d);
-    }
-  } else {
-    const d = document.createElement('div');
-    d.className = 'sem-lei';
-    d.textContent = 'Cadastrada, mas ainda não citada por nenhuma exigência.';
-    alvo.append(d);
-  }
 
   const dica = document.createElement('div');
   dica.className = 'dica';

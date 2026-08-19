@@ -7,6 +7,8 @@
   "citar. Sem 'partes' sai so o caput; com elas, o caput e os trechos pedidos,",
   "separados por '(...)'. O texto vem da lei, lida dos PDFs de Fundamentacoes.",
   "Campo com 'padrao' e opcional: em branco, entra a redacao generica.",
+  "Exigencia com 'precedentes' cita jurisprudencia, de dados/precedentes.json.",
+  "'impossibilidade': true marca a que devolve o titulo em vez de pedir conserto.",
   "IMPORTANTE: 'revisado' diz se um registrador ja validou que o artigo e mesmo",
   "pertinente aquela exigencia. Enquanto for false, a nota sai marcada como",
   "fundamentacao nao revisada."
@@ -15,7 +17,8 @@
   "assinatura": "devidamente assinado por meio físico, com firma reconhecida, ou digitalmente, mediante assinatura qualificada nos padrões da Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil, de forma que o documento seja passível de validação (https://validar.iti.gov.br/)",
   "protocolo_apartado": "em protocolo apartado",
   "fecho": "a fim de possibilitar o prosseguimento do ato registral",
-  "fecho_averbacao": "a fim de possibilitar a atualização do registro imobiliário e o prosseguimento do presente ato registral"
+  "fecho_averbacao": "a fim de possibilitar a atualização do registro imobiliário e o prosseguimento do presente ato registral",
+  "fecho_via_ordinaria": "não servindo a retificação administrativa como forma de aquisição ou aumento de propriedade"
  },
  "campos": {
   "matricula": {
@@ -131,6 +134,47 @@
   "area_sig": {
    "rotulo": "Área lançada no SIG-RI",
    "exemplo": "94,7423 ha"
+  },
+  "soma_fracoes": {
+   "rotulo": "Soma das frações ideais",
+   "exemplo": "100,03%"
+  },
+  "usufrutuario": {
+   "rotulo": "Usufrutuário",
+   "exemplo": "Ana Ferreira Lima",
+   "padrao": "o usufrutuário"
+  },
+  "incapaz": {
+   "rotulo": "Titular incapaz",
+   "exemplo": "o menor Bruno Ferreira Lima",
+   "padrao": "o titular incapaz"
+  },
+  "pessoa_juridica": {
+   "rotulo": "Pessoa jurídica",
+   "exemplo": "a sociedade adquirente",
+   "padrao": "a pessoa jurídica que comparece ao título"
+  },
+  "certidao": {
+   "rotulo": "Certidão",
+   "exemplo": "a certidão de casamento",
+   "padrao": "a certidão do registro civil apresentada"
+  },
+  "documento_fiscal": {
+   "rotulo": "Certidão exigida",
+   "exemplo": "a Certidão Negativa de Débitos relativos a Tributos Federais",
+   "padrao": "a certidão negativa de débitos exigida para o ato"
+  },
+  "area_registrada": {
+   "rotulo": "Área registrada na matrícula",
+   "exemplo": "43,5600 ha"
+  },
+  "area_levantada": {
+   "rotulo": "Área do levantamento",
+   "exemplo": "27,8945 ha"
+  },
+  "diferenca": {
+   "rotulo": "Diferença apurada",
+   "exemplo": "35,96%"
   }
  },
  "exigencias": [
@@ -239,6 +283,29 @@
    ]
   },
   {
+   "id": "casamento-data-nao-comprovada",
+   "rotulo": "Data do casamento não comprovada (regime de bens)",
+   "assunto": "casamento",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que a matrícula não informa se o casamento do proprietário foi celebrado antes ou depois da Lei n.º 6.515/1977. A data decide o regime legal: até 26.12.1977 o silêncio das partes levava à comunhão universal; a partir dela, à comunhão parcial.",
+   "providencia": "a apresentação da certidão de casamento, em via original ou cópia autenticada, acompanhada de requerimento de inserção de dados {protocolo_apartado}, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "L6515",
+     "artigo": "Art. 50",
+     "partes": [
+      "7"
+     ]
+    },
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 914"
+    }
+   ]
+  },
+  {
    "id": "cci-nao-averbado",
    "rotulo": "CCI / designação cadastral não averbada",
    "assunto": "cci",
@@ -321,6 +388,83 @@
     {
      "norma": "LRP",
      "artigo": "Art. 176"
+    }
+   ]
+  },
+  {
+   "id": "certidao-rcpn-vencida",
+   "rotulo": "Certidão do registro civil fora do prazo",
+   "assunto": "certidao",
+   "revisado": false,
+   "campos": [
+    "certidao"
+   ],
+   "defeito": "Verifica-se que {certidao} foi expedida há mais de noventa dias da formalização do título, prazo além do qual ela não serve à averbação.",
+   "providencia": "a apresentação de certidão do registro civil expedida dentro do prazo",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 913"
+    }
+   ]
+  },
+  {
+   "id": "cnd-nao-apresentada",
+   "rotulo": "Certidão negativa de débitos ausente ou vencida",
+   "assunto": "certidao",
+   "revisado": false,
+   "campos": [
+    "documento_fiscal"
+   ],
+   "defeito": "Verifica-se que não veio {documento_fiscal}, ou que a apresentada está fora do prazo de validade nela declarado. A prova de quitação do tributo se faz por certidão vigente.",
+   "providencia": "a apresentação de certidão negativa de débitos, ou de certidão positiva com efeito de negativa, dentro do prazo de validade",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CTN",
+     "artigo": "Art. 205"
+    },
+    {
+     "norma": "CTN",
+     "artigo": "Art. 206"
+    }
+   ]
+  },
+  {
+   "id": "incorporacao-sem-memorial-registrado",
+   "rotulo": "Alienação de fração ideal sem memorial de incorporação registrado",
+   "assunto": "condominio",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que se pretende alienar ou onerar fração ideal correspondente a futura unidade autônoma sem que o memorial de incorporação esteja registrado nesta serventia.",
+   "providencia": "o prévio registro do memorial de incorporação, instruído com todos os documentos que a lei relaciona",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "L4591",
+     "artigo": "Art. 32"
+    }
+   ]
+  },
+  {
+   "id": "condominio-fracoes-nao-somam",
+   "rotulo": "Frações ideais que não somam 100%",
+   "assunto": "condominio",
+   "revisado": false,
+   "campos": [
+    "soma_fracoes"
+   ],
+   "defeito": "Verifica-se que a soma das frações ideais atribuídas às unidades atinge {soma_fracoes}, quando deveria corresponder exatamente à totalidade do terreno objeto da matrícula.",
+   "providencia": "a retificação do instrumento de instituição de condomínio, para que a soma das frações ideais corresponda a 100% do terreno",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CC",
+     "artigo": "Art. 1331",
+     "partes": [
+      "§ 3 o"
+     ]
     }
    ]
   },
@@ -428,6 +572,97 @@
    ]
   },
   {
+   "id": "doacao-instrumento-particular",
+   "rotulo": "Doação de imóvel por instrumento particular",
+   "assunto": "doacao",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que a doação do imóvel foi formalizada por instrumento particular. A transmissão de direito real sobre imóvel de valor superior a trinta salários mínimos exige escritura pública.",
+   "providencia": "a apresentação da escritura pública de doação",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CC",
+     "artigo": "Art. 108"
+    },
+    {
+     "norma": "CC",
+     "artigo": "Art. 541"
+    }
+   ]
+  },
+  {
+   "id": "emolumentos-nao-complementados",
+   "rotulo": "Custas e emolumentos complementares não recolhidos",
+   "assunto": "emolumentos",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que não foi recolhido o valor complementar das custas e emolumentos apurado após a qualificação do título. O ato não pode ser praticado antes da quitação.",
+   "providencia": "o recolhimento do valor complementar das custas e emolumentos",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "LRP",
+     "artigo": "Art. 206-A",
+     "partes": [
+      "I"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "desconto-50-nao-declarado",
+   "rotulo": "Declaração do desconto de 50% (SFH) não apresentada",
+   "assunto": "emolumentos",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que não veio a declaração dos adquirentes sobre a existência ou não do direito à redução de 50% das custas e emolumentos, benefício da primeira aquisição de imóvel residencial financiada pelo Sistema Financeiro da Habitação. Sem ela não há como apurar o valor devido.",
+   "providencia": "a apresentação de declaração firmada pelos adquirentes, informando se já possuem ou possuíram imóvel residencial, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "LRP",
+     "artigo": "Art. 290"
+    }
+   ]
+  },
+  {
+   "id": "desconto-50-declaracao-ambigua",
+   "rotulo": "Declaração do desconto de 50% com opções contraditórias",
+   "assunto": "emolumentos",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que a declaração de desconto apresentada traz as duas opções assinaladas, o que impede identificar se o adquirente declara ter ou não direito à redução de 50% das custas e emolumentos.",
+   "providencia": "a reapresentação da declaração com uma única opção assinalada, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "LRP",
+     "artigo": "Art. 290"
+    }
+   ]
+  },
+  {
+   "id": "fiduciaria-sem-anuencia-credor",
+   "rotulo": "Alienação fiduciária em vigor sem anuência do credor",
+   "assunto": "fiduciaria",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que a matrícula registra propriedade fiduciária em vigor, e o título não traz a anuência do credor fiduciário. Enquanto não resolvida a garantia, o devedor detém apenas a posse direta e o direito real de aquisição.",
+   "providencia": "a anuência expressa do credor fiduciário ao ato pretendido, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "L9514",
+     "artigo": "Art. 22"
+    },
+    {
+     "norma": "L9514",
+     "artigo": "Art. 23"
+    }
+   ]
+  },
+  {
    "id": "assinatura-digital-nao-validavel",
    "rotulo": "Assinatura digital não passível de validação",
    "assunto": "firma",
@@ -499,6 +734,24 @@
     {
      "norma": "LRP",
      "artigo": "Art. 176"
+    }
+   ]
+  },
+  {
+   "id": "bem-de-incapaz-sem-alvara",
+   "rotulo": "Alienação de bem de incapaz sem alvará judicial",
+   "assunto": "incapaz",
+   "revisado": false,
+   "campos": [
+    "incapaz"
+   ],
+   "defeito": "Verifica-se que o título aliena ou grava imóvel pertencente a {incapaz}, sem que tenha vindo o alvará judicial que autorize o ato.",
+   "providencia": "a apresentação do alvará judicial que autorize o ato",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CC",
+     "artigo": "Art. 1691"
     }
    ]
   },
@@ -600,6 +853,42 @@
      "partes": [
       "II"
      ]
+    }
+   ]
+  },
+  {
+   "id": "parcelamento-memorial-sem-origem",
+   "rotulo": "Memorial de parcelamento sem a matrícula de origem",
+   "assunto": "loteamento",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que a descrição inicial dos memoriais e mapas não indica a matrícula de origem do imóvel nem o seu código no INCRA, dados sem os quais não se liga o parcelamento ao fólio real.",
+   "providencia": "a retificação dos memoriais e mapas, para que a descrição inicial de todos indique a matrícula de origem e o código do imóvel no INCRA",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "DEC4449",
+     "artigo": "Art. 9"
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 176"
+    }
+   ]
+  },
+  {
+   "id": "loteamento-documentos-incompletos",
+   "rotulo": "Parcelamento submetido a registro sem a documentação exigida",
+   "assunto": "loteamento",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que o projeto de loteamento ou desmembramento aprovado foi submetido a registro sem a documentação que a lei relaciona, o que impede a qualificação do parcelamento.",
+   "providencia": "a apresentação dos documentos exigidos para o registro do parcelamento do solo",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "L6766",
+     "artigo": "Art. 18"
     }
    ]
   },
@@ -710,6 +999,68 @@
    ]
   },
   {
+   "id": "penhor-grau-divergente",
+   "rotulo": "Grau do penhor ou da hipoteca divergente da matrícula",
+   "assunto": "penhor",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que o grau da garantia indicado na cédula não corresponde à ordem das garantias já registradas na matrícula. A ordem do protocolo é que determina a preferência entre os direitos reais.",
+   "providencia": "a retificação da cédula, para que o grau da garantia corresponda à ordem já registrada",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "LRP",
+     "artigo": "Art. 186"
+    }
+   ]
+  },
+  {
+   "id": "pj-atos-constitutivos-ausentes",
+   "rotulo": "Pessoa jurídica sem atos constitutivos ou prova de representação",
+   "assunto": "pj",
+   "revisado": false,
+   "campos": [
+    "pessoa_juridica"
+   ],
+   "defeito": "Verifica-se que {pessoa_juridica} comparece ao título sem que tenham vindo os atos constitutivos e a certidão que comprovem sua existência legal e os poderes de quem a representa.",
+   "providencia": "a apresentação do contrato social ou estatuto, da ata de eleição dos administradores e de certidão simplificada expedida há menos de noventa dias",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 352"
+    },
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 451"
+    },
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 807"
+    }
+   ]
+  },
+  {
+   "id": "prenotacao-vencida",
+   "rotulo": "Prenotação com prazo esgotado",
+   "assunto": "prazo",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que decorreram mais de vinte dias do lançamento do título no Protocolo sem que o registro se ultimasse, de modo que cessaram os efeitos da prenotação.",
+   "providencia": "a reapresentação do título, que receberá nova prenotação e nova ordem de prioridade",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "LRP",
+     "artigo": "Art. 205"
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 188"
+    }
+   ]
+  },
+  {
    "id": "procuracao-poderes-ausente",
    "rotulo": "Procuração ou poderes de representação não comprovados",
    "assunto": "procuracao",
@@ -781,6 +1132,57 @@
    ]
   },
   {
+   "id": "reserva-legal-insuficiente",
+   "rotulo": "Reserva legal insuficiente ou não individualizada",
+   "assunto": "reserva",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que a soma das áreas destinadas à reserva legal nos memoriais apresentados é menor que a averbada na matrícula de origem, e não há como identificar a reserva correspondente a cada parcela desmembrada.",
+   "providencia": "a retificação dos memoriais, para que a reserva legal de cada parcela fique identificada e a soma corresponda à área averbada",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CFLO",
+     "artigo": "Art. 12",
+     "partes": [
+      "§ 1º"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "retificacao-acima-do-limite",
+   "rotulo": "Retificação de área acima do limite de 10%",
+   "assunto": "retificacao",
+   "impossibilidade": true,
+   "revisado": false,
+   "campos": [
+    "area_registrada",
+    "area_levantada",
+    "diferenca"
+   ],
+   "defeito": "Verifica-se que o imóvel tem área registrada de {area_registrada}, enquanto a documentação apresentada indica {area_levantada} — diferença de {diferenca}. Alteração dessa ordem não é mera retificação: pode atingir os limites dos confrontantes e, na prática, transferir domínio por via transversa.",
+   "providencia": "o acertamento da área pelas vias ordinárias, nas quais se possa comprovar o domínio sobre a área excedente",
+   "fecho": "fecho_via_ordinaria",
+   "fundamentos": [
+    {
+     "norma": "LRP",
+     "artigo": "Art. 213"
+    },
+    {
+     "norma": "CC",
+     "artigo": "Art. 500"
+    }
+   ],
+   "precedentes": [
+    "sentenca-duvida-morrinhos-2022",
+    "parecer-mp-morrinhos-2022",
+    "resp-1228288-rs",
+    "tjgo-apelacao-0388130-2016",
+    "tjgo-apelacao-0216621-2017"
+   ]
+  },
+  {
    "id": "sefaz-valor-divergente",
    "rotulo": "Valor do ITCD divergente da avaliação da SEFAZ",
    "assunto": "sefaz",
@@ -838,6 +1240,26 @@
    ]
   },
   {
+   "id": "servidao-cancelamento-sem-credor",
+   "rotulo": "Cancelamento de servidão sem anuência do credor hipotecário",
+   "assunto": "servidao",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se que se pretende cancelar servidão cujo prédio dominante está hipotecado, sem que tenha vindo a anuência do credor.",
+   "providencia": "a anuência expressa do credor hipotecário ao cancelamento da servidão, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 928"
+    },
+    {
+     "norma": "CC",
+     "artigo": "Art. 1378"
+    }
+   ]
+  },
+  {
    "id": "sig-nao-lancado",
    "rotulo": "Coordenadas não lançadas no SIG-RI",
    "assunto": "sig",
@@ -885,6 +1307,26 @@
     {
      "norma": "CNN-CNJ",
      "artigo": "Art. 440-BD"
+    }
+   ]
+  },
+  {
+   "id": "sobreposicao-de-area",
+   "rotulo": "Sobreposição de área apontada pelo SIG-RI",
+   "assunto": "sig",
+   "revisado": false,
+   "campos": [],
+   "defeito": "Verifica-se, a partir do SIG-RI, coincidência total ou parcial entre a área do trabalho técnico apresentado e a de outro imóvel já georreferenciado e registrado.",
+   "providencia": "o saneamento da sobreposição apontada, na forma dos arts. 212 e 213 da Lei n.º 6.015/1973",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNN-CNJ",
+     "artigo": "Art. 440-AY"
+    },
+    {
+     "norma": "CNN-CNJ",
+     "artigo": "Art. 440-AZ"
     }
    ]
   },
@@ -956,6 +1398,28 @@
     {
      "norma": "CNPFE-GO",
      "artigo": "Art. 914"
+    }
+   ]
+  },
+  {
+   "id": "usufruto-ativo-sem-anuencia",
+   "rotulo": "Usufruto em vigor sem anuência do usufrutuário",
+   "assunto": "usufruto",
+   "revisado": false,
+   "campos": [
+    "usufrutuario"
+   ],
+   "defeito": "Verifica-se que a matrícula registra usufruto em vigor em favor de {usufrutuario}, e o título não traz a anuência dele nem prova da extinção do direito.",
+   "providencia": "a anuência do usufrutuário no título, ou a prova da extinção do usufruto, acompanhada de requerimento {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CC",
+     "artigo": "Art. 1390"
+    },
+    {
+     "norma": "CC",
+     "artigo": "Art. 1410"
     }
    ]
   }

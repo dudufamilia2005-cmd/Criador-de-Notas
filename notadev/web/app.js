@@ -63,10 +63,16 @@ function desenhaLista() {
       p.textContent = 'não revisada';
       meta.append(p);
     }
-    if (!e.fundamentos) {
+    if (!e.fundamentos && !e.precedentes) {
       const p = document.createElement('span');
       p.className = 'pilula';
       p.textContent = 'sem lei citada';
+      meta.append(p);
+    }
+    if (e.impossibilidade) {
+      const p = document.createElement('span');
+      p.className = 'pilula impossivel';
+      p.textContent = 'devolve o título';
       meta.append(p);
     }
     texto.append(nome);
