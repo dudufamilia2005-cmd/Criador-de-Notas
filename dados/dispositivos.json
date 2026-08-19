@@ -1,0 +1,1187 @@
+{
+ "_leia_me": "Texto oficial dos artigos que o catalogo cita, extraido dos PDFs das normas (ferramentas/indexa_normas.py). 'partes' permite citar so o paragrafo ou inciso pertinente.",
+ "dispositivos": [
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 811",
+   "texto": "Art. 811. Cabe ao oficial de registro de imóveis exigir prova de quitação do imposto estadual de transmissão causa mortis ou gratuita de bens imóveis – ITCD ou reconhecimento administrativo de não incidência, imunidade ou concessão de isenção pela Secretaria da Fazenda do Estado de Goiás – SEFAZ. 363 §1º. Comprova-se a quitação mediante apresentação de Documento de Arrecadação de Receita Estadual – DARE, do Demonstrativo de Cálculo do ITCD e do comprovante de pagamento. §2º. Havendo excedente de quinhão ou de meação, deverão ser exigidos o DARE e Demonstrativo de Cálculo do excedente. §3º. Para aferição do excedente, será utilizado o valor de avaliação feito pela SEFAZ, e não o atribuído pelos interessados. §4º. Caso haja divergência entre o título e o Demonstrativo de Cálculo do ITCD com relação ao quinhão, meação ou bens deverá ser retificado este ou aquele. §5º. Não serão exigidos os documentos mencionados nos parágrafos anteriores quando, nas separações e divórcios, todos os bens comuns do casal forem partilhados individualmente 50% (cinquenta por cento) para cada ex-cônjuge. § 6º Nos casos de parcelamento do ITCD autorizados pela legislação estadual, admite-se o registro da escritura pública mediante apresentação do documento expedido pela Secretaria de Estado da Economia que comprove a regularização do parcelamento com garantia real, nos termos do art. 84, § 4º e 88-C da Lei nº 11.651/1991, desde que a garantia real em valor total equivalente ou superior ao do tributo esteja registrada no Cartório de Registro de Imóveis. (Parágrafo acrescido pelo Provimento n° 186, de 17 de abril de 2026 )",
+   "caput": "Art. 811. Cabe ao oficial de registro de imóveis exigir prova de quitação do imposto estadual de transmissão causa mortis ou gratuita de bens imóveis – ITCD ou reconhecimento administrativo de não incidência, imunidade ou concessão de isenção pela Secretaria da Fazenda do Estado de Goiás – SEFAZ.",
+   "partes": [
+    {
+     "rotulo": "§1º",
+     "texto": "§1º. Comprova-se a quitação mediante apresentação de Documento de Arrecadação de Receita Estadual – DARE, do Demonstrativo de Cálculo do ITCD e do comprovante de pagamento."
+    },
+    {
+     "rotulo": "§2º",
+     "texto": "§2º. Havendo excedente de quinhão ou de meação, deverão ser exigidos o DARE e Demonstrativo de Cálculo do excedente."
+    },
+    {
+     "rotulo": "§3º",
+     "texto": "§3º. Para aferição do excedente, será utilizado o valor de avaliação feito pela SEFAZ, e não o atribuído pelos interessados."
+    },
+    {
+     "rotulo": "§4º",
+     "texto": "§4º. Caso haja divergência entre o título e o Demonstrativo de Cálculo do ITCD com relação ao quinhão, meação ou bens deverá ser retificado este ou aquele."
+    },
+    {
+     "rotulo": "§5º",
+     "texto": "§5º. Não serão exigidos os documentos mencionados nos parágrafos anteriores quando, nas separações e divórcios, todos os bens comuns do casal forem partilhados individualmente 50% (cinquenta por cento) para cada ex-cônjuge."
+    },
+    {
+     "rotulo": "§ 6º",
+     "texto": "§ 6º Nos casos de parcelamento do ITCD autorizados pela legislação estadual, admite-se o registro da escritura pública mediante apresentação do documento expedido pela Secretaria de Estado da Economia que comprove a regularização do parcelamento com garantia real, nos termos do art. 84, § 4º e 88-C da Lei nº 11.651/1991, desde que a garantia real em valor total equivalente ou superior ao do tributo esteja registrada no Cartório de Registro de Imóveis."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "DEC4449",
+   "artigo": "Art. 9",
+   "texto": "Art. 9o A identificação do imóvel rural, na forma do § 3o do art. 176 e do § 3o do art. 225 da Lei no 6.015, de 1973, será obtida a partir de memorial descritivo elaborado, executado e assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica - ART, contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, georreferenciadas ao Sistema Geodésico Brasileiro, e com precisão posicional a ser estabelecida em ato normativo, inclusive em manual técnico, expedido pelo INCRA. § 1o Caberá ao INCRA certificar que a poligonal objeto do memorial descritivo não se sobrepõe a nenhuma outra constante de seu cadastro georreferenciado e que o memorial atende às exigências técnicas, conforme ato normativo próprio. § 2o A certificação do memorial descritivo pelo INCRA não implicará reconhecimento do domínio ou a exatidão dos limites e confrontações indicados pelo proprietário. § 3o Para os fins e efeitos do § 2o do art. 225 da Lei no 6.015, de 1973, a primeira apresentação do memorial descritivo segundo os ditames do § 3o do art. 176 e do § 3o do art. 225 da mesma Lei, e nos termos deste Decreto, respeitadas as divisas do imóvel e os direitos de terceiros confrontantes, não caracterizará irregularidade impeditiva de novo registro, devendo, no entanto, os subseqüentes estar rigorosamente de acordo com o referido § 2o, sob pena de incorrer em irregularidade sempre que a caracterização do imóvel não for coincidente com a constante do primeiro registro de memorial georreferenciado, excetuadas as hipóteses de alterações expressamente previstas em lei. § 3o Para os fins e efeitos do § 2o do art. 225 da Lei no 6.015, de 1973, a primeira apresentação do memorial descritivo segundo os ditames do § 3o do art. 176 e do § 3o do art. 225 da mesma Lei, e nos termos deste Decreto, respeitados os direitos de terceiros confrontantes, não caracterizará irregularidade impeditiva de novo registro desde que presente o requisito do § 13 do art. 213 da Lei no 6.015, de 1973, devendo, no entanto, os subseqüentes estar rigorosamente de acordo com o referido § 2o, sob pena de incorrer em irregularidade sempre que a caracterização do imóvel não for coincidente com a constante do primeiro registro de memorial georreferenciado, excetuadas as hipóteses de alterações expressamente previstas em lei. (Redação dada pelo Decreto nº 5.570, de 2005) § 4o Visando a finalidade do § 3o, e desde que mantida a descrição das divisas do imóvel e os direitos de terceiros confrontantes, não serão opostas ao memorial georreferenciado as discrepâncias de área que não excederem os limites preceituados na legislação vigente. § 4o Visando a finalidade do § 3o, e desde que mantidos os direitos de terceiros confrontantes, não serão opostas ao memorial georreferenciado as discrepâncias de área constantes da matrícula do imóvel. (Redação dada pelo Decreto nº 5.570, de 2005) § 5o O memorial descritivo, que de qualquer modo possa alterar o registro, será averbado no serviço de registro de imóveis competente mediante requerimento do interessado, contendo declaração firmada sob pena de responsabilidade civil e criminal, com firma reconhecida, de que não houve alteração das divisas do imóvel registrado e de que foram respeitados os direitos dos confrontantes, acompanhado da certificação prevista no § 1o deste artigo, do CCIR e da prova de quitação do ITR dos últimos cinco exercícios, quando for o caso. § 5o O memorial descritivo, que de qualquer modo possa alterar o registro, resultará numa nova matrícula com encerramento da matrícula anterior no serviço de registro de imóveis competente, mediante requerimento do interessado, contendo declaração firmada sob pena de responsabilidade civil e criminal, com firma reconhecida, de que foram respeitados os direitos dos confrontantes, acompanhado da certificação prevista no § 1o deste artigo, do CCIR e da prova de quitação do ITR dos últimos cinco exercícios, quando for o caso. (Redação dada pelo Decreto nº 5.570, de 2005) § 6o A documentação prevista no § 5o deverá ser acompanhada de declaração expressa dos confinantes de que os limites divisórios foram respeitados, com suas respectivas firmas reconhecidas. § 7o Quando a declaração for manifestada mediante escritura pública, constituir-se-á produção antecipada de prova. § 8o Não sendo apresentadas as declarações constantes no § 6o e a certidão prevista no § 1o, o oficial encaminhará a documentação ao juiz de direito competente, para que a retificação seja processada nos termos do art. 213 da Lei no 6.015, de 1973. 18/08/2026, 09:13 D4449 https://www.planalto.gov.br/ccivil_03/decreto/2002/d4449.htm 3/6 § 8o Não sendo apresentadas as declarações constantes do § 6o, o interessado, após obter a certificação prevista no § 1o, requererá ao oficial de registro que proceda de acordo com os §§ 2o, 3o, 4o, 5o e 6o do art. 213 da Lei no 6.015, de 1973. (Redação dada pelo Decreto nº 5.570, de 2005) § 9o Em nenhuma hipótese a adequação do imóvel às exigências do art.176, §§ 3o e 4o, e do art. 225, § 3o, da Lei no 6.015, de 1973, poderá ser feita sem a certificação do memorial descritivo expedida pelo INCRA. (Incluído pelo Decreto nº 5.570, de 2005) § 10. É dispensada a declaração dos confinantes prevista no § 6º quando a retificação de matrícula de imóvel rural relativo à área pública da União ou do INCRA for formulada pela Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário da Casa Civil da Presidência da República ou pelo INCRA, acompanhada de declaração de que o memorial descritivo apresentado refere-se somente ao perímetro originário do imóvel cuja matricula esteja sendo retificada. (Incluído pelo Decreto nº 9.311, de 2018)",
+   "caput": "Art. 9o A identificação do imóvel rural, na forma do § 3o do art. 176 e do § 3o do art. 225 da Lei no 6.015, de 1973, será obtida a partir de memorial descritivo elaborado, executado e assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica - ART, contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, georreferenciadas ao Sistema Geodésico Brasileiro, e com precisão posicional a ser estabelecida em ato normativo, inclusive em manual técnico, expedido pelo INCRA.",
+   "partes": [
+    {
+     "rotulo": "§ 1o",
+     "texto": "§ 1o Caberá ao INCRA certificar que a poligonal objeto do memorial descritivo não se sobrepõe a nenhuma outra constante de seu cadastro georreferenciado e que o memorial atende às exigências técnicas, conforme ato normativo próprio."
+    },
+    {
+     "rotulo": "§ 2o",
+     "texto": "§ 2o A certificação do memorial descritivo pelo INCRA não implicará reconhecimento do domínio ou a exatidão dos limites e confrontações indicados pelo proprietário."
+    },
+    {
+     "rotulo": "§ 3o",
+     "texto": "§ 3o Para os fins e efeitos do § 2o do art. 225 da Lei no 6.015, de 1973, a primeira apresentação do memorial descritivo segundo os ditames do § 3o do art. 176 e do § 3o do art. 225 da mesma Lei, e nos termos deste Decreto, respeitadas as divisas do imóvel e os direitos de terceiros confrontantes, não caracterizará irregularidade impeditiva de novo registro, devendo, no entanto, os subseqüentes estar rigorosamente de acordo com o referido § 2o, sob pena de incorrer em irregularidade sempre que a caracterização do imóvel não for coincidente com a constante do primeiro registro de memorial georreferenciado, excetuadas as hipóteses de alterações expressamente previstas em lei."
+    },
+    {
+     "rotulo": "§ 3o (2)",
+     "texto": "§ 3o Para os fins e efeitos do § 2o do art. 225 da Lei no 6.015, de 1973, a primeira apresentação do memorial descritivo segundo os ditames do § 3o do art. 176 e do § 3o do art. 225 da mesma Lei, e nos termos deste Decreto, respeitados os direitos de terceiros confrontantes, não caracterizará irregularidade impeditiva de novo registro desde que presente o requisito do § 13 do art. 213 da Lei no 6.015, de 1973, devendo, no entanto, os subseqüentes estar rigorosamente de acordo com o referido § 2o, sob pena de incorrer em irregularidade sempre que a caracterização do imóvel não for coincidente com a constante do primeiro registro de memorial georreferenciado, excetuadas as hipóteses de alterações expressamente previstas em lei."
+    },
+    {
+     "rotulo": "§ 4o",
+     "texto": "§ 4o Visando a finalidade do § 3o, e desde que mantida a descrição das divisas do imóvel e os direitos de terceiros confrontantes, não serão opostas ao memorial georreferenciado as discrepâncias de área que não excederem os limites preceituados na legislação vigente."
+    },
+    {
+     "rotulo": "§ 4o (2)",
+     "texto": "§ 4o Visando a finalidade do § 3o, e desde que mantidos os direitos de terceiros confrontantes, não serão opostas ao memorial georreferenciado as discrepâncias de área constantes da matrícula do imóvel."
+    },
+    {
+     "rotulo": "§ 5o",
+     "texto": "§ 5o O memorial descritivo, que de qualquer modo possa alterar o registro, será averbado no serviço de registro de imóveis competente mediante requerimento do interessado, contendo declaração firmada sob pena de responsabilidade civil e criminal, com firma reconhecida, de que não houve alteração das divisas do imóvel registrado e de que foram respeitados os direitos dos confrontantes, acompanhado da certificação prevista no § 1o deste artigo, do CCIR e da prova de quitação do ITR dos últimos cinco exercícios, quando for o caso."
+    },
+    {
+     "rotulo": "§ 5o (2)",
+     "texto": "§ 5o O memorial descritivo, que de qualquer modo possa alterar o registro, resultará numa nova matrícula com encerramento da matrícula anterior no serviço de registro de imóveis competente, mediante requerimento do interessado, contendo declaração firmada sob pena de responsabilidade civil e criminal, com firma reconhecida, de que foram respeitados os direitos dos confrontantes, acompanhado da certificação prevista no § 1o deste artigo, do CCIR e da prova de quitação do ITR dos últimos cinco exercícios, quando for o caso."
+    },
+    {
+     "rotulo": "§ 6o",
+     "texto": "§ 6o A documentação prevista no § 5o deverá ser acompanhada de declaração expressa dos confinantes de que os limites divisórios foram respeitados, com suas respectivas firmas reconhecidas."
+    },
+    {
+     "rotulo": "§ 7o",
+     "texto": "§ 7o Quando a declaração for manifestada mediante escritura pública, constituir-se-á produção antecipada de prova."
+    },
+    {
+     "rotulo": "§ 8o",
+     "texto": "§ 8o Não sendo apresentadas as declarações constantes no § 6o e a certidão prevista no § 1o, o oficial encaminhará a documentação ao juiz de direito competente, para que a retificação seja processada nos termos do art. 213 da Lei no 6.015, de 1973. 18/08/2026, 09:13 D4449 https://www.planalto.gov.br/ccivil_03/decreto/2002/d4449.htm 3/6 § 8o Não sendo apresentadas as declarações constantes do § 6o, o interessado, após obter a certificação prevista no § 1o, requererá ao oficial de registro que proceda de acordo com os §§ 2o, 3o, 4o, 5o e 6o do art. 213 da Lei no 6.015, de 1973."
+    },
+    {
+     "rotulo": "§ 9o",
+     "texto": "§ 9o Em nenhuma hipótese a adequação do imóvel às exigências do art.176, §§ 3o e 4o, e do art. 225, § 3o, da Lei no 6.015, de 1973, poderá ser feita sem a certificação do memorial descritivo expedida pelo INCRA."
+    },
+    {
+     "rotulo": "§ 10",
+     "texto": "§ 10. É dispensada a declaração dos confinantes prevista no § 6º quando a retificação de matrícula de imóvel rural relativo à área pública da União ou do INCRA for formulada pela Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário da Casa Civil da Presidência da República ou pelo INCRA, acompanhada de declaração de que o memorial descritivo apresentado refere-se somente ao perímetro originário do imóvel cuja matricula esteja sendo retificada."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 800",
+   "texto": "Art. 800. As cópias de documentos fiscais ou emitidos por órgãos ou entidades públicos consideram-se válidas desde que autenticadas por tabelião ou, em se tratando de documento eletrônico, contenha código de validação por sistema digital do emitente.",
+   "caput": "Art. 800. As cópias de documentos fiscais ou emitidos por órgãos ou entidades públicos consideram-se válidas desde que autenticadas por tabelião ou, em se tratando de documento eletrônico, contenha código de validação por sistema digital do emitente.",
+   "partes": [],
+   "fonte": "lei"
+  },
+  {
+   "norma": "L6496",
+   "artigo": "Art. 1",
+   "texto": "Art 1º - Todo contrato, escrito ou verbal, para a execução de obras ou prestação de quaisquer serviços profissionais referentes à Engenharia, à Arquitetura e à Agronomia fica sujeito à \"Anotação de Responsabilidade Técnica\" (ART).",
+   "caput": "Art 1º - Todo contrato, escrito ou verbal, para a execução de obras ou prestação de quaisquer serviços profissionais referentes à Engenharia, à Arquitetura e à Agronomia fica sujeito à \"Anotação de Responsabilidade Técnica\" (ART).",
+   "partes": [],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 805",
+   "texto": "Art. 805. Em se tratando de documentos eletrônicos, consideram-se autênticos os instrumentos públicos ou particulares assinados com certificado digital que atenda os requisitos da Infraestrutura de Chaves Públicas Brasileira – ICP.",
+   "caput": "Art. 805. Em se tratando de documentos eletrônicos, consideram-se autênticos os instrumentos públicos ou particulares assinados com certificado digital que atenda os requisitos da Infraestrutura de Chaves Públicas Brasileira – ICP.",
+   "partes": [],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CFLO",
+   "artigo": "Art. 29",
+   "texto": "Art. 29. É criado o Cadastro Ambiental Rural - CAR, no âmbito do Sistema Nacional de Informação sobre Meio Ambiente - SINIMA, registro público eletrônico de âmbito nacional, obrigatório para todos os imóveis rurais, com a finalidade de integrar as informações ambientais das propriedades e posses rurais, compondo base de dados para controle, monitoramento, planejamento ambiental e econômico e combate ao desmatamento. § 1º A inscrição do imóvel rural no CAR deverá ser feita no órgão ambiental municipal, estadual ou federal, que, nos termos do regulamento, exigirá do possuidor ou proprietário: § 1º A inscrição do imóvel rural no CAR deverá ser feita, preferencialmente, no órgão ambiental municipal ou estadual, que, nos termos do regulamento, exigirá do possuidor ou proprietário: (Redação dada pela Medida Provisória nº 571, de 2012). § 1º A inscrição do imóvel rural no CAR deverá ser feita, preferencialmente, no órgão ambiental municipal ou estadual, que, nos termos do regulamento, exigirá do proprietário ou possuidor rural: (Redação dada pela Lei nº 12.727, de 2012). I - identificação do proprietário ou possuidor rural; II - comprovação da propriedade ou posse; III - identificação do imóvel por meio de planta e memorial descritivo, contendo a indicação das coordenadas geográficas com pelo menos um ponto de amarração do perímetro do imóvel, informando a localização dos remanescentes de vegetação nativa, das Áreas de Preservação Permanente, das Áreas de Uso Restrito, das áreas consolidadas e, caso existente, também da localização da Reserva Legal. § 2º O cadastramento não será considerado título para fins de reconhecimento do direito de propriedade ou posse, tampouco elimina a necessidade de cumprimento do disposto no art. 2º da Lei nº 10.267, de 28 de agosto de 2001. § 3º A inscrição no CAR será obrigatória para todas as propriedades e posses rurais, devendo ser requerida no prazo de 1 (um) ano contado da sua implantação, prorrogável, uma única vez, por igual período por ato do Chefe do Poder Executivo. § 3º A inscrição no CAR será obrigatória para todas as propriedades e posses rurais, devendo ser requerida até 31 de dezembro de 2017, prorrogável por mais 1 (um) ano por ato do Chefe do Poder Executivo. (Redação dada pela Lei nº 13.295, de 2016) (Vide Decreto nº 9.257, de 2017) § 3º A inscrição no CAR será obrigatória para todas as propriedades e posses rurais. (Redação dada pela Medida Provisória nº 884, de 2019) § 3º A inscrição no CAR é obrigatória e por prazo indeterminado para todas as propriedades e posses rurais. (Redação dada pela Lei nº 13.887,de 2019) § 4º Os proprietários e possuidores dos imóveis rurais que os inscreverem no CAR até o dia 31 de dezembro de 2020 terão direito à adesão ao Programa de Regularização Ambiental (PRA), de que trata o art. 59 desta Lei. (Incluído pela Lei nº 13.887,de 2019) § 4º Terão direito à adesão ao PRA, de que trata o art. 59 desta Lei, os proprietários e possuidores dos imóveis rurais com área acima de 4 (quatro) módulos fiscais que os inscreverem no CAR até o dia 31 de dezembro de 2023, bem como os proprietários e possuidores dos imóveis rurais com área de até 4 (quatro) módulos fiscais ou que atendam ao disposto no art. 3º da Lei nº 11.326, de 24 de julho de 2006, que os inscreverem no CAR até o dia 31 de dezembro de 2025. (Redação dada pela Lei nº 14.595, de 2023) 18/08/2026, 09:15 L12651 https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm 16/37 § 5º É o produtor rural autorizado a apresentar o CAR de que trata o caput deste artigo, para fins de apuração da área tributável prevista no inciso II do § 1º do art. 10 da Lei nº 9.393, de 19 de dezembro de 1996, que dispõe sobre o Imposto sobre a Propriedade Territorial Rural (ITR). (Incluído pela Lei nº 14.932, de 2024)",
+   "caput": "Art. 29. É criado o Cadastro Ambiental Rural - CAR, no âmbito do Sistema Nacional de Informação sobre Meio Ambiente - SINIMA, registro público eletrônico de âmbito nacional, obrigatório para todos os imóveis rurais, com a finalidade de integrar as informações ambientais das propriedades e posses rurais, compondo base de dados para controle, monitoramento, planejamento ambiental e econômico e combate ao desmatamento.",
+   "partes": [
+    {
+     "rotulo": "§ 1º",
+     "texto": "§ 1º A inscrição do imóvel rural no CAR deverá ser feita no órgão ambiental municipal, estadual ou federal, que, nos termos do regulamento, exigirá do possuidor ou proprietário:"
+    },
+    {
+     "rotulo": "§ 1º (2)",
+     "texto": "§ 1º A inscrição do imóvel rural no CAR deverá ser feita, preferencialmente, no órgão ambiental municipal ou estadual, que, nos termos do regulamento, exigirá do possuidor ou proprietário:."
+    },
+    {
+     "rotulo": "§ 1º (3)",
+     "texto": "§ 1º A inscrição do imóvel rural no CAR deverá ser feita, preferencialmente, no órgão ambiental municipal ou estadual, que, nos termos do regulamento, exigirá do proprietário ou possuidor rural:."
+    },
+    {
+     "rotulo": "I",
+     "texto": "I - identificação do proprietário ou possuidor rural;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II - comprovação da propriedade ou posse;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III - identificação do imóvel por meio de planta e memorial descritivo, contendo a indicação das coordenadas geográficas com pelo menos um ponto de amarração do perímetro do imóvel, informando a localização dos remanescentes de vegetação nativa, das Áreas de Preservação Permanente, das Áreas de Uso Restrito, das áreas consolidadas e, caso existente, também da localização da Reserva Legal."
+    },
+    {
+     "rotulo": "§ 2º",
+     "texto": "§ 2º O cadastramento não será considerado título para fins de reconhecimento do direito de propriedade ou posse, tampouco elimina a necessidade de cumprimento do disposto no art. 2º da Lei nº 10.267, de 28 de agosto de 2001."
+    },
+    {
+     "rotulo": "§ 3º",
+     "texto": "§ 3º A inscrição no CAR será obrigatória para todas as propriedades e posses rurais, devendo ser requerida no prazo de 1 (um) ano contado da sua implantação, prorrogável, uma única vez, por igual período por ato do Chefe do Poder Executivo."
+    },
+    {
+     "rotulo": "§ 3º (2)",
+     "texto": "§ 3º A inscrição no CAR será obrigatória para todas as propriedades e posses rurais, devendo ser requerida até 31 de dezembro de 2017, prorrogável por mais 1 (um) ano por ato do Chefe do Poder Executivo."
+    },
+    {
+     "rotulo": "§ 3º (3)",
+     "texto": "§ 3º A inscrição no CAR será obrigatória para todas as propriedades e posses rurais."
+    },
+    {
+     "rotulo": "§ 3º (4)",
+     "texto": "§ 3º A inscrição no CAR é obrigatória e por prazo indeterminado para todas as propriedades e posses rurais."
+    },
+    {
+     "rotulo": "§ 4º",
+     "texto": "§ 4º Os proprietários e possuidores dos imóveis rurais que os inscreverem no CAR até o dia 31 de dezembro de 2020 terão direito à adesão ao Programa de Regularização Ambiental (PRA), de que trata o art. 59 desta Lei."
+    },
+    {
+     "rotulo": "§ 4º (2)",
+     "texto": "§ 4º Terão direito à adesão ao PRA, de que trata o art. 59 desta Lei, os proprietários e possuidores dos imóveis rurais com área acima de 4 (quatro) módulos fiscais que os inscreverem no CAR até o dia 31 de dezembro de 2023, bem como os proprietários e possuidores dos imóveis rurais com área de até 4 (quatro) módulos fiscais ou que atendam ao disposto no art. 3º da Lei nº 11.326, de 24 de julho de 2006, que os inscreverem no CAR até o dia 31 de dezembro de 2025. 18/08/2026, 09:15 L12651 https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm 16/37 § 5º É o produtor rural autorizado a apresentar o CAR de que trata o caput deste artigo, para fins de apuração da área tributável prevista no inciso II do § 1º do art. 10 da Lei nº 9.393, de 19 de dezembro de 1996, que dispõe sobre o Imposto sobre a Propriedade Territorial Rural (ITR)."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "L4947",
+   "artigo": "Art. 22",
+   "texto": "Art. 22 - A partir de 1º de janeiro de 1967, somente mediante apresentação do Certificado de Cadastro, expedido pelo IBRA e previsto na Lei n º 4.504, de 30 de novembro de 1964, poderá o proprietário de qualquer imóvel rural pleitear as facilidades proporcionadas pelos órgãos federais de administração centralizada ou descentralizada, ou por empresas de economia mista de que a União possua a maioria das ações, e, bem assim, obter inscrição, aprovação e registro de projetos de colonização particular, no IBRA ou no INDA, ou aprovação de projetos de loteamento. (Vide Decreto nº 59.428, de 27,10.1966) § 1º - Sem apresentação do Certificado de Cadastro, não poderão os proprietários, a partir da data a que se refere este artigo, sob pena de nulidade, desmembrar, arrendar, hipotecar, vender ou prometer em venda imóveis rurais. § 2º - Em caso de sucessão causa mortis nenhuma partilha, amigável ou judicial, poderá ser homologada pela autoridade competente, sem a apresentação do Certificado de Cadastro, a partir da data referida neste artigo. § 3º - A apresentação do Certificado de Cadastro, exigida neste artigo e nos parágrafos anteriores, far-se-á, sempre, acompanhada da prova de quitação do pagamento do Imposto Territorial Rural, relativo ao último lançamento expedido pelo IBRA. § 3o A apresentação do Certificado de Cadastro de Imóvel Rural – CCIR, exigida no caput deste artigo e nos §§ 1o e 2o, far-se-á, sempre, acompanhada da prova de quitação do Imposto sobre a Propriedade Territorial Rural – ITR, correspondente aos últimos cinco exercícios, ressalvados os casos de inexigibilidade e dispensa previstos no art. 20 da Lei no 9.393, de 19 de dezembro de 1996. (Redação dada pela Lei nº 10.267, de 28.8.2001) § 4o Dos títulos de domínio destacados do patrimônio público constará obrigatoriamente o número de inscrição do CCIR, nos termos da regulamentação desta Lei. (Parágrafo incluído pela Lei nº 10.267, de 28.8.2001) § 5o Nos casos de usucapião, o juiz intimará o INCRA do teor da sentença, para fins de cadastramento do imóvel rural. (Parágrafo incluído pela Lei nº 10.267, de 28.8.2001) § 6o Além dos requisitos previstos no art. 134 do Código Civil e na Lei no 7.433, de 18 de dezembro de 1985, os serviços notariais são obrigados a mencionar nas escrituras os seguintes dados do CCIR: (Parágrafo incluído pela Lei nº 10.267, de 28.8.2001) I – código do imóvel; (Inciso incluído pela Lei nº 10.267, de 28.8.2001) II – nome do detentor; (Inciso incluído pela Lei nº 10.267, de 28.8.2001) III – nacionalidade do detentor; (Inciso incluído pela Lei nº 10.267, de 28.8.2001) IV – denominação do imóvel; (Inciso incluído pela Lei nº 10.267, de 28.8.2001) 18/08/2026, 09:15 L4947 https://www.planalto.gov.br/ccivil_03/leis/l4947.htm 4/5 V – localização do imóvel. (Inciso incluído pela Lei nº 10.267, de 28.8.2001) § 7o Os serviços de registro de imóveis ficam obrigados a encaminhar ao INCRA, mensalmente, as modificações ocorridas nas matrículas imobiliárias decorrentes de mudanças de titularidade, parcelamento, desmembramento, loteamento, remembramento, retificação de área, reserva legal e particular do patrimônio natural e outras limitações e restrições de caráter ambiental, envolvendo os imóveis rurais, inclusive os destacados do patrimônio público. (Parágrafo incluído pela Lei nº 10.267, de 28.8.2001) § 8o O INCRA encaminhará, mensalmente, aos serviços de registro de imóveis, os códigos dos imóveis rurais de que trata o § 7o, para serem averbados de ofício, nas respectivas matrículas. (Parágrafo incluído pela Lei nº 10.267, de 28.8.2001)",
+   "caput": "Art. 22 - A partir de 1º de janeiro de 1967, somente mediante apresentação do Certificado de Cadastro, expedido pelo IBRA e previsto na Lei n º 4.504, de 30 de novembro de 1964, poderá o proprietário de qualquer imóvel rural pleitear as facilidades proporcionadas pelos órgãos federais de administração centralizada ou descentralizada, ou por empresas de economia mista de que a União possua a maioria das ações, e, bem assim, obter inscrição, aprovação e registro de projetos de colonização particular, no IBRA ou no INDA, ou aprovação de projetos de loteamento.",
+   "partes": [
+    {
+     "rotulo": "§ 1º",
+     "texto": "§ 1º - Sem apresentação do Certificado de Cadastro, não poderão os proprietários, a partir da data a que se refere este artigo, sob pena de nulidade, desmembrar, arrendar, hipotecar, vender ou prometer em venda imóveis rurais."
+    },
+    {
+     "rotulo": "§ 2º",
+     "texto": "§ 2º - Em caso de sucessão causa mortis nenhuma partilha, amigável ou judicial, poderá ser homologada pela autoridade competente, sem a apresentação do Certificado de Cadastro, a partir da data referida neste artigo."
+    },
+    {
+     "rotulo": "§ 3º",
+     "texto": "§ 3º - A apresentação do Certificado de Cadastro, exigida neste artigo e nos parágrafos anteriores, far-se-á, sempre, acompanhada da prova de quitação do pagamento do Imposto Territorial Rural, relativo ao último lançamento expedido pelo IBRA."
+    },
+    {
+     "rotulo": "§ 3o",
+     "texto": "§ 3o A apresentação do Certificado de Cadastro de Imóvel Rural – CCIR, exigida no caput deste artigo e nos §§ 1o e 2o, far-se-á, sempre, acompanhada da prova de quitação do Imposto sobre a Propriedade Territorial Rural – ITR, correspondente aos últimos cinco exercícios, ressalvados os casos de inexigibilidade e dispensa previstos no art. 20 da Lei no 9.393, de 19 de dezembro de 1996."
+    },
+    {
+     "rotulo": "§ 4o",
+     "texto": "§ 4o Dos títulos de domínio destacados do patrimônio público constará obrigatoriamente o número de inscrição do CCIR, nos termos da regulamentação desta Lei."
+    },
+    {
+     "rotulo": "§ 5o",
+     "texto": "§ 5o Nos casos de usucapião, o juiz intimará o INCRA do teor da sentença, para fins de cadastramento do imóvel rural."
+    },
+    {
+     "rotulo": "§ 6o",
+     "texto": "§ 6o Além dos requisitos previstos no art. 134 do Código Civil e na Lei no 7.433, de 18 de dezembro de 1985, os serviços notariais são obrigados a mencionar nas escrituras os seguintes dados do CCIR:"
+    },
+    {
+     "rotulo": "I",
+     "texto": "I – código do imóvel;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II – nome do detentor;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III – nacionalidade do detentor;"
+    },
+    {
+     "rotulo": "IV",
+     "texto": "IV – denominação do imóvel; 18/08/2026, 09:15 L4947 https://www.planalto.gov.br/ccivil_03/leis/l4947.htm 4/5 V – localização do imóvel."
+    },
+    {
+     "rotulo": "§ 7o",
+     "texto": "§ 7o Os serviços de registro de imóveis ficam obrigados a encaminhar ao INCRA, mensalmente, as modificações ocorridas nas matrículas imobiliárias decorrentes de mudanças de titularidade, parcelamento, desmembramento, loteamento, remembramento, retificação de área, reserva legal e particular do patrimônio natural e outras limitações e restrições de caráter ambiental, envolvendo os imóveis rurais, inclusive os destacados do patrimônio público."
+    },
+    {
+     "rotulo": "§ 8o",
+     "texto": "§ 8o O INCRA encaminhará, mensalmente, aos serviços de registro de imóveis, os códigos dos imóveis rurais de que trata o § 7o, para serem averbados de ofício, nas respectivas matrículas."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNN-CNJ",
+   "artigo": "Art. 440-AQ",
+   "texto": "Art. 440 -AQ. Além das informações obrigatórias constantes do art. 176, II, da Lei n. 6.015/1973, por ocasião do ato de abertura, a matrícula deverá conter : (incluído pelo Provimento CN n. 195, de 3.6.2025) I - o Código Nacional de Matrícula (CNM), na forma do art. 331 deste Código; (incluído pelo Provimento CN n. 195, de 3.6.2025) II - a indicação da área do imóvel em metros quadrados (m²) para imóveis urbanos e em hectares (ha) para imóveis rurais, respeitado o disposto no §15.º, inciso III, do art. 176 da Lei Federal n. 6.015/1973; (incluído pelo Provimento CN n. 195, de 3.6.2025) III - a descrição perimetral mediante georreferenciamento para: (incluído pelo Provimento CN n. 195, de 3.6.2025) a) os imóveis rurais, com obrigatoriedade de prévia certificação da poligonal no INCRA, na forma dos § 3.º a 5.º do art. 176 da Lei n. 6.015/1973 ; (incluído pelo Provimento CN n. 195, de 3.6.2025) b) os demais imóveis rurais, caso em que a certificação da poligonal no INCRA é facultativa, a critério do interessado; e (incluído pelo Provimento CN n. 195, de 3.6.2025) c) os imóveis urbanos nas seguintes hipóteses: (incluído pelo Provimento CN n. 195, de 3.6.2025) 1) requerimento do interessado; (incluído pelo Provimento CN n. 195, de 3.6.2025) 2) regularização fundiária urbana (Reurb); (incluído pelo Provimento CN n. 195, de 3.6.2025) IV – os códigos dos seguintes cadastros imobiliários obrigatórios que abranjam total ou parcialmente a área objeto da matrícula: (incluído pelo Provimento CN n. 195, de 3.6.2025) a) no caso de imóveis urbanos: (incluído pelo Provimento CN n. 195, de 3.6.2025) 1) o Cadastro Imobiliário Fiscal (CIF), ou qualquer outra denominação de cadastro ou inscrição imobiliária urbana, quando houver designação cadastral estabelecida pelo município; (incluído pelo Provimento CN n. 195, de 3.6.2025) 2) o Cadastro Imobiliário Brasileiro (CIB), quando efetivamente implantado, emitido pela Secretaria da Receita Federal do Brasil (RFB); (incluído pelo Provimento CN n. 195, de 3.6.2025) b) no caso de imóveis rurais: (incluído pelo Provimento CN n. 195, de 3.6.2025) 1) o Código do Imóvel Rural do Certificado de Cadastro de Imóvel Rural (CCIR), emitido pelo Incra; (incluído pelo Provimento CN n. 195, de 3.6.2025) 2) o Número do iImóvel na Receita Federal (Nirf) ou do CIB, quando efetivamente implantado, emitidos pela Secretaria da Receita Federal do Brasil (RFB); e (incluído pelo Provimento CN n. 195, de 3.6.2025) 3) o código de inscrição do Cadastro Ambiental Rural (CAR), emitido pelos órgãos ambientais competentes. (incluído pelo Provimento CN n. 195, de 3.6.2025) 4) no caso de imóveis rurais adquiridos por pessoa jurídica, a informação da nacionalidade da pessoa que possui a maioria do capital social, nos termos da Lei n. 5.709/1971. (incluído pelo Provimento CN n. 195, de 3.6.2025) § 1.º. No caso da identificação do imóvel urbano, sem prejuízo das informações obrigatórias no art. 176, II, “3”, “b”, da Lei 6015/73 , o oficial de registro de imóveis deverá consignar, em sendo possível e se for o caso, os seguintes dados: (incluído pelo Provimento CN n. 195, de 3.6.2025) a) Código de Endereçamento Postal – CEP; (incluído pelo Provimento CN n. 195, de 3.6.2025) b) logradouro completo, bairro ou setor, município e estado; (incluído pelo Provimento CN n. 195, de 3.6.2025) c) número do lote, quadra e nome do loteamento, desmembramento ou condomínio de lotes, se houver, nos parcelamentos de solo urbano de que trata a Lei n. 6.766/1979; (incluído pelo Provimento CN n. 195, de 3.6.2025) d) nome e/ou número do bloco e número da unidade autônoma, no caso de condomínio edilício; (incluído pelo Provimento CN n. 195, de 3.6.2025) e) outros dados de localização que sejam úteis à descrição do imóvel conforme costumes locais, como pontos de referência notórios. (incluído pelo Provimento CN n. 195, de 3.6.2025) § 2.º. No caso da identificação do imóvel rural, sem prejuízo das informações obrigatórias no art. 176, II, “3”, “a” da Lei n. 6.015/73 , o oficial de registro deverá consignar, sendo possível e se for o caso, os seguintes dados: (incluído pelo Provimento CN n. 195, de 3.6.2025) a) Código de Endereçamento Postal – CEP; (incluído pelo Provimento CN n. 195, de 3.6.2025) b) vila, povoado, distrito ou outra nomenclatura do local de situação do imóvel, município e estado; (incluído pelo Provimento CN n. 195, de 3.6.2025) c) outros dados de localização que sejam úteis à descrição do imóvel, conforme costumes locais. (incluído pelo Provimento CN n. 195, de 3.6.2025) § 3.º. As informações relativas aos cadastros imobiliários obrigatórios serão averbadas nas matrículas existentes, quando da prática do primeiro ato de registro voluntário após a vigência do Provimento n. 195, de 3 de junho de 2025 , e serão inseridas em campo próprio destinado a esses cadastros no caso de abertura de novas matrículas. (incluído pelo Provimento CN n. 195, de 3.6.2025) Seção II Das Averbações de Saneamento (incluído pelo Provimento CN n. 195, de 3.6.2025) Subseção I Das disposições gerais (incluído pelo Provimento CN n. 195, de 3.6.2025)",
+   "caput": "Art. 440 -AQ. Além das informações obrigatórias constantes do art. 176, II, da Lei n. 6.015/1973, por ocasião do ato de abertura, a matrícula deverá conter :",
+   "partes": [
+    {
+     "rotulo": "I",
+     "texto": "I - o Código Nacional de Matrícula (CNM), na forma do art. 331 deste Código;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II - a indicação da área do imóvel em metros quadrados (m²) para imóveis urbanos e em hectares (ha) para imóveis rurais, respeitado o disposto no §15.º, inciso III, do art. 176 da Lei Federal n. 6.015/1973;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III - a descrição perimetral mediante georreferenciamento para:"
+    },
+    {
+     "rotulo": "a)",
+     "texto": "a) os imóveis rurais, com obrigatoriedade de prévia certificação da poligonal no INCRA, na forma dos § 3.º a 5.º do art. 176 da Lei n. 6.015/1973 ;"
+    },
+    {
+     "rotulo": "b)",
+     "texto": "b) os demais imóveis rurais, caso em que a certificação da poligonal no INCRA é facultativa, a critério do interessado; e c) os imóveis urbanos nas seguintes hipóteses:"
+    },
+    {
+     "rotulo": "1",
+     "texto": "1) requerimento do interessado;"
+    },
+    {
+     "rotulo": "2",
+     "texto": "2) regularização fundiária urbana (Reurb);"
+    },
+    {
+     "rotulo": "IV",
+     "texto": "IV – os códigos dos seguintes cadastros imobiliários obrigatórios que abranjam total ou parcialmente a área objeto da matrícula:"
+    },
+    {
+     "rotulo": "a) (2)",
+     "texto": "a) no caso de imóveis urbanos:"
+    },
+    {
+     "rotulo": "1 (2)",
+     "texto": "1) o Cadastro Imobiliário Fiscal (CIF), ou qualquer outra denominação de cadastro ou inscrição imobiliária urbana, quando houver designação cadastral estabelecida pelo município;"
+    },
+    {
+     "rotulo": "2 (2)",
+     "texto": "2) o Cadastro Imobiliário Brasileiro (CIB), quando efetivamente implantado, emitido pela Secretaria da Receita Federal do Brasil (RFB);"
+    },
+    {
+     "rotulo": "b) (2)",
+     "texto": "b) no caso de imóveis rurais:"
+    },
+    {
+     "rotulo": "1 (3)",
+     "texto": "1) o Código do Imóvel Rural do Certificado de Cadastro de Imóvel Rural (CCIR), emitido pelo Incra;"
+    },
+    {
+     "rotulo": "2 (3)",
+     "texto": "2) o Número do iImóvel na Receita Federal (Nirf) ou do CIB, quando efetivamente implantado, emitidos pela Secretaria da Receita Federal do Brasil (RFB); e 3) o código de inscrição do Cadastro Ambiental Rural (CAR), emitido pelos órgãos ambientais competentes."
+    },
+    {
+     "rotulo": "4",
+     "texto": "4) no caso de imóveis rurais adquiridos por pessoa jurídica, a informação da nacionalidade da pessoa que possui a maioria do capital social, nos termos da Lei n. 5.709/1971."
+    },
+    {
+     "rotulo": "§ 1",
+     "texto": "§ 1.º. No caso da identificação do imóvel urbano, sem prejuízo das informações obrigatórias no art. 176, II, “3”, “b”, da Lei 6015/73 , o oficial de registro de imóveis deverá consignar, em sendo possível e se for o caso, os seguintes dados:"
+    },
+    {
+     "rotulo": "a) (3)",
+     "texto": "a) Código de Endereçamento Postal – CEP;"
+    },
+    {
+     "rotulo": "b) (3)",
+     "texto": "b) logradouro completo, bairro ou setor, município e estado;"
+    },
+    {
+     "rotulo": "c)",
+     "texto": "c) número do lote, quadra e nome do loteamento, desmembramento ou condomínio de lotes, se houver, nos parcelamentos de solo urbano de que trata a Lei n. 6.766/1979;"
+    },
+    {
+     "rotulo": "d)",
+     "texto": "d) nome e/ou número do bloco e número da unidade autônoma, no caso de condomínio edilício;"
+    },
+    {
+     "rotulo": "e)",
+     "texto": "e) outros dados de localização que sejam úteis à descrição do imóvel conforme costumes locais, como pontos de referência notórios."
+    },
+    {
+     "rotulo": "§ 2",
+     "texto": "§ 2.º. No caso da identificação do imóvel rural, sem prejuízo das informações obrigatórias no art. 176, II, “3”, “a” da Lei n. 6.015/73 , o oficial de registro deverá consignar, sendo possível e se for o caso, os seguintes dados:"
+    },
+    {
+     "rotulo": "a) (4)",
+     "texto": "a) Código de Endereçamento Postal – CEP;"
+    },
+    {
+     "rotulo": "b) (4)",
+     "texto": "b) vila, povoado, distrito ou outra nomenclatura do local de situação do imóvel, município e estado;"
+    },
+    {
+     "rotulo": "c) (2)",
+     "texto": "c) outros dados de localização que sejam úteis à descrição do imóvel, conforme costumes locais."
+    },
+    {
+     "rotulo": "§ 3",
+     "texto": "§ 3.º. As informações relativas aos cadastros imobiliários obrigatórios serão averbadas nas matrículas existentes, quando da prática do primeiro ato de registro voluntário após a vigência do Provimento n. 195, de 3 de junho de 2025 , e serão inseridas em campo próprio destinado a esses cadastros no caso de abertura de novas matrículas."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 852",
+   "texto": "Art. 852. A escrituração do Livro nº 2 obedecerá às seguintes normas: I – cada imóvel terá matrícula própria, que será aberta por ocasião do primeiro registro a ser feito na vigência Lei nº 6.015/1973; II – são requisitos da matrícula: 1. o número de ordem, que seguirá ao infinito; 2. a data; 3. a identificação do imóvel, que será feita com indicação: a) se rural, do código do imóvel, dos dados constantes do CCIR, da denominação e de suas características, confrontações, localização e área; b) se urbano, de suas características e confrontações, localização, área, logradouro, número e de sua designação cadastral, se houver. 4. o nome, domicílio e nacionalidade do proprietário, bem como: a) tratando-se de pessoa física, o estado civil, o número de inscrição no Cadastro de Pessoas Físicas e do documento de identificação, ou à falta deste, sua filiação; e b) tratando-se de pessoa jurídica, a sede social e o número de inscrição no Cadastro Nacional de Pessoas Jurídicas. 5. o número do registro anterior.",
+   "caput": "Art. 852. A escrituração do Livro nº 2 obedecerá às seguintes normas:",
+   "partes": [
+    {
+     "rotulo": "I",
+     "texto": "I – cada imóvel terá matrícula própria, que será aberta por ocasião do primeiro registro a ser feito na vigência Lei nº 6.015/1973;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II – são requisitos da matrícula:"
+    },
+    {
+     "rotulo": "1",
+     "texto": "1. o número de ordem, que seguirá ao infinito;"
+    },
+    {
+     "rotulo": "2",
+     "texto": "2. a data;"
+    },
+    {
+     "rotulo": "3",
+     "texto": "3. a identificação do imóvel, que será feita com indicação:"
+    },
+    {
+     "rotulo": "a)",
+     "texto": "a) se rural, do código do imóvel, dos dados constantes do CCIR, da denominação e de suas características, confrontações, localização e área;"
+    },
+    {
+     "rotulo": "b)",
+     "texto": "b) se urbano, de suas características e confrontações, localização, área, logradouro, número e de sua designação cadastral, se houver."
+    },
+    {
+     "rotulo": "4",
+     "texto": "4. o nome, domicílio e nacionalidade do proprietário, bem como:"
+    },
+    {
+     "rotulo": "a) (2)",
+     "texto": "a) tratando-se de pessoa física, o estado civil, o número de inscrição no Cadastro de Pessoas Físicas e do documento de identificação, ou à falta deste, sua filiação; e b) tratando-se de pessoa jurídica, a sede social e o número de inscrição no Cadastro Nacional de Pessoas Jurídicas."
+    },
+    {
+     "rotulo": "5",
+     "texto": "5. o número do registro anterior."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "LRP",
+   "artigo": "Art. 176",
+   "texto": "Art. 176 - O Livro nº 2 - Registro Geral - será destinado, à matrícula dos imóveis e ao registro ou averbação dos atos relacionados no art. 167 e não atribuídos ao Livro nº 3. (Renumerado do art. 173 com nova redação pela Lei nº 6.216, de 1975). § 1º A escrituração do Livro nº 2 obedecerá às seguintes normas: (Renumerado do parágrafo único, pela Lei nº 6.688, de 1979) I - cada imóvel terá matrícula própria, que será aberta por ocasião do primeiro ato de registro ou de averbação caso a transcrição possua todos os requisitos elencados para a abertura de matrícula; (Redação dada pela Lei nº 14.382, de 2022) II - são requisitos da matrícula: 1) o número de ordem, que seguirá ao infinito; 2) a data; 3) a identificação do imóvel, que será feita com indicação: (Redação dada pela Lei nº 10.267, de 2001) a - se rural, do código do imóvel, dos dados constantes do CCIR, da denominação e de suas características, confrontações, localização e área; (Incluída pela Lei nº 10.267, de 2001) b - se urbano, de suas características e confrontações, localização, área, logradouro, número e de sua designação cadastral, se houver. (Incluída pela Lei nº 10.267, de 2001) 4) o nome, domicílio e nacionalidade do proprietário, bem como: a) tratando-se de pessoa física, o estado civil, a profissão, o número de inscrição no Cadastro de Pessoas Físicas do Ministério da Fazenda ou do Registro Geral da cédula de identidade, ou à falta deste, sua filiação; b) tratando-se de pessoa jurídica, a sede social e o número de inscrição no Cadastro Geral de Contribuintes do Ministério da Fazenda; 5) o número do registro anterior; 6) tratando-se de imóvel em regime de multipropriedade, a indicação da existência de matrículas, nos termos do § 10 deste artigo; (Incluído pela Lei nº 13.777, de 2018) (Vigência) III - são requisitos do registro no Livro nº 2: 17/08/2026, 17:23 L6.015compilada https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm 35/60 1) a data; 2) o nome, domicílio e nacionalidade do transmitente, ou do devedor, e do adquirente, ou credor, bem como: a) tratando-se de pessoa física, o estado civil, a profissão e o número de inscrição no Cadastro de Pessoas Físicas do Ministério da Fazenda ou do Registro Geral da cédula de identidade, ou, à falta deste, sua filiação; b) tratando-se de pessoa jurídica, a sede social e o número de inscrição no Cadastro Geral de Contribuintes do Ministério da Fazenda; 3) o título da transmissão ou do ônus; 4) a forma do título, sua procedência e caracterização; 5) o valor do contrato, da coisa ou da dívida, prazo desta, condições e mais especificações, inclusive os juros, se houver. § 2º Para a matrícula e registro das escrituras e partilhas, lavradas ou homologadas na vigência do Decreto nº 4.857, de 9 de novembro de 1939, não serão observadas as exigências deste artigo, devendo tais atos obedecer ao disposto na legislação anterior . (Incluído pela Lei nº 6.688, de 1979) § 3o Nos casos de desmembramento, parcelamento ou remembramento de imóveis rurais, a identificação prevista na alínea a do item 3 do inciso II do § 1o será obtida a partir de memorial descritivo, assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica – ART, contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, geo-referenciadas ao Sistema Geodésico Brasileiro e com precisão posicional a ser fixada pelo INCRA, garantida a isenção de custos financeiros aos proprietários de imóveis rurais cuja somatória da área não exceda a quatro módulos fiscais. (Incluído pela Lei nº 10.267, de 2001) § 4o A identificação de que trata o § 3o tornar-se-á obrigatória para efetivação de registro, em qualquer situação de transferência de imóvel rural, nos prazos fixados por ato do Poder Executivo. (Incluído pela Lei nº 10.267, de 2001) § 5º Nas hipóteses do § 3o, caberá ao Incra certificar que a poligonal objeto do memorial descritivo não se sobrepõe a nenhuma outra constante de seu cadastro georreferenciado e que o memorial atende às exigências técnicas, conforme ato normativo próprio. (Incluído pela Lei nº 11.952, de 2009) § 6o A certificação do memorial descritivo de glebas públicas será referente apenas ao seu perímetro originário. (Incluído pela Lei nº 11.952, de 2009) § 7o Não se exigirá, por ocasião da efetivação do registro do imóvel destacado de glebas públicas, a retificação do memorial descritivo da área remanescente, que somente ocorrerá a cada 3 (três) anos, contados a partir do primeiro destaque, englobando todos os destaques realizados no período. (Incluído pela Lei nº 11.952, de 2009) § 8o O ente público proprietário ou imitido na posse a partir de decisão proferida em processo judicial de desapropriação em curso poderá requerer a abertura de matrícula de parte de imóvel situado em área urbana ou de expansão urbana, previamente matriculado ou não, com base em planta e memorial descritivo, podendo a apuração de remanescente ocorrer em momento posterior. (Incluído pela Lei nº 12.424, de 2011) § 9o A instituição do direito real de laje ocorrerá por meio da abertura de uma matrícula própria no registro de imóveis e por meio da averbação desse fato na matrícula da construção-base e nas matrículas de lajes anteriores, com remissão recíproca. (Incluído pela Lei nº 13.465, de 2017) § 10. Quando o imóvel se destinar ao regime da multipropriedade, além da matrícula do imóvel, haverá uma matrícula para cada fração de tempo, na qual se registrarão e averbarão os atos referentes à respectiva fração de tempo, ressalvado o disposto no § 11 deste artigo. (Incluído pela Lei nº 13.777, de 2018) (Vigência) § 11. Na hipótese prevista no § 10 deste artigo, cada fração de tempo poderá, em função de legislação tributária municipal, ser objeto de inscrição imobiliária individualizada. (Incluído pela Lei nº 13.777, de 2018) (Vigência) § 12. Na hipótese prevista no inciso II do § 1º do art. 1.358-N da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), a fração de tempo adicional, destinada à realização de reparos, constará da matrícula referente à fração de tempo principal de cada multiproprietário e não será objeto de matrícula específica. (Incluído pela Lei nº 13.777, de 2018) (Vigência) § 13. Para a identificação de que tratam os §§ 3º e 4º deste artigo, é dispensada a anuência dos confrontantes, bastando para tanto a declaração do requerente de que respeitou os limites e as confrontações. (Incluído pela Lei nº 13.838, de 2019) 17/08/2026, 17:23 L6.015compilada https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm 36/60 § 14. É facultada a abertura da matrícula na circunscrição onde estiver situado o imóvel, a requerimento do interessado ou de ofício, por conveniência do serviço. (Incluído pela Lei nº 14.382, de 2022) § 15. Ainda que ausentes alguns elementos de especialidade objetiva ou subjetiva, desde que haja segurança quanto à localização e à identificação do imóvel, a critério do oficial, e que constem os dados do registro anterior, a matrícula poderá ser aberta nos termos do § 14 deste artigo. (Incluído pela Lei nº 14.382, de 2022) § 16. Se não forem suficientes os elementos de especialidade objetiva ou subjetiva, será exigida a retificação, no caso de requerimento do interessado na forma prevista no § 14 deste artigo, perante a circunscrição de situação do imóvel. (Incluído pela Lei nº 14.382, de 2022) § 17. Os elementos de especialidade objetiva ou subjetiva que não alterarem elementos essenciais do ato ou negócio jurídico praticado, quando não constantes do título ou do acervo registral, poderão ser complementados por outros documentos ou, quando se tratar de manifestação de vontade, por declarações dos proprietários ou dos interessados, sob sua responsabilidade. (Incluído pela Lei nº 14.382, de 2022) § 18. Quando se tratar de transcrição que não possua todos os requisitos para a abertura de matrícula, admitir- se-á que se façam na circunscrição de origem, à margem do título, as averbações necessárias. (Incluído pela Lei nº 14.382, de 2022)",
+   "caput": "Art. 176 - O Livro nº 2 - Registro Geral - será destinado, à matrícula dos imóveis e ao registro ou averbação dos atos relacionados no art. 167 e não atribuídos ao Livro nº 3..",
+   "partes": [
+    {
+     "rotulo": "§ 1º",
+     "texto": "§ 1º A escrituração do Livro nº 2 obedecerá às seguintes normas:"
+    },
+    {
+     "rotulo": "I",
+     "texto": "I - cada imóvel terá matrícula própria, que será aberta por ocasião do primeiro ato de registro ou de averbação caso a transcrição possua todos os requisitos elencados para a abertura de matrícula;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II - são requisitos da matrícula:"
+    },
+    {
+     "rotulo": "1",
+     "texto": "1) o número de ordem, que seguirá ao infinito;"
+    },
+    {
+     "rotulo": "2",
+     "texto": "2) a data;"
+    },
+    {
+     "rotulo": "3",
+     "texto": "3) a identificação do imóvel, que será feita com indicação: a - se rural, do código do imóvel, dos dados constantes do CCIR, da denominação e de suas características, confrontações, localização e área; b - se urbano, de suas características e confrontações, localização, área, logradouro, número e de sua designação cadastral, se houver."
+    },
+    {
+     "rotulo": "4",
+     "texto": "4) o nome, domicílio e nacionalidade do proprietário, bem como:"
+    },
+    {
+     "rotulo": "a)",
+     "texto": "a) tratando-se de pessoa física, o estado civil, a profissão, o número de inscrição no Cadastro de Pessoas Físicas do Ministério da Fazenda ou do Registro Geral da cédula de identidade, ou à falta deste, sua filiação;"
+    },
+    {
+     "rotulo": "b)",
+     "texto": "b) tratando-se de pessoa jurídica, a sede social e o número de inscrição no Cadastro Geral de Contribuintes do Ministério da Fazenda;"
+    },
+    {
+     "rotulo": "5",
+     "texto": "5) o número do registro anterior;"
+    },
+    {
+     "rotulo": "6",
+     "texto": "6) tratando-se de imóvel em regime de multipropriedade, a indicação da existência de matrículas, nos termos do § 10 deste artigo;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III - são requisitos do registro no Livro nº 2: 17/08/2026, 17:23 L6.015compilada https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm 35/60 1) a data;"
+    },
+    {
+     "rotulo": "2 (2)",
+     "texto": "2) o nome, domicílio e nacionalidade do transmitente, ou do devedor, e do adquirente, ou credor, bem como:"
+    },
+    {
+     "rotulo": "a) (2)",
+     "texto": "a) tratando-se de pessoa física, o estado civil, a profissão e o número de inscrição no Cadastro de Pessoas Físicas do Ministério da Fazenda ou do Registro Geral da cédula de identidade, ou, à falta deste, sua filiação;"
+    },
+    {
+     "rotulo": "b) (2)",
+     "texto": "b) tratando-se de pessoa jurídica, a sede social e o número de inscrição no Cadastro Geral de Contribuintes do Ministério da Fazenda;"
+    },
+    {
+     "rotulo": "3 (2)",
+     "texto": "3) o título da transmissão ou do ônus;"
+    },
+    {
+     "rotulo": "4 (2)",
+     "texto": "4) a forma do título, sua procedência e caracterização;"
+    },
+    {
+     "rotulo": "5 (2)",
+     "texto": "5) o valor do contrato, da coisa ou da dívida, prazo desta, condições e mais especificações, inclusive os juros, se houver."
+    },
+    {
+     "rotulo": "§ 2º",
+     "texto": "§ 2º Para a matrícula e registro das escrituras e partilhas, lavradas ou homologadas na vigência do Decreto nº 4.857, de 9 de novembro de 1939, não serão observadas as exigências deste artigo, devendo tais atos obedecer ao disposto na legislação anterior ."
+    },
+    {
+     "rotulo": "§ 3o",
+     "texto": "§ 3o Nos casos de desmembramento, parcelamento ou remembramento de imóveis rurais, a identificação prevista na alínea a do item 3 do inciso II do § 1o será obtida a partir de memorial descritivo, assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica – ART, contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, geo-referenciadas ao Sistema Geodésico Brasileiro e com precisão posicional a ser fixada pelo INCRA, garantida a isenção de custos financeiros aos proprietários de imóveis rurais cuja somatória da área não exceda a quatro módulos fiscais."
+    },
+    {
+     "rotulo": "§ 4o",
+     "texto": "§ 4o A identificação de que trata o § 3o tornar-se-á obrigatória para efetivação de registro, em qualquer situação de transferência de imóvel rural, nos prazos fixados por ato do Poder Executivo."
+    },
+    {
+     "rotulo": "§ 5º",
+     "texto": "§ 5º Nas hipóteses do § 3o, caberá ao Incra certificar que a poligonal objeto do memorial descritivo não se sobrepõe a nenhuma outra constante de seu cadastro georreferenciado e que o memorial atende às exigências técnicas, conforme ato normativo próprio."
+    },
+    {
+     "rotulo": "§ 6o",
+     "texto": "§ 6o A certificação do memorial descritivo de glebas públicas será referente apenas ao seu perímetro originário."
+    },
+    {
+     "rotulo": "§ 7o",
+     "texto": "§ 7o Não se exigirá, por ocasião da efetivação do registro do imóvel destacado de glebas públicas, a retificação do memorial descritivo da área remanescente, que somente ocorrerá a cada 3 (três) anos, contados a partir do primeiro destaque, englobando todos os destaques realizados no período."
+    },
+    {
+     "rotulo": "§ 8o",
+     "texto": "§ 8o O ente público proprietário ou imitido na posse a partir de decisão proferida em processo judicial de desapropriação em curso poderá requerer a abertura de matrícula de parte de imóvel situado em área urbana ou de expansão urbana, previamente matriculado ou não, com base em planta e memorial descritivo, podendo a apuração de remanescente ocorrer em momento posterior."
+    },
+    {
+     "rotulo": "§ 9o",
+     "texto": "§ 9o A instituição do direito real de laje ocorrerá por meio da abertura de uma matrícula própria no registro de imóveis e por meio da averbação desse fato na matrícula da construção-base e nas matrículas de lajes anteriores, com remissão recíproca."
+    },
+    {
+     "rotulo": "§ 10",
+     "texto": "§ 10. Quando o imóvel se destinar ao regime da multipropriedade, além da matrícula do imóvel, haverá uma matrícula para cada fração de tempo, na qual se registrarão e averbarão os atos referentes à respectiva fração de tempo, ressalvado o disposto no § 11 deste artigo."
+    },
+    {
+     "rotulo": "§ 11",
+     "texto": "§ 11. Na hipótese prevista no § 10 deste artigo, cada fração de tempo poderá, em função de legislação tributária municipal, ser objeto de inscrição imobiliária individualizada."
+    },
+    {
+     "rotulo": "§ 12",
+     "texto": "§ 12. Na hipótese prevista no inciso II do § 1º do art. 1.358-N da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), a fração de tempo adicional, destinada à realização de reparos, constará da matrícula referente à fração de tempo principal de cada multiproprietário e não será objeto de matrícula específica."
+    },
+    {
+     "rotulo": "§ 13",
+     "texto": "§ 13. Para a identificação de que tratam os §§ 3º e 4º deste artigo, é dispensada a anuência dos confrontantes, bastando para tanto a declaração do requerente de que respeitou os limites e as confrontações. 17/08/2026, 17:23 L6.015compilada https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm 36/60 § 14. É facultada a abertura da matrícula na circunscrição onde estiver situado o imóvel, a requerimento do interessado ou de ofício, por conveniência do serviço."
+    },
+    {
+     "rotulo": "§ 15",
+     "texto": "§ 15. Ainda que ausentes alguns elementos de especialidade objetiva ou subjetiva, desde que haja segurança quanto à localização e à identificação do imóvel, a critério do oficial, e que constem os dados do registro anterior, a matrícula poderá ser aberta nos termos do § 14 deste artigo."
+    },
+    {
+     "rotulo": "§ 16",
+     "texto": "§ 16. Se não forem suficientes os elementos de especialidade objetiva ou subjetiva, será exigida a retificação, no caso de requerimento do interessado na forma prevista no § 14 deste artigo, perante a circunscrição de situação do imóvel."
+    },
+    {
+     "rotulo": "§ 17",
+     "texto": "§ 17. Os elementos de especialidade objetiva ou subjetiva que não alterarem elementos essenciais do ato ou negócio jurídico praticado, quando não constantes do título ou do acervo registral, poderão ser complementados por outros documentos ou, quando se tratar de manifestação de vontade, por declarações dos proprietários ou dos interessados, sob sua responsabilidade."
+    },
+    {
+     "rotulo": "§ 18",
+     "texto": "§ 18. Quando se tratar de transcrição que não possua todos os requisitos para a abertura de matrícula, admitir- se-á que se façam na circunscrição de origem, à margem do título, as averbações necessárias."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNN-CNJ",
+   "artigo": "Art. 440-AV",
+   "texto": "Art. 440 -AV. A averbação de descrição do imóvel será realizada em ato único, ainda que vários elementos de especialidade objetiva sejam alterados ou atualizados. (incluído pelo Provimento CN n. 195, de 3.6.2025) Parágrafo único. A averbação de descrição do imóvel que servir apenas para incluir o CEP na matrícula, sem outros elementos de especialidade objetiva, será gratuita. (incluído pelo Provimento CN n. 195, de 3.6.2025) Subseção V Dos cadastros imobiliários (incluído pelo Provimento CN n. 195, de 3.6.2025)",
+   "caput": "Art. 440 -AV. A averbação de descrição do imóvel será realizada em ato único, ainda que vários elementos de especialidade objetiva sejam alterados ou atualizados.",
+   "partes": [
+    {
+     "rotulo": "Parágrafo único",
+     "texto": "Parágrafo único. A averbação de descrição do imóvel que servir apenas para incluir o CEP na matrícula, sem outros elementos de especialidade objetiva, será gratuita."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "LRP",
+   "artigo": "Art. 195",
+   "texto": "Art. 195 - Se o imóvel não estiver matriculado ou registrado em nome do outorgante, o oficial exigirá a prévia matrícula e o registro do título anterior, qualquer que seja a sua natureza, para manter a continuidade do registro. (Renumerado do art. 197 com nova redação pela Lei nº 6.216, de 1975).",
+   "caput": "Art. 195 - Se o imóvel não estiver matriculado ou registrado em nome do outorgante, o oficial exigirá a prévia matrícula e o registro do título anterior, qualquer que seja a sua natureza, para manter a continuidade do registro..",
+   "partes": [],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 372",
+   "texto": "Art. 372. A escritura referente a imóvel e direitos a ele relativos observará, ainda: I – quando urbano: quadra, lote, logradouro, número, bairro, município e estado, salvo se o imóvel for objeto de transcrição, cuja descrição será integral e pormenorizada, com referência precisa às suas características e confrontações; (Inciso com redação dada pelo Provimento nº 62, de 12 de agosto de 2021). I – quando urbano: número da quadra, lote, lado, se par ou ímpar, logradouro, número, bairro, município, suas características e confrontações, o respectivo número predial e a inscrição no cadastro municipal; II – quando rurais georreferenciados: número do registro ou matrícula no Registro de Imóveis, sua localização, denominação, área total, módulo, número do cadastro no INCRA constante do Certificado de Cadastro de Imóvel Rural – CCIR e o Número de Imóvel Rural na Receita Federal (NIRF), III – quando rurais não georreferenciados e os objeto de transcrição: descrição integral e pormenorizada, com referência precisa, inclusive, aos seus característicos e confrontações; 200 IV – números da matrícula e do registro de aquisição do alienante e a indicação do serviço de Registro de Imóveis respectivo; (Inciso com redação dada pelo Provimento nº 62, de 12 de agosto de 2021). IV – número do registro de aquisição do alienante, matrícula e registro anterior e Registro de Imóveis respectivo; V – apresentação das certidões de propriedade e de ônus reais relativas ao imóvel, expedidas pelo registro de imóveis competentes, com prazo de validade de 30 (trinta) dias, contados do dia seguinte de sua emissão; VI – declaração do outorgante, sob pena de responsabilidade civil e penal, da existência, ou não, de outras ações reais pessoais e reipersecutórias e de outros ônus reais incidentes sobre o mesmo imóvel; VII – menção dos alvarás nas escrituras lavradas em decorrência de autorização judicial; VIII – inteiro teor da autorização emitida pelo INCRA para fins de desmembramento de imóvel rural, quando exigível; IX – prova de quitação de tributos municipais, ou a dispensa expressa pelo adquirente, que, neste caso, declarará que se responsabiliza pelo pagamento dos débitos fiscais existentes; X – na impossibilidade de apresentação do certificado de cadastro expedido pelo INCRA relativo ao último exercício, em substituição, será exigido o protocolo de encaminhamento do cadastramento ou recadastramento, acompanhado na última hipótese, do certificado de cadastro anterior; XI – indicação dos valores atribuídos pela Fazenda e do recolhimento do Imposto de Transmissão Causa Mortis e Doações – ITCMD ou da imunidade ou da isenção; (Inciso com redação dada pelo Provimento nº 84 , de 11 de maio de 20 22). XI – indicação do valor atribuído pela Fazenda e do valor do recolhimento do imposto de transmissão, ou da imunidade ou isenção, ressalvadas as hipóteses em que a lei autorize a efetivação do pagamento após a sua lavratura; e XII – expressa referência ao pacto antenupcial, suas condições e número de seu registro na circunscrição imobiliária. (Primitivo inciso XI renumerado pelo Provimento nº 71, de 1º de outubro de 2021). XI – expressa referência ao pacto antenupcial, suas condições e número de seu registro na circunscrição imobiliária. 201 Parágrafo único. Para a lavratura de escritura relativa a imóvel, o título anterior deve estar registrado no Registro de Imóveis, a fim de preservar o princípio da continuidade registral, salvo na hipótese de negócios simultâneos e sucessivos, quando constar do título dominial desses. (Parágrafo único acrescido pelo Provimento nº 62, de 12 de agosto de 2021).",
+   "caput": "Art. 372. A escritura referente a imóvel e direitos a ele relativos observará, ainda:",
+   "partes": [
+    {
+     "rotulo": "I",
+     "texto": "I – quando urbano: quadra, lote, logradouro, número, bairro, município e estado, salvo se o imóvel for objeto de transcrição, cuja descrição será integral e pormenorizada, com referência precisa às suas características e confrontações;."
+    },
+    {
+     "rotulo": "I (2)",
+     "texto": "I – quando urbano: número da quadra, lote, lado, se par ou ímpar, logradouro, número, bairro, município, suas características e confrontações, o respectivo número predial e a inscrição no cadastro municipal;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II – quando rurais georreferenciados: número do registro ou matrícula no Registro de Imóveis, sua localização, denominação, área total, módulo, número do cadastro no INCRA constante do Certificado de Cadastro de Imóvel Rural – CCIR e o Número de Imóvel Rural na Receita Federal (NIRF), III – quando rurais não georreferenciados e os objeto de transcrição: descrição integral e pormenorizada, com referência precisa, inclusive, aos seus característicos e confrontações;"
+    },
+    {
+     "rotulo": "IV",
+     "texto": "IV – números da matrícula e do registro de aquisição do alienante e a indicação do serviço de Registro de Imóveis respectivo;."
+    },
+    {
+     "rotulo": "IV (2)",
+     "texto": "IV – número do registro de aquisição do alienante, matrícula e registro anterior e Registro de Imóveis respectivo;"
+    },
+    {
+     "rotulo": "V",
+     "texto": "V – apresentação das certidões de propriedade e de ônus reais relativas ao imóvel, expedidas pelo registro de imóveis competentes, com prazo de validade de 30 (trinta) dias, contados do dia seguinte de sua emissão;"
+    },
+    {
+     "rotulo": "VI",
+     "texto": "VI – declaração do outorgante, sob pena de responsabilidade civil e penal, da existência, ou não, de outras ações reais pessoais e reipersecutórias e de outros ônus reais incidentes sobre o mesmo imóvel;"
+    },
+    {
+     "rotulo": "VII",
+     "texto": "VII – menção dos alvarás nas escrituras lavradas em decorrência de autorização judicial;"
+    },
+    {
+     "rotulo": "VIII",
+     "texto": "VIII – inteiro teor da autorização emitida pelo INCRA para fins de desmembramento de imóvel rural, quando exigível;"
+    },
+    {
+     "rotulo": "IX",
+     "texto": "IX – prova de quitação de tributos municipais, ou a dispensa expressa pelo adquirente, que, neste caso, declarará que se responsabiliza pelo pagamento dos débitos fiscais existentes;"
+    },
+    {
+     "rotulo": "X",
+     "texto": "X – na impossibilidade de apresentação do certificado de cadastro expedido pelo INCRA relativo ao último exercício, em substituição, será exigido o protocolo de encaminhamento do cadastramento ou recadastramento, acompanhado na última hipótese, do certificado de cadastro anterior;"
+    },
+    {
+     "rotulo": "XI",
+     "texto": "XI – indicação dos valores atribuídos pela Fazenda e do recolhimento do Imposto de Transmissão Causa Mortis e Doações – ITCMD ou da imunidade ou da isenção;."
+    },
+    {
+     "rotulo": "XI (2)",
+     "texto": "XI – indicação do valor atribuído pela Fazenda e do valor do recolhimento do imposto de transmissão, ou da imunidade ou isenção, ressalvadas as hipóteses em que a lei autorize a efetivação do pagamento após a sua lavratura; e XII – expressa referência ao pacto antenupcial, suas condições e número de seu registro na circunscrição imobiliária.."
+    },
+    {
+     "rotulo": "XI (3)",
+     "texto": "XI – expressa referência ao pacto antenupcial, suas condições e número de seu registro na circunscrição imobiliária."
+    },
+    {
+     "rotulo": "Parágrafo único",
+     "texto": "Parágrafo único. Para a lavratura de escritura relativa a imóvel, o título anterior deve estar registrado no Registro de Imóveis, a fim de preservar o princípio da continuidade registral, salvo na hipótese de negócios simultâneos e sucessivos, quando constar do título dominial desses.."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "LRP",
+   "artigo": "Art. 221",
+   "texto": "Art. 221 - Somente são admitidos registro: (Renumerado com nova redação pela Lei nº 6.216, de 1975). I - escrituras públicas, inclusive as lavradas em consulados brasileiros; II - escritos particulares autorizados em lei, assinados pelas partes e pelas testemunhas, com as firmas reconhecidas; (Redação dada pela Lei nº 14.620, de 2023) III - atos autênticos de países estrangeiros, com força de instrumento público, legalizados e traduzidos na forma da lei, e registrados no cartório do Registro de Títulos e Documentos, assim como sentenças proferidas por tribunais estrangeiros após homologação pelo Supremo Tribunal Federal; IV - cartas de sentença, formais de partilha, certidões e mandados extraídos de autos de processo. V - contratos ou termos administrativos, assinados com a União, Estados, Municípios ou o Distrito Federal, no âmbito de programas de regularização fundiária e de programas habitacionais de interesse social, dispensado o reconhecimento de firma. (Redação dada pela Lei nº 12.424, de 2011) VI - contratos ou termos administrativos, assinados com os legitimados a que se refere o art. 3º do Decreto-Lei nº 3.365, de 21 de junho de 1941 (Lei da Desapropriação), no âmbito das desapropriações extrajudiciais. (Incluído pela Lei nº 14.620, de 2023) § 1o Serão registrados os contratos e termos mencionados no inciso V do caput assinados a rogo com a impressão dactiloscópica do beneficiário, quando este for analfabeto ou não puder assinar, acompanhados da assinatura de 2 (duas) testemunhas. (Incluído pela Lei nº 12.424, de 2011) § 2o Os contratos ou termos administrativos mencionados no inciso V do caput poderão ser celebrados constando apenas o nome e o número de documento oficial do beneficiário, podendo sua qualificação completa ser efetuada posteriormente, no momento do registro do termo ou contrato, mediante simples requerimento do interessado dirigido ao registro de imóveis. (Incluído pela Lei nº 12.424, de 2011) 17/08/2026, 17:23 L6.015compilada https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm 47/60 § 3o Fica dispensada a apresentação dos títulos previstos nos incisos I a V do caput deste artigo quando se tratar de registro do projeto de regularização fundiária e da constituição de direito real, sendo o ente público promotor da regularização fundiária urbana responsável pelo fornecimento das informações necessárias ao registro, ficando dispensada a apresentação de título individualizado, nos termos da legislação específica. (Redação dada pela Lei nº 13.465, de 2017) § 4º Quando for requerida a prática de ato com base em título físico que tenha sido registrado, digitalizado ou armazenado, inclusive em outra serventia, será dispensada a reapresentação e bastará referência a ele ou a apresentação de certidão. (Incluído pela Lei nº 14.382, de 2022) § 5º Os escritos particulares a que se refere o inciso II do caput deste artigo, quando relativos a atos praticados por instituições financeiras que atuem com crédito imobiliário autorizadas a celebrar instrumentos particulares com caráter de escritura pública, dispensam as testemunhas e o reconhecimento de firma. (Incluído pela Lei nº 14.620, de 2023) § 6º Os contratos e termos administrativos mencionados no inciso VI deverão ser submetidos à qualificação registral pelo oficial do registro de imóveis, previamente ao pagamento do valor devido ao expropriado. (Incluído pela Lei nº 14.620, de 2023)",
+   "caput": "Art. 221 - Somente são admitidos registro: (Renumerado com nova redação pela Lei nº 6.216, de 1975).",
+   "partes": [
+    {
+     "rotulo": "I",
+     "texto": "I - escrituras públicas, inclusive as lavradas em consulados brasileiros;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II - escritos particulares autorizados em lei, assinados pelas partes e pelas testemunhas, com as firmas reconhecidas;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III - atos autênticos de países estrangeiros, com força de instrumento público, legalizados e traduzidos na forma da lei, e registrados no cartório do Registro de Títulos e Documentos, assim como sentenças proferidas por tribunais estrangeiros após homologação pelo Supremo Tribunal Federal;"
+    },
+    {
+     "rotulo": "IV",
+     "texto": "IV - cartas de sentença, formais de partilha, certidões e mandados extraídos de autos de processo."
+    },
+    {
+     "rotulo": "V",
+     "texto": "V - contratos ou termos administrativos, assinados com a União, Estados, Municípios ou o Distrito Federal, no âmbito de programas de regularização fundiária e de programas habitacionais de interesse social, dispensado o reconhecimento de firma."
+    },
+    {
+     "rotulo": "VI",
+     "texto": "VI - contratos ou termos administrativos, assinados com os legitimados a que se refere o art. 3º do Decreto-Lei nº 3.365, de 21 de junho de 1941 (Lei da Desapropriação), no âmbito das desapropriações extrajudiciais."
+    },
+    {
+     "rotulo": "§ 1o",
+     "texto": "§ 1o Serão registrados os contratos e termos mencionados no inciso V do caput assinados a rogo com a impressão dactiloscópica do beneficiário, quando este for analfabeto ou não puder assinar, acompanhados da assinatura de 2 (duas) testemunhas."
+    },
+    {
+     "rotulo": "§ 2o",
+     "texto": "§ 2o Os contratos ou termos administrativos mencionados no inciso V do caput poderão ser celebrados constando apenas o nome e o número de documento oficial do beneficiário, podendo sua qualificação completa ser efetuada posteriormente, no momento do registro do termo ou contrato, mediante simples requerimento do interessado dirigido ao registro de imóveis. 17/08/2026, 17:23 L6.015compilada https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm 47/60 § 3o Fica dispensada a apresentação dos títulos previstos nos incisos I a V do caput deste artigo quando se tratar de registro do projeto de regularização fundiária e da constituição de direito real, sendo o ente público promotor da regularização fundiária urbana responsável pelo fornecimento das informações necessárias ao registro, ficando dispensada a apresentação de título individualizado, nos termos da legislação específica."
+    },
+    {
+     "rotulo": "§ 4º",
+     "texto": "§ 4º Quando for requerida a prática de ato com base em título físico que tenha sido registrado, digitalizado ou armazenado, inclusive em outra serventia, será dispensada a reapresentação e bastará referência a ele ou a apresentação de certidão."
+    },
+    {
+     "rotulo": "§ 5º",
+     "texto": "§ 5º Os escritos particulares a que se refere o inciso II do caput deste artigo, quando relativos a atos praticados por instituições financeiras que atuem com crédito imobiliário autorizadas a celebrar instrumentos particulares com caráter de escritura pública, dispensam as testemunhas e o reconhecimento de firma."
+    },
+    {
+     "rotulo": "§ 6º",
+     "texto": "§ 6º Os contratos e termos administrativos mencionados no inciso VI deverão ser submetidos à qualificação registral pelo oficial do registro de imóveis, previamente ao pagamento do valor devido ao expropriado."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CTE-GO",
+   "artigo": "Art. 88-C",
+   "texto": "Art. 88-C. Somente com a comprovação do pagamento integral do imposto ou da concessão do parcelamento ou de sua desoneração: I - os tabeliães podem formalizar as escrituras públicas de inventário, doação e dissolução consensual de sociedade conjugal ou união estável; II - os oficiais de registro podem efetuar o registro de imóveis constantes de sentença de inventário, de dissolução de sociedade conjugal ou união estável, do legado ou de instrumento público ou particular de doação; III - a Junta Comercial do Estado de Goiás - JUCEG pode promover o registro ou o arquivamento de qualquer ato relativo à constituição, alteração, dissolução e extinção de pessoa jurídica e de empresário, assim definido na Lei federal nº 10.406, de 10 de janeiro de 2002, que implique transmissão não onerosa de bens ou direitos; e IV - o Departamento Estadual de Trânsito de Goiás - DETRAN pode efetivar a transferência de propriedade de veículos automotores nas transmissões causa mortis. Parágrafo único. Sem prejuízo da exigência contida no caput, o documento judicial ou extrajudicial que fundamentar o valor atribuído à base de cálculo do ITCD ou a sua dispensa deve acompanhar a respectiva: I - sentença, nos processos judiciais de inventário ou arrolamento, dissolução de sociedade conjugal ou união estável; 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos: https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm 127/148 II - escritura pública, nos inventários e nas dissoluções de sociedade conjugal ou união estável extrajudiciais; ou III - escritura pública ou escrito particular, na transmissão por doação.",
+   "caput": "Art. 88-C. Somente com a comprovação do pagamento integral do imposto ou da concessão do parcelamento ou de sua desoneração:",
+   "partes": [
+    {
+     "rotulo": "I",
+     "texto": "I - os tabeliães podem formalizar as escrituras públicas de inventário, doação e dissolução consensual de sociedade conjugal ou união estável;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II - os oficiais de registro podem efetuar o registro de imóveis constantes de sentença de inventário, de dissolução de sociedade conjugal ou união estável, do legado ou de instrumento público ou particular de doação;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III - a Junta Comercial do Estado de Goiás - JUCEG pode promover o registro ou o arquivamento de qualquer ato relativo à constituição, alteração, dissolução e extinção de pessoa jurídica e de empresário, assim definido na Lei federal nº 10.406, de 10 de janeiro de 2002, que implique transmissão não onerosa de bens ou direitos; e IV - o Departamento Estadual de Trânsito de Goiás - DETRAN pode efetivar a transferência de propriedade de veículos automotores nas transmissões causa mortis."
+    },
+    {
+     "rotulo": "Parágrafo único",
+     "texto": "Parágrafo único. Sem prejuízo da exigência contida no caput, o documento judicial ou extrajudicial que fundamentar o valor atribuído à base de cálculo do ITCD ou a sua dispensa deve acompanhar a respectiva:"
+    },
+    {
+     "rotulo": "I (2)",
+     "texto": "I - sentença, nos processos judiciais de inventário ou arrolamento, dissolução de sociedade conjugal ou união estável; 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos: https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm 127/148 II - escritura pública, nos inventários e nas dissoluções de sociedade conjugal ou união estável extrajudiciais; ou III - escritura pública ou escrito particular, na transmissão por doação."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 476",
+   "texto": "Art. 476. O reconhecimento de firma, por autenticidade ou semelhança, declarará tão somente a autoria da assinatura lançada, não conferindo legalidade ao documento. §1º. Por autenticidade é o reconhecimento com a declaração expressa de que a firma foi aposta na presença do tabelião de notas ou preposto autorizado, identificado-se o signatário por meio de documento. §2º. Por semelhança é o reconhecimento decorrente do confronto da assinatura apresentada pela parte no documento com a ficha padrão depositada na serventia ou, ainda, com qualquer outro documento constante do seu arquivo se, entre elas, houver similitude. 234",
+   "caput": "Art. 476. O reconhecimento de firma, por autenticidade ou semelhança, declarará tão somente a autoria da assinatura lançada, não conferindo legalidade ao documento.",
+   "partes": [
+    {
+     "rotulo": "§1º",
+     "texto": "§1º. Por autenticidade é o reconhecimento com a declaração expressa de que a firma foi aposta na presença do tabelião de notas ou preposto autorizado, identificado-se o signatário por meio de documento."
+    },
+    {
+     "rotulo": "§2º",
+     "texto": "§2º. Por semelhança é o reconhecimento decorrente do confronto da assinatura apresentada pela parte no documento com a ficha padrão depositada na serventia ou, ainda, com qualquer outro documento constante do seu arquivo se, entre elas, houver similitude."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 917",
+   "texto": "Art. 917. As averbações serão feitas a requerimento dos interessados, com firma reconhecida, instruídas com documento comprobatório fornecido pela autoridade competente.",
+   "caput": "Art. 917. As averbações serão feitas a requerimento dos interessados, com firma reconhecida, instruídas com documento comprobatório fornecido pela autoridade competente.",
+   "partes": [],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 810",
+   "texto": "Art. 810. Cabe ao oficial de registro de imóveis exigir prova de quitação do imposto municipal de transmissão onerosa de bens imóveis – ITBI ou reconhecimento administrativo de não incidência, imunidade ou concessão de isenção pela autoridade fazendária municipal. §1º. Será exigida prova de quitação do ITBI ou reconhecimento administrativo de não incidência, imunidade ou concessão de isenção no caso de cancelamento de atos que importem transmissão, quando as partes resolverem a retratação do contrato que já houver sido registrado, bem assim quando o vendedor exercer o direito de preferência. § 2º. Comprova-se a quitação mediante apresentação de documento de avaliação e do comprovante de pagamento do ITBI. § 3º. Além de descrever o imóvel, o documento de arrecadação municipal deverá mencionar o título de transmissão levado a registro e os nomes dos transmitentes e adquirentes.",
+   "caput": "Art. 810. Cabe ao oficial de registro de imóveis exigir prova de quitação do imposto municipal de transmissão onerosa de bens imóveis – ITBI ou reconhecimento administrativo de não incidência, imunidade ou concessão de isenção pela autoridade fazendária municipal.",
+   "partes": [
+    {
+     "rotulo": "§1º",
+     "texto": "§1º. Será exigida prova de quitação do ITBI ou reconhecimento administrativo de não incidência, imunidade ou concessão de isenção no caso de cancelamento de atos que importem transmissão, quando as partes resolverem a retratação do contrato que já houver sido registrado, bem assim quando o vendedor exercer o direito de preferência."
+    },
+    {
+     "rotulo": "§ 2º",
+     "texto": "§ 2º. Comprova-se a quitação mediante apresentação de documento de avaliação e do comprovante de pagamento do ITBI."
+    },
+    {
+     "rotulo": "§ 3º",
+     "texto": "§ 3º. Além de descrever o imóvel, o documento de arrecadação municipal deverá mencionar o título de transmissão levado a registro e os nomes dos transmitentes e adquirentes."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "L9393",
+   "artigo": "Art. 21",
+   "texto": "Art. 21. É obrigatória a comprovação do pagamento do ITR, referente aos cinco últimos exercícios, para serem praticados quaisquer dos atos previstos nos arts. 167 e 168 da Lei nº 6.015, de 31 de dezembro de 1973 (Lei dos Registros Públicos), observada a ressalva prevista no caput do artigo anterior, in fine. Parágrafo único. São solidariamente responsáveis pelo imposto e pelos acréscimos legais, nos termos do art. 134 da Lei nº 5.172, de 25 de outubro de 1966 - Sistema Tributário Nacional, os serventuários do registro de imóveis que descumprirem o disposto neste artigo, sem prejuízo de outras sanções legais. Depósito Judicial na Desapropriação",
+   "caput": "Art. 21. É obrigatória a comprovação do pagamento do ITR, referente aos cinco últimos exercícios, para serem praticados quaisquer dos atos previstos nos arts. 167 e 168 da Lei nº 6.015, de 31 de dezembro de 1973 (Lei dos Registros Públicos), observada a ressalva prevista no caput do artigo anterior, in fine.",
+   "partes": [
+    {
+     "rotulo": "Parágrafo único",
+     "texto": "Parágrafo único. São solidariamente responsáveis pelo imposto e pelos acréscimos legais, nos termos do art. 134 da Lei nº 5.172, de 25 de outubro de 1966 - Sistema Tributário Nacional, os serventuários do registro de imóveis que descumprirem o disposto neste artigo, sem prejuízo de outras sanções legais. Depósito Judicial na Desapropriação"
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 914",
+   "texto": "Art. 914 . Para fins de registro ou averbação, não constando da matrícula ou transcrição a qualificação completa, atual e correta das partes e do imóvel, deve o oficial de registro exigir a prévia inserção, atualização ou retificação de dados, fazendo a averbação correspondente. §1º. Ainda que ausentes alguns elementos de especialidade objetiva ou subjetiva, mas desde que haja segurança quanto à identificação e localização do imóvel, a critério do oficial, a matrícula poderá ser aberta com lançamento de averbação, ex officio, de notícia nos seguintes termos: “Para a prática de atos voluntários relativos à transmissão ou constituição de direitos que tenham por objeto o imóvel desta matrícula, o interessado deverá suprir omissões e imperfeições de natureza subjetiva e objetiva, nos termos do art. 213 da Lei nº 6.015/1973”. §2º. Os elementos de especialidade objetiva ou subjetiva que não alterarem elementos essenciais do ato ou negócio jurídico praticado, quando não constantes do título ou do acervo registral, poderão ser complementados por documento oficial ou, em se tratando de manifestação de vontade, por declaração expressa do proprietário ou do legitimado, sob sua responsabilidade.",
+   "caput": "Art. 914 . Para fins de registro ou averbação, não constando da matrícula ou transcrição a qualificação completa, atual e correta das partes e do imóvel, deve o oficial de registro exigir a prévia inserção, atualização ou retificação de dados, fazendo a averbação correspondente.",
+   "partes": [
+    {
+     "rotulo": "§1º",
+     "texto": "§1º. Ainda que ausentes alguns elementos de especialidade objetiva ou subjetiva, mas desde que haja segurança quanto à identificação e localização do imóvel, a critério do oficial, a matrícula poderá ser aberta com lançamento de averbação, ex officio, de notícia nos seguintes termos: “Para a prática de atos voluntários relativos à transmissão ou constituição de direitos que tenham por objeto o imóvel desta matrícula, o interessado deverá suprir omissões e imperfeições de natureza subjetiva e objetiva, nos termos do art. 213 da Lei nº 6.015/1973”."
+    },
+    {
+     "rotulo": "§2º",
+     "texto": "§2º. Os elementos de especialidade objetiva ou subjetiva que não alterarem elementos essenciais do ato ou negócio jurídico praticado, quando não constantes do título ou do acervo registral, poderão ser complementados por documento oficial ou, em se tratando de manifestação de vontade, por declaração expressa do proprietário ou do legitimado, sob sua responsabilidade."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 913",
+   "texto": "Art. 913. A certidão do registro civil das pessoas naturais apresentada para fins de averbação deverá ter antecedência máxima de expedição de 90 (noventa) dias, contados da data da formalização do título, exceto a certidão de óbito e a que instruir título judicial, caso em que poderão ser utilizadas para as necessárias averbações independentemente de sua data de expedição.",
+   "caput": "Art. 913. A certidão do registro civil das pessoas naturais apresentada para fins de averbação deverá ter antecedência máxima de expedição de 90 (noventa) dias, contados da data da formalização do título, exceto a certidão de óbito e a que instruir título judicial, caso em que poderão ser utilizadas para as necessárias averbações independentemente de sua data de expedição.",
+   "partes": [],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 926",
+   "texto": "Art. 926. O cancelamento de hipoteca só poderá ser feito: I – à vista de autorização expressa ou quitação outorgada pelo credor ou seu sucessor, em instrumento público ou particular; II – em razão de procedimento administrativo ou contencioso, no qual o credor tenha sido intimado; III – na conformidade da legislação referente às cédulas hipotecárias; IV – mediante requerimento do interessado em razão da sua perempção.",
+   "caput": "Art. 926. O cancelamento de hipoteca só poderá ser feito: I – à vista de autorização expressa ou quitação outorgada pelo credor ou seu sucessor, em instrumento público ou particular;",
+   "partes": [
+    {
+     "rotulo": "II",
+     "texto": "II – em razão de procedimento administrativo ou contencioso, no qual o credor tenha sido intimado;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III – na conformidade da legislação referente às cédulas hipotecárias;"
+    },
+    {
+     "rotulo": "IV",
+     "texto": "IV – mediante requerimento do interessado em razão da sua perempção."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "LRP",
+   "artigo": "Art. 251",
+   "texto": "Art. 251 - O cancelamento de hipoteca só pode ser feito: (Renumerado do art. 254 com nova redação pela Lei nº 6.216, de 1975) I - à vista de autorização expressa ou quitação outorgada pelo credor ou seu sucessor, em instrumento público ou particular; II - em razão de procedimento administrativo ou contencioso, no qual o credor tenha sido intimado (art. 698 do Código de Processo Civil); III - na conformidade da legislação referente às cédulas hipotecárias.",
+   "caput": "Art. 251 - O cancelamento de hipoteca só pode ser feito: I - à vista de autorização expressa ou quitação outorgada pelo credor ou seu sucessor, em instrumento público ou particular;",
+   "partes": [
+    {
+     "rotulo": "II",
+     "texto": "II - em razão de procedimento administrativo ou contencioso, no qual o credor tenha sido intimado (art. 698 do Código de Processo Civil);"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III - na conformidade da legislação referente às cédulas hipotecárias."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 875",
+   "texto": "Art. 875. O pacto antenupcial e o instrumento público ou particular que regular o regime de bens na união estável será registrado no registro de imóveis da circunscrição em que os cônjuges ou companheiros tenham domicílio, sem prejuízo de sua averbação 383 obrigatória no lugar da situação do imóvel próprio, ou a ser adquirido, do casal ou companheiros, com a declaração das respectivas cláusulas para ciência de terceiros.",
+   "caput": "Art. 875. O pacto antenupcial e o instrumento público ou particular que regular o regime de bens na união estável será registrado no registro de imóveis da circunscrição em que os cônjuges ou companheiros tenham domicílio, sem prejuízo de sua averbação 383 obrigatória no lugar da situação do imóvel próprio, ou a ser adquirido, do casal ou companheiros, com a declaração das respectivas cláusulas para ciência de terceiros.",
+   "partes": [],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 876",
+   "texto": "Art. 876. O registro do pacto antenupcial ou do instrumento público ou particular envolvendo regime de bens na união estável mencionará, obrigatoriamente: I – os nomes e a qualificação dos cônjuges ou companheiros; II – as disposições ajustadas quanto ao regime de bens; III – a data em que se realizou o casamento ou lavrado o instrumento. §1º. Será exigida a certidão de casamento para o registro do pacto antenupcial, devendo ainda constar, deste assento, o cartório, o livro, a folha e o número do registro do casamento. §2º. Para o registro, será apresentada a escritura pública de pacto antenupcial (traslado ou certidão), não se admitindo cópia, ainda que autenticada. §3º. Para averbação, será apresentada certidão do registro no Livro nº 3 do cartório do domicílio conjugal, acompanhado do traslado, no original ou cópia autenticada.",
+   "caput": "Art. 876. O registro do pacto antenupcial ou do instrumento público ou particular envolvendo regime de bens na união estável mencionará, obrigatoriamente:",
+   "partes": [
+    {
+     "rotulo": "I",
+     "texto": "I – os nomes e a qualificação dos cônjuges ou companheiros;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II – as disposições ajustadas quanto ao regime de bens;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III – a data em que se realizou o casamento ou lavrado o instrumento."
+    },
+    {
+     "rotulo": "§1º",
+     "texto": "§1º. Será exigida a certidão de casamento para o registro do pacto antenupcial, devendo ainda constar, deste assento, o cartório, o livro, a folha e o número do registro do casamento."
+    },
+    {
+     "rotulo": "§2º",
+     "texto": "§2º. Para o registro, será apresentada a escritura pública de pacto antenupcial (traslado ou certidão), não se admitindo cópia, ainda que autenticada."
+    },
+    {
+     "rotulo": "§3º",
+     "texto": "§3º. Para averbação, será apresentada certidão do registro no Livro nº 3 do cartório do domicílio conjugal, acompanhado do traslado, no original ou cópia autenticada."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 452",
+   "texto": "Art. 452. O mandato poderá conter poderes especiais, para a prática de negócios jurídicos específicos e determinados, ou poderes gerais, que autorizem a prática de todos os atos de representação do outorgante. §1º. O mandato em termos gerais só conferirá ao procurador outorgado poderes de administração. §2º. Para fins de alienar, dispor, transferir domínio, direito e ação, hipotecar, gravar ou praticar quaisquer outros atos que exorbitem da administração ordinária, a procuração dependerá de poderes especiais, com expressa menção e referência aos bens móveis e imóveis que poderão ser alienados ou gravados pelo mandatário.",
+   "caput": "Art. 452. O mandato poderá conter poderes especiais, para a prática de negócios jurídicos específicos e determinados, ou poderes gerais, que autorizem a prática de todos os atos de representação do outorgante.",
+   "partes": [
+    {
+     "rotulo": "§1º",
+     "texto": "§1º. O mandato em termos gerais só conferirá ao procurador outorgado poderes de administração."
+    },
+    {
+     "rotulo": "§2º",
+     "texto": "§2º. Para fins de alienar, dispor, transferir domínio, direito e ação, hipotecar, gravar ou praticar quaisquer outros atos que exorbitem da administração ordinária, a procuração dependerá de poderes especiais, com expressa menção e referência aos bens móveis e imóveis que poderão ser alienados ou gravados pelo mandatário."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CTE-GO",
+   "artigo": "Art. 77",
+   "texto": "Art. 77. A base de cálculo do ITCD é o valor de mercado do bem ou do direito transmitido por causa mortis ou por doação, expresso em moeda nacional na data da declaração. Notas: 1.Por força da Lei nº 19.871, no período de 25.10.17 à 24.10.18, fica reduzida para 70% (setenta por cento) a base de cálculo do Imposto sobre a Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos -ITCD-, na hipótese de transmissão de quaisquer bens ou direitos por doação; 2.Por força das Leis nºs 22.221 e 23.594, no ano de 2023 e no período de 26.08.25 a 31.12.25, respectivamente, fica reduzida para 30% (trinta por cento) a base de cálculo do Imposto sobre Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos - ITCD, na hipótese de transmissão por doação de imóveis situados no Polo Empresarial Goiás, criado pela Lei nº 1.624, de 13 de junho de 1997, do Município de Aparecida de Goiânia/GO, desde que o pagamento integral do imposto seja efetuado durante o prazo de produção de efeitos desta Lei. § 1º O valor venal será apurado mediante avaliação judicial ou avaliação procedida pela Fazenda Pública Estadual e expresso em moeda nacional. (Redação conferida pela Lei nº 13.772 - vigência: 01.01.01 a 02.08.13.) § 1º O valor de mercado é apurado mediante avaliação judicial ou avaliação procedida pela Fazenda Pública Estadual e expresso em moeda nacional na data da declaração ou da avaliação. (Redação conferida pela Lei nº 18.002 - vigência: 03.08.13) Nota: Redação com vigência de 03.08.13 a 12.02.22 CONFERIDA NOVA REDAÇÃO E ACRESCIDO OS INCISOS II E II AO § 1º DO ART. 77 PELO ART. 1º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 1º O valor de mercado para a base de cálculo do imposto deve ser apurado mediante avaliação administrativa nas seguintes hipóteses: 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos: https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm 115/148 Nota: Redação com vigência de 13.02.22 a 07.05.23 I - quando o sujeito passivo for omisso quanto à entrega da declaração ou quando nela não constar o valor de mercado ou, ainda, quando o valor declarado não corresponder ao valor de mercado ou não atender o disposto no art. 77-B; ou II - quando não merecerem fé as informações prestadas pelo sujeito passivo. Nota: Redação com vigência de 13.02.22 a 07.05.23 REVOGADO O § 1º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 1º revogado; § 2º A base de cálculo do imposto, nas seguintes situações, corresponde a 50% (cinqüenta por cento) do valor de avaliação do bem imóvel: (Redação conferida pela Lei nº 13.772 - vigência: 01.01.01 a 02.08.13.) I - transmissão não onerosa, com reserva ao transmitente de direito real; (Redação conferida pela Lei nº 13.772 - vigência: 01.01.01 a 02.08.13.) II - extinção do usufruto, com a consolidação da propriedade na pessoa do nu proprietário; (Redação conferida pela Lei nº 13.772 - vigência: 01.01.01 a 02.08.13.) III - transmissão de direito real de usufruto, uso, habitação ou renda expressamente constituída, quando o período de duração do direito real for igual ou superior a 5 (cinco) anos, calculando-se proporcionalmente esse valor quando essa duração foi inferior. (Redação conferida pela Lei nº 13.772 - vigência: 01.01.01 a 02.08.13.) § 2º A base de cálculo do ITCD deve ser submetida à homologação, considerando-se homologada com a aprovação, pela Fazenda Pública Estadual, do valor de mercado do bem ou direito transmitido. (Redação conferida pela Lei nº 18.002 - vigência: 03.08.13) Nota: Redação com vigência de 03.08.13 a 12.02.22 REVOGADO O § 2º DO ART. 77 PELO ART. 2º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 2º Revogado; § 3º Havendo discordância quanto ao valor da avaliação para fim de base de cálculo o sujeito passivo pode apresentar reclamação ao órgão competente. (Redação conferida pela Lei nº 13.772 - vigência: 01.01.01.) Nota: Redação com vigência de 01.01.01 a 07.05.23 REVOGADO O § 3º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 3º revogado; § 4º Devem ser deduzidos da base de cálculo do ITCD o passivo patrimonial formado, em relação a bem, título, crédito ou direito, até a abertura da sucessão e as dívidas do espólio previstas no art. 1.569 do Código Civil. (Redação acrescida pela Lei nº 14.065 - vigência: 26.12.01 a 13.12.07.) § 4º Devem ser deduzidos da base de cálculo do ITCD o passivo patrimonial formado, em relação a bem, título, crédito ou direito, até a abertura da sucessão e as dívidas do espólio previstas no art. 965 do Código Civil. (Redação conferida pela Lei nº 16.169 - vigência: 14.12.07.) § 4º Na falta da entrega da Declaração do ITCD Doação no prazo legal e não havendo elementos para avaliar bens e direitos na data do fato gerador, a Fazenda Pública Estadual pode realizar avaliação e mediante método de ajuste de valor, encontrar a base de cálculo naquela data. (Redação conferida pela Lei nº 18.002 - vigência: 03.08.13) Nota: Redação com vigência de 03.08.13 a 07.05.23 REVOGADO O § 4º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 4º revogado; § 5º Havendo discordância por parte da Administração Tributária quanto ao valor atribuído aos bens e direitos pelo sujeito passivo, cabe à Fazenda Pública Estadual realizar avaliação e sendo constatada diferença positiva entre o valor da avaliação e o valor atribuído, deve efetuar o lançamento do valor relativo à diferença verificada. (Redação acrescida pela Lei nº 18.002 - vigência: 03.08.13) Nota: Redação com vigência de 03.08.13 a 12.02.22 REVOGADO O § 5º DO ART. 77 PELO ART. 2º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 5º Revogado; ACRESCIDO O § 6º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 6º No caso de imóvel e suas respectivas benfeitorias, o valor da base de cálculo não pode ser inferior: I - à base de cálculo utilizada pela Prefeitura Municipal para o cálculo do Imposto sobre a Transmissão de Bens Imóveis - ITBI ou do Imposto Predial e Territorial Urbano - IPTU e do Imposto Territorial Urbano - ITU, o que for maior, em caso de imóvel urbano ou de direito relativo a ele; e II - ao valor total declarado pelo próprio contribuinte para o lançamento do Imposto sobre a Propriedade Territorial Rural - ITR, em caso de imóvel rural ou de direito relativo a ele. ACRESCIDO O § 7º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 7º Devem ser deduzidas da base de cálculo do ITCD, até a abertura da sucessão as dívidas do espólio. ACRESCIDO O § 8º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos: https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm 116/148 § 8º A base de cálculo do imposto não pode ser inferior aos valores constantes do formal de partilha e da escritura pública. ACRESCIDO O § 9º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 9º O valor de mercado, para a determinação da base de cálculo do ITCD, pode ser estabelecido por meio dos valores referenciais: I - constantes do cadastro de imóveis urbanos e rurais adotado pela Administração Tributária; e II - utilizados para a fixação da base de cálculo do ICMS ou do IPVA. ACRESCIDO O § 10 AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 10. A Fazenda Pública Estadual pode definir como base de cálculo o valor médio de mercado divulgado em tabela elaborada por órgão de reconhecida idoneidade indicado em regulamento. ACRESCIDO O ART. 77-A PELO ART. 1º DA LEI Nº 15.505, DE 29.12.05 - VIGÊNCIA: 29.12.05.",
+   "caput": "Art. 77. A base de cálculo do ITCD é o valor de mercado do bem ou do direito transmitido por causa mortis ou por doação, expresso em moeda nacional na data da declaração. Notas: 1.Por força da Lei nº 19.871, no período de 25.10.17 à 24.10.18, fica reduzida para 70% (setenta por cento) a base de cálculo do Imposto sobre a Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos -ITCD-, na hipótese de transmissão de quaisquer bens ou direitos por doação; 2.Por força das Leis nºs 22.221 e 23.594, no ano de 2023 e no período de 26.08.25 a 31.12.25, respectivamente, fica reduzida para 30% (trinta por cento) a base de cálculo do Imposto sobre Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos - ITCD, na hipótese de transmissão por doação de imóveis situados no Polo Empresarial Goiás, criado pela Lei nº 1.624, de 13 de junho de 1997, do Município de Aparecida de Goiânia/GO, desde que o pagamento integral do imposto seja efetuado durante o prazo de produção de efeitos desta Lei.",
+   "partes": [
+    {
+     "rotulo": "§ 1º",
+     "texto": "§ 1º O valor venal será apurado mediante avaliação judicial ou avaliação procedida pela Fazenda Pública Estadual e expresso em moeda nacional."
+    },
+    {
+     "rotulo": "§ 1º (2)",
+     "texto": "§ 1º O valor de mercado é apurado mediante avaliação judicial ou avaliação procedida pela Fazenda Pública Estadual e expresso em moeda nacional na data da declaração ou da avaliação.de 03.08.13 a 12.02.22 CONFERIDA NOVA REDAÇÃO E ACRESCIDO OS INCISOS II E II AO § 1º DO ART. 77 PELO ART. 1º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 1º O valor de mercado para a base de cálculo do imposto deve ser apurado mediante avaliação administrativa nas seguintes hipóteses: 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos: https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm 115/148de 13.02.22 a 07.05.23 I - quando o sujeito passivo for omisso quanto à entrega da declaração ou quando nela não constar o valor de mercado ou, ainda, quando o valor declarado não corresponder ao valor de mercado ou não atender o disposto no art. 77-B; ou II - quando não merecerem fé as informações prestadas pelo sujeito passivo.de 13.02.22 a 07.05.23 REVOGADO O § 1º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 1º revogado;"
+    },
+    {
+     "rotulo": "§ 2º",
+     "texto": "§ 2º A base de cálculo do imposto, nas seguintes situações, corresponde a 50% (cinqüenta por cento) do valor de avaliação do bem imóvel:"
+    },
+    {
+     "rotulo": "I",
+     "texto": "I - transmissão não onerosa, com reserva ao transmitente de direito real;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II - extinção do usufruto, com a consolidação da propriedade na pessoa do nu proprietário;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III - transmissão de direito real de usufruto, uso, habitação ou renda expressamente constituída, quando o período de duração do direito real for igual ou superior a 5 (cinco) anos, calculando-se proporcionalmente esse valor quando essa duração foi inferior."
+    },
+    {
+     "rotulo": "§ 2º (2)",
+     "texto": "§ 2º A base de cálculo do ITCD deve ser submetida à homologação, considerando-se homologada com a aprovação, pela Fazenda Pública Estadual, do valor de mercado do bem ou direito transmitido.de 03.08.13 a 12.02.22 REVOGADO O § 2º DO ART. 77 PELO ART. 2º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 2º Revogado;"
+    },
+    {
+     "rotulo": "§ 3º",
+     "texto": "§ 3º Havendo discordância quanto ao valor da avaliação para fim de base de cálculo o sujeito passivo pode apresentar reclamação ao órgão competente.de 01.01.01 a 07.05.23 REVOGADO O § 3º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 3º revogado;"
+    },
+    {
+     "rotulo": "§ 4º",
+     "texto": "§ 4º Devem ser deduzidos da base de cálculo do ITCD o passivo patrimonial formado, em relação a bem, título, crédito ou direito, até a abertura da sucessão e as dívidas do espólio previstas no art. 1.569 do Código Civil."
+    },
+    {
+     "rotulo": "§ 4º (2)",
+     "texto": "§ 4º Devem ser deduzidos da base de cálculo do ITCD o passivo patrimonial formado, em relação a bem, título, crédito ou direito, até a abertura da sucessão e as dívidas do espólio previstas no art. 965 do Código Civil."
+    },
+    {
+     "rotulo": "§ 4º (3)",
+     "texto": "§ 4º Na falta da entrega da Declaração do ITCD Doação no prazo legal e não havendo elementos para avaliar bens e direitos na data do fato gerador, a Fazenda Pública Estadual pode realizar avaliação e mediante método de ajuste de valor, encontrar a base de cálculo naquela data.de 03.08.13 a 07.05.23 REVOGADO O § 4º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 4º revogado;"
+    },
+    {
+     "rotulo": "§ 5º",
+     "texto": "§ 5º Havendo discordância por parte da Administração Tributária quanto ao valor atribuído aos bens e direitos pelo sujeito passivo, cabe à Fazenda Pública Estadual realizar avaliação e sendo constatada diferença positiva entre o valor da avaliação e o valor atribuído, deve efetuar o lançamento do valor relativo à diferença verificada.de 03.08.13 a 12.02.22 REVOGADO O § 5º DO ART. 77 PELO ART. 2º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 5º Revogado; ACRESCIDO O § 6º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 6º No caso de imóvel e suas respectivas benfeitorias, o valor da base de cálculo não pode ser inferior:"
+    },
+    {
+     "rotulo": "I (2)",
+     "texto": "I - à base de cálculo utilizada pela Prefeitura Municipal para o cálculo do Imposto sobre a Transmissão de Bens Imóveis - ITBI ou do Imposto Predial e Territorial Urbano - IPTU e do Imposto Territorial Urbano - ITU, o que for maior, em caso de imóvel urbano ou de direito relativo a ele; e II - ao valor total declarado pelo próprio contribuinte para o lançamento do Imposto sobre a Propriedade Territorial Rural - ITR, em caso de imóvel rural ou de direito relativo a ele. ACRESCIDO O § 7º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 7º Devem ser deduzidas da base de cálculo do ITCD, até a abertura da sucessão as dívidas do espólio. ACRESCIDO O § 8º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos: https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm 116/148 § 8º A base de cálculo do imposto não pode ser inferior aos valores constantes do formal de partilha e da escritura pública. ACRESCIDO O § 9º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 9º O valor de mercado, para a determinação da base de cálculo do ITCD, pode ser estabelecido por meio dos valores referenciais:"
+    },
+    {
+     "rotulo": "I (3)",
+     "texto": "I - constantes do cadastro de imóveis urbanos e rurais adotado pela Administração Tributária; e II - utilizados para a fixação da base de cálculo do ICMS ou do IPVA. ACRESCIDO O § 10 AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 10. A Fazenda Pública Estadual pode definir como base de cálculo o valor médio de mercado divulgado em tabela elaborada por órgão de reconhecida idoneidade indicado em regulamento. ACRESCIDO O ART. 77-A PELO ART. 1º DA LEI Nº 15.505, DE 29.12.05 - VIGÊNCIA: 29.12.05."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "L19191",
+   "artigo": "Art. 4",
+   "texto": "Art. 4º Para fins de enquadramento nas tabelas, relativamente aos atos classificados na alínea “b” do inciso III do parágrafo único do art. 1º desta Lei, serão considerados como parâmetros os seguintes valores, prevalecendo o que for maior: I - preço ou valor econômico da transação ou do negócio jurídico declarado pelas partes; II - valor tributário do imóvel, estabelecido no último lançamento efetuado pela Prefeitura Municipal, para efeito de cobrança de imposto sobre a propriedade predial e territorial urbana, ou o valor da avaliação do imóvel rural aceito pelo órgão federal competente, considerando o valor da terra nua, as acessões e as benfeitorias; III - base de cálculo utilizada para o recolhimento do imposto estadual ou municipal de transmissão de bens imóveis. § 1º Nos casos em que, por força de lei, devam ser utilizados valores decorrentes de avaliação judicial ou fiscal, estes serão os valores considerados para os fins do disposto neste artigo. § 2º A modificação do valor da avaliação, após a prática do ato notarial ou registral, não implicará modificação no valor dos emolumentos cobrados. § 3º Nos atos relativos à constituição de dívidas ou financiamentos, como a hipoteca, o penhor e a alienação fiduciária, a base de cálculo é o valor do contrato. § 4º Se o preço ou valor econômico do bem ou do negócio jurídico inicialmente declarado pelas partes, bem como os demais parâmetros previstos em lei, estiverem em flagrante dissonância com seu valor real ou de mercado, será previamente observado o seguinte: I - o tabelião ou oficial de registro, na qualidade de agente arrecadador de tributos, recomendará o usuário sobre a necessidade de declarar o valor real ou de mercado do bem ou negócio; II - sendo acolhida a recomendação, o ato será praticado com base no novo valor declarado, que constará do corpo do ato, não sendo devido o recolhimento complementar de imposto de competência estadual incidente sobre o negócio; III - não sendo acolhida a recomendação, poderá ser instaurado procedimento administrativo de arbitramento de valor, perante o diretor do foro, adotando-se o procedimento previsto para casos de dúvida do art. 198 da Lei nº 6.015, de 31 de dezembro de 1973, podendo o juiz, se necessário, determinar que a avaliação se faça por oficial de justiça, cujo custo será suportado pelo usuário, se vencido. § 5º A atualização da base de cálculo das tabelas será feita pelo mesmo índice utilizado pela Secretaria de Estado da Fazenda para correção dos valores constantes do Código Tributário Estadual, dos últimos 12 (doze) meses anteriores ao cálculo do reajuste, compreendendo o período entre o dia 1º de dezembro do ano anterior e o dia 30 de novembro do ano da divulgação do reajuste, descontado eventual reajuste já concedido referente ao mesmo ou 18/08/2026, 09:15 Lei Ordinária Nº 19.191/2015 - Casa Civil do Estado de Goiás https://legisla.casacivil.go.gov.br/pesquisa_legislacao/98371/lei-19191 2/11 parte do período. - Redação dada pela Lei nº 19.571, de 29-12-2016. § 5º A atualização da base de cálculo das tabelas será feita pelo mesmo índice utilizado pela Secretaria de Estado da Fazenda para correção dos valores constantes do Código Tributário Estadual, dos últimos 12(doze) meses anteriores ao cálculo do reajuste, compreendendo o período entre o dia 1º de dezembro do ano anterior e o dia 30 de novembro do ano da divulgação do reajuste, descontado eventual reajuste já concedido referente ao mesmo ou parte do período, sendo arredondadas, para mais, as frações superiores a R$0,50 (cinquenta centavos) e para menos, as iguais e as inferiores.",
+   "caput": "Art. 4º Para fins de enquadramento nas tabelas, relativamente aos atos classificados na alínea “b” do inciso III do parágrafo único do art. 1º desta Lei, serão considerados como parâmetros os seguintes valores, prevalecendo o que for maior:",
+   "partes": [
+    {
+     "rotulo": "I",
+     "texto": "I - preço ou valor econômico da transação ou do negócio jurídico declarado pelas partes;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II - valor tributário do imóvel, estabelecido no último lançamento efetuado pela Prefeitura Municipal, para efeito de cobrança de imposto sobre a propriedade predial e territorial urbana, ou o valor da avaliação do imóvel rural aceito pelo órgão federal competente, considerando o valor da terra nua, as acessões e as benfeitorias;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III - base de cálculo utilizada para o recolhimento do imposto estadual ou municipal de transmissão de bens imóveis."
+    },
+    {
+     "rotulo": "§ 1º",
+     "texto": "§ 1º Nos casos em que, por força de lei, devam ser utilizados valores decorrentes de avaliação judicial ou fiscal, estes serão os valores considerados para os fins do disposto neste artigo."
+    },
+    {
+     "rotulo": "§ 2º",
+     "texto": "§ 2º A modificação do valor da avaliação, após a prática do ato notarial ou registral, não implicará modificação no valor dos emolumentos cobrados."
+    },
+    {
+     "rotulo": "§ 3º",
+     "texto": "§ 3º Nos atos relativos à constituição de dívidas ou financiamentos, como a hipoteca, o penhor e a alienação fiduciária, a base de cálculo é o valor do contrato."
+    },
+    {
+     "rotulo": "§ 4º",
+     "texto": "§ 4º Se o preço ou valor econômico do bem ou do negócio jurídico inicialmente declarado pelas partes, bem como os demais parâmetros previstos em lei, estiverem em flagrante dissonância com seu valor real ou de mercado, será previamente observado o seguinte:"
+    },
+    {
+     "rotulo": "I (2)",
+     "texto": "I - o tabelião ou oficial de registro, na qualidade de agente arrecadador de tributos, recomendará o usuário sobre a necessidade de declarar o valor real ou de mercado do bem ou negócio;"
+    },
+    {
+     "rotulo": "II (2)",
+     "texto": "II - sendo acolhida a recomendação, o ato será praticado com base no novo valor declarado, que constará do corpo do ato, não sendo devido o recolhimento complementar de imposto de competência estadual incidente sobre o negócio;"
+    },
+    {
+     "rotulo": "III (2)",
+     "texto": "III - não sendo acolhida a recomendação, poderá ser instaurado procedimento administrativo de arbitramento de valor, perante o diretor do foro, adotando-se o procedimento previsto para casos de dúvida do art. 198 da Lei nº 6.015, de 31 de dezembro de 1973, podendo o juiz, se necessário, determinar que a avaliação se faça por oficial de justiça, cujo custo será suportado pelo usuário, se vencido."
+    },
+    {
+     "rotulo": "§ 5º",
+     "texto": "§ 5º A atualização da base de cálculo das tabelas será feita pelo mesmo índice utilizado pela Secretaria de Estado da Fazenda para correção dos valores constantes do Código Tributário Estadual, dos últimos 12 (doze) meses anteriores ao cálculo do reajuste, compreendendo o período entre o dia 1º de dezembro do ano anterior e o dia 30 de novembro do ano da divulgação do reajuste, descontado eventual reajuste já concedido referente ao mesmo ou 18/08/2026, 09:15 Lei Ordinária Nº 19.191/2015 - Casa Civil do Estado de Goiás https://legisla.casacivil.go.gov.br/pesquisa_legislacao/98371/lei-19191 2/11 parte do período. - Redação dada pela Lei nº 19.571, de 29-12-2016."
+    },
+    {
+     "rotulo": "§ 5º (2)",
+     "texto": "§ 5º A atualização da base de cálculo das tabelas será feita pelo mesmo índice utilizado pela Secretaria de Estado da Fazenda para correção dos valores constantes do Código Tributário Estadual, dos últimos 12(doze) meses anteriores ao cálculo do reajuste, compreendendo o período entre o dia 1º de dezembro do ano anterior e o dia 30 de novembro do ano da divulgação do reajuste, descontado eventual reajuste já concedido referente ao mesmo ou parte do período, sendo arredondadas, para mais, as frações superiores a R$0,50 (cinquenta centavos) e para menos, as iguais e as inferiores."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 109",
+   "texto": "Art. 109. As serventias extrajudiciais do Estado de Goiás adotarão o selo eletrônico fornecido por sistema próprio da Corregedoria-Geral da Justiça como forma de autenticidade de seus atos e de aferição dos repasses e tributos devidos. Parágrafo único. Todo ato praticado no foro extrajudicial vincula-se obrigatoriamente a um selo eletrônico específico, sendo o seu identificador único para efeitos fiscais e de autenticidade. 85",
+   "caput": "Art. 109. As serventias extrajudiciais do Estado de Goiás adotarão o selo eletrônico fornecido por sistema próprio da Corregedoria-Geral da Justiça como forma de autenticidade de seus atos e de aferição dos repasses e tributos devidos.",
+   "partes": [
+    {
+     "rotulo": "Parágrafo único",
+     "texto": "Parágrafo único. Todo ato praticado no foro extrajudicial vincula-se obrigatoriamente a um selo eletrônico específico, sendo o seu identificador único para efeitos fiscais e de autenticidade."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 109-A",
+   "texto": "Art. 109-A. O selo será requisitado na modalidade online pelo sistema de automação da serventia, por meio de integração via webservice. (Artigo acrescido pelo Provimento n° 191 de 28 de abril de 2026) § 1º. Cada selo possui identificador único, acrescido, quando implementado, dígito verificador, para efeitos fiscais, de autenticidade e de rastreabilidade. § 2º. Todo ato praticado pela serventia extrajudicial vincula-se obrigatoriamente a um selo específico, sendo vedada a prática de ato sem a regular utilização do selo correspondente. § 3º. A requisição de selo eletrônico conterá as seguintes informações obrigatórias: I — identificação do ato cartorial; II — valor dos emolumentos; III — valor da taxa judiciária; IV — valor dos fundos estaduais; V — alíquota do imposto municipal incidente e o valor recolhido; VI — nome do preposto responsável pelas informações inseridas; VII — nome do apresentante; VIII — o número de telefone celular do apresentante, se fornecido; IX — nome das partes envolvidas no ato; X — data e hora de obtenção do selo; e XI — código do selo pai, quando houver vinculação de selos. § 4º. Os selos que dependam de atos complementares manterão relação de vínculo entre si, caracterizada como ‘selo pai’ e ‘selo filho’,devendo o sistema apresentar todos os selos vinculados na consulta. § 5º. Considera-se selo pai aquele aplicável ao ato originário, de natureza principal, do qual podem decorrer atos subsequentes, e selo filho aquele de natureza complementar, relativo a ato derivado, que no caso de vinculação obrigatória ao selo pai, deve ser identificado no momento da sua requisição, para fins de correlação dos atos praticados. § 6º. O selo eletrônico será classificado em: I — utilizado: quando requisitado; II — cancelado: quando houver cancelamento sistêmico do selo, nos termos deste Código; e 86 III — suspeito: quando houver marcação determinada pelo Corregedor do Foro Extrajudicial em procedimento próprio. § 7º. É vedada a solicitação manual de selos, ressalvada a modalidade de selo avulso, assim entendido como aquele requisitado de forma excepcional, sem integração automática com o sistema de automação, exclusivamente para a prática de atos de registro de nascimento e óbito. § 8º. A utilização da modalidade de selo avulso deverá ser comunicada, via PROAD, à Corregedoria do Foro Extrajudicial.",
+   "caput": "Art. 109-A. O selo será requisitado na modalidade online pelo sistema de automação da serventia, por meio de integração via webservice.",
+   "partes": [
+    {
+     "rotulo": "§ 1º",
+     "texto": "§ 1º. Cada selo possui identificador único, acrescido, quando implementado, dígito verificador, para efeitos fiscais, de autenticidade e de rastreabilidade."
+    },
+    {
+     "rotulo": "§ 2º",
+     "texto": "§ 2º. Todo ato praticado pela serventia extrajudicial vincula-se obrigatoriamente a um selo específico, sendo vedada a prática de ato sem a regular utilização do selo correspondente."
+    },
+    {
+     "rotulo": "§ 3º",
+     "texto": "§ 3º. A requisição de selo eletrônico conterá as seguintes informações obrigatórias: I — identificação do ato cartorial; II — valor dos emolumentos; III — valor da taxa judiciária; IV — valor dos fundos estaduais; V — alíquota do imposto municipal incidente e o valor recolhido; VI — nome do preposto responsável pelas informações inseridas; VII — nome do apresentante; VIII — o número de telefone celular do apresentante, se fornecido; IX — nome das partes envolvidas no ato; X — data e hora de obtenção do selo; e XI — código do selo pai, quando houver vinculação de selos."
+    },
+    {
+     "rotulo": "§ 4º",
+     "texto": "§ 4º. Os selos que dependam de atos complementares manterão relação de vínculo entre si, caracterizada como ‘selo pai’ e ‘selo filho’,devendo o sistema apresentar todos os selos vinculados na consulta."
+    },
+    {
+     "rotulo": "§ 5º",
+     "texto": "§ 5º. Considera-se selo pai aquele aplicável ao ato originário, de natureza principal, do qual podem decorrer atos subsequentes, e selo filho aquele de natureza complementar, relativo a ato derivado, que no caso de vinculação obrigatória ao selo pai, deve ser identificado no momento da sua requisição, para fins de correlação dos atos praticados."
+    },
+    {
+     "rotulo": "§ 6º",
+     "texto": "§ 6º. O selo eletrônico será classificado em: I — utilizado: quando requisitado; II — cancelado: quando houver cancelamento sistêmico do selo, nos termos deste Código; e 86 III — suspeito: quando houver marcação determinada pelo Corregedor do Foro Extrajudicial em procedimento próprio."
+    },
+    {
+     "rotulo": "§ 7º",
+     "texto": "§ 7º. É vedada a solicitação manual de selos, ressalvada a modalidade de selo avulso, assim entendido como aquele requisitado de forma excepcional, sem integração automática com o sistema de automação, exclusivamente para a prática de atos de registro de nascimento e óbito."
+    },
+    {
+     "rotulo": "§ 8º",
+     "texto": "§ 8º. A utilização da modalidade de selo avulso deverá ser comunicada, via PROAD, à Corregedoria do Foro Extrajudicial."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNN-CNJ",
+   "artigo": "Art. 343-G",
+   "texto": "Art. 343 -G. Os profissionais técnicos habilitados lançarão diretamente no SIG -RI as coordenadas geodésicas dos imóveis objeto de retificação administrativa, loteamento, desmembramento, desdobro, destaque, unificação, fusão e qualquer outra forma de parcelamento do solo ou de regularização fundiária. (incluído pelo Provimento CN n. 195, de 3.6.2025) § 1.º. Somente os profissionais técnicos habilitados e que tenham efetuado seu credenciamento junto ao ONR poderão efetuar o lançamento de que trata o caput deste artigo. (incluído pelo Provimento CN n. 195, de 3.6.2025) § 2.º. Considera -se habilitado o profissional técnico vinculado ao respectivo conselho profissional, com competência para execução de serviços de georreferenciamento de imóveis urbanos ou rurais, na forma da legislação e do manual técnico do ONR (art. 320-O, § 1.º). (incluído pelo Provimento CN n. 195, de 3.6.2025) § 3.º. O credenciamento do profissional técnico habilitado perante o ONR dar -se-á na forma do manual técnico do ONR (art. 320 -O, § 1.º). (incluído pelo Provimento CN n. 195, de 3.6.2025) § 4.º. Compete ao profissional técnico habilitado verificar a autenticidade dos limites dos imóveis georreferenciados e analisar a existência de sobreposição ou lacunas entre áreas ou parcelas no SIG-RI, nos termos da lei. (incluído pelo Provimento CN n. 195, de 3.6.2025) § 5.º. Em relação aos imóveis rurais cujas poligonais estejam certificadas pelo INCRA, as coordenadas geodésicas deverão ser importadas ao SIG -RI diretamente do Sigef ou do sistema que vier a substituí -lo, opção que deverá ser disponibilizada ao profissional técnico habilitado na intranet da plataforma eletrônica do SIG -RI. (incluído pelo Provimento CN n. 195, de 3.6.2025)",
+   "caput": "Art. 343 -G. Os profissionais técnicos habilitados lançarão diretamente no SIG -RI as coordenadas geodésicas dos imóveis objeto de retificação administrativa, loteamento, desmembramento, desdobro, destaque, unificação, fusão e qualquer outra forma de parcelamento do solo ou de regularização fundiária.",
+   "partes": [
+    {
+     "rotulo": "§ 1",
+     "texto": "§ 1.º. Somente os profissionais técnicos habilitados e que tenham efetuado seu credenciamento junto ao ONR poderão efetuar o lançamento de que trata o caput deste artigo."
+    },
+    {
+     "rotulo": "§ 2",
+     "texto": "§ 2.º. Considera -se habilitado o profissional técnico vinculado ao respectivo conselho profissional, com competência para execução de serviços de georreferenciamento de imóveis urbanos ou rurais, na forma da legislação e do manual técnico do ONR (art. 320-O, § 1.º)."
+    },
+    {
+     "rotulo": "§ 3",
+     "texto": "§ 3.º. O credenciamento do profissional técnico habilitado perante o ONR dar -se-á na forma do manual técnico do ONR (art. 320 -O, § 1.º)."
+    },
+    {
+     "rotulo": "§ 4",
+     "texto": "§ 4.º. Compete ao profissional técnico habilitado verificar a autenticidade dos limites dos imóveis georreferenciados e analisar a existência de sobreposição ou lacunas entre áreas ou parcelas no SIG-RI, nos termos da lei."
+    },
+    {
+     "rotulo": "§ 5",
+     "texto": "§ 5.º. Em relação aos imóveis rurais cujas poligonais estejam certificadas pelo INCRA, as coordenadas geodésicas deverão ser importadas ao SIG -RI diretamente do Sigef ou do sistema que vier a substituí -lo, opção que deverá ser disponibilizada ao profissional técnico habilitado na intranet da plataforma eletrônica do SIG -RI."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNN-CNJ",
+   "artigo": "Art. 343-H",
+   "texto": "Art. 343-H. A poligonal do imóvel e os dados a ele vinculados somente ficará visível ao público e comporá o mosaico dos imóveis da circunscrição no Mapa após a prática do ato pelo oficial de registro de imóveis. (incluído pelo Provimento CN n. 195, de 3.6.2025) Parágrafo único . A visualização de que trata o caput deste artigo deverá envolver a sobreposição entre camadas registrais e cadastrais de domínio público relativamente ao imóvel. (incluído pelo Provimento CN n. 195, de 3.6.2025)",
+   "caput": "Art. 343-H. A poligonal do imóvel e os dados a ele vinculados somente ficará visível ao público e comporá o mosaico dos imóveis da circunscrição no Mapa após a prática do ato pelo oficial de registro de imóveis.",
+   "partes": [
+    {
+     "rotulo": "Parágrafo único",
+     "texto": "Parágrafo único . A visualização de que trata o caput deste artigo deverá envolver a sobreposição entre camadas registrais e cadastrais de domínio público relativamente ao imóvel."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNN-CNJ",
+   "artigo": "Art. 343-F",
+   "texto": "Art. 343-F. Compete aos oficiais de registro de imóveis a adoção das seguintes medidas, em relação aos imóveis rurais georreferenciados e certificados pelo Sigef e aos urbanos: (incluído pelo Provimento CN n. 195, de 3.6.2025) I - alimentar o SIG-RI com os perímetros dos imóveis georreferenciados e, no caso dos rurais, certificados pelo Sigef obtidos a partir da descrição constante da matrícula, a fim de formar o mosaico dos imóveis registrados com coordenadas geodésicas; (incluído pelo Provimento CN n. 195, de 3.6.2025) II – quando da prática de atos que envolvam a abertura de matrícula ou a atualização, a correção ou a alteração da descrição perimetral do imóvel, analisar o mosaico registral criado no SIG -RI, a fim de verificar a ocorrência de alguma das situações abaixo: (incluído pelo Provimento CN n. 195, de 3.6.2025) a) descrição perimétrica que apresente coordenadas polares com erros de fechamento do polígono (erro na descrição do polígono); (incluído pelo Provimento CN n. 195, de 3.6.2025) b) sobreposições de área com outros imóveis; (incluído pelo Provimento CN n. 195, de 3.6.2025) III – quando da prática de qualquer ato na matrícula, valer -se do SIG-RI para averiguar a existência de irregularidade de especialidade objetiva em relação a outras matrículas, salvo se tal averiguação já tiver sido realizada anteriormente na forma do § 3º, do art. 440-AQ deste Código: (incluído pelo Provimento CN n. 195, de 3.6.2025) a) controle da malha imobiliária, mediante a disponibilização e a análise das informações geográficas dos imóveis cuja descrição no fólio real contenha coordenadas georreferenciadas; (incluído pelo Provimento CN n. 195, de 3.6.2025) b) controle de disponibilidade, por meio da alimentação e a análise dos indicadores reais, impedindo registros de imóveis em duplicidade material de matrículas e alienações a non domino; (incluído pelo Provimento CN n. 195, de 3.6.2025) c) controle da unicidade matricial, com a abertura de apenas uma matrícula para cada imóvel, mediante a conferência das anotações de encerramento/destaque dos registros anteriores das matrículas dos imóveis objeto de georreferenciamento. (incluído pelo Provimento CN n. 195, de 3.6.2025) Parágrafo único . A alimentação de que trata o inciso I deste artigo: (incluído pelo Provimento CN n. 195, de 3.6.2025) I - poderá ser realizada mediante interoperabilidade com o Sigef ou com outro sistema que o vier a substitui -lo, a fim de viabilizar a importação ao SIG -RI das coordenadas geodésicas dos imóveis rurais georreferenciados; (incluído pelo Provimento CN n. 195, de 3.6.2025) II – em relação aos imóveis já georreferenciados na data da entrada em vigor do Provimento n. 195, de 3 de junho de 2025, deverá ser promovida, pelos oficiais de registro de imóveis, no prazo de até um ano a contar dessa data, exceto em casos específicos definidos conforme em cronograma fixado pela Corregedoria de Justiça do Estado ou do Distrito Federal; (incluído pelo Provimento CN n. 195, de 3.6.2025) III - em relação aos imóveis não georreferenciados, poderá ser realizada mediante exigência feita ao apresentante, para que promova os lançamentos por intermédio de técnico de sua confiança, na forma do art. 343 -G deste Código, cujo lançamento ficará dependente de validação pelo registrador a ser realizada no ato de registro. (incluído pelo Provimento CN n. 195, de 3.6.2025)",
+   "caput": "Art. 343-F. Compete aos oficiais de registro de imóveis a adoção das seguintes medidas, em relação aos imóveis rurais georreferenciados e certificados pelo Sigef e aos urbanos:",
+   "partes": [
+    {
+     "rotulo": "I",
+     "texto": "I - alimentar o SIG-RI com os perímetros dos imóveis georreferenciados e, no caso dos rurais, certificados pelo Sigef obtidos a partir da descrição constante da matrícula, a fim de formar o mosaico dos imóveis registrados com coordenadas geodésicas;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II – quando da prática de atos que envolvam a abertura de matrícula ou a atualização, a correção ou a alteração da descrição perimetral do imóvel, analisar o mosaico registral criado no SIG -RI, a fim de verificar a ocorrência de alguma das situações abaixo:"
+    },
+    {
+     "rotulo": "a)",
+     "texto": "a) descrição perimétrica que apresente coordenadas polares com erros de fechamento do polígono (erro na descrição do polígono);"
+    },
+    {
+     "rotulo": "b)",
+     "texto": "b) sobreposições de área com outros imóveis;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III – quando da prática de qualquer ato na matrícula, valer -se do SIG-RI para averiguar a existência de irregularidade de especialidade objetiva em relação a outras matrículas, salvo se tal averiguação já tiver sido realizada anteriormente na forma do § 3º, do art. 440-AQ deste Código:"
+    },
+    {
+     "rotulo": "a) (2)",
+     "texto": "a) controle da malha imobiliária, mediante a disponibilização e a análise das informações geográficas dos imóveis cuja descrição no fólio real contenha coordenadas georreferenciadas;"
+    },
+    {
+     "rotulo": "b) (2)",
+     "texto": "b) controle de disponibilidade, por meio da alimentação e a análise dos indicadores reais, impedindo registros de imóveis em duplicidade material de matrículas e alienações a non domino;"
+    },
+    {
+     "rotulo": "c)",
+     "texto": "c) controle da unicidade matricial, com a abertura de apenas uma matrícula para cada imóvel, mediante a conferência das anotações de encerramento/destaque dos registros anteriores das matrículas dos imóveis objeto de georreferenciamento."
+    },
+    {
+     "rotulo": "Parágrafo único",
+     "texto": "Parágrafo único . A alimentação de que trata o inciso I deste artigo:"
+    },
+    {
+     "rotulo": "I (2)",
+     "texto": "I - poderá ser realizada mediante interoperabilidade com o Sigef ou com outro sistema que o vier a substitui -lo, a fim de viabilizar a importação ao SIG -RI das coordenadas geodésicas dos imóveis rurais georreferenciados;"
+    },
+    {
+     "rotulo": "II (2)",
+     "texto": "II – em relação aos imóveis já georreferenciados na data da entrada em vigor do Provimento n. 195, de 3 de junho de 2025, deverá ser promovida, pelos oficiais de registro de imóveis, no prazo de até um ano a contar dessa data, exceto em casos específicos definidos conforme em cronograma fixado pela Corregedoria de Justiça do Estado ou do Distrito Federal;"
+    },
+    {
+     "rotulo": "III (2)",
+     "texto": "III - em relação aos imóveis não georreferenciados, poderá ser realizada mediante exigência feita ao apresentante, para que promova os lançamentos por intermédio de técnico de sua confiança, na forma do art. 343 -G deste Código, cujo lançamento ficará dependente de validação pelo registrador a ser realizada no ato de registro."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNN-CNJ",
+   "artigo": "Art. 440-BD",
+   "texto": "Art. 440 -BD. Constatada a existência de imóveis com coordenadas geodésicas que contenham descrição cujos elementos não formem um polígono ou não permitam indicar sua localização no globo terrestre, o oficial de registro promoverá averbação desta condição, devendo exigir a competente retificação quando do primeiro ato de transmissão ou oneração do bem, a ser realizado pelos interessados, na forma dos arts. 212 e 213 da Lei n. 6.015/1973. (incluído pelo Provimento CN n. 195, de 3.6.2025) Subseção V Do encerramento gradual das transcrições (incluído pelo Provimento CN n. 195, de 3.6.2025)",
+   "caput": "Art. 440 -BD. Constatada a existência de imóveis com coordenadas geodésicas que contenham descrição cujos elementos não formem um polígono ou não permitam indicar sua localização no globo terrestre, o oficial de registro promoverá averbação desta condição, devendo exigir a competente retificação quando do primeiro ato de transmissão ou oneração do bem, a ser realizado pelos interessados, na forma dos arts. 212 e 213 da Lei n. 6.015/1973.",
+   "partes": [],
+   "fonte": "lei"
+  }
+ ]
+}

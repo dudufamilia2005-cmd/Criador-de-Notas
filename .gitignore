@@ -1,0 +1,16 @@
+# Ambiente Python, refeito com `python -m venv .venv`
+.venv/
+__pycache__/
+*.pyc
+
+# Texto extraído dos PDFs e levantamentos. Artefato gerado - refeito com
+# ferramentas/indexa_normas.py. Não versionar: o levantamento do acervo contém
+# o texto integral de notas reais do cartório, com dados de usuários.
+.cache-texto/
+
+# Notas geradas pela ferramenta: documentos de trabalho, com dados de protocolos
+# reais.
+saida/
+
+# Cópias de segurança do catálogo, feitas antes de reescritas.
+dados/_*.json

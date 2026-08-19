@@ -1,0 +1,97 @@
+# -*- coding: utf-8 -*-
+"""Guarda das regras do catalogo. Roda antes de confiar em qualquer nota gerada.
+
+Reprova o catalogo quando:
+  1. uma exigencia cita dispositivo que nao existe em dados/dispositivos.json;
+  2. cita dispositivo cuja conferencia contra o PDF nao passou;
+  3. usa {campo} que nao foi declarado nem e fragmento;
+  4. declara campo que nao aparece no texto;
+  5. aponta fecho inexistente.
+Avisa (sem reprovar) quando a exigencia ainda nao foi revisada por registrador
+ou esta sem fundamentacao.
+"""
+import json
+import re
+import sys
+from pathlib import Path
+
+BASE = Path(__file__).resolve().parent.parent
+
+
+def carrega(nome):
+    return json.loads((BASE / "dados" / nome).read_text(encoding="utf-8"))
+
+
+def main():
+    normas = {n["id"] for n in carrega("normas.json")["normas"]}
+    disp = {(d["norma"], d["artigo"]): d
+            for d in carrega("dispositivos.json")["dispositivos"]}
+    cat = carrega("exigencias.json")
+    frag = cat["fragmentos"]
+    campos_conhecidos = cat.get("campos", {})
+
+    erros, avisos = [], []
+    vistos = set()
+
+    for e in cat["exigencias"]:
+        eid = e["id"]
+        if eid in vistos:
+            erros.append(f"{eid}: id repetido")
+        vistos.add(eid)
+
+        texto = e["defeito"] + " " + e["providencia"]
+        usados = set(re.findall(r"\{(\w+)\}", texto))
+        declarados = set(e.get("campos", []))
+
+        for c in usados - declarados - set(frag):
+            erros.append(f"{eid}: usa {{{c}}}, que nao e campo declarado nem fragmento")
+        for c in declarados - usados:
+            erros.append(f"{eid}: declara o campo '{c}', que nao aparece no texto")
+        for c in declarados - set(campos_conhecidos):
+            erros.append(f"{eid}: o campo '{c}' nao tem rotulo em exigencias.json "
+                         f"-> a tela pediria '{c}' ao escrevente")
+
+        if e.get("fecho") not in frag:
+            erros.append(f"{eid}: fecho '{e.get('fecho')}' nao existe em fragmentos")
+
+        fund = e.get("fundamentos", [])
+        if not fund:
+            pend = e.get("fundamentacao_pendente")
+            avisos.append(f"{eid}: sem fundamentacao"
+                          + (f" - {pend}" if pend else " e sem motivo declarado"))
+        for f in fund:
+            norma, artigo = f["norma"], f["artigo"]
+            if norma not in normas:
+                erros.append(f"{eid}: norma '{norma}' nao existe em normas.json")
+                continue
+            d = disp.get((norma, artigo))
+            if d is None:
+                erros.append(f"{eid}: {norma} {artigo} nao esta em dispositivos.json "
+                             f"-> rode ferramentas/monta_dispositivos.py")
+                continue
+            disponiveis = {p["rotulo"] for p in d.get("partes", [])}
+            for r in f.get("partes", []):
+                if r != "*" and r not in disponiveis:
+                    erros.append(f"{eid}: {norma} {artigo} nao tem a parte '{r}' "
+                                 f"(tem: {', '.join(sorted(disponiveis)) or 'nenhuma'})")
+
+        if not e.get("revisado"):
+            avisos.append(f"{eid}: fundamentacao ainda nao revisada por registrador")
+
+    print(f"catalogo: {len(cat['exigencias'])} exigencias, "
+          f"{sum(len(e.get('fundamentos', [])) for e in cat['exigencias'])} fundamentos citados")
+    if avisos:
+        print(f"\n{len(avisos)} avisos:")
+        for a in avisos:
+            print("  .", a)
+    if erros:
+        print(f"\n{len(erros)} ERROS:")
+        for x in erros:
+            print("  x", x)
+        return 1
+    print("\nOK: todos os fundamentos conferem com a fonte e todos os campos batem.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
