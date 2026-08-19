@@ -180,6 +180,10 @@
   "peca_tecnica": {
    "rotulo": "Peça técnica",
    "exemplo": "planta apresentada"
+  },
+  "tipo_requerimento": {
+   "rotulo": "Tipo de requerimento",
+   "exemplo": "para averbação da atualização do CCI"
   }
  },
  "exigencias": [
@@ -1187,6 +1191,28 @@
       "II",
       "a)"
      ]
+    }
+   ]
+  },
+  {
+   "id": "requerimento-nao-apresentado",
+   "rotulo": "Requerimento não apresentado",
+   "assunto": "requerimento",
+   "revisado": false,
+   "campos": [
+    "tipo_requerimento"
+   ],
+   "defeito": "Verifica-se que não foi apresentado o requerimento {tipo_requerimento}. A averbação depende de requerimento do interessado, com firma reconhecida e instruído com o documento que a comprove — não se pratica de ofício.",
+   "providencia": "a apresentação do requerimento {tipo_requerimento}, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 917"
+    },
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 914"
     }
    ]
   },
