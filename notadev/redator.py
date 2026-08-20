@@ -177,7 +177,12 @@ class Redator:
         for i, item in enumerate(itens, 1):
             blocos.extend(self._exigencia(item, i))
 
-        blocos.append(Bloco("corpo", partes=[(esp["fecho"], set())]))
+        # A ressalva vai emendada ao fecho, e nao em paragrafo proprio: e parte
+        # do aviso final, nao um recado solto no pe da nota.
+        fecho = esp["fecho"]
+        if esp.get("ressalva") and self.modelo.get("ressalva_reapresentacao"):
+            fecho += " " + self.modelo["ressalva_reapresentacao"]
+        blocos.append(Bloco("corpo", partes=[(fecho, set())]))
         return blocos
 
     def nao_revisadas(self, itens):
