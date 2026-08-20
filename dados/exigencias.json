@@ -248,6 +248,14 @@
   "detalhe_divergencia": {
    "rotulo": "Detalhe da divergência",
    "exemplo": "281,5458 ha no CCIR e 1.685,5720 ha na matrícula"
+  },
+  "protocolo_dependido": {
+   "rotulo": "Protocolo de que depende",
+   "exemplo": "185.400"
+  },
+  "ato_dependido": {
+   "rotulo": "Ato pendente naquele protocolo",
+   "exemplo": "a averbação do georreferenciamento"
   }
  },
  "exigencias": [
@@ -1250,6 +1258,29 @@
     {
      "norma": "CNPFE-GO",
      "artigo": "Art. 452"
+    }
+   ]
+  },
+  {
+   "id": "protocolo-vinculado-a-outro",
+   "rotulo": "Protocolo vinculado a outro, ainda pendente",
+   "assunto": "protocolo",
+   "revisado": false,
+   "campos": [
+    "protocolo_dependido",
+    "ato_dependido"
+   ],
+   "defeito": "Verifica-se que o ato pretendido depende de outro, ainda pendente no protocolo n.º {protocolo_dependido}[ — {ato_dependido}]. Enquanto aquele não se praticar, este título não tem como ingressar: a matrícula ainda não reúne os elementos de que este ato depende.",
+   "providencia": "o prévio cumprimento das exigências do protocolo n.º {protocolo_dependido} e a prática do respectivo ato, após o que este protocolo terá seguimento",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 914"
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 186"
     }
    ]
   },
