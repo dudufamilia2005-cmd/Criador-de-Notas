@@ -36,6 +36,13 @@ def main():
     erros, avisos = [], []
     vistos = set()
 
+    # campo de lista: o exemplo alimenta a tela de revisao, entao precisa ser
+    # uma das opcoes - senao a revisao mostra texto que a tela nao produz
+    for nome, info in campos_conhecidos.items():
+        if info.get("opcoes") and info.get("exemplo") not in info["opcoes"]:
+            erros.append(f"campo '{nome}': o exemplo '{info.get('exemplo')}' "
+                         f"nao esta entre as opcoes")
+
     for e in cat["exigencias"]:
         eid = e["id"]
         if eid in vistos:

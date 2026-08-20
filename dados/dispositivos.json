@@ -1821,6 +1821,31 @@
    "fonte": "lei"
   },
   {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 809",
+   "texto": "Art. 809. Havendo divergência entre o título e a matrícula ou transcrição quanto ao nome e demais dados de qualificação das partes, serão exigidos os documentos e declarações necessários. §1º. Salvo se houver solicitação expressa no título apresentado, será exigido requerimento específico de averbação. §2º. O requerimento de averbação será protocolizado e averbado antes do título divergente. §3º. Será feita uma averbação por pessoa, física ou jurídica, não importando a quantidade de elementos a serem alterados ou acrescentados, salvo na situação disposta no § 1º, que será objeto de averbação específica. § 4º. Em se tratando de pessoa jurídica, serão apresentados, além dos atos constitutivos e demais alterações, certidão específica contendo o histórico de atos registrados, emitida pela Junta Comercial no caso de sociedade empresária, pela Ordem dos Advogados do Brasil, no caso de sociedade de advogados e certidão do registro civil das pessoas jurídicas, nos demais casos.",
+   "caput": "Art. 809. Havendo divergência entre o título e a matrícula ou transcrição quanto ao nome e demais dados de qualificação das partes, serão exigidos os documentos e declarações necessários.",
+   "partes": [
+    {
+     "rotulo": "§1º",
+     "texto": "§1º. Salvo se houver solicitação expressa no título apresentado, será exigido requerimento específico de averbação."
+    },
+    {
+     "rotulo": "§2º",
+     "texto": "§2º. O requerimento de averbação será protocolizado e averbado antes do título divergente."
+    },
+    {
+     "rotulo": "§3º",
+     "texto": "§3º. Será feita uma averbação por pessoa, física ou jurídica, não importando a quantidade de elementos a serem alterados ou acrescentados, salvo na situação disposta no § 1º, que será objeto de averbação específica."
+    },
+    {
+     "rotulo": "§ 4º",
+     "texto": "§ 4º. Em se tratando de pessoa jurídica, serão apresentados, além dos atos constitutivos e demais alterações, certidão específica contendo o histórico de atos registrados, emitida pela Junta Comercial no caso de sociedade empresária, pela Ordem dos Advogados do Brasil, no caso de sociedade de advogados e certidão do registro civil das pessoas jurídicas, nos demais casos."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
    "norma": "CFLO",
    "artigo": "Art. 12",
    "texto": "Art. 12. Todo imóvel rural deve manter área com cobertura de vegetação nativa, a título de Reserva Legal, sem prejuízo da aplicação das normas sobre as Áreas de Preservação Permanente, observados os seguintes percentuais mínimos em relação à área do imóvel, excetuados os casos previstos no art. 68 desta Lei:. I - localizado na Amazônia Legal: a) 80% (oitenta por cento), no imóvel situado em área de florestas; b) 35% (trinta e cinco por cento), no imóvel situado em área de cerrado; c) 20% (vinte por cento), no imóvel situado em área de campos gerais; II - localizado nas demais regiões do País: 20% (vinte por cento). § 1º Em caso de fracionamento do imóvel rural, a qualquer título, inclusive para assentamentos pelo Programa de Reforma Agrária, será considerada, para fins do disposto do caput , a área do imóvel antes do fracionamento. § 2º O percentual de Reserva Legal em imóvel situado em área de formações florestais, de cerrado ou de campos gerais na Amazônia Legal será definido considerando separadamente os índices contidos nas alíneas a, b e c do inciso I do caput . § 3º Após a implantação do CAR, a supressão de novas áreas de floresta ou outras formas de vegetação nativa apenas será autorizada pelo órgão ambiental estadual integrante do Sisnama se o imóvel estiver inserido no mencionado cadastro, ressalvado o previsto no art. 30. § 4º Nos casos da alínea a do inciso I, o poder público poderá reduzir a Reserva Legal para até 50% (cinquenta por cento), para fins de recomposição, quando o Município tiver mais de 50% (cinquenta por cento) da área ocupada por unidades de conservação da natureza de domínio público e por terras indígenas homologadas. § 5º Nos casos da alínea a do inciso I, o poder público estadual, ouvido o Conselho Estadual de Meio Ambiente, poderá reduzir a Reserva Legal para até 50% (cinquenta por cento), quando o Estado tiver Zoneamento Ecológico-Econômico aprovado e mais de 65% (sessenta e cinco por cento) do seu território ocupado por unidades de conservação da natureza de domínio público, devidamente regularizadas, e por terras indígenas homologadas. § 6º Os empreendimentos de abastecimento público de água e tratamento de esgoto não estão sujeitos à constituição de Reserva Legal. § 7º Não será exigido Reserva Legal relativa às áreas adquiridas ou desapropriadas por detentor de concessão, permissão ou autorização para exploração de potencial de energia hidráulica, nas quais funcionem empreendimentos de geração de energia elétrica, subestações ou sejam instaladas linhas de transmissão e de distribuição de energia elétrica. § 8º Não será exigido Reserva Legal relativa às áreas adquiridas ou desapropriadas com o objetivo de implantação e ampliação de capacidade de rodovias e ferrovias.",

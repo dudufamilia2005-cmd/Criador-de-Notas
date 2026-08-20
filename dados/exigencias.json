@@ -7,6 +7,7 @@
   "citar. Sem 'partes' sai so o caput; com elas, o caput e os trechos pedidos,",
   "separados por '(...)'. O texto vem da lei, lida dos PDFs de Fundamentacoes.",
   "Trecho entre [colchetes] so entra se os campos dele estiverem preenchidos.",
+  "Campo com 'opcoes' vira lista de escolha na tela, em vez de digitacao.",
   "Campo com 'padrao' e opcional: em branco, entra a redacao generica.",
   "Exigencia com 'precedentes' cita jurisprudencia, de dados/precedentes.json.",
   "'impossibilidade': true marca a que devolve o titulo em vez de pedir conserto.",
@@ -192,6 +193,44 @@
   "transmitentes_guia": {
    "rotulo": "Transmitentes na guia",
    "exemplo": "apenas João da Silva Pereira"
+  },
+  "parte_qualificada": {
+   "rotulo": "De quem é a qualificação",
+   "exemplo": "do adquirente",
+   "opcoes": [
+    "do transmitente",
+    "do adquirente",
+    "das partes"
+   ]
+  },
+  "dado_pessoal": {
+   "rotulo": "Dado divergente",
+   "exemplo": "estado civil",
+   "opcoes": [
+    "nome",
+    "CPF",
+    "estado civil",
+    "regime de bens",
+    "data do casamento",
+    "profissão",
+    "nacionalidade",
+    "endereço residencial",
+    "qualificação do cônjuge"
+   ]
+  },
+  "documento_saneador": {
+   "rotulo": "Documento que sana",
+   "exemplo": "certidão de casamento atualizada"
+  },
+  "forma_documento": {
+   "rotulo": "Forma de apresentação",
+   "exemplo": "em via original ou cópia autenticada",
+   "opcoes": [
+    "em via original ou cópia autenticada",
+    "em via original",
+    "em cópia autenticada",
+    "em via original e cópia para arquivo"
+   ]
   }
  },
  "exigencias": [
@@ -1166,6 +1205,31 @@
     {
      "norma": "CNPFE-GO",
      "artigo": "Art. 452"
+    }
+   ]
+  },
+  {
+   "id": "qualificacao-divergente-do-titulo",
+   "rotulo": "Dados pessoais das partes divergentes entre título e matrícula",
+   "assunto": "qualif",
+   "revisado": false,
+   "campos": [
+    "parte_qualificada",
+    "dado_pessoal",
+    "documento_saneador",
+    "forma_documento"
+   ],
+   "defeito": "Verifica-se que a qualificação {parte_qualificada} no título diverge da que consta da matrícula, no seguinte dado: {dado_pessoal}. A qualificação das partes deve ser completa, atual e correta, e havendo divergência cabe ao oficial exigir os documentos que a esclareçam.",
+   "providencia": "a apresentação de {documento_saneador}[, {forma_documento}], que comprove o dado correto, acompanhada de requerimento de inserção ou retificação de dados {protocolo_apartado}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 809"
+    },
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 914"
     }
    ]
   },

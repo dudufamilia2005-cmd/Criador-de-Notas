@@ -126,12 +126,24 @@ function desenhaCampos() {
         op.textContent = ' (opcional)';
         lab.append(op);
       }
-      const inp = document.createElement('input');
+      // campo com lista fechada vira <select>; os demais, caixa de texto
+      const inp = document.createElement(info.opcoes ? 'select' : 'input');
+      if (info.opcoes) {
+        const vazio = document.createElement('option');
+        vazio.value = ''; vazio.textContent = opcional ? '— não informar —' : '— escolha —';
+        inp.append(vazio);
+        for (const o of info.opcoes) {
+          const op = document.createElement('option');
+          op.value = o; op.textContent = o;
+          inp.append(op);
+        }
+      } else {
+        inp.placeholder = info.exemplo || '';
+      }
       inp.value = valores.get(e.id + '|' + c) || '';
-      inp.placeholder = info.exemplo || '';
       inp.title = info.padrao ? `Em branco, a nota diz: "${info.padrao}"`
                               : (opcional ? 'Em branco, o trecho não entra na nota.' : '');
-      inp.addEventListener('input', () => {
+      inp.addEventListener(info.opcoes ? 'change' : 'input', () => {
         valores.set(e.id + '|' + c, inp.value);
         pedePrevia();
       });
