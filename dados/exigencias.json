@@ -245,10 +245,6 @@
     "confrontações"
    ]
   },
-  "detalhe_divergencia": {
-   "rotulo": "Detalhe da divergência",
-   "exemplo": "281,5458 ha no CCIR e 1.685,5720 ha na matrícula"
-  },
   "protocolo_dependido": {
    "rotulo": "Protocolo de que depende",
    "exemplo": "185.400"
@@ -256,6 +252,14 @@
   "ato_dependido": {
    "rotulo": "Ato pendente naquele protocolo",
    "exemplo": "a averbação do georreferenciamento"
+  },
+  "ccir_consta": {
+   "rotulo": "Como consta no CCIR",
+   "exemplo": "281,5458 ha"
+  },
+  "matricula_consta": {
+   "rotulo": "Como consta na matrícula",
+   "exemplo": "1.685,5720 ha"
   }
  },
  "exigencias": [
@@ -449,9 +453,10 @@
    "revisado": false,
    "campos": [
     "dado_ccir",
-    "detalhe_divergencia"
+    "ccir_consta",
+    "matricula_consta"
    ],
-   "defeito": "Verifica-se que o Certificado de Cadastro de Imóvel Rural (CCIR) não corresponde à matrícula no seguinte dado: {dado_ccir}[ ({detalhe_divergencia})]. A matrícula do imóvel rural deve conter os dados constantes do CCIR, sob pena de cadastro e fólio real retratarem imóveis diferentes.",
+   "defeito": "Verifica-se que o Certificado de Cadastro de Imóvel Rural (CCIR) não corresponde à matrícula no seguinte dado: {dado_ccir}.[ Consta do CCIR {ccir_consta}, ao passo que a matrícula registra {matricula_consta}.] A matrícula do imóvel rural deve conter os dados constantes do CCIR, sob pena de cadastro e fólio real retratarem imóveis diferentes.",
    "providencia": "a retificação do CCIR perante o INCRA, para que seus dados correspondam aos da matrícula, ou a apresentação de documento que esclareça a divergência",
    "fecho": "fecho",
    "fundamentos": [
