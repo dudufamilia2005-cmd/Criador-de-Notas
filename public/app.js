@@ -2,8 +2,8 @@
 'use strict';
 
 let CAT = null;                    // catalogo vindo do servidor
-const marcadas = new Set();
-let soMarcadas = false;            // filtro: esconder o que ainda não foi marcado
+const selecionadas = new Set();
+let apenasSelecionadas = false;            // filtro: esconder o que ainda não foi selecionado
 const valores = new Map();         // "exigencia|campo" -> texto digitado
 
 const $ = (id) => document.getElementById(id);
@@ -21,8 +21,8 @@ async function iniciar() {
   desenhaCampos();
 
   $('filtro').addEventListener('input', desenhaLista);
-  $('so-marcadas').addEventListener('click', () => {
-    soMarcadas = !soMarcadas;
+  $('apenas-selecionadas').addEventListener('click', () => {
+    apenasSelecionadas = !apenasSelecionadas;
     desenhaLista();
   });
   $('gerar').addEventListener('click', gerar);
@@ -39,15 +39,15 @@ function desenhaLista() {
   lista.textContent = '';
 
   const visiveis = CAT.exigencias.filter(e =>
-    (!soMarcadas || marcadas.has(e.id)) &&
+    (!apenasSelecionadas || selecionadas.has(e.id)) &&
     (!termo || (e.rotulo + ' ' + e.assunto + ' ' + e.defeito).toLowerCase().includes(termo)));
 
   atualizaAlternador();
 
   if (!visiveis.length) {
     lista.innerHTML = '<div class="vazio">'
-      + (soMarcadas && !marcadas.size ? 'Nada marcado ainda.'
-         : soMarcadas ? 'Nenhuma das marcadas atende a esse termo.'
+      + (apenasSelecionadas && !selecionadas.size ? 'Nenhuma pendência selecionada ainda.'
+         : apenasSelecionadas ? 'Nenhuma das selecionadas atende a esse termo.'
          : 'Nenhuma pendência com esse termo.')
       + '</div>';
     return;
@@ -55,18 +55,18 @@ function desenhaLista() {
 
   for (const e of visiveis) {
     const div = document.createElement('label');
-    div.className = 'item' + (marcadas.has(e.id) ? ' marcado' : '');
+    div.className = 'item' + (selecionadas.has(e.id) ? ' marcado' : '');
 
     const cx = document.createElement('input');
     cx.type = 'checkbox';
-    cx.checked = marcadas.has(e.id);
+    cx.checked = selecionadas.has(e.id);
     cx.addEventListener('change', () => {
-      cx.checked ? marcadas.add(e.id) : marcadas.delete(e.id);
+      cx.checked ? selecionadas.add(e.id) : selecionadas.delete(e.id);
       div.classList.toggle('marcado', cx.checked);
       desenhaCampos();
       atualizaContagem();
       pedePrevia();
-      if (soMarcadas && !cx.checked) desenhaLista();
+      if (apenasSelecionadas && !cx.checked) desenhaLista();
       else atualizaAlternador();
     });
 
@@ -102,22 +102,24 @@ function desenhaLista() {
 }
 
 function atualizaAlternador() {
-  const b = $('so-marcadas');
-  b.textContent = marcadas.size ? `Só as marcadas (${marcadas.size})` : 'Só as marcadas';
-  b.classList.toggle('ligado', soMarcadas);
-  b.setAttribute('aria-pressed', String(soMarcadas));
+  const b = $('apenas-selecionadas');
+  b.textContent = selecionadas.size
+    ? `Apenas selecionadas (${selecionadas.size})`
+    : 'Apenas selecionadas';
+  b.classList.toggle('ligado', apenasSelecionadas);
+  b.setAttribute('aria-pressed', String(apenasSelecionadas));
 }
 
 function desenhaCampos() {
   const alvo = $('campos');
   alvo.textContent = '';
 
-  if (!marcadas.size) {
-    alvo.innerHTML = '<div class="vazio">Marque as pendências ao lado.</div>';
+  if (!selecionadas.size) {
+    alvo.innerHTML = '<div class="vazio">Selecione as pendências ao lado.</div>';
     return;
   }
 
-  for (const e of CAT.exigencias.filter(x => marcadas.has(x.id))) {
+  for (const e of CAT.exigencias.filter(x => selecionadas.has(x.id))) {
     const g = document.createElement('div');
     g.className = 'grupo';
     const h = document.createElement('h3');
@@ -185,7 +187,7 @@ function pedePrevia() {
 }
 
 function montaItens() {
-  return [...marcadas].map(id => {
+  return [...selecionadas].map(id => {
     const e = CAT.exigencias.find(x => x.id === id);
     const v = {};
     for (const c of e.campos) v[c] = (valores.get(id + '|' + c) || '').trim();
@@ -195,8 +197,8 @@ function montaItens() {
 
 async function atualizaPrevia() {
   const alvo = $('previa');
-  if (!marcadas.size) {
-    alvo.innerHTML = '<div class="vazio">A nota aparece aqui conforme você marca as pendências.</div>';
+  if (!selecionadas.size) {
+    alvo.innerHTML = '<div class="vazio">A nota aparece aqui conforme você seleciona as pendências.</div>';
     $('previa-aviso').textContent = '';
     return;
   }
@@ -217,11 +219,11 @@ async function atualizaPrevia() {
 }
 
 function atualizaContagem() {
-  const n = marcadas.size;
-  const naoRevisadas = CAT.exigencias.filter(e => marcadas.has(e.id) && !e.revisado).length;
+  const n = selecionadas.size;
+  const naoRevisadas = CAT.exigencias.filter(e => selecionadas.has(e.id) && !e.revisado).length;
   $('contagem').textContent = n
-    ? `${n} pendência${n > 1 ? 's' : ''} marcada${n > 1 ? 's' : ''}`
-    : 'nenhuma pendência marcada';
+    ? `${n} pendência${n > 1 ? 's' : ''} selecionada${n > 1 ? 's' : ''}`
+    : 'nenhuma pendência selecionada';
   $('aviso').textContent = naoRevisadas
     ? `${naoRevisadas} com fundamentação ainda não revisada por registrador`
     : '';
@@ -249,7 +251,7 @@ function avisa(titulo, html, caminho) {
 }
 
 async function gerar() {
-  if (!marcadas.size) return avisa('Nota vazia', '<p>Marque ao menos uma pendência.</p>');
+  if (!selecionadas.size) return avisa('Nota vazia', '<p>Selecione ao menos uma pendência.</p>');
   if (!$('titulo').value.trim())
     return avisa('Falta o título', '<p>Informe o título apresentado — ele entra no preâmbulo.</p>');
 
