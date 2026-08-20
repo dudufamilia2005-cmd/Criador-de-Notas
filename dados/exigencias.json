@@ -184,6 +184,14 @@
   "tipo_requerimento": {
    "rotulo": "Tipo de requerimento",
    "exemplo": "para averbação da atualização do CCI"
+  },
+  "transmitentes": {
+   "rotulo": "Transmitentes no título",
+   "exemplo": "João da Silva Pereira e Maria de Souza"
+  },
+  "transmitentes_guia": {
+   "rotulo": "Transmitentes na guia",
+   "exemplo": "apenas João da Silva Pereira"
   }
  },
  "exigencias": [
@@ -829,6 +837,25 @@
    ],
    "defeito": "Verifica-se que o título aponta como adquirentes {adquirentes}, mas a Guia do ITBI traz {adquirentes_guia}. O imposto deve alcançar todos os que adquirem.",
    "providencia": "a retificação da Guia do ITBI, para que nela constem todos os adquirentes do título, com o recolhimento da diferença que houver",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 810"
+    }
+   ]
+  },
+  {
+   "id": "itbi-transmitentes-divergentes",
+   "rotulo": "ITBI com transmitentes divergentes do título",
+   "assunto": "itbi",
+   "revisado": false,
+   "campos": [
+    "transmitentes",
+    "transmitentes_guia"
+   ],
+   "defeito": "Verifica-se que o título aponta como transmitentes {transmitentes}, mas a Guia do ITBI traz {transmitentes_guia}. A guia deve espelhar as partes da transmissão levada a registro, sob pena de o imposto não corresponder ao negócio praticado.",
+   "providencia": "a retificação da Guia do ITBI, para que dela constem os transmitentes indicados no título",
    "fecho": "fecho",
    "fundamentos": [
     {
