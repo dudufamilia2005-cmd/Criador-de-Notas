@@ -49,7 +49,11 @@
     <section class="cartao coluna">
       <div class="cabeca">
         <h2>Pendências</h2>
-        <input id="filtro" class="busca" placeholder="Filtrar…" autocomplete="off">
+        <div class="cabeca-acoes">
+          <button id="so-marcadas" class="alternador" type="button" aria-pressed="false"
+                  title="Mostrar apenas o que já está marcado">Só as marcadas</button>
+          <input id="filtro" class="busca" placeholder="Filtrar…" autocomplete="off">
+        </div>
       </div>
       <div id="lista" class="lista"></div>
     </section>

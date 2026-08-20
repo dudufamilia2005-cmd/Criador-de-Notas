@@ -3,6 +3,7 @@
 
 let CAT = null;                    // catalogo vindo do servidor
 const marcadas = new Set();
+let soMarcadas = false;            // filtro: esconder o que ainda não foi marcado
 const valores = new Map();         // "exigencia|campo" -> texto digitado
 
 const $ = (id) => document.getElementById(id);
@@ -20,6 +21,10 @@ async function iniciar() {
   desenhaCampos();
 
   $('filtro').addEventListener('input', desenhaLista);
+  $('so-marcadas').addEventListener('click', () => {
+    soMarcadas = !soMarcadas;
+    desenhaLista();
+  });
   $('gerar').addEventListener('click', gerar);
   for (const id of ['especie', 'titulo', 'judicial'])
     $(id).addEventListener('input', pedePrevia);
@@ -34,10 +39,17 @@ function desenhaLista() {
   lista.textContent = '';
 
   const visiveis = CAT.exigencias.filter(e =>
-    !termo || (e.rotulo + ' ' + e.assunto + ' ' + e.defeito).toLowerCase().includes(termo));
+    (!soMarcadas || marcadas.has(e.id)) &&
+    (!termo || (e.rotulo + ' ' + e.assunto + ' ' + e.defeito).toLowerCase().includes(termo)));
+
+  atualizaAlternador();
 
   if (!visiveis.length) {
-    lista.innerHTML = '<div class="vazio">Nenhuma pendência com esse termo.</div>';
+    lista.innerHTML = '<div class="vazio">'
+      + (soMarcadas && !marcadas.size ? 'Nada marcado ainda.'
+         : soMarcadas ? 'Nenhuma das marcadas atende a esse termo.'
+         : 'Nenhuma pendência com esse termo.')
+      + '</div>';
     return;
   }
 
@@ -54,6 +66,8 @@ function desenhaLista() {
       desenhaCampos();
       atualizaContagem();
       pedePrevia();
+      if (soMarcadas && !cx.checked) desenhaLista();
+      else atualizaAlternador();
     });
 
     const texto = document.createElement('div');
@@ -85,6 +99,13 @@ function desenhaLista() {
     div.append(cx, texto);
     lista.append(div);
   }
+}
+
+function atualizaAlternador() {
+  const b = $('so-marcadas');
+  b.textContent = marcadas.size ? `Só as marcadas (${marcadas.size})` : 'Só as marcadas';
+  b.classList.toggle('ligado', soMarcadas);
+  b.setAttribute('aria-pressed', String(soMarcadas));
 }
 
 function desenhaCampos() {

@@ -305,3 +305,16 @@ button:disabled { opacity: .5; cursor: default; filter: none; }
   background: var(--alerta-sup); color: var(--alerta);
   border-radius: 4px; padding: 0 3px; font-style: italic;
 }
+
+/* alternador "só as marcadas", ao lado da busca */
+.cabeca-acoes { display: flex; align-items: center; gap: 8px; }
+.alternador {
+  font: inherit; font-size: 12px; padding: 5px 11px; border-radius: 999px;
+  border: 1px solid var(--borda-forte); background: var(--superficie-2);
+  color: var(--texto-fraco); cursor: pointer; white-space: nowrap;
+}
+.alternador:hover { background: var(--borda); }
+.alternador.ligado {
+  background: var(--destaque); border-color: var(--destaque); color: #fff;
+}
+@media (max-width: 1280px) { .busca { width: 140px; } }
