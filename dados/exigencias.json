@@ -231,6 +231,23 @@
     "em cópia autenticada",
     "em via original e cópia para arquivo"
    ]
+  },
+  "dado_ccir": {
+   "rotulo": "Dado divergente",
+   "exemplo": "área",
+   "opcoes": [
+    "área",
+    "proprietário",
+    "número da matrícula",
+    "denominação do imóvel",
+    "código do imóvel rural",
+    "município",
+    "confrontações"
+   ]
+  },
+  "detalhe_divergencia": {
+   "rotulo": "Detalhe da divergência",
+   "exemplo": "281,5458 ha no CCIR e 1.685,5720 ha na matrícula"
   }
  },
  "exigencias": [
@@ -414,6 +431,34 @@
     {
      "norma": "LRP",
      "artigo": "Art. 176"
+    }
+   ]
+  },
+  {
+   "id": "ccir-divergente-da-matricula",
+   "rotulo": "CCIR com dado divergente da matrícula",
+   "assunto": "ccir",
+   "revisado": false,
+   "campos": [
+    "dado_ccir",
+    "detalhe_divergencia"
+   ],
+   "defeito": "Verifica-se que o Certificado de Cadastro de Imóvel Rural (CCIR) não corresponde à matrícula no seguinte dado: {dado_ccir}[ ({detalhe_divergencia})]. A matrícula do imóvel rural deve conter os dados constantes do CCIR, sob pena de cadastro e fólio real retratarem imóveis diferentes.",
+   "providencia": "a retificação do CCIR perante o INCRA, para que seus dados correspondam aos da matrícula, ou a apresentação de documento que esclareça a divergência",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 852",
+     "partes": [
+      "II",
+      "3",
+      "a)"
+     ]
+    },
+    {
+     "norma": "L4947",
+     "artigo": "Art. 22"
     }
    ]
   },
