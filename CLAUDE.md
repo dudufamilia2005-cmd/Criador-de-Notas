@@ -73,6 +73,24 @@ Para achar o artigo pertinente a uma exigência nova, lendo a lei:
    como vencida. Sem isso o art. 77 do CTE-GO saía com o texto que valeu até
    31.12.2000. Ver `REDACAO_VENCIDA` em `indexa_normas.py`.
 
+1-C. **Revogação também vive dentro do artigo.** `1-A` cuidava do artigo
+   inteiro; o parágrafo revogado passava. No art. 77 do CTE-GO, 12 das 15
+   partes citáveis estavam revogadas — inclusive o § 5º, que a exigência do
+   ITCD citava. Agora `monta_dispositivos.py` apura a revogação **no texto
+   bruto**, antes de a limpeza apagar a prova, e separa as partes mortas em
+   `revogadas`. São quatro sinais: o histórico do próprio código
+   ("REVOGADO O § 5º DO ART. 77 PELO ART. 2º..."), a casca "§ 5º Revogado;",
+   o "(Revogada pela Lei ...)" do Planalto e a vigência com data final.
+   `valida_catalogo.py` reprova quem citar parte revogada, e
+   `texto_dispositivo` se recusa a imprimi-la.
+
+1-D. **Ordem importa: recortar e só depois limpar.** A quebra em partes depende
+   da pontuação, e a anotação de tramitação termina em `)`. Limpando antes,
+   273 das 571 partes deixavam de ser reconhecidas; limpando depois, a prova da
+   revogação continua legível. Por isso `prepara()` tira só o que *atrapalha o
+   corte* — rodapé de impressão, histórico em caixa alta, número de página
+   solto — e a limpeza completa corre parte por parte.
+
 1-B. **Artigo longo é citado por recorte.** O art. 176 da Lei 6.015 tem oito mil
    caracteres. O catálogo aponta quais `partes` citar; sai o caput e os trechos
    pedidos, separados por `(...)`. Rótulo repetido ganha ordinal — o art. 440-AQ
@@ -122,6 +140,11 @@ Fundamentação: Arial 9, recuo esquerdo 3,75–4,00 cm, entrelinhas 1,0.
 
 ## Pendências conhecidas
 
+- CTE-GO arts. 77-C e 102 constam revogados por inteiro; nenhuma exigência os
+  cita. O art. 4º, § 4º, da Lei 19.191/2015 saiu da exigência do ITCD: ele vale,
+  mas o seu inciso II diz que, acolhida a recomendação do oficial, *não* é devido
+  recolhimento complementar de imposto estadual — o oposto do que a providência
+  pede. Se for pertinente, é decisão de registrador repô-lo.
 - Provimento CNJ 161/2024: o PDF não tem texto extraível — traz só índices de
   glifos. Precisa de OCR ou de outra cópia. Nenhuma exigência o usa hoje.
 - Nenhuma das 65 exigências foi revisada por registrador: todas saem com aviso.

@@ -5,11 +5,14 @@ Cada caso aqui corresponde a um estrago que ja aconteceu, ou que quase
 aconteceu, ao mexer nas duas expressoes regulares de notadev/redator.py:
 a que tira o numero do artigo do corpo e a que junta ponto duplicado.
 """
+import json
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+RAIZ = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(RAIZ))
 from notadev.redator import Redator, JUNTA_PONTOS, TIRA_NUMERO   # noqa: E402
+from notadev.catalogo import Catalogo                            # noqa: E402
 
 # (entrada, saida esperada, o que se protege)
 PONTUACAO = [
@@ -67,6 +70,45 @@ def main():
     print(f"  [{'ok' if ok else 'FALHA'}] sem ponto duplo no corpo")
     if not ok:
         falhas.append("ponto duplo sobrou na nota")
+
+    # --------------------------------------------------------------- revogacao
+    # Nenhum dispositivo revogado pode chegar a nota: nem citado de proposito,
+    # nem de carona no recorte de um artigo vigente.
+    print("\nrevogacao")
+    disp = json.loads((RAIZ / "dados" / "dispositivos.json").read_text(encoding="utf-8"))
+    d77 = [x for x in disp["dispositivos"]
+           if x["norma"] == "CTE-GO" and x["artigo"] == "Art. 77"]
+    if not d77:
+        falhas.append("CTE-GO Art. 77 saiu do catalogo - refaca este teste")
+    else:
+        mortas = {x["rotulo"] for x in d77[0]["revogadas"]}
+        vivas = {x["rotulo"] for x in d77[0]["partes"]}
+        for rotulo in ("§ 1º", "§ 2º", "§ 3º",
+                       "§ 4º", "§ 5º"):
+            ok = rotulo in mortas and rotulo not in vivas
+            print(f"  [{'ok' if ok else 'FALHA'}] art. 77 {rotulo} fora do recorte (revogado)")
+            if not ok:
+                falhas.append(f"art. 77 {rotulo} continua citavel")
+        for rotulo in ("§ 6º", "§ 8º", "§ 10"):
+            ok = rotulo in vivas
+            print(f"  [{'ok' if ok else 'FALHA'}] art. 77 {rotulo} disponivel (vigente)")
+            if not ok:
+                falhas.append(f"art. 77 {rotulo}, que vale, sumiu do recorte")
+        ok = "Notas:" not in d77[0]["caput"]
+        print(f"  [{'ok' if ok else 'FALHA'}] caput sem a nota de reducao ja vencida")
+        if not ok:
+            falhas.append("a reducao temporaria de base voltou ao caput do art. 77")
+
+    # a ultima trava: mesmo apontada a dedo, a parte revogada nao e impressa
+    try:
+        Catalogo().texto_dispositivo("CTE-GO", "Art. 77", ["§ 5º"])
+        print("  [FALHA] citar parte revogada deveria dar erro")
+        falhas.append("texto_dispositivo imprimiu parte revogada")
+    except KeyError as erro:
+        ok = "revogada" in str(erro)
+        print(f"  [{'ok' if ok else 'FALHA'}] citar parte revogada e recusado, com o motivo")
+        if not ok:
+            falhas.append(f"recusou sem explicar: {erro}")
 
     if falhas:
         print(f"\n{len(falhas)} FALHAS:")

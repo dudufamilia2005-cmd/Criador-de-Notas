@@ -54,8 +54,15 @@ class Catalogo:
             return d["caput"]
 
         disponiveis = {p["rotulo"]: p["texto"] for p in d["partes"]}
+        # A ultima trava: dispositivo revogado nao sai impresso numa nota, ainda
+        # que o catalogo o aponte. Errar aqui e erro do cartorio perante a
+        # Corregedoria - o custo nao e simetrico.
+        mortas = {x["rotulo"]: x["motivo"] for x in d.get("revogadas", [])}
         escolhidas = []
         for r in partes:
+            if r in mortas:
+                raise KeyError(f"{norma} {artigo} {r} esta revogada "
+                               f"({mortas[r]}) e nao pode ser citada")
             if r not in disponiveis:
                 raise KeyError(
                     f"{norma} {artigo} nao tem a parte '{r}' "

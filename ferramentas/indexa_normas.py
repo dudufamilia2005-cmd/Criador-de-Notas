@@ -41,6 +41,21 @@ REDACAO_VENCIDA = re.compile(
     r"vig[êe]ncia:?\s*(?:de\s*)?[\d./]{6,10}\s*(?:a|à)\s*[\d./]{6,10}", re.I)
 
 
+# O compilado goiano nao anuncia a revogacao no comeco do artigo: escreve, no
+# fim, "REVOGADO O ART. 77-C DO PELO ART. 2o DA LEI No 21.915, DE 08.05.23".
+# Como REDACAO_VENCIDA so olha os primeiros 400 caracteres, o art. 77-C - morto
+# desde 2023 - passava por vigente. O numero e conferido contra o do proprio
+# artigo: "Ficam revogados os arts. X e Y" fala de outros, nao de si.
+REVOGA_ARTIGO = re.compile(
+    r"REVOGAD[OA]S?\s+(?:O|A)\s+ART(?:IGO)?\.?\s*([\d.]+(?:\s*-\s*[A-Z]{1,3})?)", re.I)
+
+
+def revogado_por_inteiro(artigo, texto):
+    alvo = artigo.replace("Art. ", "").replace(" ", "").rstrip(".")
+    return any(re.sub(r"[\s.]+$", "", m.group(1).replace(" ", "")) == alvo
+               for m in REVOGA_ARTIGO.finditer(texto))
+
+
 def chave(numero, sufixo):
     """Ordem de leitura: 440 < 440-A < 440-AA < 441."""
     peso = 0
@@ -111,7 +126,8 @@ def main():
         # redacao que valeu ate 31.12.2000.
         por_rotulo = {}
         for a in arts:
-            a["revogado"] = bool(REDACAO_VENCIDA.search(a["texto"][:400]))
+            a["revogado"] = (bool(REDACAO_VENCIDA.search(a["texto"][:400]))
+                             or revogado_por_inteiro(a["artigo"], a["texto"]))
             atual = por_rotulo.get(a["artigo"])
             if atual is None or (atual["revogado"] and not a["revogado"]):
                 por_rotulo[a["artigo"]] = a

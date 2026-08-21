@@ -1633,17 +1633,14 @@
    "fecho": "fecho",
    "fundamentos": [
     {
+     "norma": "LRP",
+     "artigo": "Art. 289"
+    },
+    {
      "norma": "CTE-GO",
      "artigo": "Art. 77",
      "partes": [
-      "§ 5º"
-     ]
-    },
-    {
-     "norma": "L19191",
-     "artigo": "Art. 4",
-     "partes": [
-      "§ 4º"
+      "§ 8º"
      ]
     }
    ]

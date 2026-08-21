@@ -32,6 +32,7 @@
      "texto": "§ 6º Nos casos de parcelamento do ITCD autorizados pela legislação estadual, admite-se o registro da escritura pública mediante apresentação do documento expedido pela Secretaria de Estado da Economia que comprove a regularização do parcelamento com garantia real, nos termos do art. 84, § 4º e 88-C da Lei nº 11.651/1991, desde que a garantia real em valor total equivalente ou superior ao do tributo esteja registrada no Cartório de Registro de Imóveis."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -40,6 +41,7 @@
    "texto": "Art 1º - Todo contrato, escrito ou verbal, para a execução de obras ou prestação de quaisquer serviços profissionais referentes à Engenharia, à Arquitetura e à Agronomia fica sujeito à \"Anotação de Responsabilidade Técnica\" (ART).",
    "caput": "Art 1º - Todo contrato, escrito ou verbal, para a execução de obras ou prestação de quaisquer serviços profissionais referentes à Engenharia, à Arquitetura e à Agronomia fica sujeito à \"Anotação de Responsabilidade Técnica\" (ART).",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -105,6 +107,7 @@
      "texto": "§ 10. É dispensada a declaração dos confinantes prevista no § 6º quando a retificação de matrícula de imóvel rural relativo à área pública da União ou do INCRA for formulada pela Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário da Casa Civil da Presidência da República ou pelo INCRA, acompanhada de declaração de que o memorial descritivo apresentado refere-se somente ao perímetro originário do imóvel cuja matricula esteja sendo retificada."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -258,6 +261,7 @@
      "texto": "§ 18. Quando se tratar de transcrição que não possua todos os requisitos para a abertura de matrícula, admitir- se-á que se façam na circunscrição de origem, à margem do título, as averbações necessárias."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -275,6 +279,7 @@
      "texto": "§ 2º - O CONFEA fixará os critérios e os valores das taxas da ART ad referendum do Ministro do Trabalho."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -283,6 +288,7 @@
    "texto": "Art. 805. Em se tratando de documentos eletrônicos, consideram-se autênticos os instrumentos públicos ou particulares assinados com certificado digital que atenda os requisitos da Infraestrutura de Chaves Públicas Brasileira – ICP.",
    "caput": "Art. 805. Em se tratando de documentos eletrônicos, consideram-se autênticos os instrumentos públicos ou particulares assinados com certificado digital que atenda os requisitos da Infraestrutura de Chaves Públicas Brasileira – ICP.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -291,6 +297,7 @@
    "texto": "Art. 800. As cópias de documentos fiscais ou emitidos por órgãos ou entidades públicos consideram-se válidas desde que autenticadas por tabelião ou, em se tratando de documento eletrônico, contenha código de validação por sistema digital do emitente.",
    "caput": "Art. 800. As cópias de documentos fiscais ou emitidos por órgãos ou entidades públicos consideram-se válidas desde que autenticadas por tabelião ou, em se tratando de documento eletrônico, contenha código de validação por sistema digital do emitente.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -356,6 +363,7 @@
      "texto": "§ 5º É o produtor rural autorizado a apresentar o CAR de que trata o caput deste artigo, para fins de apuração da área tributável prevista no inciso II do § 1º do art. 10 da Lei nº 9.393, de 19 de dezembro de 1996, que dispõe sobre o Imposto sobre a Propriedade Territorial Rural (ITR)."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -421,6 +429,7 @@
      "texto": "§ 8o O INCRA encaminhará, mensalmente, aos serviços de registro de imóveis, os códigos dos imóveis rurais de que trata o § 7o, para serem averbados de ofício, nas respectivas matrículas."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -447,7 +456,11 @@
     },
     {
      "rotulo": "b)",
-     "texto": "b) os demais imóveis rurais, caso em que a certificação da poligonal no INCRA é facultativa, a critério do interessado; e c) os imóveis urbanos nas seguintes hipóteses:"
+     "texto": "b) os demais imóveis rurais, caso em que a certificação da poligonal no INCRA é facultativa, a critério do interessado; e"
+    },
+    {
+     "rotulo": "c)",
+     "texto": "c) os imóveis urbanos nas seguintes hipóteses:"
     },
     {
      "rotulo": "1",
@@ -483,7 +496,11 @@
     },
     {
      "rotulo": "2 (3)",
-     "texto": "2) o Número do iImóvel na Receita Federal (Nirf) ou do CIB, quando efetivamente implantado, emitidos pela Secretaria da Receita Federal do Brasil (RFB); e 3) o código de inscrição do Cadastro Ambiental Rural (CAR), emitido pelos órgãos ambientais competentes."
+     "texto": "2) o Número do iImóvel na Receita Federal (Nirf) ou do CIB, quando efetivamente implantado, emitidos pela Secretaria da Receita Federal do Brasil (RFB); e"
+    },
+    {
+     "rotulo": "3",
+     "texto": "3) o código de inscrição do Cadastro Ambiental Rural (CAR), emitido pelos órgãos ambientais competentes."
     },
     {
      "rotulo": "4",
@@ -502,7 +519,7 @@
      "texto": "b) logradouro completo, bairro ou setor, município e estado;"
     },
     {
-     "rotulo": "c)",
+     "rotulo": "c) (2)",
      "texto": "c) número do lote, quadra e nome do loteamento, desmembramento ou condomínio de lotes, se houver, nos parcelamentos de solo urbano de que trata a Lei n. 6.766/1979;"
     },
     {
@@ -526,7 +543,7 @@
      "texto": "b) vila, povoado, distrito ou outra nomenclatura do local de situação do imóvel, município e estado;"
     },
     {
-     "rotulo": "c) (2)",
+     "rotulo": "c) (3)",
      "texto": "c) outros dados de localização que sejam úteis à descrição do imóvel, conforme costumes locais."
     },
     {
@@ -534,6 +551,7 @@
      "texto": "§ 3.º. As informações relativas aos cadastros imobiliários obrigatórios serão averbadas nas matrículas existentes, quando da prática do primeiro ato de registro voluntário após a vigência do Provimento n. 195, de 3 de junho de 2025 , e serão inseridas em campo próprio destinado a esses cadastros no caso de abertura de novas matrículas."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -611,6 +629,7 @@
      "texto": "9) \"Art. 1.611 - A falta de descendentes ou ascedentes será deferida a sucessão ao cônjuge sobrevivente se, ao tempo da morte do outro, não estava dissolvida a sociedade conjugal.\""
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -628,6 +647,7 @@
      "texto": "§2º. Os elementos de especialidade objetiva ou subjetiva que não alterarem elementos essenciais do ato ou negócio jurídico praticado, quando não constantes do título ou do acervo registral, poderão ser complementados por documento oficial ou, em se tratando de manifestação de vontade, por declaração expressa do proprietário ou do legitimado, sob sua responsabilidade."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -677,6 +697,7 @@
      "texto": "5. o número do registro anterior."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -690,6 +711,7 @@
      "texto": "Parágrafo único. A averbação de descrição do imóvel que servir apenas para incluir o CEP na matrícula, sem outros elementos de especialidade objetiva, será gratuita."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -698,6 +720,7 @@
    "texto": "Art. 913. A certidão do registro civil das pessoas naturais apresentada para fins de averbação deverá ter antecedência máxima de expedição de 90 (noventa) dias, contados da data da formalização do título, exceto a certidão de óbito e a que instruir título judicial, caso em que poderão ser utilizadas para as necessárias averbações independentemente de sua data de expedição.",
    "caput": "Art. 913. A certidão do registro civil das pessoas naturais apresentada para fins de averbação deverá ter antecedência máxima de expedição de 90 (noventa) dias, contados da data da formalização do título, exceto a certidão de óbito e a que instruir título judicial, caso em que poderão ser utilizadas para as necessárias averbações independentemente de sua data de expedição.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -711,6 +734,7 @@
      "texto": "Parágrafo único. A certidão negativa será sempre expedida nos termos em que tenha sido requerida e será fornecida dentro de 10 (dez) dias da data da entrada do requerimento na repartição."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -719,6 +743,7 @@
    "texto": "Art. 206. Tem os mesmos efeitos previstos no artigo anterior a certidão de que conste a existência de créditos não vencidos, em curso de cobrança executiva em que tenha sido efetivada a penhora, ou cuja exigibilidade esteja suspensa.",
    "caput": "Art. 206. Tem os mesmos efeitos previstos no artigo anterior a certidão de que conste a existência de créditos não vencidos, em curso de cobrança executiva em que tenha sido efetivada a penhora, ou cuja exigibilidade esteja suspensa.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -796,14 +821,6 @@
      "texto": "n) declaração expressa em que se fixe, se houver, o prazo de carência (art. 34);"
     },
     {
-     "rotulo": "o)",
-     "texto": "o) atestado de idoneidade financeira, fornecido por estabelecimento de crédito que opere no País há mais de cinoo anos."
-    },
-    {
-     "rotulo": "o) (2)",
-     "texto": "o) (revogada);"
-    },
-    {
      "rotulo": "p)",
      "texto": "p) declaração, acompanhada de plantas elucidativas, sôbre o número de veículos que a garagem comporta e os locais destinados à guarda dos mesmos."
     },
@@ -826,10 +843,6 @@
     {
      "rotulo": "§ 2º (2)",
      "texto": "§ 2º Os contratos de compra e venda, promessa de venda, cessão ou promessa de cessão de unidades autônomas são irretratáveis e, uma vez registrados, conferem direito real oponível a terceiros, atribuindo direito a adjudicação compulsória perante o incorporador ou a quem o suceder, inclusive na hipótese de insolvência posterior ao término da obra."
-    },
-    {
-     "rotulo": "§ 2o",
-     "texto": "§ 2o Os contratos de compra e venda, promessa de venda, cessão ou promessa de cessão de unidades autônomas são irretratáveis e, uma vez registrados, conferem direito real oponível a terceiros, atribuindo direito a adjudicação compulsória perante o incorporador ou a quem o suceder, inclusive na hipótese de insolvência posterior ao término da obra."
     },
     {
      "rotulo": "§ 3º",
@@ -904,6 +917,23 @@
      "texto": "§ 15. O registro do memorial de incorporação e da instituição do condomínio sobre as frações ideais constitui ato registral único."
     }
    ],
+   "revogadas": [
+    {
+     "rotulo": "o)",
+     "motivo": "marcada como revogada no texto",
+     "texto": "o) atestado de idoneidade financeira, fornecido por estabelecimento de crédito que opere no País há mais de cinoo anos."
+    },
+    {
+     "rotulo": "o)",
+     "motivo": "o dispositivo so tem a palavra 'revogado'",
+     "texto": "o) (revogada);"
+    },
+    {
+     "rotulo": "§ 2o",
+     "motivo": "marcada como revogada no texto",
+     "texto": "§ 2o Os contratos de compra e venda, promessa de venda, cessão ou promessa de cessão de unidades autônomas são irretratáveis e, uma vez registrados, conferem direito real oponível a terceiros, atribuindo direito a adjudicação compulsória perante o incorporador ou a quem o suceder, inclusive na hipótese de insolvência posterior ao término da obra."
+    }
+   ],
    "fonte": "lei"
   },
   {
@@ -933,6 +963,7 @@
      "texto": "§ 5 o O terraço de cobertura é parte comum, salvo disposição contrária da escritura de constituição do condomínio."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -955,11 +986,19 @@
     },
     {
      "rotulo": "I",
-     "texto": "I - no caso de imóveis rurais, se o imóvel confrontante e a nova descrição do imóvel objeto da retificação tiverem sido certificados pelo Incra na forma do § 5.º do art. 176 da Lei n. 6.015/1973; e II – se o imóvel confrontante for bem público e consistir em:"
+     "texto": "I - no caso de imóveis rurais, se o imóvel confrontante e a nova descrição do imóvel objeto da retificação tiverem sido certificados pelo Incra na forma do § 5.º do art. 176 da Lei n. 6.015/1973; e"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II – se o imóvel confrontante for bem público e consistir em:"
     },
     {
      "rotulo": "a)",
-     "texto": "a) águas públicas, tais como rios navegáveis, correntes ou depósitos hídricos, com respeito aos pertinentes terrenos reservados, nos termos do art. 14 do Código de Águas (Decreto n. 24.643/1934); e b) bem público de uso comum, tais como estradas, rodovias, ferrovias e outras vias de circulação, respeitada a faixa de domínio público e eventual área non aedificandi."
+     "texto": "a) águas públicas, tais como rios navegáveis, correntes ou depósitos hídricos, com respeito aos pertinentes terrenos reservados, nos termos do art. 14 do Código de Águas (Decreto n. 24.643/1934); e"
+    },
+    {
+     "rotulo": "b)",
+     "texto": "b) bem público de uso comum, tais como estradas, rodovias, ferrovias e outras vias de circulação, respeitada a faixa de domínio público e eventual área non aedificandi."
     },
     {
      "rotulo": "§ 4",
@@ -967,7 +1006,11 @@
     },
     {
      "rotulo": "I (2)",
-     "texto": "I - realizar a averbação de retificação administrativa da área global; e II - posteriormente, realizar averbação de desmembramento, com posterior averbação de encerramento da matrícula anterior, abrindo tantas matrículas quantas forem as parcelas desmembradas."
+     "texto": "I - realizar a averbação de retificação administrativa da área global; e"
+    },
+    {
+     "rotulo": "II (2)",
+     "texto": "II - posteriormente, realizar averbação de desmembramento, com posterior averbação de encerramento da matrícula anterior, abrindo tantas matrículas quantas forem as parcelas desmembradas."
     },
     {
      "rotulo": "§ 5",
@@ -990,6 +1033,7 @@
      "texto": "§ 9.º. Havendo indícios de grilagem de terras, fraude procedimental, declaração falsa ou cometimento de qualquer outro ato ilícito pelo requerente ou pelo profissional técnico, o oficial de registro comunicará o fato ao juízo competente e ao Ministério Público com as cópias dos documentos necessários à análise. Seção III Do Saneamento de Irregularidades Existentes nas Matrículas"
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -998,6 +1042,7 @@
    "texto": "Art. 195 - Se o imóvel não estiver matriculado ou registrado em nome do outorgante, o oficial exigirá a prévia matrícula e o registro do título anterior, qualquer que seja a sua natureza, para manter a continuidade do registro..",
    "caput": "Art. 195 - Se o imóvel não estiver matriculado ou registrado em nome do outorgante, o oficial exigirá a prévia matrícula e o registro do título anterior, qualquer que seja a sua natureza, para manter a continuidade do registro..",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1067,6 +1112,7 @@
      "texto": "Parágrafo único. Para a lavratura de escritura relativa a imóvel, o título anterior deve estar registrado no Registro de Imóveis, a fim de preservar o princípio da continuidade registral, salvo na hipótese de negócios simultâneos e sucessivos, quando constar do título dominial desses.."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1124,12 +1170,13 @@
      "texto": "§ 6º Os contratos e termos administrativos mencionados no inciso VI deverão ser submetidos à qualificação registral pelo oficial do registro de imóveis, previamente ao pagamento do valor devido ao expropriado."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
    "norma": "CTE-GO",
    "artigo": "Art. 88-C",
-   "texto": "Art. 88-C. Somente com a comprovação do pagamento integral do imposto ou da concessão do parcelamento ou de sua desoneração: I - os tabeliães podem formalizar as escrituras públicas de inventário, doação e dissolução consensual de sociedade conjugal ou união estável; II - os oficiais de registro podem efetuar o registro de imóveis constantes de sentença de inventário, de dissolução de sociedade conjugal ou união estável, do legado ou de instrumento público ou particular de doação; III - a Junta Comercial do Estado de Goiás - JUCEG pode promover o registro ou o arquivamento de qualquer ato relativo à constituição, alteração, dissolução e extinção de pessoa jurídica e de empresário, assim definido na Lei federal nº 10.406, de 10 de janeiro de 2002, que implique transmissão não onerosa de bens ou direitos; e IV - o Departamento Estadual de Trânsito de Goiás - DETRAN pode efetivar a transferência de propriedade de veículos automotores nas transmissões causa mortis. Parágrafo único. Sem prejuízo da exigência contida no caput, o documento judicial ou extrajudicial que fundamentar o valor atribuído à base de cálculo do ITCD ou a sua dispensa deve acompanhar a respectiva: I - sentença, nos processos judiciais de inventário ou arrolamento, dissolução de sociedade conjugal ou união estável; 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos: II - escritura pública, nos inventários e nas dissoluções de sociedade conjugal ou união estável extrajudiciais; ou III - escritura pública ou escrito particular, na transmissão por doação.",
+   "texto": "Art. 88-C. Somente com a comprovação do pagamento integral do imposto ou da concessão do parcelamento ou de sua desoneração: I - os tabeliães podem formalizar as escrituras públicas de inventário, doação e dissolução consensual de sociedade conjugal ou união estável; II - os oficiais de registro podem efetuar o registro de imóveis constantes de sentença de inventário, de dissolução de sociedade conjugal ou união estável, do legado ou de instrumento público ou particular de doação; III - a Junta Comercial do Estado de Goiás - JUCEG pode promover o registro ou o arquivamento de qualquer ato relativo à constituição, alteração, dissolução e extinção de pessoa jurídica e de empresário, assim definido na Lei federal nº 10.406, de 10 de janeiro de 2002, que implique transmissão não onerosa de bens ou direitos; e IV - o Departamento Estadual de Trânsito de Goiás - DETRAN pode efetivar a transferência de propriedade de veículos automotores nas transmissões causa mortis. Parágrafo único. Sem prejuízo da exigência contida no caput, o documento judicial ou extrajudicial que fundamentar o valor atribuído à base de cálculo do ITCD ou a sua dispensa deve acompanhar a respectiva: I - sentença, nos processos judiciais de inventário ou arrolamento, dissolução de sociedade conjugal ou união estável; II - escritura pública, nos inventários e nas dissoluções de sociedade conjugal ou união estável extrajudiciais; ou III - escritura pública ou escrito particular, na transmissão por doação.",
    "caput": "Art. 88-C. Somente com a comprovação do pagamento integral do imposto ou da concessão do parcelamento ou de sua desoneração:",
    "partes": [
     {
@@ -1150,13 +1197,14 @@
     },
     {
      "rotulo": "I (2)",
-     "texto": "I - sentença, nos processos judiciais de inventário ou arrolamento, dissolução de sociedade conjugal ou união estável; 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos:"
+     "texto": "I - sentença, nos processos judiciais de inventário ou arrolamento, dissolução de sociedade conjugal ou união estável;"
     },
     {
      "rotulo": "II (2)",
      "texto": "II - escritura pública, nos inventários e nas dissoluções de sociedade conjugal ou união estável extrajudiciais; ou III - escritura pública ou escrito particular, na transmissão por doação."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1165,6 +1213,7 @@
    "texto": "Art. 108. Não dispondo a lei em contrário, a escritura pública é essencial à validade dos negócios jurídicos que visem à constituição, transferência, modificação ou renúncia de direitos reais sobre imóveis de valor superior a trinta vezes o maior salário mínimo vigente no País.",
    "caput": "Art. 108. Não dispondo a lei em contrário, a escritura pública é essencial à validade dos negócios jurídicos que visem à constituição, transferência, modificação ou renúncia de direitos reais sobre imóveis de valor superior a trinta vezes o maior salário mínimo vigente no País.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1178,6 +1227,7 @@
      "texto": "Parágrafo único. A doação verbal será válida, se, versando sobre bens móveis e de pequeno valor, se lhe seguir incontinenti a tradição."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1188,7 +1238,11 @@
    "partes": [
     {
      "rotulo": "I",
-     "texto": "I - pelo depósito do pagamento antecipado dos emolumentos e das custas; ou II - pelo recolhimento do valor da prenotação e depósito posterior do pagamento do valor restante, no prazo de 5 (cinco) dias, contado da data da análise pelo oficial que concluir pela aptidão para registro."
+     "texto": "I - pelo depósito do pagamento antecipado dos emolumentos e das custas; ou"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II - pelo recolhimento do valor da prenotação e depósito posterior do pagamento do valor restante, no prazo de 5 (cinco) dias, contado da data da análise pelo oficial que concluir pela aptidão para registro."
     },
     {
      "rotulo": "§ 1º",
@@ -1219,6 +1273,7 @@
      "texto": "§ 7º O prazo previsto no caput deste artigo não é computado dentro do prazo de registro de que trata o art. 188 desta Lei."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1260,6 +1315,7 @@
      "texto": "§ 5o Os cartórios que não cumprirem o disposto no § 4o ficarão sujeitos a multa de até R$ 1.120,00 (um mil, cento e vinte reais) a ser aplicada pelo juiz, com a atualização que se fizer necessária, em caso de desvalorização da moeda."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1277,6 +1333,7 @@
      "texto": "§ 2º O oficial que descumprir a norma deste artigo, além da devolução da quantia recolhida a maior, devidamente atualizada, está sujeito às penalidades previstas na legislação vigente."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1343,7 +1400,11 @@
     },
     {
      "rotulo": "XI",
-     "texto": "XI - pelas companhias securitizadoras de crédito imobiliário; e XII - por outras instituições que venham a ser consideradas pelo Conselho Monetário Nacional como integrantes do Sistema Financeiro da Habitação."
+     "texto": "XI - pelas companhias securitizadoras de crédito imobiliário; e"
+    },
+    {
+     "rotulo": "XII",
+     "texto": "XII - por outras instituições que venham a ser consideradas pelo Conselho Monetário Nacional como integrantes do Sistema Financeiro da Habitação."
     },
     {
      "rotulo": "I (3)",
@@ -1387,13 +1448,18 @@
     },
     {
      "rotulo": "XI (2)",
-     "texto": "XI – pelas companhias securitizadoras de crédito imobiliário; e XII – por outras instituições que venham a ser consideradas pelo Conselho Monetário Nacional como integrantes do Sistema Financeiro da Habitação."
+     "texto": "XI – pelas companhias securitizadoras de crédito imobiliário; e"
+    },
+    {
+     "rotulo": "XII (2)",
+     "texto": "XII – por outras instituições que venham a ser consideradas pelo Conselho Monetário Nacional como integrantes do Sistema Financeiro da Habitação."
     },
     {
      "rotulo": "Parágrafo único",
      "texto": "Parágrafo único. O Conselho da Superintendência da Moeda e do Crédito fixará as normas que regulam as relações entre o sistema financeiro da habitação e o restante do sistema financeiro nacional, especialmente quanto à possibilidade, às condições e aos limites de aplicação de recursos da rêde bancária em letras imobiliárias, emitidas, nos têrmos desta lei, pelo Banco Nacional da Habitação."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1491,6 +1557,7 @@
      "texto": "§ 10. O disposto no § 3º do art. 49 da Lei nº 11.101, de 9 de fevereiro de 2005, beneficia todos os credores fiduciários, mesmo aqueles decorrentes da alienação fiduciária da propriedade superveniente."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1512,6 +1579,7 @@
      "texto": "§ 2º Caberá ao fiduciante a obrigação de arcar com o custo do pagamento do Imposto sobre a Propriedade Predial e Territorial Urbana (IPTU) incidente sobre o bem e das taxas condominiais existentes."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1529,6 +1597,7 @@
      "texto": "§2º. Por semelhança é o reconhecimento decorrente do confronto da assinatura apresentada pela parte no documento com a ficha padrão depositada na serventia ou, ainda, com qualquer outro documento constante do seu arquivo se, entre elas, houver similitude."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1537,6 +1606,7 @@
    "texto": "Art. 917. As averbações serão feitas a requerimento dos interessados, com firma reconhecida, instruídas com documento comprobatório fornecido pela autoridade competente.",
    "caput": "Art. 917. As averbações serão feitas a requerimento dos interessados, com firma reconhecida, instruídas com documento comprobatório fornecido pela autoridade competente.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1562,6 +1632,7 @@
      "texto": "III - o representante legal."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1583,6 +1654,7 @@
      "texto": "§ 3º. Além de descrever o imóvel, o documento de arrecadação municipal deverá mencionar o título de transmissão levado a registro e os nomes dos transmitentes e adquirentes."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1596,6 +1668,7 @@
      "texto": "Parágrafo único. São solidariamente responsáveis pelo imposto e pelos acréscimos legais, nos termos do art. 134 da Lei nº 5.172, de 25 de outubro de 1966 - Sistema Tributário Nacional, os serventuários do registro de imóveis que descumprirem o disposto neste artigo, sem prejuízo de outras sanções legais. Depósito Judicial na Desapropriação"
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1666,14 +1739,22 @@
     },
     {
      "rotulo": "c) (3)",
-     "texto": "c) da situação jurídica atualizada do imóvel; e c) da situação jurídica atualizada do imóvel; e d) de ações penais contra o loteador, pelo período de 10 (dez) anos."
+     "texto": "c) da situação jurídica atualizada do imóvel; e"
+    },
+    {
+     "rotulo": "c) (4)",
+     "texto": "c) da situação jurídica atualizada do imóvel; e"
     },
     {
      "rotulo": "d)",
-     "texto": "d) de ações penais contra o loteador, pelo período de dez anos;"
+     "texto": "d) de ações penais contra o loteador, pelo período de 10 (dez) anos."
     },
     {
      "rotulo": "d) (2)",
+     "texto": "d) de ações penais contra o loteador, pelo período de dez anos;"
+    },
+    {
+     "rotulo": "d) (3)",
      "texto": "d) de ações penais contra o loteador, pelo período de 10 (dez) anos;"
     },
     {
@@ -1737,6 +1818,7 @@
      "texto": "§ 8º O mesmo imóvel poderá servir como garantia ao Município ou ao Distrito Federal na execução das obras de infraestrutura e a créditos constituídos em favor de credor em operações de financiamento a produção do lote urbanizado."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1758,14 +1840,19 @@
      "texto": "IV – mediante requerimento do interessado em razão da sua perempção."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
    "norma": "LRP",
    "artigo": "Art. 251",
    "texto": "Art. 251 - O cancelamento de hipoteca só pode ser feito: I - à vista de autorização expressa ou quitação outorgada pelo credor ou seu sucessor, em instrumento público ou particular; II - em razão de procedimento administrativo ou contencioso, no qual o credor tenha sido intimado (art. 698 do Código de Processo Civil); III - na conformidade da legislação referente às cédulas hipotecárias.",
-   "caput": "Art. 251 - O cancelamento de hipoteca só pode ser feito: I - à vista de autorização expressa ou quitação outorgada pelo credor ou seu sucessor, em instrumento público ou particular;",
+   "caput": "Art. 251 - O cancelamento de hipoteca só pode ser feito:",
    "partes": [
+    {
+     "rotulo": "I",
+     "texto": "I - à vista de autorização expressa ou quitação outorgada pelo credor ou seu sucessor, em instrumento público ou particular;"
+    },
     {
      "rotulo": "II",
      "texto": "II - em razão de procedimento administrativo ou contencioso, no qual o credor tenha sido intimado (art. 698 do Código de Processo Civil);"
@@ -1775,6 +1862,7 @@
      "texto": "III - na conformidade da legislação referente às cédulas hipotecárias."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1783,6 +1871,7 @@
    "texto": "Art. 875. O pacto antenupcial e o instrumento público ou particular que regular o regime de bens na união estável será registrado no registro de imóveis da circunscrição em que os cônjuges ou companheiros tenham domicílio, sem prejuízo de sua averbação 383 obrigatória no lugar da situação do imóvel próprio, ou a ser adquirido, do casal ou companheiros, com a declaração das respectivas cláusulas para ciência de terceiros.",
    "caput": "Art. 875. O pacto antenupcial e o instrumento público ou particular que regular o regime de bens na união estável será registrado no registro de imóveis da circunscrição em que os cônjuges ou companheiros tenham domicílio, sem prejuízo de sua averbação 383 obrigatória no lugar da situação do imóvel próprio, ou a ser adquirido, do casal ou companheiros, com a declaração das respectivas cláusulas para ciência de terceiros.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1816,6 +1905,7 @@
      "texto": "§3º. Para averbação, será apresentada certidão do registro no Livro nº 3 do cartório do domicílio conjugal, acompanhado do traslado, no original ou cópia autenticada."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1824,6 +1914,7 @@
    "texto": "Art. 186 - O número de ordem determinará a prioridade do título, e esta a preferência dos direitos reais, ainda que apresentados pela mesma pessoa mais de um título simultaneamente..",
    "caput": "Art. 186 - O número de ordem determinará a prioridade do título, e esta a preferência dos direitos reais, ainda que apresentados pela mesma pessoa mais de um título simultaneamente..",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1893,6 +1984,7 @@
      "texto": "XIV – referência expressa ao registro no Livro de Protocolo de Notas, com indicação do número e da data; e XV – termo de encerramento, com assinaturas do tabelião ou escrevente autorizado, das partes e dos intervenientes."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1906,6 +1998,7 @@
      "texto": "Parágrafo único. O sócio ou acionista de sociedade poderá outorgar poderes de representação em seu nome pessoal, como quotista, acionista ou na condição de administrador da sociedade, desde que assim esclarecido e formalizado no instrumento de mandato."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1914,6 +2007,7 @@
    "texto": "Art. 807 . Serão exigidos atos constitutivos ou procurações do signatário cuja firma tenha sido reconhecida como pessoa jurídica para verificação dos poderes.",
    "caput": "Art. 807 . Serão exigidos atos constitutivos ou procurações do signatário cuja firma tenha sido reconhecida como pessoa jurídica para verificação dos poderes.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1927,6 +2021,7 @@
      "texto": "Parágrafo único. Nos procedimentos de regularização fundiária de interesse social, os efeitos da prenotação cessarão decorridos 40 (quarenta) dias de seu lançamento no Protocolo."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1945,13 +2040,18 @@
     },
     {
      "rotulo": "II",
-     "texto": "II - os documentos eletrônicos apresentados por meio do Serp; e III - os títulos que reingressarem na vigência da prenotação com o cumprimento integral das exigências formuladas anteriormente."
+     "texto": "II - os documentos eletrônicos apresentados por meio do Serp; e"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III - os títulos que reingressarem na vigência da prenotação com o cumprimento integral das exigências formuladas anteriormente."
     },
     {
      "rotulo": "§ 2º",
      "texto": "§ 2º A inobservância do disposto neste artigo ensejará a aplicação das penas previstas no art. 32 da Lei nº 8.935, de 18 de novembro de 1994, nos termos estabelecidos pela Corregedoria Nacional de Justiça do Conselho Nacional de Justiça."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1969,6 +2069,7 @@
      "texto": "§2º. Para fins de alienar, dispor, transferir domínio, direito e ação, hipotecar, gravar ou praticar quaisquer outros atos que exorbitem da administração ordinária, a procuração dependerá de poderes especiais, com expressa menção e referência aos bens móveis e imóveis que poderão ser alienados ou gravados pelo mandatário."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -1994,6 +2095,7 @@
      "texto": "§ 4º. Em se tratando de pessoa jurídica, serão apresentados, além dos atos constitutivos e demais alterações, certidão específica contendo o histórico de atos registrados, emitida pela Junta Comercial no caso de sociedade empresária, pela Ordem dos Advogados do Brasil, no caso de sociedade de advogados e certidão do registro civil das pessoas jurídicas, nos demais casos."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2059,14 +2161,19 @@
      "texto": "§ 8º Não será exigido Reserva Legal relativa às áreas adquiridas ou desapropriadas com o objetivo de implantação e ampliação de capacidade de rodovias e ferrovias."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
    "norma": "LRP",
    "artigo": "Art. 213",
    "texto": "Art. 213. O oficial retificará o registro ou a averbação: I - de ofício ou a requerimento do interessado nos casos de: a) omissão ou erro cometido na transposição de qualquer elemento do título; b) indicação ou atualização de confrontação; c) alteração de denominação de logradouro público, comprovada por documento oficial; d) retificação que vise a indicação de rumos, ângulos de deflexão ou inserção de coordenadas georeferenciadas, em que não haja alteração das medidas perimetrais; e) alteração ou inserção que resulte de mero cálculo matemático feito a partir das medidas perimetrais constantes do registro; f) reprodução de descrição de linha divisória de imóvel confrontante que já tenha sido objeto de retificação; g) inserção ou modificação dos dados de qualificação pessoal das partes, comprovada por documentos oficiais, ou mediante despacho judicial quando houver necessidade de produção de outras provas; II - a requerimento do interessado, no caso de inserção ou alteração de medida perimetral de que resulte, ou não, alteração de área, instruído com planta e memorial descritivo assinado por profissional legalmente habilitado, com prova de anotação de responsabilidade técnica no competente Conselho Regional de Engenharia e Arquitetura - CREA, bem assim pelos confrontantes. § 1o Uma vez atendidos os requisitos de que trata o caput do art. 225, o oficial averbará a retificação. § 2o Se a planta não contiver a assinatura de algum confrontante, este será notificado pelo Oficial de Registro de Imóveis competente, a requerimento do interessado, para se manifestar em quinze dias, promovendo-se a notificação pessoalmente ou pelo correio, com aviso de recebimento, ou, ainda, por solicitação do Oficial de Registro de Imóveis, pelo Oficial de Registro de Títulos e Documentos da comarca da situação do imóvel ou do domicílio de quem deva recebê-la. § 3o A notificação será dirigida ao endereço do confrontante constante do Registro de Imóveis, podendo ser dirigida ao próprio imóvel contíguo ou àquele fornecido pelo requerente; não sendo encontrado o confrontante ou estando em lugar incerto e não sabido, tal fato será certificado pelo oficial encarregado da diligência, promovendo-se a notificação do confrontante mediante edital, com o mesmo prazo fixado no § 2o, publicado por duas vezes em jornal local de grande circulação. § 4o Presumir-se-á a anuência do confrontante que deixar de apresentar impugnação no prazo da notificação. § 5o Findo o prazo sem impugnação, o oficial averbará a retificação requerida; se houver impugnação fundamentada por parte de algum confrontante, o oficial intimará o requerente e o profissional que houver assinado a planta e o memorial a fim de que, no prazo de cinco dias, se manifestem sobre a impugnação. § 6o Havendo impugnação e se as partes não tiverem formalizado transação amigável para solucioná-la, o oficial remeterá o processo ao juiz competente, que decidirá de plano ou após instrução sumária, salvo se a controvérsia versar sobre o direito de propriedade de alguma das partes, hipótese em que remeterá o interessado para as vias ordinárias. § 7o Pelo mesmo procedimento previsto neste artigo poderão ser apurados os remanescentes de áreas parcialmente alienadas, caso em que serão considerados como confrontantes tão-somente os confinantes das áreas remanescentes. § 8o As áreas públicas poderão ser demarcadas ou ter seus registros retificados pelo mesmo procedimento previsto neste artigo, desde que constem do registro ou sejam logradouros devidamente averbados. § 9o Independentemente de retificação, dois ou mais confrontantes poderão, por meio de escritura pública, alterar ou estabelecer as divisas entre si e, se houver transferência de área, com o recolhimento do devido imposto de transmissão e desde que preservadas, se rural o imóvel, a fração mínima de parcelamento e, quando urbano, a legislação urbanística. § 10. Entendem-se como confrontantes os proprietários e titulares de outros direitos reais e aquisitivos sobre os imóveis contíguos, observado o seguinte: I - o condomínio geral, de que trata o Capítulo VI do Título III do Livro III da Parte Especial da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), será representado por qualquer um dos condôminos; II - o condomínio edilício, de que tratam os arts. 1.331 a 1.358 da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), será representado pelo síndico, e o condomínio por frações autônomas, de que trata o art. 32 da Lei nº 4.591, de 16 de dezembro de 1964, pela comissão de representantes; e III - não se incluem como confrontantes: a) os detentores de direitos reais de garantia hipotecária ou pignoratícia; ou b) os titulares de crédito vincendo, cuja propriedade imobiliária esteja vinculada, temporariamente, à operação de crédito financeiro. § 11. Independe de retificação: I - a regularização fundiária de interesse social realizada em Zonas Especiais de Interesse Social, promovida por Município ou pelo Distrito Federal, quando os lotes já estiverem cadastrados individualmente ou com lançamento fiscal há mais de 10 (dez) anos; II - a adequação da descrição de imóvel rural às exigências dos arts. 176, §§ 3o e 4o, e 225, § 3o, desta Lei. III - a adequação da descrição de imóvel urbano decorrente de transformação de coordenadas geodésicas entre os sistemas de georreferenciamento oficiais; IV - a averbação do auto de demarcação urbanística e o registro do parcelamento decorrente de projeto de regularização fundiária de interesse social de que trata a Lei nº 11.977, de 7 de julho de 2009; e V - o registro do parcelamento de glebas para fins urbanos anterior a 19 de dezembro de 1979, que esteja implantado e integrado à cidade, nos termos do art. 71 da Lei nº 11.977, de 7 de julho de 2009. § 12. Poderá o oficial realizar diligências no imóvel para a constatação de sua situação em face dos confrontantes e localização na quadra. § 13. Se não houver dúvida quanto à identificação do imóvel: I - o título anterior à retificação poderá ser levado a registro desde que requerido pelo adquirente, promovendo- se o registro em conformidade com a nova descrição; e II - a prenotação do título anterior à retificação será prorrogada durante a análise da retificação de registro. § 14. Verificado a qualquer tempo não serem verdadeiros os fatos constantes do memorial descritivo, responderão os requerentes e o profissional que o elaborou pelos prejuízos causados, independentemente das sanções disciplinares e penais. § 15. Não são devidos custas ou emolumentos notariais ou de registro decorrentes de regularização fundiária de interesse social a cargo da administração pública. § 16. Na retificação de que trata o inciso II do caput, serão considerados confrontantes somente os confinantes de divisas que forem alcançadas pela inserção ou alteração de medidas perimetrais. § 17 Se, realizadas buscas, não for possível identificar os titulares do domínio dos imóveis confrontantes do imóvel retificando, definidos no § 10, deverá ser colhida a anuência de eventual ocupante, devendo os interessados não identificados ser notificados por meio de edital eletrônico, publicado 1 (uma) vez na internet, para se manifestarem no prazo de 15 (quinze) dias úteis, com as implicações previstas no § 4º deste artigo.",
-   "caput": "Art. 213. O oficial retificará o registro ou a averbação: I - de ofício ou a requerimento do interessado nos casos de:",
+   "caput": "Art. 213. O oficial retificará o registro ou a averbação:",
    "partes": [
+    {
+     "rotulo": "I",
+     "texto": "I - de ofício ou a requerimento do interessado nos casos de:"
+    },
     {
      "rotulo": "a)",
      "texto": "a) omissão ou erro cometido na transposição de qualquer elemento do título;"
@@ -2140,23 +2247,31 @@
      "texto": "§ 10. Entendem-se como confrontantes os proprietários e titulares de outros direitos reais e aquisitivos sobre os imóveis contíguos, observado o seguinte:"
     },
     {
-     "rotulo": "I",
+     "rotulo": "I (2)",
      "texto": "I - o condomínio geral, de que trata o Capítulo VI do Título III do Livro III da Parte Especial da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), será representado por qualquer um dos condôminos;"
     },
     {
      "rotulo": "II (2)",
-     "texto": "II - o condomínio edilício, de que tratam os arts. 1.331 a 1.358 da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), será representado pelo síndico, e o condomínio por frações autônomas, de que trata o art. 32 da Lei nº 4.591, de 16 de dezembro de 1964, pela comissão de representantes; e III - não se incluem como confrontantes:"
+     "texto": "II - o condomínio edilício, de que tratam os arts. 1.331 a 1.358 da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), será representado pelo síndico, e o condomínio por frações autônomas, de que trata o art. 32 da Lei nº 4.591, de 16 de dezembro de 1964, pela comissão de representantes; e"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III - não se incluem como confrontantes:"
     },
     {
      "rotulo": "a) (2)",
-     "texto": "a) os detentores de direitos reais de garantia hipotecária ou pignoratícia; ou b) os titulares de crédito vincendo, cuja propriedade imobiliária esteja vinculada, temporariamente, à operação de crédito financeiro."
+     "texto": "a) os detentores de direitos reais de garantia hipotecária ou pignoratícia; ou"
+    },
+    {
+     "rotulo": "b) (2)",
+     "texto": "b) os titulares de crédito vincendo, cuja propriedade imobiliária esteja vinculada, temporariamente, à operação de crédito financeiro."
     },
     {
      "rotulo": "§ 11",
      "texto": "§ 11. Independe de retificação:"
     },
     {
-     "rotulo": "I (2)",
+     "rotulo": "I (3)",
      "texto": "I - a regularização fundiária de interesse social realizada em Zonas Especiais de Interesse Social, promovida por Município ou pelo Distrito Federal, quando os lotes já estiverem cadastrados individualmente ou com lançamento fiscal há mais de 10 (dez) anos;"
     },
     {
@@ -2164,12 +2279,16 @@
      "texto": "II - a adequação da descrição de imóvel rural às exigências dos arts. 176, §§ 3o e 4o, e 225, § 3o, desta Lei."
     },
     {
-     "rotulo": "III",
+     "rotulo": "III (2)",
      "texto": "III - a adequação da descrição de imóvel urbano decorrente de transformação de coordenadas geodésicas entre os sistemas de georreferenciamento oficiais;"
     },
     {
      "rotulo": "IV",
-     "texto": "IV - a averbação do auto de demarcação urbanística e o registro do parcelamento decorrente de projeto de regularização fundiária de interesse social de que trata a Lei nº 11.977, de 7 de julho de 2009; e V - o registro do parcelamento de glebas para fins urbanos anterior a 19 de dezembro de 1979, que esteja implantado e integrado à cidade, nos termos do art. 71 da Lei nº 11.977, de 7 de julho de 2009."
+     "texto": "IV - a averbação do auto de demarcação urbanística e o registro do parcelamento decorrente de projeto de regularização fundiária de interesse social de que trata a Lei nº 11.977, de 7 de julho de 2009; e"
+    },
+    {
+     "rotulo": "V",
+     "texto": "V - o registro do parcelamento de glebas para fins urbanos anterior a 19 de dezembro de 1979, que esteja implantado e integrado à cidade, nos termos do art. 71 da Lei nº 11.977, de 7 de julho de 2009."
     },
     {
      "rotulo": "§ 12",
@@ -2180,8 +2299,12 @@
      "texto": "§ 13. Se não houver dúvida quanto à identificação do imóvel:"
     },
     {
-     "rotulo": "I (3)",
-     "texto": "I - o título anterior à retificação poderá ser levado a registro desde que requerido pelo adquirente, promovendo- se o registro em conformidade com a nova descrição; e II - a prenotação do título anterior à retificação será prorrogada durante a análise da retificação de registro."
+     "rotulo": "I (4)",
+     "texto": "I - o título anterior à retificação poderá ser levado a registro desde que requerido pelo adquirente, promovendo- se o registro em conformidade com a nova descrição; e"
+    },
+    {
+     "rotulo": "II (4)",
+     "texto": "II - a prenotação do título anterior à retificação será prorrogada durante a análise da retificação de registro."
     },
     {
      "rotulo": "§ 14",
@@ -2200,6 +2323,7 @@
      "texto": "§ 17 Se, realizadas buscas, não for possível identificar os titulares do domínio dos imóveis confrontantes do imóvel retificando, definidos no § 10, deverá ser colhida a anuência de eventual ocupante, devendo os interessados não identificados ser notificados por meio de edital eletrônico, publicado 1 (uma) vez na internet, para se manifestarem no prazo de 15 (quinze) dias úteis, com as implicações previstas no § 4º deste artigo."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2221,130 +2345,113 @@
      "texto": "§ 3 o Não haverá complemento de área, nem devolução de excesso, se o imóvel for vendido como coisa certa e discriminada, tendo sido apenas enunciativa a referência às suas dimensões, ainda que não conste, de modo expresso, ter sido a venda ad corpus ."
     }
    ],
+   "revogadas": [],
+   "fonte": "lei"
+  },
+  {
+   "norma": "LRP",
+   "artigo": "Art. 289",
+   "texto": "Art. 289. No exercício de suas funções, cumpre aos oficiais de registro fazer rigorosa fiscalização do pagamento dos impostos devidos por força dos atos que lhes forem apresentados em razão do ofício.",
+   "caput": "Art. 289. No exercício de suas funções, cumpre aos oficiais de registro fazer rigorosa fiscalização do pagamento dos impostos devidos por força dos atos que lhes forem apresentados em razão do ofício.",
+   "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
    "norma": "CTE-GO",
    "artigo": "Art. 77",
-   "texto": "Art. 77. A base de cálculo do ITCD é o valor de mercado do bem ou do direito transmitido por causa mortis ou por doação, expresso em moeda nacional na data da declaração. Notas: 1.Por força da Lei nº 19.871, no período de 25.10.17 à 24.10.18, fica reduzida para 70% (setenta por cento) a base de cálculo do Imposto sobre a Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos -ITCD-, na hipótese de transmissão de quaisquer bens ou direitos por doação; 2.Por força das Leis nºs 22.221 e 23.594, no ano de 2023 e no período de 26.08.25 a 31.12.25, respectivamente, fica reduzida para 30% (trinta por cento) a base de cálculo do Imposto sobre Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos - ITCD, na hipótese de transmissão por doação de imóveis situados no Polo Empresarial Goiás, criado pela Lei nº 1.624, de 13 de junho de 1997, do Município de Aparecida de Goiânia/GO, desde que o pagamento integral do imposto seja efetuado durante o prazo de produção de efeitos desta Lei. § 1º O valor venal será apurado mediante avaliação judicial ou avaliação procedida pela Fazenda Pública Estadual e expresso em moeda nacional. § 1º O valor de mercado é apurado mediante avaliação judicial ou avaliação procedida pela Fazenda Pública Estadual e expresso em moeda nacional na data da declaração ou da avaliação.de 03.08.13 a 12.02.22 CONFERIDA NOVA REDAÇÃO E ACRESCIDO OS INCISOS II E II AO § 1º DO ART. 77 PELO ART. 1º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 1º O valor de mercado para a base de cálculo do imposto deve ser apurado mediante avaliação administrativa nas seguintes hipóteses: 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos:de 13.02.22 a 07.05.23 I - quando o sujeito passivo for omisso quanto à entrega da declaração ou quando nela não constar o valor de mercado ou, ainda, quando o valor declarado não corresponder ao valor de mercado ou não atender o disposto no art. 77-B; ou II - quando não merecerem fé as informações prestadas pelo sujeito passivo.de 13.02.22 a 07.05.23 REVOGADO O § 1º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 1º revogado; § 2º A base de cálculo do imposto, nas seguintes situações, corresponde a 50% (cinqüenta por cento) do valor de avaliação do bem imóvel: I - transmissão não onerosa, com reserva ao transmitente de direito real; II - extinção do usufruto, com a consolidação da propriedade na pessoa do nu proprietário; III - transmissão de direito real de usufruto, uso, habitação ou renda expressamente constituída, quando o período de duração do direito real for igual ou superior a 5 (cinco) anos, calculando-se proporcionalmente esse valor quando essa duração foi inferior. § 2º A base de cálculo do ITCD deve ser submetida à homologação, considerando-se homologada com a aprovação, pela Fazenda Pública Estadual, do valor de mercado do bem ou direito transmitido.de 03.08.13 a 12.02.22 REVOGADO O § 2º DO ART. 77 PELO ART. 2º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 2º Revogado; § 3º Havendo discordância quanto ao valor da avaliação para fim de base de cálculo o sujeito passivo pode apresentar reclamação ao órgão competente.de 01.01.01 a 07.05.23 REVOGADO O § 3º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 3º revogado; § 4º Devem ser deduzidos da base de cálculo do ITCD o passivo patrimonial formado, em relação a bem, título, crédito ou direito, até a abertura da sucessão e as dívidas do espólio previstas no art. 1.569 do Código Civil. § 4º Devem ser deduzidos da base de cálculo do ITCD o passivo patrimonial formado, em relação a bem, título, crédito ou direito, até a abertura da sucessão e as dívidas do espólio previstas no art. 965 do Código Civil. § 4º Na falta da entrega da Declaração do ITCD Doação no prazo legal e não havendo elementos para avaliar bens e direitos na data do fato gerador, a Fazenda Pública Estadual pode realizar avaliação e mediante método de ajuste de valor, encontrar a base de cálculo naquela data.de 03.08.13 a 07.05.23 REVOGADO O § 4º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 4º revogado; § 5º Havendo discordância por parte da Administração Tributária quanto ao valor atribuído aos bens e direitos pelo sujeito passivo, cabe à Fazenda Pública Estadual realizar avaliação e sendo constatada diferença positiva entre o valor da avaliação e o valor atribuído, deve efetuar o lançamento do valor relativo à diferença verificada.de 03.08.13 a 12.02.22 REVOGADO O § 5º DO ART. 77 PELO ART. 2º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 5º Revogado; ACRESCIDO O § 6º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 6º No caso de imóvel e suas respectivas benfeitorias, o valor da base de cálculo não pode ser inferior: I - à base de cálculo utilizada pela Prefeitura Municipal para o cálculo do Imposto sobre a Transmissão de Bens Imóveis - ITBI ou do Imposto Predial e Territorial Urbano - IPTU e do Imposto Territorial Urbano - ITU, o que for maior, em caso de imóvel urbano ou de direito relativo a ele; e II - ao valor total declarado pelo próprio contribuinte para o lançamento do Imposto sobre a Propriedade Territorial Rural - ITR, em caso de imóvel rural ou de direito relativo a ele. ACRESCIDO O § 7º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 7º Devem ser deduzidas da base de cálculo do ITCD, até a abertura da sucessão as dívidas do espólio. ACRESCIDO O § 8º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos: § 8º A base de cálculo do imposto não pode ser inferior aos valores constantes do formal de partilha e da escritura pública. ACRESCIDO O § 9º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 9º O valor de mercado, para a determinação da base de cálculo do ITCD, pode ser estabelecido por meio dos valores referenciais: I - constantes do cadastro de imóveis urbanos e rurais adotado pela Administração Tributária; e II - utilizados para a fixação da base de cálculo do ICMS ou do IPVA. ACRESCIDO O § 10 AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 10. A Fazenda Pública Estadual pode definir como base de cálculo o valor médio de mercado divulgado em tabela elaborada por órgão de reconhecida idoneidade indicado em regulamento. ACRESCIDO O ART. 77-A PELO ART. 1º DA LEI Nº 15.505, DE 29.12.05 - VIGÊNCIA: 29.12.05.",
-   "caput": "Art. 77. A base de cálculo do ITCD é o valor de mercado do bem ou do direito transmitido por causa mortis ou por doação, expresso em moeda nacional na data da declaração. Notas: 1.Por força da Lei nº 19.871, no período de 25.10.17 à 24.10.18, fica reduzida para 70% (setenta por cento) a base de cálculo do Imposto sobre a Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos -ITCD-, na hipótese de transmissão de quaisquer bens ou direitos por doação; 2.Por força das Leis nºs 22.221 e 23.594, no ano de 2023 e no período de 26.08.25 a 31.12.25, respectivamente, fica reduzida para 30% (trinta por cento) a base de cálculo do Imposto sobre Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos - ITCD, na hipótese de transmissão por doação de imóveis situados no Polo Empresarial Goiás, criado pela Lei nº 1.624, de 13 de junho de 1997, do Município de Aparecida de Goiânia/GO, desde que o pagamento integral do imposto seja efetuado durante o prazo de produção de efeitos desta Lei.",
+   "texto": "Art. 77. A base de cálculo do ITCD é o valor de mercado do bem ou do direito transmitido por causa mortis ou por doação, expresso em moeda nacional na data da declaração. Notas: 1.Por força da Lei nº 19.871, no período de 25.10.17 à 24.10.18, fica reduzida para 70% (setenta por cento) a base de cálculo do Imposto sobre a Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos -ITCD-, na hipótese de transmissão de quaisquer bens ou direitos por doação; 2.Por força das Leis nºs 22.221 e 23.594, no ano de 2023 e no período de 26.08.25 a 31.12.25, respectivamente, fica reduzida para 30% (trinta por cento) a base de cálculo do Imposto sobre Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos - ITCD, na hipótese de transmissão por doação de imóveis situados no Polo Empresarial Goiás, criado pela Lei nº 1.624, de 13 de junho de 1997, do Município de Aparecida de Goiânia/GO, desde que o pagamento integral do imposto seja efetuado durante o prazo de produção de efeitos desta Lei. § 1º O valor venal será apurado mediante avaliação judicial ou avaliação procedida pela Fazenda Pública Estadual e expresso em moeda nacional. § 1º O valor de mercado é apurado mediante avaliação judicial ou avaliação procedida pela Fazenda Pública Estadual e expresso em moeda nacional na data da declaração ou da avaliação.de 03.08.13 a 12.02.22 CONFERIDA NOVA REDAÇÃO E ACRESCIDO OS INCISOS II E II AO § 1º DO ART. 77 PELO ART. 1º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 1º O valor de mercado para a base de cálculo do imposto deve ser apurado mediante avaliação administrativa nas seguintes hipóteses:de 13.02.22 a 07.05.23 I - quando o sujeito passivo for omisso quanto à entrega da declaração ou quando nela não constar o valor de mercado ou, ainda, quando o valor declarado não corresponder ao valor de mercado ou não atender o disposto no art. 77-B; ou II - quando não merecerem fé as informações prestadas pelo sujeito passivo.de 13.02.22 a 07.05.23 REVOGADO O § 1º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 1º revogado; § 2º A base de cálculo do imposto, nas seguintes situações, corresponde a 50% (cinqüenta por cento) do valor de avaliação do bem imóvel: I - transmissão não onerosa, com reserva ao transmitente de direito real; II - extinção do usufruto, com a consolidação da propriedade na pessoa do nu proprietário; III - transmissão de direito real de usufruto, uso, habitação ou renda expressamente constituída, quando o período de duração do direito real for igual ou superior a 5 (cinco) anos, calculando-se proporcionalmente esse valor quando essa duração foi inferior. § 2º A base de cálculo do ITCD deve ser submetida à homologação, considerando-se homologada com a aprovação, pela Fazenda Pública Estadual, do valor de mercado do bem ou direito transmitido.de 03.08.13 a 12.02.22 REVOGADO O § 2º DO ART. 77 PELO ART. 2º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 2º Revogado; § 3º Havendo discordância quanto ao valor da avaliação para fim de base de cálculo o sujeito passivo pode apresentar reclamação ao órgão competente.de 01.01.01 a 07.05.23 REVOGADO O § 3º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 3º revogado; § 4º Devem ser deduzidos da base de cálculo do ITCD o passivo patrimonial formado, em relação a bem, título, crédito ou direito, até a abertura da sucessão e as dívidas do espólio previstas no art. 1.569 do Código Civil. § 4º Devem ser deduzidos da base de cálculo do ITCD o passivo patrimonial formado, em relação a bem, título, crédito ou direito, até a abertura da sucessão e as dívidas do espólio previstas no art. 965 do Código Civil. § 4º Na falta da entrega da Declaração do ITCD Doação no prazo legal e não havendo elementos para avaliar bens e direitos na data do fato gerador, a Fazenda Pública Estadual pode realizar avaliação e mediante método de ajuste de valor, encontrar a base de cálculo naquela data.de 03.08.13 a 07.05.23 REVOGADO O § 4º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 4º revogado; § 5º Havendo discordância por parte da Administração Tributária quanto ao valor atribuído aos bens e direitos pelo sujeito passivo, cabe à Fazenda Pública Estadual realizar avaliação e sendo constatada diferença positiva entre o valor da avaliação e o valor atribuído, deve efetuar o lançamento do valor relativo à diferença verificada.de 03.08.13 a 12.02.22 REVOGADO O § 5º DO ART. 77 PELO ART. 2º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 5º Revogado; ACRESCIDO O § 6º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 6º No caso de imóvel e suas respectivas benfeitorias, o valor da base de cálculo não pode ser inferior: I - à base de cálculo utilizada pela Prefeitura Municipal para o cálculo do Imposto sobre a Transmissão de Bens Imóveis - ITBI ou do Imposto Predial e Territorial Urbano - IPTU e do Imposto Territorial Urbano - ITU, o que for maior, em caso de imóvel urbano ou de direito relativo a ele; e II - ao valor total declarado pelo próprio contribuinte para o lançamento do Imposto sobre a Propriedade Territorial Rural - ITR, em caso de imóvel rural ou de direito relativo a ele. ACRESCIDO O § 7º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 7º Devem ser deduzidas da base de cálculo do ITCD, até a abertura da sucessão as dívidas do espólio. ACRESCIDO O § 8º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 8º A base de cálculo do imposto não pode ser inferior aos valores constantes do formal de partilha e da escritura pública. ACRESCIDO O § 9º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 9º O valor de mercado, para a determinação da base de cálculo do ITCD, pode ser estabelecido por meio dos valores referenciais: I - constantes do cadastro de imóveis urbanos e rurais adotado pela Administração Tributária; e II - utilizados para a fixação da base de cálculo do ICMS ou do IPVA. ACRESCIDO O § 10 AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 10. A Fazenda Pública Estadual pode definir como base de cálculo o valor médio de mercado divulgado em tabela elaborada por órgão de reconhecida idoneidade indicado em regulamento. ACRESCIDO O ART. 77-A PELO ART. 1º DA LEI Nº 15.505, DE 29.12.05 - VIGÊNCIA: 29.12.05.",
+   "caput": "Art. 77. A base de cálculo do ITCD é o valor de mercado do bem ou do direito transmitido por causa mortis ou por doação, expresso em moeda nacional na data da declaração.",
    "partes": [
     {
+     "rotulo": "§ 6º",
+     "texto": "§ 6º No caso de imóvel e suas respectivas benfeitorias, o valor da base de cálculo não pode ser inferior:"
+    },
+    {
+     "rotulo": "I",
+     "texto": "I - à base de cálculo utilizada pela Prefeitura Municipal para o cálculo do Imposto sobre a Transmissão de Bens Imóveis - ITBI ou do Imposto Predial e Territorial Urbano - IPTU e do Imposto Territorial Urbano - ITU, o que for maior, em caso de imóvel urbano ou de direito relativo a ele; e II - ao valor total declarado pelo próprio contribuinte para o lançamento do Imposto sobre a Propriedade Territorial Rural - ITR, em caso de imóvel rural ou de direito relativo a ele."
+    },
+    {
+     "rotulo": "§ 7º",
+     "texto": "§ 7º Devem ser deduzidas da base de cálculo do ITCD, até a abertura da sucessão as dívidas do espólio."
+    },
+    {
+     "rotulo": "§ 8º",
+     "texto": "§ 8º A base de cálculo do imposto não pode ser inferior aos valores constantes do formal de partilha e da escritura pública."
+    },
+    {
+     "rotulo": "§ 9º",
+     "texto": "§ 9º O valor de mercado, para a determinação da base de cálculo do ITCD, pode ser estabelecido por meio dos valores referenciais:"
+    },
+    {
+     "rotulo": "I (2)",
+     "texto": "I - constantes do cadastro de imóveis urbanos e rurais adotado pela Administração Tributária; e II - utilizados para a fixação da base de cálculo do ICMS ou do IPVA."
+    },
+    {
+     "rotulo": "§ 10",
+     "texto": "§ 10. A Fazenda Pública Estadual pode definir como base de cálculo o valor médio de mercado divulgado em tabela elaborada por órgão de reconhecida idoneidade indicado em regulamento."
+    }
+   ],
+   "revogadas": [
+    {
      "rotulo": "§ 1º",
+     "motivo": "o proprio codigo declara a revogacao",
      "texto": "§ 1º O valor venal será apurado mediante avaliação judicial ou avaliação procedida pela Fazenda Pública Estadual e expresso em moeda nacional."
     },
     {
-     "rotulo": "§ 1º (2)",
-     "texto": "§ 1º O valor de mercado é apurado mediante avaliação judicial ou avaliação procedida pela Fazenda Pública Estadual e expresso em moeda nacional na data da declaração ou da avaliação.de 03.08.13 a 12.02.22 CONFERIDA NOVA REDAÇÃO E ACRESCIDO OS INCISOS II E II AO § 1º DO ART. 77 PELO ART. 1º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 1º O valor de mercado para a base de cálculo do imposto deve ser apurado mediante avaliação administrativa nas seguintes hipóteses: 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos:de 13.02.22 a 07.05.23 I - quando o sujeito passivo for omisso quanto à entrega da declaração ou quando nela não constar o valor de mercado ou, ainda, quando o valor declarado não corresponder ao valor de mercado ou não atender o disposto no art. 77-B; ou II - quando não merecerem fé as informações prestadas pelo sujeito passivo.de 13.02.22 a 07.05.23 REVOGADO O § 1º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 1º revogado;"
+     "rotulo": "§ 1º",
+     "motivo": "o proprio codigo declara a revogacao",
+     "texto": "§ 1º O valor de mercado é apurado mediante avaliação judicial ou avaliação procedida pela Fazenda Pública Estadual e expresso em moeda nacional na data da declaração ou da avaliação.de 03.08.13 a 12.02.22 § 1º O valor de mercado para a base de cálculo do imposto deve ser apurado mediante avaliação administrativa nas seguintes hipóteses:de 13.02.22 a 07.05.23 I - quando o sujeito passivo for omisso quanto à entrega da declaração ou quando nela não constar o valor de mercado ou, ainda, quando o valor declarado não corresponder ao valor de mercado ou não atender o disposto no art. 77-B; ou II - quando não merecerem fé as informações prestadas pelo sujeito passivo.de 13.02.22 a 07.05.23 § 1º revogado;"
     },
     {
      "rotulo": "§ 2º",
+     "motivo": "o proprio codigo declara a revogacao",
      "texto": "§ 2º A base de cálculo do imposto, nas seguintes situações, corresponde a 50% (cinqüenta por cento) do valor de avaliação do bem imóvel:"
     },
     {
      "rotulo": "I",
+     "motivo": "redacao com vigencia encerrada",
      "texto": "I - transmissão não onerosa, com reserva ao transmitente de direito real;"
     },
     {
      "rotulo": "II",
+     "motivo": "redacao com vigencia encerrada",
      "texto": "II - extinção do usufruto, com a consolidação da propriedade na pessoa do nu proprietário;"
     },
     {
      "rotulo": "III",
+     "motivo": "redacao com vigencia encerrada",
      "texto": "III - transmissão de direito real de usufruto, uso, habitação ou renda expressamente constituída, quando o período de duração do direito real for igual ou superior a 5 (cinco) anos, calculando-se proporcionalmente esse valor quando essa duração foi inferior."
     },
     {
-     "rotulo": "§ 2º (2)",
-     "texto": "§ 2º A base de cálculo do ITCD deve ser submetida à homologação, considerando-se homologada com a aprovação, pela Fazenda Pública Estadual, do valor de mercado do bem ou direito transmitido.de 03.08.13 a 12.02.22 REVOGADO O § 2º DO ART. 77 PELO ART. 2º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 2º Revogado;"
+     "rotulo": "§ 2º",
+     "motivo": "o proprio codigo declara a revogacao",
+     "texto": "§ 2º A base de cálculo do ITCD deve ser submetida à homologação, considerando-se homologada com a aprovação, pela Fazenda Pública Estadual, do valor de mercado do bem ou direito transmitido.de 03.08.13 a 12.02.22 § 2º Revogado;"
     },
     {
      "rotulo": "§ 3º",
-     "texto": "§ 3º Havendo discordância quanto ao valor da avaliação para fim de base de cálculo o sujeito passivo pode apresentar reclamação ao órgão competente.de 01.01.01 a 07.05.23 REVOGADO O § 3º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 3º revogado;"
+     "motivo": "o proprio codigo declara a revogacao",
+     "texto": "§ 3º Havendo discordância quanto ao valor da avaliação para fim de base de cálculo o sujeito passivo pode apresentar reclamação ao órgão competente.de 01.01.01 a 07.05.23 § 3º revogado;"
     },
     {
      "rotulo": "§ 4º",
+     "motivo": "o proprio codigo declara a revogacao",
      "texto": "§ 4º Devem ser deduzidos da base de cálculo do ITCD o passivo patrimonial formado, em relação a bem, título, crédito ou direito, até a abertura da sucessão e as dívidas do espólio previstas no art. 1.569 do Código Civil."
     },
     {
-     "rotulo": "§ 4º (2)",
+     "rotulo": "§ 4º",
+     "motivo": "o proprio codigo declara a revogacao",
      "texto": "§ 4º Devem ser deduzidos da base de cálculo do ITCD o passivo patrimonial formado, em relação a bem, título, crédito ou direito, até a abertura da sucessão e as dívidas do espólio previstas no art. 965 do Código Civil."
     },
     {
-     "rotulo": "§ 4º (3)",
-     "texto": "§ 4º Na falta da entrega da Declaração do ITCD Doação no prazo legal e não havendo elementos para avaliar bens e direitos na data do fato gerador, a Fazenda Pública Estadual pode realizar avaliação e mediante método de ajuste de valor, encontrar a base de cálculo naquela data.de 03.08.13 a 07.05.23 REVOGADO O § 4º DO ART. 77 DO PELO ART. 2º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 4º revogado;"
-    },
-    {
-     "rotulo": "§ 5º",
-     "texto": "§ 5º Havendo discordância por parte da Administração Tributária quanto ao valor atribuído aos bens e direitos pelo sujeito passivo, cabe à Fazenda Pública Estadual realizar avaliação e sendo constatada diferença positiva entre o valor da avaliação e o valor atribuído, deve efetuar o lançamento do valor relativo à diferença verificada.de 03.08.13 a 12.02.22 REVOGADO O § 5º DO ART. 77 PELO ART. 2º DA LEI Nº 21.201, DE 16.12.21 - VIGÊNCIA: 13.02.22 § 5º Revogado; ACRESCIDO O § 6º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 6º No caso de imóvel e suas respectivas benfeitorias, o valor da base de cálculo não pode ser inferior:"
-    },
-    {
-     "rotulo": "I (2)",
-     "texto": "I - à base de cálculo utilizada pela Prefeitura Municipal para o cálculo do Imposto sobre a Transmissão de Bens Imóveis - ITBI ou do Imposto Predial e Territorial Urbano - IPTU e do Imposto Territorial Urbano - ITU, o que for maior, em caso de imóvel urbano ou de direito relativo a ele; e II - ao valor total declarado pelo próprio contribuinte para o lançamento do Imposto sobre a Propriedade Territorial Rural - ITR, em caso de imóvel rural ou de direito relativo a ele. ACRESCIDO O § 7º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 7º Devem ser deduzidas da base de cálculo do ITCD, até a abertura da sucessão as dívidas do espólio. ACRESCIDO O § 8º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 17/08/2026, 17:23 I - considera-se industrializado o produto resultante da utilização dos seguintes processos:"
-    },
-    {
-     "rotulo": "§ 8º",
-     "texto": "§ 8º A base de cálculo do imposto não pode ser inferior aos valores constantes do formal de partilha e da escritura pública. ACRESCIDO O § 9º AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 9º O valor de mercado, para a determinação da base de cálculo do ITCD, pode ser estabelecido por meio dos valores referenciais:"
-    },
-    {
-     "rotulo": "I (3)",
-     "texto": "I - constantes do cadastro de imóveis urbanos e rurais adotado pela Administração Tributária; e II - utilizados para a fixação da base de cálculo do ICMS ou do IPVA. ACRESCIDO O § 10 AO ART. 77 PELO ART. 1º DA LEI Nº 21.915, DE 08.05.23 - VIGÊNCIA: 08.05.23 § 10. A Fazenda Pública Estadual pode definir como base de cálculo o valor médio de mercado divulgado em tabela elaborada por órgão de reconhecida idoneidade indicado em regulamento. ACRESCIDO O ART. 77-A PELO ART. 1º DA LEI Nº 15.505, DE 29.12.05 - VIGÊNCIA: 29.12.05."
-    }
-   ],
-   "fonte": "lei"
-  },
-  {
-   "norma": "L19191",
-   "artigo": "Art. 4",
-   "texto": "Art. 4º Para fins de enquadramento nas tabelas, relativamente aos atos classificados na alínea “b” do inciso III do parágrafo único do art. 1º desta Lei, serão considerados como parâmetros os seguintes valores, prevalecendo o que for maior: I - preço ou valor econômico da transação ou do negócio jurídico declarado pelas partes; II - valor tributário do imóvel, estabelecido no último lançamento efetuado pela Prefeitura Municipal, para efeito de cobrança de imposto sobre a propriedade predial e territorial urbana, ou o valor da avaliação do imóvel rural aceito pelo órgão federal competente, considerando o valor da terra nua, as acessões e as benfeitorias; III - base de cálculo utilizada para o recolhimento do imposto estadual ou municipal de transmissão de bens imóveis. § 1º Nos casos em que, por força de lei, devam ser utilizados valores decorrentes de avaliação judicial ou fiscal, estes serão os valores considerados para os fins do disposto neste artigo. § 2º A modificação do valor da avaliação, após a prática do ato notarial ou registral, não implicará modificação no valor dos emolumentos cobrados. § 3º Nos atos relativos à constituição de dívidas ou financiamentos, como a hipoteca, o penhor e a alienação fiduciária, a base de cálculo é o valor do contrato. § 4º Se o preço ou valor econômico do bem ou do negócio jurídico inicialmente declarado pelas partes, bem como os demais parâmetros previstos em lei, estiverem em flagrante dissonância com seu valor real ou de mercado, será previamente observado o seguinte: I - o tabelião ou oficial de registro, na qualidade de agente arrecadador de tributos, recomendará o usuário sobre a necessidade de declarar o valor real ou de mercado do bem ou negócio; II - sendo acolhida a recomendação, o ato será praticado com base no novo valor declarado, que constará do corpo do ato, não sendo devido o recolhimento complementar de imposto de competência estadual incidente sobre o negócio; III - não sendo acolhida a recomendação, poderá ser instaurado procedimento administrativo de arbitramento de valor, perante o diretor do foro, adotando-se o procedimento previsto para casos de dúvida do art. 198 da Lei nº 6.015, de 31 de dezembro de 1973, podendo o juiz, se necessário, determinar que a avaliação se faça por oficial de justiça, cujo custo será suportado pelo usuário, se vencido. § 5º A atualização da base de cálculo das tabelas será feita pelo mesmo índice utilizado pela Secretaria de Estado da Fazenda para correção dos valores constantes do Código Tributário Estadual, dos últimos 12 (doze) meses anteriores ao cálculo do reajuste, compreendendo o período entre o dia 1º de dezembro do ano anterior e o dia 30 de novembro do ano da divulgação do reajuste, descontado eventual reajuste já concedido referente ao mesmo ou 18/08/2026, 09:15 Lei Ordinária Nº 19.191/2015 - Casa Civil do Estado de Goiás parte do período. - Redação dada pela Lei nº 19.571, de 29-12-2016. § 5º A atualização da base de cálculo das tabelas será feita pelo mesmo índice utilizado pela Secretaria de Estado da Fazenda para correção dos valores constantes do Código Tributário Estadual, dos últimos 12(doze) meses anteriores ao cálculo do reajuste, compreendendo o período entre o dia 1º de dezembro do ano anterior e o dia 30 de novembro do ano da divulgação do reajuste, descontado eventual reajuste já concedido referente ao mesmo ou parte do período, sendo arredondadas, para mais, as frações superiores a R$0,50 (cinquenta centavos) e para menos, as iguais e as inferiores.",
-   "caput": "Art. 4º Para fins de enquadramento nas tabelas, relativamente aos atos classificados na alínea “b” do inciso III do parágrafo único do art. 1º desta Lei, serão considerados como parâmetros os seguintes valores, prevalecendo o que for maior:",
-   "partes": [
-    {
-     "rotulo": "I",
-     "texto": "I - preço ou valor econômico da transação ou do negócio jurídico declarado pelas partes;"
-    },
-    {
-     "rotulo": "II",
-     "texto": "II - valor tributário do imóvel, estabelecido no último lançamento efetuado pela Prefeitura Municipal, para efeito de cobrança de imposto sobre a propriedade predial e territorial urbana, ou o valor da avaliação do imóvel rural aceito pelo órgão federal competente, considerando o valor da terra nua, as acessões e as benfeitorias;"
-    },
-    {
-     "rotulo": "III",
-     "texto": "III - base de cálculo utilizada para o recolhimento do imposto estadual ou municipal de transmissão de bens imóveis."
-    },
-    {
-     "rotulo": "§ 1º",
-     "texto": "§ 1º Nos casos em que, por força de lei, devam ser utilizados valores decorrentes de avaliação judicial ou fiscal, estes serão os valores considerados para os fins do disposto neste artigo."
-    },
-    {
-     "rotulo": "§ 2º",
-     "texto": "§ 2º A modificação do valor da avaliação, após a prática do ato notarial ou registral, não implicará modificação no valor dos emolumentos cobrados."
-    },
-    {
-     "rotulo": "§ 3º",
-     "texto": "§ 3º Nos atos relativos à constituição de dívidas ou financiamentos, como a hipoteca, o penhor e a alienação fiduciária, a base de cálculo é o valor do contrato."
-    },
-    {
      "rotulo": "§ 4º",
-     "texto": "§ 4º Se o preço ou valor econômico do bem ou do negócio jurídico inicialmente declarado pelas partes, bem como os demais parâmetros previstos em lei, estiverem em flagrante dissonância com seu valor real ou de mercado, será previamente observado o seguinte:"
-    },
-    {
-     "rotulo": "I (2)",
-     "texto": "I - o tabelião ou oficial de registro, na qualidade de agente arrecadador de tributos, recomendará o usuário sobre a necessidade de declarar o valor real ou de mercado do bem ou negócio;"
-    },
-    {
-     "rotulo": "II (2)",
-     "texto": "II - sendo acolhida a recomendação, o ato será praticado com base no novo valor declarado, que constará do corpo do ato, não sendo devido o recolhimento complementar de imposto de competência estadual incidente sobre o negócio;"
-    },
-    {
-     "rotulo": "III (2)",
-     "texto": "III - não sendo acolhida a recomendação, poderá ser instaurado procedimento administrativo de arbitramento de valor, perante o diretor do foro, adotando-se o procedimento previsto para casos de dúvida do art. 198 da Lei nº 6.015, de 31 de dezembro de 1973, podendo o juiz, se necessário, determinar que a avaliação se faça por oficial de justiça, cujo custo será suportado pelo usuário, se vencido."
+     "motivo": "o proprio codigo declara a revogacao",
+     "texto": "§ 4º Na falta da entrega da Declaração do ITCD Doação no prazo legal e não havendo elementos para avaliar bens e direitos na data do fato gerador, a Fazenda Pública Estadual pode realizar avaliação e mediante método de ajuste de valor, encontrar a base de cálculo naquela data.de 03.08.13 a 07.05.23 § 4º revogado;"
     },
     {
      "rotulo": "§ 5º",
-     "texto": "§ 5º A atualização da base de cálculo das tabelas será feita pelo mesmo índice utilizado pela Secretaria de Estado da Fazenda para correção dos valores constantes do Código Tributário Estadual, dos últimos 12 (doze) meses anteriores ao cálculo do reajuste, compreendendo o período entre o dia 1º de dezembro do ano anterior e o dia 30 de novembro do ano da divulgação do reajuste, descontado eventual reajuste já concedido referente ao mesmo ou 18/08/2026, 09:15 Lei Ordinária Nº 19.191/2015 - Casa Civil do Estado de Goiás parte do período. - Redação dada pela Lei nº 19.571, de 29-12-2016."
-    },
-    {
-     "rotulo": "§ 5º (2)",
-     "texto": "§ 5º A atualização da base de cálculo das tabelas será feita pelo mesmo índice utilizado pela Secretaria de Estado da Fazenda para correção dos valores constantes do Código Tributário Estadual, dos últimos 12(doze) meses anteriores ao cálculo do reajuste, compreendendo o período entre o dia 1º de dezembro do ano anterior e o dia 30 de novembro do ano da divulgação do reajuste, descontado eventual reajuste já concedido referente ao mesmo ou parte do período, sendo arredondadas, para mais, as frações superiores a R$0,50 (cinquenta centavos) e para menos, as iguais e as inferiores."
+     "motivo": "o proprio codigo declara a revogacao",
+     "texto": "§ 5º Havendo discordância por parte da Administração Tributária quanto ao valor atribuído aos bens e direitos pelo sujeito passivo, cabe à Fazenda Pública Estadual realizar avaliação e sendo constatada diferença positiva entre o valor da avaliação e o valor atribuído, deve efetuar o lançamento do valor relativo à diferença verificada.de 03.08.13 a 12.02.22 § 5º Revogado;"
     }
    ],
    "fonte": "lei"
@@ -2360,6 +2467,7 @@
      "texto": "Parágrafo único. Todo ato praticado no foro extrajudicial vincula-se obrigatoriamente a um selo eletrônico específico, sendo o seu identificador único para efeitos fiscais e de autenticidade."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2401,6 +2509,7 @@
      "texto": "§ 8º. A utilização da modalidade de selo avulso deverá ser comunicada, via PROAD, à Corregedoria do Foro Extrajudicial."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2409,6 +2518,7 @@
    "texto": "Art. 928. O cancelamento da servidão, quando o prédio dominante estiver hipotecado, só poderá ser feito com anuência do credor, expressamente manifestada. Capítulo v – Procedimento de Dúvida",
    "caput": "Art. 928. O cancelamento da servidão, quando o prédio dominante estiver hipotecado, só poderá ser feito com anuência do credor, expressamente manifestada.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2417,6 +2527,7 @@
    "texto": "Art. 1.378. A servidão proporciona utilidade para o prédio dominante, e grava o prédio serviente, que pertence a diverso dono, e constitui-se mediante declaração expressa dos proprietários, ou por testamento, e subseqüente registro no Cartório de Registro de Imóveis.",
    "caput": "Art. 1.378. A servidão proporciona utilidade para o prédio dominante, e grava o prédio serviente, que pertence a diverso dono, e constitui-se mediante declaração expressa dos proprietários, ou por testamento, e subseqüente registro no Cartório de Registro de Imóveis.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2446,6 +2557,7 @@
      "texto": "§ 5.º. Em relação aos imóveis rurais cujas poligonais estejam certificadas pelo INCRA, as coordenadas geodésicas deverão ser importadas ao SIG -RI diretamente do Sigef ou do sistema que vier a substituí -lo, opção que deverá ser disponibilizada ao profissional técnico habilitado na intranet da plataforma eletrônica do SIG -RI."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2459,6 +2571,7 @@
      "texto": "Parágrafo único . A visualização de que trata o caput deste artigo deverá envolver a sobreposição entre camadas registrais e cadastrais de domínio público relativamente ao imóvel."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2516,6 +2629,7 @@
      "texto": "III - em relação aos imóveis não georreferenciados, poderá ser realizada mediante exigência feita ao apresentante, para que promova os lançamentos por intermédio de técnico de sua confiança, na forma do art. 343 -G deste Código, cujo lançamento ficará dependente de validação pelo registrador a ser realizada no ato de registro."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2524,6 +2638,7 @@
    "texto": "Art. 440 -BD. Constatada a existência de imóveis com coordenadas geodésicas que contenham descrição cujos elementos não formem um polígono ou não permitam indicar sua localização no globo terrestre, o oficial de registro promoverá averbação desta condição, devendo exigir a competente retificação quando do primeiro ato de transmissão ou oneração do bem, a ser realizado pelos interessados, na forma dos arts. 212 e 213 da Lei n. 6.015/1973. Subseção V Do encerramento gradual das transcrições",
    "caput": "Art. 440 -BD. Constatada a existência de imóveis com coordenadas geodésicas que contenham descrição cujos elementos não formem um polígono ou não permitam indicar sua localização no globo terrestre, o oficial de registro promoverá averbação desta condição, devendo exigir a competente retificação quando do primeiro ato de transmissão ou oneração do bem, a ser realizado pelos interessados, na forma dos arts. 212 e 213 da Lei n. 6.015/1973.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2532,6 +2647,7 @@
    "texto": "Art. 440 -AY. Em caso de sobreposição total ou parcial de áreas de imóveis georreferenciados, identificada a partir do SIG -RI, o oficial de registro de imóveis procederá na forma desta Seção.",
    "caput": "Art. 440 -AY. Em caso de sobreposição total ou parcial de áreas de imóveis georreferenciados, identificada a partir do SIG -RI, o oficial de registro de imóveis procederá na forma desta Seção.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2553,6 +2669,7 @@
      "texto": "§ 3.º. Aplica -se o disposto no art. 440 -BA, caput e § 1.º, deste Código, no que couber, às irregularidades decorrentes de lacunas, totais ou parciais, entre áreas ou parcelas, assim consideradas aquelas que, sob prudente análise do registrador, e com base no SIG-RI, apontarem a existência de um vazio dominial geométrico entre limites comprovadamente comuns, independentemente da origem pública ou privada dos imóveis, quando ultrapassar a tolerância posicional normatizada."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2561,6 +2678,7 @@
    "texto": "Art. 1.390. O usufruto pode recair em um ou mais bens, móveis ou imóveis, em um patrimônio inteiro, ou parte deste, abrangendo-lhe, no todo ou em parte, os frutos e utilidades.",
    "caput": "Art. 1.390. O usufruto pode recair em um ou mais bens, móveis ou imóveis, em um patrimônio inteiro, ou parte deste, abrangendo-lhe, no todo ou em parte, os frutos e utilidades.",
    "partes": [],
+   "revogadas": [],
    "fonte": "lei"
   },
   {
@@ -2602,6 +2720,7 @@
      "texto": "VIII - Pelo não uso, ou não fruição, da coisa em que o usufruto recai (arts. 1.390 e 1.399)."
     }
    ],
+   "revogadas": [],
    "fonte": "lei"
   }
  ]

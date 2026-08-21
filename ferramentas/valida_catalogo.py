@@ -90,10 +90,24 @@ def main():
                              f"-> rode ferramentas/monta_dispositivos.py")
                 continue
             disponiveis = {p["rotulo"] for p in d.get("partes", [])}
+            # Parte revogada nao e parte inexistente: dizer so "nao tem" mandaria
+            # procurar erro de digitacao onde houve mudanca na lei.
+            mortas = {x["rotulo"]: x["motivo"] for x in d.get("revogadas", [])}
             for r in f.get("partes", []):
-                if r != "*" and r not in disponiveis:
+                if r == "*":
+                    continue
+                if r in mortas:
+                    erros.append(f"{eid}: {norma} {artigo} {r} esta REVOGADA "
+                                 f"({mortas[r]}) - a nota nao pode cita-la")
+                elif r not in disponiveis:
                     erros.append(f"{eid}: {norma} {artigo} nao tem a parte '{r}' "
                                  f"(tem: {', '.join(sorted(disponiveis)) or 'nenhuma'})")
+
+            # Citar "*" traz o artigo inteiro, inclusive o que ja nao vale.
+            if f.get("partes") == ["*"] and d.get("revogadas"):
+                erros.append(f"{eid}: {norma} {artigo} e citado inteiro, mas tem "
+                             f"parte revogada ({', '.join(x['rotulo'] for x in d['revogadas'])}) "
+                             f"- aponte as partes vigentes")
 
         if not e.get("revisado"):
             avisos.append(f"{eid}: fundamentacao ainda nao revisada por registrador")
