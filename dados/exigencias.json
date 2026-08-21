@@ -294,6 +294,21 @@
     "do requerente do serviço",
     "do responsável técnico e do requerente do serviço"
    ]
+  },
+  "dado_declaracao": {
+   "rotulo": "O que diverge",
+   "exemplo": "os marcos e as medidas perimetrais",
+   "opcoes": [
+    "os marcos",
+    "as medidas perimetrais",
+    "os marcos e as medidas perimetrais",
+    "as confrontações",
+    "os marcos, as medidas perimetrais e as confrontações"
+   ]
+  },
+  "detalhe_declaracao": {
+   "rotulo": "Detalhe da divergência",
+   "exemplo": "a declaração indica o marco M-12, e o memorial, o M-14"
   }
  },
  "exigencias": [
@@ -662,6 +677,37 @@
      "artigo": "Art. 1331",
      "partes": [
       "§ 3 o"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "declaracao-confrontacao-divergente",
+   "rotulo": "Declaração de confrontação divergente do memorial",
+   "assunto": "confront",
+   "revisado": false,
+   "campos": [
+    "matricula_confrontante",
+    "dado_declaracao",
+    "detalhe_declaracao"
+   ],
+   "defeito": "Verifica-se que a declaração de confrontação[ referente à matrícula n.º {matricula_confrontante}] indica {dado_declaracao} em desacordo com o Memorial Descritivo apresentado.[ Especificamente, {detalhe_declaracao}.] Os dois documentos devem descrever o mesmo perímetro, sob pena de não se saber qual deles retrata o imóvel.",
+   "providencia": "a retificação da declaração de confrontação ou do Memorial Descritivo, de modo que ambos descrevam o mesmo perímetro, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "DEC4449",
+     "artigo": "Art. 9",
+     "partes": [
+      "§ 6o"
+     ]
+    },
+    {
+     "norma": "CNN-CNJ",
+     "artigo": "Art. 440-AX",
+     "partes": [
+      "§ 1",
+      "§ 2"
      ]
     }
    ]
