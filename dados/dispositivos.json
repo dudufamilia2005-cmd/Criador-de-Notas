@@ -108,11 +108,20 @@
    "fonte": "lei"
   },
   {
-   "norma": "CNPFE-GO",
-   "artigo": "Art. 800",
-   "texto": "Art. 800. As cópias de documentos fiscais ou emitidos por órgãos ou entidades públicos consideram-se válidas desde que autenticadas por tabelião ou, em se tratando de documento eletrônico, contenha código de validação por sistema digital do emitente.",
-   "caput": "Art. 800. As cópias de documentos fiscais ou emitidos por órgãos ou entidades públicos consideram-se válidas desde que autenticadas por tabelião ou, em se tratando de documento eletrônico, contenha código de validação por sistema digital do emitente.",
-   "partes": [],
+   "norma": "L6496",
+   "artigo": "Art. 2",
+   "texto": "Art 2º - A ART define para os efeitos legais os responsáveis técnicos pelo empreendimento de engenharia, arquitetura e agronomia. § 1º - A ART será efetuada pelo profissional ou pela empresa no Conselho Regional de Engenharia, Arquitetura e Agronomia (CREA), de acordo com Resolução própria do Conselho Federal de Engenharia, Arquitetura e Agronomia (CONFEA). § 2º - O CONFEA fixará os critérios e os valores das taxas da ART ad referendum do Ministro do Trabalho.",
+   "caput": "Art 2º - A ART define para os efeitos legais os responsáveis técnicos pelo empreendimento de engenharia, arquitetura e agronomia.",
+   "partes": [
+    {
+     "rotulo": "§ 1º",
+     "texto": "§ 1º - A ART será efetuada pelo profissional ou pela empresa no Conselho Regional de Engenharia, Arquitetura e Agronomia (CREA), de acordo com Resolução própria do Conselho Federal de Engenharia, Arquitetura e Agronomia (CONFEA)."
+    },
+    {
+     "rotulo": "§ 2º",
+     "texto": "§ 2º - O CONFEA fixará os critérios e os valores das taxas da ART ad referendum do Ministro do Trabalho."
+    }
+   ],
    "fonte": "lei"
   },
   {
@@ -120,6 +129,14 @@
    "artigo": "Art. 805",
    "texto": "Art. 805. Em se tratando de documentos eletrônicos, consideram-se autênticos os instrumentos públicos ou particulares assinados com certificado digital que atenda os requisitos da Infraestrutura de Chaves Públicas Brasileira – ICP.",
    "caput": "Art. 805. Em se tratando de documentos eletrônicos, consideram-se autênticos os instrumentos públicos ou particulares assinados com certificado digital que atenda os requisitos da Infraestrutura de Chaves Públicas Brasileira – ICP.",
+   "partes": [],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 800",
+   "texto": "Art. 800. As cópias de documentos fiscais ou emitidos por órgãos ou entidades públicos consideram-se válidas desde que autenticadas por tabelião ou, em se tratando de documento eletrônico, contenha código de validação por sistema digital do emitente.",
+   "caput": "Art. 800. As cópias de documentos fiscais ou emitidos por órgãos ou entidades públicos consideram-se válidas desde que autenticadas por tabelião ou, em se tratando de documento eletrônico, contenha código de validação por sistema digital do emitente.",
    "partes": [],
    "fonte": "lei"
   },

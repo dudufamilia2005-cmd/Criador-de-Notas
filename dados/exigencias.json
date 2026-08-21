@@ -272,6 +272,28 @@
   "numero_folio": {
    "rotulo": "Número",
    "exemplo": "12.345"
+  },
+  "signatario_declaracao": {
+   "rotulo": "Assinatura que falta",
+   "exemplo": "pelo proprietário do imóvel objeto do georreferenciamento",
+   "opcoes": [
+    "pelo responsável técnico",
+    "pelo proprietário do imóvel confrontante",
+    "pelo proprietário do imóvel objeto do georreferenciamento"
+   ]
+  },
+  "signatario_nome": {
+   "rotulo": "Nome de quem deveria assinar",
+   "exemplo": "João da Silva Pereira"
+  },
+  "signatario_art": {
+   "rotulo": "Assinatura que falta",
+   "exemplo": "do responsável técnico",
+   "opcoes": [
+    "do responsável técnico",
+    "do requerente do serviço",
+    "do responsável técnico e do requerente do serviço"
+   ]
   }
  },
  "exigencias": [
@@ -316,6 +338,32 @@
     {
      "norma": "DEC4449",
      "artigo": "Art. 9"
+    }
+   ]
+  },
+  {
+   "id": "art-sem-assinatura",
+   "rotulo": "ART sem a assinatura devida",
+   "assunto": "art_tec",
+   "revisado": false,
+   "campos": [
+    "signatario_art"
+   ],
+   "defeito": "Verifica-se que a Anotação de Responsabilidade Técnica (ART) apresentada está sem a assinatura {signatario_art}. É a ART que define, para efeitos legais, quem responde tecnicamente pelo serviço, e sem a assinatura ela não cumpre esse papel.",
+   "providencia": "a apresentação da ART com a assinatura {signatario_art}, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "L6496",
+     "artigo": "Art. 1"
+    },
+    {
+     "norma": "L6496",
+     "artigo": "Art. 2"
+    },
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 805"
     }
    ]
   },
@@ -620,15 +668,16 @@
   },
   {
    "id": "declaracao-limites-sem-assinatura",
-   "rotulo": "Declaração de limites sem assinatura do proprietário",
+   "rotulo": "Declaração de limites sem assinatura",
    "assunto": "confront",
    "revisado": false,
    "campos": [
     "matriculas_confrontantes",
-    "proprietario"
+    "signatario_declaracao",
+    "signatario_nome"
    ],
-   "defeito": "Verifica-se que a declaração de limites da(s) matrícula(s) n.º {matriculas_confrontantes} não foi assinada por {proprietario}, proprietário do imóvel objeto deste protocolo. Sem a assinatura, a anuência do confrontante não se comprova.",
-   "providencia": "a apresentação da(s) declaração(ões) de limites da(s) matrícula(s) n.º {matriculas_confrontantes}, {assinatura}",
+   "defeito": "Verifica-se que a declaração de limites referente à(s) matrícula(s) n.º {matriculas_confrontantes} não foi assinada {signatario_declaracao}[, {signatario_nome}]. Sem essa assinatura, a declaração não comprova que os limites divisórios foram respeitados.",
+   "providencia": "a apresentação da(s) declaração(ões) de limites da(s) matrícula(s) n.º {matriculas_confrontantes}, firmada(s) também {signatario_declaracao}, {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
     {
