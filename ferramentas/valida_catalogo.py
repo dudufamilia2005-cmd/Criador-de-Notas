@@ -61,6 +61,9 @@ def main():
             erros.append(f"{eid}: o campo '{c}' nao tem rotulo em exigencias.json "
                          f"-> a tela pediria '{c}' ao escrevente")
 
+        for c in set(e.get("exemplos", {})) - declarados:
+            erros.append(f"{eid}: exemplo proprio para '{c}', que a exigencia nao declara")
+
         if e.get("fecho") not in frag:
             erros.append(f"{eid}: fecho '{e.get('fecho')}' nao existe em fragmentos")
 

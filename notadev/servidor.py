@@ -57,6 +57,9 @@ def catalogo_para_tela(r):
                         "defeito": e["defeito"], "campos": e.get("campos", []),
                         # campo fora de colchetes e obrigatorio; dentro, enriquece
                         "obrigatorios": r.campos_obrigatorios(e),
+                        # troca o exemplo de um campo compartilhado, quando o
+                        # exemplo geral nao cabe no contexto desta exigencia
+                        "exemplos": e.get("exemplos", {}),
                         "revisado": bool(e.get("revisado")),
                         "impossibilidade": bool(e.get("impossibilidade")),
                         "precedentes": len(e.get("precedentes", [])),
@@ -134,7 +137,8 @@ def revisao(r):
 
     saida = []
     for e in sorted(r.cat.exigencias.values(), key=lambda x: (x["assunto"], x["rotulo"])):
-        valores = {c: exemplos.get(c, c) for c in e.get("campos", [])}
+        proprios = e.get("exemplos", {})
+        valores = {c: proprios.get(c, exemplos.get(c, c)) for c in e.get("campos", [])}
         blocos = r._exigencia(Item(e["id"], valores), 1)
         texto = "".join(
             (f"<strong><u>{t}</u></strong>" if "negrito" in m else t)

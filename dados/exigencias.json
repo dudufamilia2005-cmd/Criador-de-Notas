@@ -9,6 +9,7 @@
   "Trecho entre [colchetes] so entra se os campos dele estiverem preenchidos.",
   "Campo com 'opcoes' vira lista de escolha na tela, em vez de digitacao.",
   "Campo com 'padrao' e opcional: em branco, entra a redacao generica.",
+  "Exigencia com 'exemplos' troca o exemplo de um campo compartilhado.",
   "Exigencia com 'precedentes' cita jurisprudencia, de dados/precedentes.json.",
   "'impossibilidade': true marca a que devolve o titulo em vez de pedir conserto.",
   "IMPORTANTE: 'revisado' diz se um registrador ja validou que o artigo e mesmo",
@@ -309,6 +310,10 @@
   "detalhe_declaracao": {
    "rotulo": "Detalhe da divergência",
    "exemplo": "a declaração indica o marco M-12, e o memorial, o M-14"
+  },
+  "area_art": {
+   "rotulo": "Área na ART",
+   "exemplo": "94,7423 ha"
   }
  },
  "exigencias": [
@@ -331,6 +336,37 @@
      "partes": [
       "§4º"
      ]
+    }
+   ]
+  },
+  {
+   "id": "art-area-nao-corresponde",
+   "rotulo": "ART com área de levantamento que não corresponde ao memorial nem à matrícula",
+   "assunto": "art_tec",
+   "revisado": false,
+   "campos": [
+    "area_art",
+    "area_memorial",
+    "area_matricula"
+   ],
+   "exemplos": {
+    "area_matricula": "94,5000 ha"
+   },
+   "defeito": "Verifica-se que a área de levantamento indicada na Anotação de Responsabilidade Técnica (ART) não corresponde nem à do Memorial Descritivo nem à registrada na matrícula.[ A ART indica {area_art}, o memorial {area_memorial} e a matrícula {area_matricula}.] A ART e o memorial retratam o mesmo trabalho técnico e não podem apontar áreas distintas.",
+   "providencia": "a retificação da Anotação de Responsabilidade Técnica e, se o equívoco estiver na peça técnica, também do Memorial Descritivo, de modo que ambos indiquem a mesma área de levantamento, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "L6496",
+     "artigo": "Art. 1"
+    },
+    {
+     "norma": "DEC4449",
+     "artigo": "Art. 9"
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 176"
     }
    ]
   },

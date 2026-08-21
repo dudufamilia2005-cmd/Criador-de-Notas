@@ -135,6 +135,7 @@ function desenhaCampos() {
 
     for (const c of e.campos) {
       const info = CAT.campos[c] || {};
+      const exemplo = (e.exemplos && e.exemplos[c]) || info.exemplo || '';
       const linha = document.createElement('div');
       linha.className = 'linha';
 
@@ -161,7 +162,7 @@ function desenhaCampos() {
           inp.append(op);
         }
       } else {
-        inp.placeholder = info.exemplo || '';
+        inp.placeholder = exemplo;
       }
       inp.value = valores.get(e.id + '|' + c) || '';
       inp.title = info.padrao ? `Em branco, a nota diz: "${info.padrao}"`
