@@ -23,6 +23,13 @@ dependências.** Leitura e escrita de `.docx` são feitas com `zipfile` +
 Roda antes de confiar em qualquer nota gerada. Reprova o catálogo se algum
 fundamento não conferir com a fonte.
 
+```
+.venv\Scripts\python.exe ferramentas	esta_redator.py
+```
+
+Regressão do recorte do artigo: o que o redator apaga do texto da lei. Cada
+caso ali é um estrago que já aconteceu — ou que quase passou.
+
 Depois de acrescentar uma norma, ou de mexer nos fundamentos do catálogo:
 
 ```
@@ -78,6 +85,11 @@ Para achar o artigo pertinente a uma exigência nova, lendo a lei:
 3. **Sem artigo pertinente, a exigência sai sem lei citada**, com o motivo
    escrito em `fundamentacao_pendente`. Hoje é o caso do selo eletrônico.
    Citar dispositivo plausível seria pior do que não citar nenhum.
+3-A. **Norma nova pode desmentir o texto da exigência.** O art. 211-A do
+   CNPFE-GO (Provimento 180, de 26/03/2026), § 1º, diz que é *irrelevante*
+   para o desconto de 50% possuir imóvel anterior adquirido fora do SFH — e
+   a exigência pedia declaração sobre exatamente isso. Ao acrescentar norma,
+   reler as exigências do assunto, não só juntar a citação.
 4. **A formatação sai do molde, não de código.** O `.docx` é gerado reescrevendo
    o conteúdo de uma nota real do cartório, preservando `styles.xml` e
    `numbering.xml` do arquivo original. Assim a formatação é idêntica por
@@ -112,7 +124,7 @@ Fundamentação: Arial 9, recuo esquerdo 3,75–4,00 cm, entrelinhas 1,0.
 
 - Provimento CNJ 161/2024: o PDF não tem texto extraível — traz só índices de
   glifos. Precisa de OCR ou de outra cópia. Nenhuma exigência o usa hoje.
-- Nenhuma das 54 exigências foi revisada por registrador: todas saem com aviso.
+- Nenhuma das 65 exigências foi revisada por registrador: todas saem com aviso.
 - `notadev/tela.py` é a interface antiga, em Tkinter, mantida até a nova ser
   aprovada. Quem roda pelo `.bat` é `notadev/servidor.py`, servida no navegador.
 - Não definido ainda: se a nota é impressa em papel timbrado ou se o sistema

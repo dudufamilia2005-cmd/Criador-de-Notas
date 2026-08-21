@@ -14,6 +14,22 @@ from .catalogo import Catalogo, BASE
 
 FORMULA = "Dessa forma, faz-se necessári{}"
 
+# O numero do artigo sai em negrito a parte, entao e retirado do corpo. A
+# comparacao tolera espaco no sufixo porque a extracao do PDF do CNN escreve
+# "Art. 440 -AV" onde o catalogo diz "Art. 440-AV". O sufixo so conta colado ao
+# hifen: em "Art. 176 - O Livro nº 2" o "O" e artigo da lingua, e come-lo
+# deixava a nota comecando em "Livro nº 2...".
+TIRA_NUMERO = re.compile(r"^\s*Art(?:igo)?\.?\s*[\d.]+\s*[ºo°]?\s*"
+                         r"(?:\s*[-–][A-Z]{1,3})?\s*[.\-–]*\s*")
+
+# Ponto duplo sobra onde a nota de alteracao foi retirada ("...Lei no 6.015/73.."
+# no art. 211-A). So colapsa a reticencia colada em palavra: a de trecho vetado
+# ("... (Vetado) ...") vem solta entre espacos, e o "(...)" que separa o caput
+# dos paragrafos citados e seguido de ")".
+JUNTA_PONTOS = re.compile(r"(?<=[^\s.])\.{2,}(?=\s|$)")
+
+# Ambas tem caso de regressao em ferramentas/testa_redator.py.
+
 
 def _genero(providencia):
     """A formula concorda com a providencia que vem depois dela.
@@ -128,14 +144,7 @@ class Redator:
                     (self.cat.nome_norma(norma), {"negrito"})]))
                 norma_atual = norma
             texto = self.cat.texto_dispositivo(norma, artigo, partes)
-            # O numero do artigo sai em negrito a parte, entao e retirado do
-            # corpo. A comparacao tolera espaco no sufixo porque a extracao do
-            # PDF do CNN escreve "Art. 440 -AV" onde o catalogo diz "Art. 440-AV".
-            # O sufixo so conta colado ao hifen: em "Art. 176 - O Livro nº 2" o
-            # "O" e artigo da lingua, e comer o "O" deixava "Livro nº 2..."
-            corpo = re.sub(r"^\s*Art(?:igo)?\.?\s*[\d.]+\s*[ºo°]?\s*(?:\s*[-–][A-Z]{1,3})?"
-                           r"\s*[.\-–]*\s*", "", texto)
-            corpo = re.sub(r"\.{2,}$", ".", corpo)
+            corpo = JUNTA_PONTOS.sub(".", TIRA_NUMERO.sub("", texto))
             blocos.append(Bloco("fund_artigo", partes=[
                 (artigo + ".", {"negrito"}), (" " + corpo, set())]))
 

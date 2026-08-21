@@ -927,13 +927,24 @@
    "assunto": "emolumentos",
    "revisado": false,
    "campos": [],
-   "defeito": "Verifica-se que não veio a declaração dos adquirentes sobre a existência ou não do direito à redução de 50% das custas e emolumentos, benefício da primeira aquisição de imóvel residencial financiada pelo Sistema Financeiro da Habitação. Sem ela não há como apurar o valor devido.",
-   "providencia": "a apresentação de declaração firmada pelos adquirentes, informando se já possuem ou possuíram imóvel residencial, {assinatura}",
+   "defeito": "Verifica-se que não veio a declaração dos adquirentes quanto ao direito à redução de 50% das custas e emolumentos, benefício que alcança a primeira aquisição de imóvel residencial financiada pelo Sistema Financeiro da Habitação. A condição de primeira aquisição por esse sistema não se extrai do título, de modo que, sem a declaração, não há como apurar o valor devido.",
+   "providencia": "a apresentação de declaração firmada pelos adquirentes, informando se esta é a primeira aquisição de imóvel residencial financiada pelo Sistema Financeiro da Habitação, sendo irrelevante, para o benefício, a existência de imóvel anterior adquirido por outra forma, {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
     {
      "norma": "LRP",
      "artigo": "Art. 290"
+    },
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 211-A",
+     "partes": [
+      "§ 1º"
+     ]
+    },
+    {
+     "norma": "L4380",
+     "artigo": "Art. 8"
     }
    ]
   },
@@ -950,6 +961,10 @@
     {
      "norma": "LRP",
      "artigo": "Art. 290"
+    },
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 211-A"
     }
    ]
   },
