@@ -260,6 +260,18 @@
   "matricula_consta": {
    "rotulo": "Como consta na matrícula",
    "exemplo": "1.685,5720 ha"
+  },
+  "tipo_folio": {
+   "rotulo": "Matrícula ou transcrição",
+   "exemplo": "matrícula",
+   "opcoes": [
+    "matrícula",
+    "transcrição"
+   ]
+  },
+  "numero_folio": {
+   "rotulo": "Número",
+   "exemplo": "12.345"
   }
  },
  "exigencias": [
@@ -1004,12 +1016,34 @@
   },
   {
    "id": "itr-ausente",
-   "rotulo": "ITR não comprovado ou apresentado como recibo",
+   "rotulo": "ITR apresentado apenas como recibo de entrega",
    "assunto": "itr",
    "revisado": false,
-   "campos": [],
-   "defeito": "Verifica-se que o pagamento do ITR dos cinco últimos exercícios não foi comprovado: veio apenas o recibo de entrega da declaração, que atesta a entrega, não o pagamento.",
-   "providencia": "a apresentação dos comprovantes de pagamento do ITR dos cinco últimos exercícios",
+   "campos": [
+    "tipo_folio",
+    "numero_folio"
+   ],
+   "defeito": "Verifica-se que o pagamento do ITR dos cinco últimos exercícios[ do imóvel objeto da {tipo_folio} n.º {numero_folio}] não foi comprovado: veio apenas o recibo de entrega da declaração, que atesta a entrega, não o pagamento.",
+   "providencia": "a apresentação dos comprovantes de pagamento do ITR dos cinco últimos exercícios[, referentes à {tipo_folio} n.º {numero_folio}]",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "L9393",
+     "artigo": "Art. 21"
+    }
+   ]
+  },
+  {
+   "id": "itr-nao-apresentado",
+   "rotulo": "ITR não apresentado",
+   "assunto": "itr",
+   "revisado": false,
+   "campos": [
+    "tipo_folio",
+    "numero_folio"
+   ],
+   "defeito": "Verifica-se que não foi apresentada a prova de quitação do Imposto sobre a Propriedade Territorial Rural (ITR)[ do imóvel objeto da {tipo_folio} n.º {numero_folio}], relativa aos cinco últimos exercícios. A comprovação é obrigatória para a prática dos atos de registro e averbação relativos a imóvel rural.",
+   "providencia": "a apresentação dos comprovantes de pagamento do ITR dos cinco últimos exercícios[, referentes à {tipo_folio} n.º {numero_folio}]",
    "fecho": "fecho",
    "fundamentos": [
     {
