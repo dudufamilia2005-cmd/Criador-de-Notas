@@ -8,9 +8,35 @@ const valores = new Map();         // "exigencia|campo" -> texto digitado
 
 const $ = (id) => document.getElementById(id);
 
+function escaparHtml(valor) {
+  const elemento = document.createElement('span');
+  elemento.textContent = String(valor ?? '');
+  return elemento.innerHTML;
+}
+
+async function requisicao(caminho, opcoes = {}) {
+  const headers = new Headers(opcoes.headers || {});
+  if (opcoes.body && !headers.has('Content-Type')) {
+    headers.set('Content-Type', 'application/json');
+  }
+
+  const resposta = await fetch(caminho, {...opcoes, headers});
+  const texto = await resposta.text();
+  let dados = {};
+  try {
+    dados = texto ? JSON.parse(texto) : {};
+  } catch (_erro) {
+    throw new Error('O servidor respondeu em um formato inesperado. Atualize a página e tente novamente.');
+  }
+
+  if (!resposta.ok) {
+    throw new Error(dados.detail || dados.erro || `Não foi possível concluir a operação (${resposta.status}).`);
+  }
+  return dados;
+}
+
 async function iniciar() {
-  const r = await fetch('api/catalogo');
-  CAT = await r.json();
+  CAT = await requisicao('api/catalogo');
 
   for (const e of CAT.especies) {
     const o = document.createElement('option');
@@ -203,20 +229,24 @@ async function atualizaPrevia() {
     $('previa-aviso').textContent = '';
     return;
   }
-  const r = await fetch('api/previa', {
-    method: 'POST',
-    body: JSON.stringify({
-      especie: $('especie').value,
-      titulo: $('titulo').value.trim(),
-      judicial: $('judicial').checked,
-      itens: montaItens(),
-    }),
-  });
-  const res = await r.json();
-  alvo.innerHTML = res.html || `<div class="vazio">${res.erro || ''}</div>`;
-  $('previa-aviso').textContent = res.faltando && res.faltando.length
-    ? `falta preencher: ${res.faltando.join(', ')}`
-    : '';
+  try {
+    const res = await requisicao('api/previa', {
+      method: 'POST',
+      body: JSON.stringify({
+        especie: $('especie').value,
+        titulo: $('titulo').value.trim(),
+        judicial: $('judicial').checked,
+        itens: montaItens(),
+      }),
+    });
+    alvo.innerHTML = res.html || '<div class="vazio">A prévia ainda não possui conteúdo.</div>';
+    $('previa-aviso').textContent = res.faltando && res.faltando.length
+      ? `falta preencher: ${res.faltando.join(', ')}`
+      : '';
+  } catch (erro) {
+    alvo.innerHTML = `<div class="vazio">${escaparHtml(erro.message)}</div>`;
+    $('previa-aviso').textContent = '';
+  }
 }
 
 function atualizaContagem() {
@@ -245,9 +275,15 @@ function avisa(titulo, html, caminho) {
   $('modal-corpo').innerHTML = html;
   const b = $('modal-pasta');
   b.hidden = !caminho;
-  b.onclick = () => fetch('api/abrir-pasta', {
-    method: 'POST', body: JSON.stringify({ caminho }),
-  });
+  b.onclick = caminho ? async () => {
+    try {
+      await requisicao('api/abrir-pasta', {
+        method: 'POST', body: JSON.stringify({ caminho }),
+      });
+    } catch (erro) {
+      avisa('Não foi possível abrir a pasta', `<p>${escaparHtml(erro.message)}</p>`);
+    }
+  } : null;
   $('modal').hidden = false;
 }
 
@@ -260,7 +296,7 @@ async function gerar() {
 
   $('gerar').disabled = true;
   try {
-    const r = await fetch('api/gerar', {
+    const res = await requisicao('api/gerar', {
       method: 'POST',
       body: JSON.stringify({
         especie: $('especie').value,
@@ -270,26 +306,30 @@ async function gerar() {
         itens,
       }),
     });
-    const res = await r.json();
-    if (!res.ok) return avisa('Falta preencher', `<p>${res.erro}</p>`);
+    if (!res.ok) return avisa('Falta preencher', `<p>${escaparHtml(res.erro)}</p>`);
 
     let html;
     if (res.conteudo) {
       // servidor sem disco: a nota volta embutida e o navegador a salva
       baixa(res.conteudo, res.arquivo);
-      html = `<p>Nota gerada e baixada:</p><div class="caminho">${res.arquivo}</div>`;
+      html = `<p>Nota gerada e baixada:</p><div class="caminho">${escaparHtml(res.arquivo)}</div>`;
     } else {
-      html = `<p>Nota gravada em:</p><div class="caminho">${res.caminho}</div>`;
+      html = `<p>Nota gravada em:</p><div class="caminho">${escaparHtml(res.caminho)}</div>`;
     }
     if (res.nao_revisadas.length) {
       html += '<p><strong>Fundamentação ainda não revisada por registrador:</strong></p><ul>'
-            + res.nao_revisadas.map(x => `<li>${x}</li>`).join('') + '</ul>'
+            + res.nao_revisadas.map(x => `<li>${escaparHtml(x)}</li>`).join('') + '</ul>'
             + '<p>Confira os artigos citados antes de expedir.</p>';
     }
     avisa('Nota gerada', html, res.caminho);
+  } catch (erro) {
+    avisa('Não foi possível gerar', `<p>${escaparHtml(erro.message)}</p>`);
   } finally {
     $('gerar').disabled = false;
   }
 }
 
-iniciar();
+iniciar().catch(erro => {
+  $('lista').innerHTML = `<div class="vazio">${escaparHtml(erro.message)}</div>`;
+  $('gerar').disabled = true;
+});
