@@ -239,7 +239,12 @@ async function atualizaPrevia() {
         itens: montaItens(),
       }),
     });
-    alvo.innerHTML = res.html || '<div class="vazio">A prévia ainda não possui conteúdo.</div>';
+    // O servidor devolve 200 com {html:"", erro:"..."} quando a montagem falha -
+    // e nesse 'erro' que vem o motivo: exigência que saiu do catálogo, ou
+    // dispositivo revogado que o gerador se recusou a imprimir. Sem mostrá-lo,
+    // a tela dizia apenas que não havia conteúdo, e a recusa ficava muda.
+    const semConteudo = res.erro || 'A prévia ainda não possui conteúdo.';
+    alvo.innerHTML = res.html || `<div class="vazio">${escaparHtml(semConteudo)}</div>`;
     $('previa-aviso').textContent = res.faltando && res.faltando.length
       ? `falta preencher: ${res.faltando.join(', ')}`
       : '';

@@ -123,6 +123,13 @@ Para achar o artigo pertinente a uma exigência nova, lendo a lei:
    matrícula n.º {matricula}]` some inteiro quando o campo fica vazio, em vez de
    deixar buraco ou obrigar o escrevente a preencher. Campo usado só dentro de
    colchetes é opcional por construção — não precisa de `padrao`.
+7-B. **A prévia informa o erro com status 200.** Quando a montagem falha, o
+   servidor devolve `{"html": "", "erro": "<motivo>"}` — e não um código HTTP de
+   erro. Quem consome precisa mostrar esse `erro`: é por ele que chegam à tela a
+   exigência que saiu do catálogo (aba antiga depois de um deploy) e a recusa de
+   imprimir dispositivo revogado (invariante 1-C). Trocá-lo por um texto genérico
+   deixa a recusa muda, e foi o que aconteceu uma vez.
+
 7-A. **O mesmo código roda local e no Vercel.** `SOMENTE_LEITURA` (variável de
    ambiente `VERCEL`) desliga o que grava: a validação da fundamentação e a
    gravação em `saida/`. Lá a nota volta em base64 e o navegador a baixa. Não
