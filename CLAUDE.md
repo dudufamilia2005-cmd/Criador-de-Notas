@@ -144,7 +144,8 @@ Fundamentação: Arial 9, recuo esquerdo 3,75–4,00 cm, entrelinhas 1,0.
   cita. O art. 4º, § 4º, da Lei 19.191/2015 saiu da exigência do ITCD: ele vale,
   mas o seu inciso II diz que, acolhida a recomendação do oficial, *não* é devido
   recolhimento complementar de imposto estadual — o oposto do que a providência
-  pede. Se for pertinente, é decisão de registrador repô-lo.
+  pede. **Retirada provisória, acordada com a serventia em 24/08/2026**; repor é
+  decisão de registrador, e a omissão é escolha, não esquecimento.
 - Provimento CNJ 161/2024: o PDF não tem texto extraível — traz só índices de
   glifos. Precisa de OCR ou de outra cópia. Nenhuma exigência o usa hoje.
 - Nenhuma das 65 exigências foi revisada por registrador: todas saem com aviso.
