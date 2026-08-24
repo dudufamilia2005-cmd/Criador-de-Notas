@@ -318,3 +318,14 @@ button:disabled { opacity: .5; cursor: default; filter: none; }
   background: var(--destaque); border-color: var(--destaque); color: #fff;
 }
 @media (max-width: 1280px) { .busca { width: 140px; } }
+
+/* Recado de falha na tela de revisão: o servidor recusa com status 200 e
+   explica no campo 'erro', e antes essa explicação era descartada. */
+.aviso-revisao {
+  margin: .5rem 0 0;
+  padding: .5rem .75rem;
+  border-left: 3px solid #b45309;
+  background: #fffbeb;
+  color: #7c2d12;
+  font-size: .875rem;
+}
