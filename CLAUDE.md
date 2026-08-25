@@ -122,7 +122,9 @@ Para achar o artigo pertinente a uma exigência nova, lendo a lei:
    Enquanto `revisado` for `false`, a nota sai marcada como fundamentação não
    revisada.
 3. **Sem artigo pertinente, a exigência sai sem lei citada**, com o motivo
-   escrito em `fundamentacao_pendente`. Hoje é o caso do selo eletrônico.
+   escrito em `fundamentacao_pendente`. Hoje nenhuma está nessa situação — a do
+   selo eletrônico, que era o caso, passou a citar os arts. 109 e 109-A do
+   CNPFE-GO.
    Citar dispositivo plausível seria pior do que não citar nenhum.
 3-A. **Norma nova pode desmentir o texto da exigência.** O art. 211-A do
    CNPFE-GO (Provimento 180, de 26/03/2026), § 1º, diz que é *irrelevante*
