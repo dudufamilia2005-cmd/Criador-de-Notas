@@ -6,13 +6,25 @@ conferida contra a norma de origem.
 
 ## Ambiente
 
-Python 3.15.0rc1 em `%LOCALAPPDATA%\Programs\Python\Python315`, venv em `.venv`.
+Python 3.14 em `%LOCALAPPDATA%\Programs\Python\Python314`, venv em `.venv`.
+Única dependência: `pypdf`, só para extrair texto das normas — fixada em
+`requirements.txt`. Todo o resto é biblioteca padrão.
 
-Por ser uma *release candidate*, pacotes que compilam C não instalam: `lxml` —
-e portanto `python-docx` — falham por falta do MSVC. **Não introduza essas
-dependências.** Leitura e escrita de `.docx` são feitas com `zipfile` +
-`xml.etree` da biblioteca padrão, o que basta: `.docx` é um zip de XML.
-Única dependência instalada: `pypdf`, só para extrair texto das normas.
+Para refazer o ambiente:
+
+```
+py -3.14 -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+**Não introduza `python-docx` nem outra dependência para escrever o .docx.**
+Até 24/08/2026 a razão era outra: sob a 3.15.0rc1 o `lxml` não tinha wheel e não
+compilava sem o MSVC. Na 3.14 ele instala normalmente — o impedimento acabou, e
+a regra continua por escolha, não por impossibilidade: a escrita com `zipfile` +
+`xml.etree` já funciona, e é ela que garante a formatação idêntica por
+construção (invariante 4), copiando as peças do molde em vez de reproduzi-las.
+Trocar isso seria reescrever o que funciona e assumir peso a mais no Vercel.
+Se um dia compensar, é decisão da serventia — não um detalhe de implementação.
 
 ## Como rodar
 
@@ -24,7 +36,7 @@ Roda antes de confiar em qualquer nota gerada. Reprova o catálogo se algum
 fundamento não conferir com a fonte.
 
 ```
-.venv\Scripts\python.exe ferramentas	esta_redator.py
+.venv\Scripts\python.exe ferramentas\testa_redator.py
 ```
 
 Regressão do recorte do artigo: o que o redator apaga do texto da lei. Cada
@@ -33,12 +45,21 @@ caso ali é um estrago que já aconteceu — ou que quase passou.
 Depois de acrescentar uma norma, ou de mexer nos fundamentos do catálogo:
 
 ```
+.venv\Scripts\python.exe ferramentas\extrai_texto.py
 .venv\Scripts\python.exe ferramentas\indexa_normas.py
 .venv\Scripts\python.exe ferramentas\monta_dispositivos.py
 ```
 
-O primeiro relê os PDFs das normas e os quebra em artigos; o segundo traz para o
-catálogo o texto oficial dos artigos citados.
+São três passos, nesta ordem: o primeiro lê os PDFs e grava o texto em
+`.cache-texto/`; o segundo quebra esse texto em artigos; o terceiro traz para o
+catálogo o texto oficial dos artigos citados. `extrai_texto.py` pula o que já
+está em dia com o PDF — na prática só a norma nova é lida.
+
+Até 24/08/2026 o primeiro passo **não existia no repositório**: a extração era
+feita à mão, em script solto. Como `.cache-texto/` é descartável e ignorado pelo
+git, apagá-lo deixava o índice sem como ser refeito — e `indexa_normas.py` não
+reclamava: anotava `SEM TEXTO EXTRAIDO` e seguia, entregando um índice a menos
+uma lei inteira.
 
 Para achar o artigo pertinente a uma exigência nova, lendo a lei:
 

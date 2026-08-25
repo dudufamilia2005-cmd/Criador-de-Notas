@@ -1,0 +1,10 @@
+# Dependencias do gerador de notas. Tudo o mais e biblioteca padrao.
+#
+# Versao fixada de proposito: em 24/08/2026 o Python em que a .venv fora criada
+# foi desinstalado, a .venv morreu junto e nao havia registro do que reinstalar -
+# a versao so foi recuperada olhando o que sobrara em site-packages.
+#
+# Para refazer o ambiente:
+#   py -3.14 -m venv .venv
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+pypdf==6.16.1

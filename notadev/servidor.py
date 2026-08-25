@@ -2,9 +2,9 @@
 """Serve a tela da nota devolutiva no navegador, a partir da propria maquina.
 
 Por que navegador e nao janela nativa: o Tkinter desenha com o tema antigo do
-Windows e nao tem como parecer atual; e as alternativas (Qt, wx) exigem pacotes
-que nao instalam nesta Python 3.15. Com http.server da biblioteca padrao a
-aparencia vira HTML e CSS, sem nenhuma dependencia nova.
+Windows e nao tem como parecer atual; e as alternativas (Qt, wx) trariam
+dependencia pesada para um projeto que hoje so depende de pypdf. Com http.server
+da biblioteca padrao a aparencia vira HTML e CSS, sem dependencia nova.
 
 Escuta so em 127.0.0.1, em porta sorteada pelo sistema: nada fica exposto na
 rede do cartorio.

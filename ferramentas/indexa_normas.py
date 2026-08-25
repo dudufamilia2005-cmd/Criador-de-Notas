@@ -13,6 +13,7 @@ vier depois do 175. Sem isso, toda remissao no meio do texto ("nos termos do art
 """
 import json
 import re
+import sys
 import unicodedata
 from pathlib import Path
 
@@ -151,6 +152,19 @@ def main():
     print(f"\ntotal: {total} artigos indexados em {len(indice)} normas")
     print(f"gravado: {BASE / 'dados' / 'artigos.json'}")
 
+    # Norma sem texto extraido nao e detalhe: o indice sai sem uma lei inteira,
+    # e as exigencias que a citam so falham la na frente, em
+    # monta_dispositivos.py, com uma mensagem que nao aponta a causa. Antes isso
+    # passava como um aviso no meio da tabela e o script terminava com sucesso.
+    sem_texto = [id_ for id_, n, obs in resumo if obs == "SEM TEXTO EXTRAIDO"]
+    if sem_texto:
+        print(f"\nFALTA O TEXTO DE {len(sem_texto)} NORMA(S): "
+              f"{', '.join(sem_texto)}")
+        print("O indice acima esta incompleto. Rode antes:")
+        print("  ferramentas/extrai_texto.py")
+        return 1
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
