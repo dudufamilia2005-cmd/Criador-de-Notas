@@ -8,6 +8,20 @@ const valores = new Map();         // "exigencia|campo" -> texto digitado
 
 const $ = (id) => document.getElementById(id);
 
+// Fecha qualquer caixa de marcação aberta ao clicar fora ou apertar Esc. Um
+// ouvinte so, montado uma vez: a lista de exigencias e redesenhada a cada
+// filtro, e um ouvinte por campo se acumularia a cada redesenho.
+function fechaMultiplos(alvoClique) {
+  for (const painel of document.querySelectorAll('.multi-painel:not([hidden])')) {
+    const caixa = painel.closest('.multi');
+    if (alvoClique && caixa && caixa.contains(alvoClique)) continue;
+    painel.hidden = true;
+    caixa?.querySelector('.multi-gatilho')?.setAttribute('aria-expanded', 'false');
+  }
+}
+document.addEventListener('click', (ev) => fechaMultiplos(ev.target));
+document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape') fechaMultiplos(null); });
+
 function escaparHtml(valor) {
   const elemento = document.createElement('span');
   elemento.textContent = String(valor ?? '');
@@ -176,24 +190,47 @@ function desenhaCampos() {
         op.textContent = ' (opcional)';
         lab.append(op);
       }
-      // Lista fechada com 'multiplos' vira grupo de marcação: quando pode faltar
-      // mais de um item — os doze documentos do art. 18 da Lei 6.766 —, uma caixa
-      // por item encheria a tela, e uma caixa só não daria conta. O valor
-      // guardado é o texto dos marcados unido por "; ", na ordem da lista, de
-      // modo que servidor, redator e .docx continuam recebendo uma string.
+      // Lista fechada com 'multiplos' vira uma caixa que abre: fechada mostra o
+      // resumo do que foi marcado; aberta, a lista com uma marcação por item.
+      // Doze itens sempre à mostra viravam uma parede na tela. O valor guardado
+      // é o texto dos marcados unido por "; ", na ordem da lista, de modo que
+      // servidor, redator e .docx continuam recebendo uma string.
       if (info.opcoes && info.multiplos) {
-        const grupo = document.createElement('div');
-        grupo.className = 'marcacao';
+        const caixa = document.createElement('div');
+        caixa.className = 'multi';
+
+        const gatilho = document.createElement('button');
+        gatilho.type = 'button';
+        gatilho.className = 'multi-gatilho';
+        const resumo = document.createElement('span');
+        resumo.className = 'multi-resumo';
+        const seta = document.createElement('span');
+        seta.className = 'multi-seta';
+        seta.textContent = '▾';
+        gatilho.append(resumo, seta);
+
+        const painel = document.createElement('div');
+        painel.className = 'multi-painel';
+        painel.hidden = true;
+
         const atuais = new Set((valores.get(e.id + '|' + c) || '')
                                .split(';').map(x => x.trim()).filter(Boolean));
+        const vazio = opcional ? '— não informar —' : '— escolha —';
+        const mostraResumo = () => {
+          const n = atuais.size;
+          resumo.textContent = n === 0 ? vazio
+                             : n === 1 ? [...atuais][0]
+                             : n + ' selecionados';
+          resumo.classList.toggle('multi-vazio', n === 0);
+        };
         const recolhe = () => {
-          const marcados = info.opcoes.filter(o => atuais.has(o));
-          valores.set(e.id + '|' + c, marcados.join('; '));
+          valores.set(e.id + '|' + c, info.opcoes.filter(o => atuais.has(o)).join('; '));
+          mostraResumo();
           pedePrevia();
         };
         for (const o of info.opcoes) {
           const item = document.createElement('label');
-          item.className = 'marcacao-item';
+          item.className = 'multi-item';
           const cx = document.createElement('input');
           cx.type = 'checkbox';
           cx.checked = atuais.has(o);
@@ -204,11 +241,15 @@ function desenhaCampos() {
           const txt = document.createElement('span');
           txt.textContent = o;
           item.append(cx, txt);
-          grupo.append(item);
+          painel.append(item);
         }
-        lab.htmlFor = '';
-        linha.classList.add('linha-marcacao');
-        linha.append(lab, grupo);
+        gatilho.addEventListener('click', () => {
+          painel.hidden = !painel.hidden;
+          gatilho.setAttribute('aria-expanded', String(!painel.hidden));
+        });
+        mostraResumo();
+        caixa.append(gatilho, painel);
+        linha.append(lab, caixa);
         g.append(linha);
         continue;
       }

@@ -330,34 +330,51 @@ button:disabled { opacity: .5; cursor: default; filter: none; }
   font-size: .875rem;
 }
 
-/* Campo de lista fechada com marcação múltipla (ver 'multiplos' em
-   dados/exigencias.json). Uma linha por item, para o texto longo do documento
-   caber sem cortar. */
-.linha-marcacao { align-items: flex-start; }
-.marcacao {
-  display: flex;
-  flex-direction: column;
-  gap: .35rem;
-  width: 100%;
-}
-.marcacao-item {
-  display: flex;
-  align-items: flex-start;
-  gap: .5rem;
-  font-size: .875rem;
-  line-height: 1.35;
+/* Campo de lista fechada com marcação múltipla ('multiplos' em
+   dados/exigencias.json). Fechada, parece um select; aberta, mostra a lista.
+   Doze itens sempre visíveis viravam uma parede na tela. */
+.multi { position: relative; flex: 1; min-width: 0; }
+.multi-gatilho {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  width: 100%; text-align: left;
+  font: inherit; color: var(--texto);
+  background: var(--superficie-2);
+  border: 1px solid var(--borda-forte);
+  border-radius: 8px; padding: 8px 10px;
   cursor: pointer;
+  transition: border-color .12s, box-shadow .12s;
 }
-/* A regra geral do formulario (.grupo .linha input) e feita para caixa de
-   texto: flex 1 1 0 com min-width 0. Aplicada a uma marcacao, ela some - fica
-   com largura 0. Por isso o tamanho vai explicito aqui. */
-.marcacao-item input[type="checkbox"] {
+.multi-gatilho:hover { border-color: var(--destaque); }
+.multi-gatilho[aria-expanded="true"] {
+  border-color: var(--destaque);
+  box-shadow: 0 0 0 3px var(--destaque-sup);
+}
+.multi-resumo { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.multi-resumo.multi-vazio { color: var(--texto-fraco); }
+.multi-seta { flex: none; color: var(--texto-fraco); font-size: 11px; }
+
+.multi-painel {
+  position: absolute; z-index: 30; top: calc(100% + 4px); left: 0; right: 0;
+  max-height: 300px; overflow-y: auto;
+  background: var(--superficie);
+  border: 1px solid var(--borda-forte);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  padding: 6px;
+}
+.multi-item {
+  display: flex; align-items: flex-start; gap: 8px;
+  padding: 6px 8px; border-radius: 8px;
+  font-size: 12.5px; line-height: 1.35; cursor: pointer;
+}
+.multi-item:hover { background: var(--destaque-sup); }
+/* A regra geral do formulário (.grupo .linha input) é feita para caixa de
+   texto: flex 1 1 0 com min-width 0. Aplicada a uma marcação, ela some — fica
+   com largura 0. Por isso o tamanho vai explícito aqui. */
+.multi-item input[type="checkbox"] {
   flex: 0 0 auto;
-  width: 1.05rem;
-  height: 1.05rem;
-  min-width: 1.05rem;
-  margin: .15rem 0 0;
+  width: 1rem; height: 1rem; min-width: 1rem;
+  margin: .1rem 0 0;
   accent-color: var(--destaque);
   cursor: pointer;
 }
-.marcacao-item:hover { color: var(--destaque); }
