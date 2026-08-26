@@ -348,4 +348,16 @@ button:disabled { opacity: .5; cursor: default; filter: none; }
   line-height: 1.35;
   cursor: pointer;
 }
-.marcacao-item input { margin-top: .2rem; flex: none; }
+/* A regra geral do formulario (.grupo .linha input) e feita para caixa de
+   texto: flex 1 1 0 com min-width 0. Aplicada a uma marcacao, ela some - fica
+   com largura 0. Por isso o tamanho vai explicito aqui. */
+.marcacao-item input[type="checkbox"] {
+  flex: 0 0 auto;
+  width: 1.05rem;
+  height: 1.05rem;
+  min-width: 1.05rem;
+  margin: .15rem 0 0;
+  accent-color: var(--destaque);
+  cursor: pointer;
+}
+.marcacao-item:hover { color: var(--destaque); }
