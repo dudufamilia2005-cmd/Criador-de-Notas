@@ -502,7 +502,8 @@
      "artigo": "Art. 440-AQ",
      "partes": [
       "IV",
-      "b) (2)"
+      "b) (2)",
+      "3"
      ]
     }
    ]
@@ -547,7 +548,8 @@
      "artigo": "Art. 440-AQ",
      "partes": [
       "IV",
-      "a) (2)"
+      "a) (2)",
+      "1 (2)"
      ]
     },
     {
@@ -699,7 +701,10 @@
    "fundamentos": [
     {
      "norma": "L4591",
-     "artigo": "Art. 32"
+     "artigo": "Art. 32",
+     "partes": [
+      "§ 1º"
+     ]
     }
    ]
   },
@@ -1344,7 +1349,10 @@
     },
     {
      "norma": "LRP",
-     "artigo": "Art. 251"
+     "artigo": "Art. 251",
+     "partes": [
+      "I"
+     ]
     }
    ]
   },
@@ -1405,7 +1413,10 @@
    "fundamentos": [
     {
      "norma": "CNPFE-GO",
-     "artigo": "Art. 352"
+     "artigo": "Art. 352",
+     "partes": [
+      "VII"
+     ]
     },
     {
      "norma": "CNPFE-GO",
@@ -1614,7 +1625,11 @@
    "fundamentos": [
     {
      "norma": "LRP",
-     "artigo": "Art. 213"
+     "artigo": "Art. 213",
+     "partes": [
+      "II",
+      "§ 6o"
+     ]
     },
     {
      "norma": "CC",
@@ -1864,7 +1879,12 @@
     },
     {
      "norma": "CC",
-     "artigo": "Art. 1410"
+     "artigo": "Art. 1410",
+     "partes": [
+      "I",
+      "II",
+      "VI"
+     ]
     }
    ]
   },
