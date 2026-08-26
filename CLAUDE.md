@@ -128,6 +128,12 @@ ormas.json`, então PDF não cadastrado é
    caracteres. O catálogo aponta quais `partes` citar; sai o caput e os trechos
    pedidos, separados por `(...)`. Rótulo repetido ganha ordinal — o art. 440-AQ
    tem três alíneas `a)`.
+1-E. **Norma federal e código goiano lado a lado é reforço, não repetição a
+   corrigir.** A pendência da hipoteca cita o art. 251 da Lei 6.015 e o art. 926
+   do CNPFE-GO, que dizem quase a mesma frase — o código estadual reproduz a lei
+   federal. Decisão da serventia (26/08/2026): fica, porque mostrar as duas
+   fontes reforça a exigência perante o apresentante. Não "limpe" isso.
+
 2. **Artigo escolhido não é artigo validado.** Os fundamentos foram escolhidos
    lendo a lei — `ferramentas/busca_artigo.py` procura no texto indexado —, mas
    quem decide se o dispositivo é pertinente àquela exigência é registrador.
