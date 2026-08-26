@@ -2722,6 +2722,56 @@
    ],
    "revogadas": [],
    "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 796",
+   "texto": "Art. 796 . Caso a matrícula esteja gravada com algum ônus impeditivo de alienação ou oneração, deverá ser apresentado requerimento do interessado solicitando o cancelamento do ônus, acompanhado de documentação competente, ou mandado judicial de registro ou levantamento do ônus. §1º. Constituem ônus impeditivos da alienação ou oneração, entre outros: Parágrafo único. Constituem ônus impeditivos da alienação ou oneração, entre outros: I – hipoteca constituída por cédula de crédito rural, industrial, comercial e cédula à exportação; I – hipoteca cedular; II – hipoteca do Sistema Financeiro da Habitação; III – penhora da União ou do Instituto Nacional do Seguro Social – INSS; IV – cláusula de inalienabilidade; V – bloqueio de matrícula; e VI – indisponibilidade. §2º. O imóvel gravado com os ônus previstos nos incisos I ou II do §1º deste artigo poderá ser alienado ou onerado mediante anuência do credor, por escrito.. §3º. No caso de sucessão causa mortis, os ônus previstos nos incisos I a VI do §1º deste artigo não serão considerados impeditivos do registro da partilha.. 359",
+   "caput": "Art. 796 . Caso a matrícula esteja gravada com algum ônus impeditivo de alienação ou oneração, deverá ser apresentado requerimento do interessado solicitando o cancelamento do ônus, acompanhado de documentação competente, ou mandado judicial de registro ou levantamento do ônus.",
+   "partes": [
+    {
+     "rotulo": "§1º",
+     "texto": "§1º. Constituem ônus impeditivos da alienação ou oneração, entre outros:"
+    },
+    {
+     "rotulo": "Parágrafo único",
+     "texto": "Parágrafo único. Constituem ônus impeditivos da alienação ou oneração, entre outros:"
+    },
+    {
+     "rotulo": "I",
+     "texto": "I – hipoteca constituída por cédula de crédito rural, industrial, comercial e cédula à exportação;"
+    },
+    {
+     "rotulo": "I (2)",
+     "texto": "I – hipoteca cedular;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II – hipoteca do Sistema Financeiro da Habitação;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III – penhora da União ou do Instituto Nacional do Seguro Social – INSS;"
+    },
+    {
+     "rotulo": "IV",
+     "texto": "IV – cláusula de inalienabilidade;"
+    },
+    {
+     "rotulo": "V",
+     "texto": "V – bloqueio de matrícula; e VI – indisponibilidade."
+    },
+    {
+     "rotulo": "§2º",
+     "texto": "§2º. O imóvel gravado com os ônus previstos nos incisos I ou II do §1º deste artigo poderá ser alienado ou onerado mediante anuência do credor, por escrito.."
+    },
+    {
+     "rotulo": "§3º",
+     "texto": "§3º. No caso de sucessão causa mortis, os ônus previstos nos incisos I a VI do §1º deste artigo não serão considerados impeditivos do registro da partilha.."
+    }
+   ],
+   "revogadas": [],
+   "fonte": "lei"
   }
  ]
 }

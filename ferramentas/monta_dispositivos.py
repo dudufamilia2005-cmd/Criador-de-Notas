@@ -41,7 +41,7 @@ ANOTACAO = re.compile(
     # isso ela e procurada em qualquer ponto, exigindo o "pelo/pela" seguinte
     # para nao engolir parentese de conteudo.
     r"\s*\([^)]{0,80}?(?:inclu[ií]d[oa]|acrescid[oa]|reda[çc][ãa]o (?:dada|conferida)|"
-    r"renumerad[oa]|revogad[oa])\s+(?:pel[oa]|em|d[oe])[^)]{0,140}\)"
+    r"renumerad[oa]|revogad[oa]|transformad[oa])\s+(?:pel[oa]|em|d[oe])[^)]{0,140}\)"
     r"|\s*\((?:vide|vig[êe]ncia)[^)]{0,140}\)"
     r"|\s*NOTAS?:\s*Reda[çc][ãa]o (?:com|sem) vig[êe]ncia[^A-ZÀ-Ú]{0,90}", re.I)
 

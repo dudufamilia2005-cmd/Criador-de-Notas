@@ -314,6 +314,14 @@
   "area_art": {
    "rotulo": "Área na ART",
    "exemplo": "94,7423 ha"
+  },
+  "tipo_gravame": {
+   "rotulo": "Ato ainda ativo",
+   "exemplo": "a indisponibilidade",
+   "opcoes": [
+    "a indisponibilidade",
+    "o bloqueio"
+   ]
   }
  },
  "exigencias": [
@@ -1854,6 +1862,29 @@
     {
      "norma": "CC",
      "artigo": "Art. 1410"
+    }
+   ]
+  },
+  {
+   "id": "indisponibilidade-bloqueio-ativo",
+   "rotulo": "Ato de indisponibilidade ou bloqueio ainda ativo na matrícula",
+   "assunto": "onus",
+   "revisado": false,
+   "campos": [
+    "tipo_gravame",
+    "matricula"
+   ],
+   "defeito": "Verifica-se que a matrícula n.º {matricula} ainda traz {tipo_gravame} em vigor, sem que tenha vindo documento capaz de levantar o gravame. Enquanto ele subsistir, o imóvel não pode ser alienado nem onerado, e o título apresentado não tem como ingressar no fólio real.",
+   "providencia": "o cancelamento do gravame, por mandado judicial que determine o seu levantamento ou por requerimento do interessado, acompanhado da documentação competente e {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 796",
+     "partes": [
+      "§1º",
+      "V"
+     ]
     }
    ]
   }
