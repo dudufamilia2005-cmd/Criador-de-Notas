@@ -11,6 +11,41 @@ const $ = (id) => document.getElementById(id);
 // Fecha qualquer caixa de marcação aberta ao clicar fora ou apertar Esc. Um
 // ouvinte so, montado uma vez: a lista de exigencias e redesenhada a cada
 // filtro, e um ouvinte por campo se acumularia a cada redesenho.
+// O painel e 'position: fixed' e recebe as coordenadas do gatilho a cada
+// abertura. Motivo: a coluna dos campos rola e tem tres ancestrais que cortam o
+// que transborda (.grupo, .campos, .cartao) - em 'absolute' o painel aparecia
+// como uma listra de 5 px, o resto ficava fora do recorte.
+function posicionaMulti(caixa) {
+  const gatilho = caixa.querySelector('.multi-gatilho');
+  const painel = caixa.querySelector('.multi-painel');
+  if (!gatilho || !painel || painel.hidden) return;
+  const r = gatilho.getBoundingClientRect();
+  const abaixo = window.innerHeight - r.bottom - 12;
+  const acima = r.top - 12;
+  const paraCima = abaixo < 180 && acima > abaixo;   // sem espaco embaixo, abre para cima
+  painel.style.left = r.left + 'px';
+  painel.style.width = r.width + 'px';
+  painel.style.maxHeight = Math.min(320, paraCima ? acima : abaixo) + 'px';
+  if (paraCima) {
+    painel.style.top = 'auto';
+    painel.style.bottom = (window.innerHeight - r.top + 4) + 'px';
+  } else {
+    painel.style.bottom = 'auto';
+    painel.style.top = (r.bottom + 4) + 'px';
+  }
+}
+
+// Rolagem e redimensionamento nao fecham a caixa: ela e reposicionada, para nao
+// descolar do gatilho. Rolar dentro do proprio painel tambem passa por aqui, e
+// nesse caso o gatilho nao se moveu - reposicionar e inofensivo.
+function reposicionaMultiplos() {
+  for (const painel of document.querySelectorAll('.multi-painel:not([hidden])')) {
+    posicionaMulti(painel.closest('.multi'));
+  }
+}
+window.addEventListener('resize', reposicionaMultiplos);
+document.addEventListener('scroll', reposicionaMultiplos, true);
+
 function fechaMultiplos(alvoClique) {
   for (const painel of document.querySelectorAll('.multi-painel:not([hidden])')) {
     const caixa = painel.closest('.multi');
@@ -244,8 +279,11 @@ function desenhaCampos() {
           painel.append(item);
         }
         gatilho.addEventListener('click', () => {
-          painel.hidden = !painel.hidden;
-          gatilho.setAttribute('aria-expanded', String(!painel.hidden));
+          const abrindo = painel.hidden;
+          fechaMultiplos(null);                 // so uma aberta por vez
+          painel.hidden = !abrindo;
+          gatilho.setAttribute('aria-expanded', String(abrindo));
+          if (abrindo) posicionaMulti(caixa);
         });
         mostraResumo();
         caixa.append(gatilho, painel);

@@ -353,9 +353,12 @@ button:disabled { opacity: .5; cursor: default; filter: none; }
 .multi-resumo.multi-vazio { color: var(--texto-fraco); }
 .multi-seta { flex: none; color: var(--texto-fraco); font-size: 11px; }
 
+/* fixed, e nao absolute: a coluna dos campos rola e ha tres ancestrais que
+   cortam o transbordo - em absolute o painel saia como uma listra de 5 px. As
+   coordenadas vem do gatilho, em posicionaMulti() no app.js. */
 .multi-painel {
-  position: absolute; z-index: 30; top: calc(100% + 4px); left: 0; right: 0;
-  max-height: 300px; overflow-y: auto;
+  position: fixed; z-index: 60;
+  overflow-y: auto;
   background: var(--superficie);
   border: 1px solid var(--borda-forte);
   border-radius: var(--raio);
