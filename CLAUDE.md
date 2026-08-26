@@ -106,6 +106,21 @@ ormas.json`, então PDF não cadastrado é
    como vencida. Sem isso o art. 77 do CTE-GO saía com o texto que valeu até
    31.12.2000. Ver `REDACAO_VENCIDA` em `indexa_normas.py`.
 
+1-F. **Qual das redações repetidas é a vigente depende do compilador.** O mesmo
+   inciso aparece várias vezes, uma por redação histórica, e a ordem não significa
+   a mesma coisa nos dois: no Planalto o **original vem primeiro, sem anotação**,
+   e cada redação nova vem depois marcada `(Redação dada pela Lei nº …)` — vale a
+   **última**; no código goiano a **anotada é a vigente e pode vir primeiro**, com
+   a antiga impressa depois **sem marca nenhuma** (art. 352, inciso VII: 90 dias
+   anotado antes, 30 dias sem marca depois). Por isso não há regra automática, e
+   `esta_revogada` não pega esses casos. Ao recortar inciso repetido, **leia a
+   anotação no texto bruto** antes de escolher.
+
+1-G. **`(...)` afirma omissão — não use entre partes vizinhas.** `texto_dispositivo`
+   consulta a ordem das partes no artigo e só separa com `(...)` o que tem buraco
+   no meio. Antes marcava tudo, e a nota dizia que havia texto omitido onde o
+   original é corrido.
+
 1-C. **Revogação também vive dentro do artigo.** `1-A` cuidava do artigo
    inteiro; o parágrafo revogado passava. No art. 77 do CTE-GO, 12 das 15
    partes citáveis estavam revogadas — inclusive o § 5º, que a exigência do
