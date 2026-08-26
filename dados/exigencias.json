@@ -2107,6 +2107,32 @@
      "artigo": "Art. 1"
     }
    ]
+  },
+  {
+   "id": "construcao-sem-habite-se",
+   "rotulo": "Averbação de construção sem habite-se ou certidão de conclusão de obra",
+   "assunto": "edificacao",
+   "revisado": false,
+   "campos": [
+    "matricula"
+   ],
+   "defeito": "Verifica-se que se pretende averbar a construção[ na matrícula n.º {matricula}] sem que tenha vindo o habite-se ou a certidão de conclusão de obra expedida pela prefeitura municipal. É esse documento que comprova, perante o registro, a conclusão da obra.",
+   "providencia": "a apresentação do habite-se ou da certidão de conclusão de obra, expedido pela prefeitura municipal",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 1063"
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 167",
+     "partes": [
+      "II",
+      "4 (2)"
+     ]
+    }
+   ]
   }
  ]
 }

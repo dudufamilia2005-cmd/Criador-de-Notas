@@ -11,7 +11,8 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
-from notadev.redator import (Redator, JUNTA_PONTOS, PONTO_ORFAO,   # noqa: E402
+from notadev.redator import (Redator, JUNTA_PONTOS, MILHAR,        # noqa: E402
+                             PONTO_ORFAO,
                              TIRA_NUMERO)
 from notadev.catalogo import Catalogo                            # noqa: E402
 
@@ -37,6 +38,14 @@ PONTUACAO = [
      "ponto legitimo no fim da frase nao e tocado"),
 ]
 
+MILHAR_CASOS = [
+    ("Art. 1063", "Art. 1.063", "artigo de quatro digitos ganha o ponto de milhar"),
+    ("Art. 1410", "Art. 1.410", "o mesmo no Codigo Civil"),
+    ("Art. 176", "Art. 176", "tres digitos nao mudam"),
+    ("Art. 440-AQ", "Art. 440-AQ", "sufixo de letra nao e tocado"),
+    ("Art. 211-A", "Art. 211-A", "nem o do codigo goiano"),
+]
+
 NUMERO = [
     ("Art. 440 -AV Os documentos...", "Os documentos...",
      "sufixo separado por espaco, como o PDF do CNN escreve"),
@@ -52,12 +61,14 @@ NUMERO = [
 # a mesma sequencia que o redator aplica ao texto do artigo
 JUNTA = lambda t: PONTO_ORFAO.sub("", JUNTA_PONTOS.sub(".", t))
 TIRA = lambda t: TIRA_NUMERO.sub("", t)
+MIL = lambda t: MILHAR.sub(chr(92) + "1." + chr(92) + "2", t)
 
 
 def main():
     falhas = []
     for regra, casos, nome in ((JUNTA, PONTUACAO, "pontuacao"),
-                               (TIRA, NUMERO, "numero do artigo")):
+                               (TIRA, NUMERO, "numero do artigo"),
+                               (MIL, MILHAR_CASOS, "ponto de milhar")):
         print(f"\n{nome}")
         for entrada, esperado, porque in casos:
             saiu = regra(entrada)

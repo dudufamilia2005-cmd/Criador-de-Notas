@@ -3226,6 +3226,44 @@
     }
    ],
    "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 1063",
+   "texto": "Art. 1.063. A averbação de construção de prédio só poderá ser feita mediante apresentação de documento hábil, como habite-se ou certidão de conclusão de obra, expedido pela prefeitura municipal. §1º. Será objeto de retificação eventual divergência entre a área construída constante do documento da prefeitura e a planta aprovada. §2º Para averbação da construção é inexigível a apresentação da Certidão Negativa de Débitos Previdenciários referente à obra (STF: ADI nº 173 e 394 e CNJ: PP Nº 0001230-82.2015.2.00.0000 e PP Nº 0004771-50.2020.2.00.0000). §2º. Para averbação da construção será exigida a apresentação da Certidão Negativa de Débitos Previdenciários referente à obra, cuja área deverá corresponder à área total construída do prédio. §3º. Concluída a obra com a certidão municipal comprobatória, serão praticados os seguintes atos: I – abertura das matrículas das unidades autônomas; II – averbação de construção na matrícula primitiva; III – averbação de construção em cada uma das matrículas derivadas já abertas ou abertas por ocasião da conclusão da obra; e IV – averbação da certidão negativa de débito de contribuições previdenciárias na matrícula primitiva. 440",
+   "caput": "Art. 1.063. A averbação de construção de prédio só poderá ser feita mediante apresentação de documento hábil, como habite-se ou certidão de conclusão de obra, expedido pela prefeitura municipal.",
+   "partes": [
+    {
+     "rotulo": "§1º",
+     "texto": "§1º. Será objeto de retificação eventual divergência entre a área construída constante do documento da prefeitura e a planta aprovada."
+    },
+    {
+     "rotulo": "§2º",
+     "texto": "§2º Para averbação da construção é inexigível a apresentação da Certidão Negativa de Débitos Previdenciários referente à obra (STF: ADI nº 173 e 394 e CNJ: PP Nº 0001230-82.2015.2.00.0000 e PP Nº 0004771-50.2020.2.00.0000)."
+    },
+    {
+     "rotulo": "§2º (2)",
+     "texto": "§2º. Para averbação da construção será exigida a apresentação da Certidão Negativa de Débitos Previdenciários referente à obra, cuja área deverá corresponder à área total construída do prédio."
+    },
+    {
+     "rotulo": "§3º",
+     "texto": "§3º. Concluída a obra com a certidão municipal comprobatória, serão praticados os seguintes atos:"
+    },
+    {
+     "rotulo": "I",
+     "texto": "I – abertura das matrículas das unidades autônomas;"
+    },
+    {
+     "rotulo": "II",
+     "texto": "II – averbação de construção na matrícula primitiva;"
+    },
+    {
+     "rotulo": "III",
+     "texto": "III – averbação de construção em cada uma das matrículas derivadas já abertas ou abertas por ocasião da conclusão da obra; e IV – averbação da certidão negativa de débito de contribuições previdenciárias na matrícula primitiva."
+    }
+   ],
+   "revogadas": [],
+   "fonte": "lei"
   }
  ]
 }

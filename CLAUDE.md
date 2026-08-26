@@ -209,6 +209,22 @@ Fundamentação: Arial 9, recuo esquerdo 3,75–4,00 cm, entrelinhas 1,0.
   recolhimento complementar de imposto estadual — o oposto do que a providência
   pede. **Retirada provisória, acordada com a serventia em 24/08/2026**; repor é
   decisão de registrador, e a omissão é escolha, não esquecimento.
+- **A cópia do CNPFE/GO é anterior à Decisão-Ofício Circular 93/2026** (DJe de
+  25/08/2026), que reorganizou os incisos do § 3º e acrescentou o § 4º ao art.
+  1.063 — o marco final do regime de cobrança como ato único do art. 237-A da
+  Lei 6.015. O **caput e o § 2º da nossa cópia continuam válidos** (o § 2º já traz
+  a redação do Provimento 130/2024, que torna *inexigível* a CND previdenciária
+  para averbação de construção); o **§ 3º e seus incisos estão vencidos** — não os
+  cite até a cópia do código ser atualizada.
+- **Redação antiga citável, sem marca que a denuncie.** No CNPFE/GO a redação
+  vigente é a **anotada**, e a antiga vem depois **sem anotação nenhuma**: o
+  art. 1.063 tem `§2º` dizendo que a CND previdenciária é inexigível e
+  `§2º (2)` dizendo o contrário; o art. 352 tem `VII` com 90 dias e `VII (2)`
+  com 30. `esta_revogada` não tem o que ler nesses casos. A regra que resolveria
+  — *entre partes de mesmo rótulo, vale a última que traz anotação de redação
+  dada; as demais estão superadas* — funciona também para o Planalto, mas
+  aplicá-la renumeraria os ordinais (`I (2)`, `a) (4)`) e quebraria as citações
+  já feitas. É migração, não ajuste. Ver invariante 1-F.
 - Provimento CNJ 161/2024: o PDF não tem texto extraível — traz só índices de
   glifos. Precisa de OCR ou de outra cópia. Nenhuma exigência o usa hoje.
 - Nenhuma das 65 exigências foi revisada por registrador: todas saem com aviso.
