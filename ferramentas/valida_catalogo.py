@@ -89,6 +89,16 @@ def main():
                 erros.append(f"{eid}: {norma} {artigo} nao esta em dispositivos.json "
                              f"-> rode ferramentas/monta_dispositivos.py")
                 continue
+            # Caput que termina em dois-pontos e anuncio, nao regra: "O cancelamento
+            # de hipoteca so pode ser feito:" nao diz nada sozinho, e a nota sai com
+            # uma frase truncada. A regra esta nos incisos, que precisam ser apontados.
+            citado = (d.get("caput", "") if not f.get("partes")
+                      else ([x["texto"] for x in d.get("partes", [])
+                             if x["rotulo"] == f["partes"][-1]] or [""])[0])
+            if citado.rstrip().rstrip(".").endswith(":"):
+                avisos.append(f"{eid}: {norma} {artigo} termina em dois-pontos - "
+                              f"a regra esta nas partes que nao foram citadas")
+
             disponiveis = {p["rotulo"] for p in d.get("partes", [])}
             # Parte revogada nao e parte inexistente: dizer so "nao tem" mandaria
             # procurar erro de digitacao onde houve mudanca na lei.
