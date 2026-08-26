@@ -2802,6 +2802,65 @@
    ],
    "revogadas": [],
    "fonte": "lei"
+  },
+  {
+   "norma": "L9514",
+   "artigo": "Art. 25",
+   "texto": "Art. 25. Com o pagamento da dívida e seus encargos, resolve-se, nos termos deste artigo, a propriedade fiduciária do imóvel. § 1º No prazo de trinta dias, a contar da data de liquidação da dívida, o fiduciário fornecerá o respectivo termo de quitação ao fiduciante, sob pena de multa em favor deste, equivalente a meio por cento ao mês, ou fração, sobre o valor do contrato. § 1º No prazo de 30 (trinta) dias, contado da data de liquidação da dívida, o fiduciário fornecerá o termo de quitação ao devedor e, se for o caso, ao terceiro fiduciante. § 1º-A O não fornecimento do termo de quitação no prazo previsto no § 1º deste artigo acarretará multa ao fiduciário equivalente a 0,5% (meio por cento) ao mês, ou fração, sobre o valor do contrato, que se reverterá em favor daquele a quem o termo não tiver sido disponibilizado no referido prazo. § 2º À vista do termo de quitação de que trata o parágrafo anterior, o oficial do competente Registro de Imóveis efetuará o cancelamento do registro da propriedade fiduciária. § 3o Nas hipóteses em que a quitação da dívida decorrer da portabilidade do financiamento para outra instituição financeira, não será emitido o termo de quitação de que trata este artigo, cabendo, quanto à alienação fiduciária, a mera averbação da sua transferência.",
+   "caput": "Art. 25. Com o pagamento da dívida e seus encargos, resolve-se, nos termos deste artigo, a propriedade fiduciária do imóvel.",
+   "partes": [
+    {
+     "rotulo": "§ 1º",
+     "texto": "§ 1º No prazo de trinta dias, a contar da data de liquidação da dívida, o fiduciário fornecerá o respectivo termo de quitação ao fiduciante, sob pena de multa em favor deste, equivalente a meio por cento ao mês, ou fração, sobre o valor do contrato."
+    },
+    {
+     "rotulo": "§ 1º (2)",
+     "texto": "§ 1º No prazo de 30 (trinta) dias, contado da data de liquidação da dívida, o fiduciário fornecerá o termo de quitação ao devedor e, se for o caso, ao terceiro fiduciante."
+    },
+    {
+     "rotulo": "§ 1º (3)",
+     "texto": "§ 1º-A O não fornecimento do termo de quitação no prazo previsto no § 1º deste artigo acarretará multa ao fiduciário equivalente a 0,5% (meio por cento) ao mês, ou fração, sobre o valor do contrato, que se reverterá em favor daquele a quem o termo não tiver sido disponibilizado no referido prazo."
+    },
+    {
+     "rotulo": "§ 2º",
+     "texto": "§ 2º À vista do termo de quitação de que trata o parágrafo anterior, o oficial do competente Registro de Imóveis efetuará o cancelamento do registro da propriedade fiduciária."
+    }
+   ],
+   "revogadas": [
+    {
+     "rotulo": "§ 3o",
+     "motivo": "marcada como revogada no texto",
+     "texto": "§ 3o Nas hipóteses em que a quitação da dívida decorrer da portabilidade do financiamento para outra instituição financeira, não será emitido o termo de quitação de que trata este artigo, cabendo, quanto à alienação fiduciária, a mera averbação da sua transferência."
+    }
+   ],
+   "fonte": "lei"
+  },
+  {
+   "norma": "L9514",
+   "artigo": "Art. 29",
+   "texto": "Art. 29. O fiduciante, com anuência expressa do fiduciário, poderá transmitir os direitos de que seja titular sobre o imóvel objeto da alienação fiduciária em garantia, assumindo o adquirente as respectivas obrigações.",
+   "caput": "Art. 29. O fiduciante, com anuência expressa do fiduciário, poderá transmitir os direitos de que seja titular sobre o imóvel objeto da alienação fiduciária em garantia, assumindo o adquirente as respectivas obrigações.",
+   "partes": [],
+   "revogadas": [],
+   "fonte": "lei"
+  },
+  {
+   "norma": "CNPFE-GO",
+   "artigo": "Art. 985",
+   "texto": "Art. 985. O devedor fiduciante, com anuência expressa do credor fiduciário, poderá transmitir seu direito real de aquisição sobre o imóvel objeto da alienação fiduciária em garantia, assumindo o cessionário adquirente as respectivas obrigações, na condição de novo devedor fiduciante. §1º. O título de transferência desses direitos e obrigações será registrada na matrícula do imóvel, cabendo ao oficial observar a regularidade do recolhimento do imposto de transmissão. §2º. Independem de anuência do credor fiduciário a partilha dos direitos do devedor fiduciante falecido.",
+   "caput": "Art. 985. O devedor fiduciante, com anuência expressa do credor fiduciário, poderá transmitir seu direito real de aquisição sobre o imóvel objeto da alienação fiduciária em garantia, assumindo o cessionário adquirente as respectivas obrigações, na condição de novo devedor fiduciante.",
+   "partes": [
+    {
+     "rotulo": "§1º",
+     "texto": "§1º. O título de transferência desses direitos e obrigações será registrada na matrícula do imóvel, cabendo ao oficial observar a regularidade do recolhimento do imposto de transmissão."
+    },
+    {
+     "rotulo": "§2º",
+     "texto": "§2º. Independem de anuência do credor fiduciário a partilha dos direitos do devedor fiduciante falecido."
+    }
+   ],
+   "revogadas": [],
+   "fonte": "lei"
   }
  ]
 }

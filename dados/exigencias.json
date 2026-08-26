@@ -314,6 +314,10 @@
   "area_art": {
    "rotulo": "Área na ART",
    "exemplo": "94,7423 ha"
+  },
+  "ato_matricula": {
+   "rotulo": "Ato ou atos na matrícula",
+   "exemplo": "AV.04"
   }
  },
  "exigencias": [
@@ -973,8 +977,10 @@
    "rotulo": "Alienação fiduciária em vigor sem anuência do credor",
    "assunto": "fiduciaria",
    "revisado": false,
-   "campos": [],
-   "defeito": "Verifica-se que a matrícula registra propriedade fiduciária em vigor, e o título não traz a anuência do credor fiduciário. Enquanto não resolvida a garantia, o devedor detém apenas a posse direta e o direito real de aquisição.",
+   "campos": [
+    "ato_matricula"
+   ],
+   "defeito": "Verifica-se que a matrícula registra propriedade fiduciária em vigor[ ({ato_matricula})], e o título não traz a anuência do credor fiduciário. Enquanto não resolvida a garantia, o devedor detém apenas a posse direta e o direito real de aquisição.",
    "providencia": "a anuência expressa do credor fiduciário ao ato pretendido, {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
@@ -1322,9 +1328,10 @@
    "assunto": "onus",
    "revisado": false,
    "campos": [
-    "matricula"
+    "matricula",
+    "ato_matricula"
    ],
-   "defeito": "Verifica-se que a matrícula n.º {matricula} ainda registra hipoteca em vigor, e não veio documento capaz de cancelá-la.",
+   "defeito": "Verifica-se que a matrícula n.º {matricula} ainda registra hipoteca em vigor[ ({ato_matricula})], e não veio documento capaz de cancelá-la.",
    "providencia": "a autorização expressa ou a quitação outorgada pelo credor, em instrumento hábil ao cancelamento da hipoteca, acompanhada de requerimento {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
@@ -1841,9 +1848,10 @@
    "assunto": "usufruto",
    "revisado": false,
    "campos": [
-    "usufrutuario"
+    "usufrutuario",
+    "ato_matricula"
    ],
-   "defeito": "Verifica-se que a matrícula registra usufruto em vigor em favor de {usufrutuario}, e o título não traz a anuência dele nem prova da extinção do direito.",
+   "defeito": "Verifica-se que a matrícula registra usufruto em vigor[ ({ato_matricula})] em favor de {usufrutuario}, e o título não traz a anuência do titular do usufruto nem prova da extinção do direito.",
    "providencia": "a anuência do usufrutuário no título, ou a prova da extinção do usufruto, acompanhada de requerimento {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
@@ -1863,9 +1871,10 @@
    "assunto": "onus",
    "revisado": false,
    "campos": [
-    "matricula"
+    "matricula",
+    "ato_matricula"
    ],
-   "defeito": "Verifica-se que a matrícula n.º {matricula} traz averbada indisponibilidade ainda em vigor. Enquanto ela subsistir, o imóvel não pode ser alienado nem onerado, e o título apresentado não tem como ingressar no fólio real.",
+   "defeito": "Verifica-se que a matrícula n.º {matricula} traz averbada indisponibilidade ainda em vigor[ ({ato_matricula})]. Enquanto ela subsistir, o imóvel não pode ser alienado nem onerado, e o título apresentado não tem como ingressar no fólio real.",
    "providencia": "o cancelamento da indisponibilidade, por mandado judicial que determine o seu levantamento ou por requerimento do interessado, acompanhado da documentação competente e {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
@@ -1885,9 +1894,10 @@
    "assunto": "onus",
    "revisado": false,
    "campos": [
-    "matricula"
+    "matricula",
+    "ato_matricula"
    ],
-   "defeito": "Verifica-se que a matrícula n.º {matricula} está bloqueada por determinação judicial, e o bloqueio permanece em vigor. Bloqueada a matrícula, nenhum ato pode ser nela praticado sem autorização do juízo: ao título apresentado resta a prenotação, cujo prazo fica prorrogado até a solução do bloqueio.",
+   "defeito": "Verifica-se que a matrícula n.º {matricula} está bloqueada por determinação judicial[ ({ato_matricula})], e o bloqueio permanece em vigor. Bloqueada a matrícula, nenhum ato pode ser nela praticado sem autorização do juízo: ao título apresentado resta a prenotação, cujo prazo fica prorrogado até a solução do bloqueio.",
    "providencia": "a autorização judicial para a prática do ato, ou o mandado que determine o levantamento do bloqueio da matrícula",
    "fecho": "fecho",
    "fundamentos": [
@@ -1937,6 +1947,37 @@
      "partes": [
       "3"
      ]
+    }
+   ]
+  },
+  {
+   "id": "alienacao-fiduciaria-ativa",
+   "rotulo": "Alienação fiduciária ativa na matrícula",
+   "assunto": "fiduciaria",
+   "revisado": false,
+   "campos": [
+    "matricula",
+    "ato_matricula"
+   ],
+   "defeito": "Verifica-se que a matrícula n.º {matricula} ainda registra alienação fiduciária em garantia[ ({ato_matricula})]. Enquanto a garantia não se resolver, a propriedade do imóvel é do credor fiduciário, e ao devedor fiduciante restam apenas a posse direta e o direito real de aquisição — de modo que ele não pode, sozinho, alienar nem onerar o imóvel.",
+   "providencia": "a prova da quitação da dívida, que resolve a propriedade fiduciária, ou a anuência expressa do credor fiduciário à transmissão dos direitos do fiduciante, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "L9514",
+     "artigo": "Art. 22"
+    },
+    {
+     "norma": "L9514",
+     "artigo": "Art. 25"
+    },
+    {
+     "norma": "L9514",
+     "artigo": "Art. 29"
+    },
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 985"
     }
    ]
   }
