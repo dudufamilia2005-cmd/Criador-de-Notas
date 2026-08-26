@@ -209,13 +209,23 @@ Fundamentação: Arial 9, recuo esquerdo 3,75–4,00 cm, entrelinhas 1,0.
   recolhimento complementar de imposto estadual — o oposto do que a providência
   pede. **Retirada provisória, acordada com a serventia em 24/08/2026**; repor é
   decisão de registrador, e a omissão é escolha, não esquecimento.
-- **A cópia do CNPFE/GO é anterior à Decisão-Ofício Circular 93/2026** (DJe de
-  25/08/2026), que reorganizou os incisos do § 3º e acrescentou o § 4º ao art.
-  1.063 — o marco final do regime de cobrança como ato único do art. 237-A da
-  Lei 6.015. O **caput e o § 2º da nossa cópia continuam válidos** (o § 2º já traz
-  a redação do Provimento 130/2024, que torna *inexigível* a CND previdenciária
-  para averbação de construção); o **§ 3º e seus incisos estão vencidos** — não os
-  cite até a cópia do código ser atualizada.
+- **A cópia do CNPFE/GO está no Provimento COGEX 194/2026** — medido contando os
+  provimentos citados dentro de `dados/artigos.json`, chave `CNPFE-GO`. É a mesma
+  versão que a serventia tem. Já saíram, e não estão nela:
+  - **196/2026** (Ofício Circular 90/2026) — art. 1.223, usucapião extrajudicial.
+    Muda o sujeito: a redação que temos dispensa o consentimento **dos
+    confrontantes**; a nova considera outorgado o consentimento e dispensa a
+    **notificação do titular registral**. A certidão do distribuidor deixou de ser
+    "cível e criminal" e passou a ser só **cível**. Nenhuma pendência cita este
+    artigo.
+  - **197/2026** (Ofício Circular 93/2026) — art. 1.063, averbação de construção.
+    Reorganizou os incisos do § 3º e acrescentou o § 4º, que fixa o marco final do
+    regime de cobrança como ato único do art. 237-A da Lei 6.015. O **caput e o
+    § 2º continuam válidos** (o § 2º já traz a redação do Provimento 130/2024, que
+    torna *inexigível* a CND previdenciária); o **§ 3º e seus incisos estão
+    vencidos** — não os cite. A pendência `construcao-sem-habite-se` cita só o
+    caput, de propósito.
+  - **195/2026** — número não visto; pode existir e faltar também.
 - **Redação antiga citável, sem marca que a denuncie.** No CNPFE/GO a redação
   vigente é a **anotada**, e a antiga vem depois **sem anotação nenhuma**: o
   art. 1.063 tem `§2º` dizendo que a CND previdenciária é inexigível e
