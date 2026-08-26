@@ -329,3 +329,23 @@ button:disabled { opacity: .5; cursor: default; filter: none; }
   color: #7c2d12;
   font-size: .875rem;
 }
+
+/* Campo de lista fechada com marcação múltipla (ver 'multiplos' em
+   dados/exigencias.json). Uma linha por item, para o texto longo do documento
+   caber sem cortar. */
+.linha-marcacao { align-items: flex-start; }
+.marcacao {
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+  width: 100%;
+}
+.marcacao-item {
+  display: flex;
+  align-items: flex-start;
+  gap: .5rem;
+  font-size: .875rem;
+  line-height: 1.35;
+  cursor: pointer;
+}
+.marcacao-item input { margin-top: .2rem; flex: none; }

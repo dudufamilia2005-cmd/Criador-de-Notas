@@ -39,9 +39,15 @@ def main():
     # campo de lista: o exemplo alimenta a tela de revisao, entao precisa ser
     # uma das opcoes - senao a revisao mostra texto que a tela nao produz
     for nome, info in campos_conhecidos.items():
-        if info.get("opcoes") and info.get("exemplo") not in info["opcoes"]:
-            erros.append(f"campo '{nome}': o exemplo '{info.get('exemplo')}' "
-                         f"nao esta entre as opcoes")
+        if info.get("opcoes"):
+            # Com 'multiplos' a tela une os marcados por "; ", entao o exemplo e
+            # uma combinacao - cada pedaco tem de ser uma das opcoes.
+            pedacos = ([x.strip() for x in str(info.get("exemplo", "")).split(";")]
+                       if info.get("multiplos") else [info.get("exemplo")])
+            for x in pedacos:
+                if x not in info["opcoes"]:
+                    erros.append(f"campo '{nome}': o exemplo '{x}' "
+                                 f"nao esta entre as opcoes")
 
     for e in cat["exigencias"]:
         eid = e["id"]

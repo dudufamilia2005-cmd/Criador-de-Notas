@@ -320,8 +320,8 @@
    "exemplo": "AV.04"
   },
   "documento_faltante": {
-   "rotulo": "Documento que faltou",
-   "exemplo": "o título de propriedade do imóvel ou a certidão da matrícula",
+   "rotulo": "Documentos que faltaram",
+   "exemplo": "o título de propriedade do imóvel ou a certidão da matrícula; a certidão da situação jurídica atualizada do imóvel",
    "opcoes": [
     "o título de propriedade do imóvel ou a certidão da matrícula",
     "o histórico dos títulos de propriedade do imóvel, dos últimos 20 anos, com os respectivos comprovantes",
@@ -335,43 +335,8 @@
     "a cópia do ato de aprovação do loteamento e o comprovante do termo de verificação da execução das obras",
     "o exemplar do contrato padrão de promessa de venda, de cessão ou de promessa de cessão",
     "a declaração do cônjuge do requerente consentindo no registro do loteamento"
-   ]
-  },
-  "documento_faltante_2": {
-   "rotulo": "Outro documento que faltou",
-   "exemplo": "a certidão da situação jurídica atualizada do imóvel",
-   "opcoes": [
-    "o título de propriedade do imóvel ou a certidão da matrícula",
-    "o histórico dos títulos de propriedade do imóvel, dos últimos 20 anos, com os respectivos comprovantes",
-    "a certidão negativa de tributos federais, estaduais e municipais incidentes sobre o imóvel",
-    "a certidão negativa de ações reais referentes ao imóvel, do período de 10 anos",
-    "a certidão negativa de ações penais por crime contra o patrimônio e contra a Administração Pública",
-    "a certidão dos cartórios de protesto de títulos, em nome do loteador, do período de 5 anos",
-    "a certidão de ações cíveis relativas ao loteador, do período de 10 anos",
-    "a certidão da situação jurídica atualizada do imóvel",
-    "a certidão de ações penais contra o loteador, do período de 10 anos",
-    "a cópia do ato de aprovação do loteamento e o comprovante do termo de verificação da execução das obras",
-    "o exemplar do contrato padrão de promessa de venda, de cessão ou de promessa de cessão",
-    "a declaração do cônjuge do requerente consentindo no registro do loteamento"
-   ]
-  },
-  "documento_faltante_3": {
-   "rotulo": "Mais um documento que faltou",
-   "exemplo": "o exemplar do contrato padrão de promessa de venda, de cessão ou de promessa de cessão",
-   "opcoes": [
-    "o título de propriedade do imóvel ou a certidão da matrícula",
-    "o histórico dos títulos de propriedade do imóvel, dos últimos 20 anos, com os respectivos comprovantes",
-    "a certidão negativa de tributos federais, estaduais e municipais incidentes sobre o imóvel",
-    "a certidão negativa de ações reais referentes ao imóvel, do período de 10 anos",
-    "a certidão negativa de ações penais por crime contra o patrimônio e contra a Administração Pública",
-    "a certidão dos cartórios de protesto de títulos, em nome do loteador, do período de 5 anos",
-    "a certidão de ações cíveis relativas ao loteador, do período de 10 anos",
-    "a certidão da situação jurídica atualizada do imóvel",
-    "a certidão de ações penais contra o loteador, do período de 10 anos",
-    "a cópia do ato de aprovação do loteamento e o comprovante do termo de verificação da execução das obras",
-    "o exemplar do contrato padrão de promessa de venda, de cessão ou de promessa de cessão",
-    "a declaração do cônjuge do requerente consentindo no registro do loteamento"
-   ]
+   ],
+   "multiplos": true
   }
  },
  "exigencias": [
@@ -1318,11 +1283,9 @@
    "assunto": "loteamento",
    "revisado": false,
    "campos": [
-    "documento_faltante",
-    "documento_faltante_2",
-    "documento_faltante_3"
+    "documento_faltante"
    ],
-   "defeito": "Verifica-se que o projeto de loteamento ou desmembramento aprovado foi submetido a registro sem toda a documentação que a lei relaciona. Falta, especificamente: {documento_faltante}[; {documento_faltante_2}][; {documento_faltante_3}]. A ausência impede a qualificação do parcelamento.",
+   "defeito": "Verifica-se que o projeto de loteamento ou desmembramento aprovado foi submetido a registro sem toda a documentação que a lei relaciona. Falta, especificamente: {documento_faltante}. A ausência impede a qualificação do parcelamento.",
    "providencia": "a apresentação da documentação acima especificada, para o registro do parcelamento do solo",
    "fecho": "fecho",
    "fundamentos": [

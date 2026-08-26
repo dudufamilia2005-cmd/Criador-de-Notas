@@ -176,6 +176,43 @@ function desenhaCampos() {
         op.textContent = ' (opcional)';
         lab.append(op);
       }
+      // Lista fechada com 'multiplos' vira grupo de marcação: quando pode faltar
+      // mais de um item — os doze documentos do art. 18 da Lei 6.766 —, uma caixa
+      // por item encheria a tela, e uma caixa só não daria conta. O valor
+      // guardado é o texto dos marcados unido por "; ", na ordem da lista, de
+      // modo que servidor, redator e .docx continuam recebendo uma string.
+      if (info.opcoes && info.multiplos) {
+        const grupo = document.createElement('div');
+        grupo.className = 'marcacao';
+        const atuais = new Set((valores.get(e.id + '|' + c) || '')
+                               .split(';').map(x => x.trim()).filter(Boolean));
+        const recolhe = () => {
+          const marcados = info.opcoes.filter(o => atuais.has(o));
+          valores.set(e.id + '|' + c, marcados.join('; '));
+          pedePrevia();
+        };
+        for (const o of info.opcoes) {
+          const item = document.createElement('label');
+          item.className = 'marcacao-item';
+          const cx = document.createElement('input');
+          cx.type = 'checkbox';
+          cx.checked = atuais.has(o);
+          cx.addEventListener('change', () => {
+            cx.checked ? atuais.add(o) : atuais.delete(o);
+            recolhe();
+          });
+          const txt = document.createElement('span');
+          txt.textContent = o;
+          item.append(cx, txt);
+          grupo.append(item);
+        }
+        lab.htmlFor = '';
+        linha.classList.add('linha-marcacao');
+        linha.append(lab, grupo);
+        g.append(linha);
+        continue;
+      }
+
       // campo com lista fechada vira <select>; os demais, caixa de texto
       const inp = document.createElement(info.opcoes ? 'select' : 'input');
       if (info.opcoes) {
