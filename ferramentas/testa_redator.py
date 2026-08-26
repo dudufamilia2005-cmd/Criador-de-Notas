@@ -11,7 +11,8 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
-from notadev.redator import Redator, JUNTA_PONTOS, TIRA_NUMERO   # noqa: E402
+from notadev.redator import (Redator, JUNTA_PONTOS, PONTO_ORFAO,   # noqa: E402
+                             TIRA_NUMERO)
 from notadev.catalogo import Catalogo                            # noqa: E402
 
 # (entrada, saida esperada, o que se protege)
@@ -25,6 +26,15 @@ PONTUACAO = [
     ("não atribuídos ao Livro nº 3.....",
      "não atribuídos ao Livro nº 3.",
      "sobra de pontos no fim do artigo"),
+    ("II - a averbação: (...) 4) da mudança",
+     "II - a averbação: (...) 4) da mudança",
+     "dois-pontos seguido de omissao continua intacto"),
+    ("os casos previstos no art. 68 desta Lei:. (...) § 1º",
+     "os casos previstos no art. 68 desta Lei: (...) § 1º",
+     "ponto orfao da anotacao removida, depois de dois-pontos"),
+    ("art. 5º, inciso I; e o art. 6º.",
+     "art. 5º, inciso I; e o art. 6º.",
+     "ponto legitimo no fim da frase nao e tocado"),
 ]
 
 NUMERO = [
@@ -39,7 +49,8 @@ NUMERO = [
 ]
 
 # As proprias expressoes do redator, nao copias: copia nao pega regressao.
-JUNTA = lambda t: JUNTA_PONTOS.sub(".", t)
+# a mesma sequencia que o redator aplica ao texto do artigo
+JUNTA = lambda t: PONTO_ORFAO.sub("", JUNTA_PONTOS.sub(".", t))
 TIRA = lambda t: TIRA_NUMERO.sub("", t)
 
 

@@ -1980,6 +1980,76 @@
      "artigo": "Art. 985"
     }
    ]
+  },
+  {
+   "id": "desmembramento-benfeitoria-sem-gleba",
+   "rotulo": "Desmembramento rural sem indicar em qual gleba fica a benfeitoria",
+   "assunto": "desmembramento",
+   "revisado": false,
+   "campos": [
+    "matricula"
+   ],
+   "defeito": "Verifica-se que o imóvel a ser desmembrado[ (matrícula n.º {matricula})] possui benfeitoria, e as peças técnicas não indicam em qual das glebas resultantes ela permanecerá. Cada gleba receberá matrícula própria, que deve descrever o imóvel com as suas características, e a benfeitoria não pode ficar sem destino no fólio real.",
+   "providencia": "a declaração do responsável técnico, acompanhada da respectiva Anotação de Responsabilidade Técnica, indicando em qual gleba permanecerá a benfeitoria, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "LRP",
+     "artigo": "Art. 167",
+     "partes": [
+      "II",
+      "4 (2)"
+     ]
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 176",
+     "partes": [
+      "3"
+     ]
+    },
+    {
+     "norma": "L6496",
+     "artigo": "Art. 1"
+    },
+    {
+     "norma": "DEC4449",
+     "artigo": "Art. 9"
+    }
+   ]
+  },
+  {
+   "id": "desmembramento-edificacao-sem-lote",
+   "rotulo": "Desmembramento urbano sem indicar em qual lote fica a edificação",
+   "assunto": "desmembramento",
+   "revisado": false,
+   "campos": [
+    "matricula"
+   ],
+   "defeito": "Verifica-se que o imóvel a ser desmembrado[ (matrícula n.º {matricula})] possui edificação, e as peças técnicas não indicam em qual dos lotes resultantes ela permanecerá. Cada lote receberá matrícula própria, que deve descrever o imóvel com as suas características, e a edificação não pode ficar sem destino no fólio real.",
+   "providencia": "a declaração do responsável técnico, acompanhada da respectiva Anotação de Responsabilidade Técnica, indicando em qual lote permanecerá a edificação, {assinatura}",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "LRP",
+     "artigo": "Art. 167",
+     "partes": [
+      "II",
+      "4 (2)"
+     ]
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 176",
+     "partes": [
+      "3"
+     ]
+    },
+    {
+     "norma": "L6496",
+     "artigo": "Art. 1"
+    }
+   ]
   }
  ]
 }
