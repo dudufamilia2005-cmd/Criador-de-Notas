@@ -314,14 +314,6 @@
   "area_art": {
    "rotulo": "Área na ART",
    "exemplo": "94,7423 ha"
-  },
-  "tipo_gravame": {
-   "rotulo": "Ato ainda ativo",
-   "exemplo": "a indisponibilidade",
-   "opcoes": [
-    "a indisponibilidade",
-    "o bloqueio"
-   ]
   }
  },
  "exigencias": [
@@ -1866,16 +1858,15 @@
    ]
   },
   {
-   "id": "indisponibilidade-bloqueio-ativo",
-   "rotulo": "Ato de indisponibilidade ou bloqueio ainda ativo na matrícula",
+   "id": "indisponibilidade-ativa",
+   "rotulo": "Indisponibilidade ainda ativa na matrícula",
    "assunto": "onus",
    "revisado": false,
    "campos": [
-    "tipo_gravame",
     "matricula"
    ],
-   "defeito": "Verifica-se que a matrícula n.º {matricula} ainda traz {tipo_gravame} em vigor, sem que tenha vindo documento capaz de levantar o gravame. Enquanto ele subsistir, o imóvel não pode ser alienado nem onerado, e o título apresentado não tem como ingressar no fólio real.",
-   "providencia": "o cancelamento do gravame, por mandado judicial que determine o seu levantamento ou por requerimento do interessado, acompanhado da documentação competente e {assinatura}",
+   "defeito": "Verifica-se que a matrícula n.º {matricula} traz averbada indisponibilidade ainda em vigor. Enquanto ela subsistir, o imóvel não pode ser alienado nem onerado, e o título apresentado não tem como ingressar no fólio real.",
+   "providencia": "o cancelamento da indisponibilidade, por mandado judicial que determine o seu levantamento ou por requerimento do interessado, acompanhado da documentação competente e {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
     {
@@ -1884,6 +1875,67 @@
      "partes": [
       "§1º",
       "V"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bloqueio-matricula-ativo",
+   "rotulo": "Bloqueio da matrícula ainda ativo",
+   "assunto": "onus",
+   "revisado": false,
+   "campos": [
+    "matricula"
+   ],
+   "defeito": "Verifica-se que a matrícula n.º {matricula} está bloqueada por determinação judicial, e o bloqueio permanece em vigor. Bloqueada a matrícula, nenhum ato pode ser nela praticado sem autorização do juízo: ao título apresentado resta a prenotação, cujo prazo fica prorrogado até a solução do bloqueio.",
+   "providencia": "a autorização judicial para a prática do ato, ou o mandado que determine o levantamento do bloqueio da matrícula",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "LRP",
+     "artigo": "Art. 214",
+     "partes": [
+      "§ 3o",
+      "§ 4o"
+     ]
+    },
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 796",
+     "partes": [
+      "§1º",
+      "V"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cib-nao-averbado",
+   "rotulo": "Número do ITR/CIB não averbado na matrícula",
+   "assunto": "cib",
+   "revisado": false,
+   "campos": [
+    "matricula"
+   ],
+   "defeito": "Verifica-se que a matrícula n.º {matricula} não traz averbado o número do imóvel na Receita Federal (NIRF/CIB), que é cadastro imobiliário obrigatório do imóvel rural e deve constar do fólio real. A averbação não decorre do título ora apresentado: é ato autônomo, que depende de requerimento próprio do interessado e corre em protocolo apartado.",
+   "providencia": "o requerimento pedindo a averbação do número do imóvel na Receita Federal (NIRF/CIB) à margem da matrícula n.º {matricula}, {assinatura}, {protocolo_apartado}",
+   "fecho": "fecho_averbacao",
+   "fundamentos": [
+    {
+     "norma": "CNN-CNJ",
+     "artigo": "Art. 440-AQ",
+     "partes": [
+      "IV",
+      "b) (2)",
+      "2 (3)",
+      "§ 3"
+     ]
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 176",
+     "partes": [
+      "3"
      ]
     }
    ]
