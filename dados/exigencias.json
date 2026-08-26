@@ -435,15 +435,18 @@
    "fecho": "fecho",
    "fundamentos": [
     {
-     "norma": "DEC4449",
-     "artigo": "Art. 9",
+     "norma": "CNN-CNJ",
+     "artigo": "Art. 440-AX",
      "partes": [
-      "§ 6o"
+      "§ 2",
+      "§ 3",
+      "II",
+      "b)"
      ]
     },
     {
-     "norma": "CNPFE-GO",
-     "artigo": "Art. 800"
+     "norma": "DEC4449",
+     "artigo": "Art. 9"
     }
    ]
   },
