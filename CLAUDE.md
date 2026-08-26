@@ -77,6 +77,18 @@ Para achar o artigo pertinente a uma exigência nova, lendo a lei:
   produção** — o sistema não o lê, o catálogo não o referencia, e nenhum arquivo
   em `dados\` guarda contagem ou citação dele. As ferramentas de levantamento
   continuam no repositório apenas como registro de como o estudo foi feito.
+- **Nem todo PDF em `Fundamentações\` é norma cadastrada.** Ali também ficam as
+  peças de jurisprudência (fonte dos precedentes) e atos que já foram absorvidos
+  por um texto consolidado. `Provimento  195.pdf` é o segundo caso: ele altera o
+  CNN, e a nossa cópia do CNN já vem consolidada — cita o próprio Provimento 195
+  em 277 pontos, e vai até o Provimento 246. Conferido em 26/08/2026: dos 42
+  artigos que ele toca, 35 já estão no índice e os 7 restantes são os artigos do
+  próprio instrumento ("passa a vigorar com as seguintes alterações", "entra em
+  vigor"). **Cadastrá-lo duplicaria cada regra** e abriria a porta para citar a
+  redação de junho/2025 de um artigo que provimento posterior já mudou.
+  `extrai_texto.py` percorre `dados
+ormas.json`, então PDF não cadastrado é
+  simplesmente ignorado — o arquivo fica como procedência, sem efeito.
 - `.cache-texto\` — texto extraído dos PDFs. Artefato gerado, descartável.
 - `dados/artigos.json` — o índice das leis. Também é gerado, mas **é
   versionado**: sem ele a implantação no Vercel não tem o que consultar, e os
