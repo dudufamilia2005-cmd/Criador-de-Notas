@@ -144,13 +144,12 @@
   },
   "usufrutuario": {
    "rotulo": "Usufrutuário",
-   "exemplo": "Ana Ferreira Lima",
-   "padrao": "o usufrutuário"
+   "exemplo": "Ana Ferreira Lima"
   },
   "incapaz": {
    "rotulo": "Titular incapaz",
-   "exemplo": "o menor Bruno Ferreira Lima",
-   "padrao": "o titular incapaz"
+   "exemplo": "Bruno Ferreira Lima, menor impúbere",
+   "padrao": "titular incapaz"
   },
   "pessoa_juridica": {
    "rotulo": "Pessoa jurídica",
@@ -874,7 +873,7 @@
     "documento"
    ],
    "defeito": "Verifica-se que {documento} veio em cópia simples. Cópia sem autenticação não é documento hábil a ingressar no fólio real.",
-   "providencia": "a apresentação de {documento} em via original ou em cópia autenticada",
+   "providencia": "a reapresentação do documento em via original ou em cópia autenticada",
    "fecho": "fecho",
    "fundamentos": [
     {
@@ -1029,8 +1028,8 @@
    "campos": [
     "documento"
    ],
-   "defeito": "Verifica-se que a assinatura digital aposta em {documento} não pôde ser validada no verificador oficial, de modo que sua autenticidade não se confirma.",
-   "providencia": "a reapresentação de {documento} com assinatura qualificada nos padrões da ICP-Brasil, passível de validação em https://validar.iti.gov.br/, ou em via física com firma reconhecida",
+   "defeito": "Verifica-se que {documento} traz assinatura digital que não pôde ser validada no verificador oficial, de modo que sua autenticidade não se confirma.",
+   "providencia": "a reapresentação do documento com assinatura qualificada nos padrões da ICP-Brasil, passível de validação em https://validar.iti.gov.br/, ou em via física com firma reconhecida",
    "fecho": "fecho",
    "fundamentos": [
     {
@@ -1051,8 +1050,8 @@
    "campos": [
     "documento"
    ],
-   "defeito": "Verifica-se que {documento} não está assinado, ou traz assinatura sem reconhecimento de firma. É a assinatura reconhecida que liga o documento a quem o subscreve.",
-   "providencia": "a apresentação de {documento} {assinatura}",
+   "defeito": "Verifica-se que {documento} veio sem assinatura, ou com assinatura sem reconhecimento de firma. É a assinatura reconhecida que liga o documento a quem o subscreve.",
+   "providencia": "a reapresentação do documento {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
     {
@@ -1080,7 +1079,7 @@
     "area_memorial"
    ],
    "defeito": "Verifica-se que {documento} indica área de {area_documento}, enquanto o Memorial Descritivo Certificado aponta {area_memorial}. Os dois precisam descrever o mesmo imóvel.",
-   "providencia": "a retificação de {documento}, para que sua área coincida com a do Memorial Descritivo Certificado",
+   "providencia": "a retificação do documento, para que sua área coincida com a do Memorial Descritivo Certificado",
    "fecho": "fecho",
    "fundamentos": [
     {
@@ -1903,7 +1902,7 @@
     "usufrutuario",
     "ato_matricula"
    ],
-   "defeito": "Verifica-se que a matrícula registra usufruto em vigor[ ({ato_matricula})] em favor de {usufrutuario}, e o título não traz a anuência do titular do usufruto nem prova da extinção do direito.",
+   "defeito": "Verifica-se que a matrícula registra usufruto em vigor[ ({ato_matricula})][, em favor de {usufrutuario}], e o título não traz a anuência do titular do usufruto nem prova da extinção do direito.",
    "providencia": "a anuência do usufrutuário no título, ou a prova da extinção do usufruto, acompanhada de requerimento {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
