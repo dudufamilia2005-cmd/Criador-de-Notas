@@ -76,7 +76,10 @@ Para achar o artigo pertinente a uma exigência nova, lendo a lei:
   nota: formatação, vocabulário, preâmbulos e fechos. **Não é fonte de nada em
   produção** — o sistema não o lê, o catálogo não o referencia, e nenhum arquivo
   em `dados\` guarda contagem ou citação dele. As ferramentas de levantamento
-  continuam no repositório apenas como registro de como o estudo foi feito.
+  **foram apagadas em 26/08/2026**: sete arquivos que liam `levantamento.json` e
+  os extratos das notas, todos quebrando com `FileNotFoundError` desde que o
+  acervo saiu. Meia pasta com aparência de coisa viva. O estudo está contado
+  aqui e nos commits; o código dele não servia mais a nada.
 - **Nem todo PDF em `Fundamentações\` é norma cadastrada.** Ali também ficam as
   peças de jurisprudência (fonte dos precedentes) e atos que já foram absorvidos
   por um texto consolidado. `Provimento  195.pdf` é o segundo caso: ele altera o
