@@ -37,7 +37,7 @@
    "exemplo": "10.100 e 10.200"
   },
   "proprietario": {
-   "rotulo": "Proprietário",
+   "rotulo": "Titular(es)",
    "exemplo": "João da Silva Pereira"
   },
   "denominacao_memorial": {
@@ -811,15 +811,15 @@
   },
   {
    "id": "confrontante-sem-declaracao",
-   "rotulo": "Falta a declaração de confrontação de um confrontante",
+   "rotulo": "Falta a declaração de confrontação de um ou mais confrontantes",
    "assunto": "confront",
    "revisado": false,
    "campos": [
-    "matricula_confrontante",
+    "matriculas_confrontantes",
     "proprietario"
    ],
-   "defeito": "Verifica-se que não veio a declaração de confrontação referente à matrícula n.º {matricula_confrontante}[, de titularidade de {proprietario}]. Sem ela não se comprova que os limites divisórios daquele imóvel foram respeitados.",
-   "providencia": "a apresentação da declaração de confrontação da matrícula n.º {matricula_confrontante}, firmada pelo respectivo titular, {assinatura}",
+   "defeito": "Verifica-se que não veio a declaração de confrontação referente à(s) matrícula(s) n.º {matriculas_confrontantes}[, de titularidade de {proprietario}]. Falta, assim, a prova de que os limites divisórios foram respeitados.",
+   "providencia": "a apresentação da(s) declaração(ões) de confrontação da(s) matrícula(s) n.º {matriculas_confrontantes}, firmada(s) pelo(s) respectivo(s) titular(es), {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
     {
