@@ -336,6 +336,14 @@
     "a declaração do cônjuge do requerente consentindo no registro do loteamento"
    ],
    "multiplos": true
+  },
+  "falta_declaracao": {
+   "rotulo": "Uma ou mais declarações",
+   "exemplo": "não foram apresentadas as declarações de confrontação referentes às matrículas n.os",
+   "opcoes": [
+    "não foi apresentada a declaração de confrontação referente à matrícula n.º",
+    "não foram apresentadas as declarações de confrontação referentes às matrículas n.os"
+   ]
   }
  },
  "exigencias": [
@@ -815,11 +823,12 @@
    "assunto": "confront",
    "revisado": false,
    "campos": [
+    "falta_declaracao",
     "matriculas_confrontantes",
     "proprietario"
    ],
-   "defeito": "Verifica-se que não veio a declaração de confrontação referente à(s) matrícula(s) n.º {matriculas_confrontantes}[, de titularidade de {proprietario}]. Falta, assim, a prova de que os limites divisórios foram respeitados.",
-   "providencia": "a apresentação da(s) declaração(ões) de confrontação da(s) matrícula(s) n.º {matriculas_confrontantes}, firmada(s) pelo(s) respectivo(s) titular(es), {assinatura}",
+   "defeito": "Verifica-se que {falta_declaracao} {matriculas_confrontantes}[, de titularidade de {proprietario}]. Falta, assim, a prova de que os limites divisórios foram respeitados.",
+   "providencia": "a apresentação da declaração de confrontação de cada matrícula indicada, firmada pelo respectivo titular, {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
     {
