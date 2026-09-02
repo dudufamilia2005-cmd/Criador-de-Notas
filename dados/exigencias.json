@@ -456,7 +456,7 @@
    "campos": [
     "via_confrontante"
    ],
-   "defeito": "Verifica-se que o imóvel confronta com {via_confrontante}, e não veio a declaração do responsável técnico atestando que foram respeitadas a faixa de domínio público e a eventual área non aedificandi.",
+   "defeito": "Verifica-se que o imóvel confronta com {via_confrontante}, e não foi apresentada a declaração do responsável técnico atestando que foram respeitadas a faixa de domínio público e a eventual área non aedificandi.",
    "providencia": "a Declaração de respeito à faixa de domínio público, firmada pelo responsável técnico, {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
@@ -701,7 +701,7 @@
    "campos": [
     "documento_fiscal"
    ],
-   "defeito": "Verifica-se que não veio {documento_fiscal}, ou que a apresentada está fora do prazo de validade nela declarado. A prova de quitação do tributo se faz por certidão vigente.",
+   "defeito": "Verifica-se que não foi apresentada {documento_fiscal}, ou que a certidão juntada está fora do prazo de validade nela declarado. A prova de quitação do tributo se faz por certidão vigente.",
    "providencia": "a apresentação de certidão negativa de débitos, ou de certidão positiva com efeito de negativa, dentro do prazo de validade",
    "fecho": "fecho",
    "fundamentos": [
@@ -966,7 +966,7 @@
    "assunto": "emolumentos",
    "revisado": false,
    "campos": [],
-   "defeito": "Verifica-se que não veio a declaração dos adquirentes quanto ao direito à redução de 50% das custas e emolumentos, benefício que alcança a primeira aquisição de imóvel residencial financiada pelo Sistema Financeiro da Habitação. A condição de primeira aquisição por esse sistema não se extrai do título, de modo que, sem a declaração, não há como apurar o valor devido.",
+   "defeito": "Verifica-se que não foi apresentada a declaração dos adquirentes quanto ao direito à redução de 50% das custas e emolumentos, benefício que alcança a primeira aquisição de imóvel residencial financiada pelo Sistema Financeiro da Habitação. A condição de primeira aquisição por esse sistema não se extrai do título, de modo que, sem a declaração, não há como apurar o valor devido.",
    "providencia": "a apresentação de declaração firmada pelos adquirentes, informando se esta é a primeira aquisição de imóvel residencial financiada pelo Sistema Financeiro da Habitação, sendo irrelevante, para o benefício, a existência de imóvel anterior adquirido por outra forma, {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
@@ -1385,7 +1385,7 @@
     "matricula",
     "ato_matricula"
    ],
-   "defeito": "Verifica-se que a matrícula n.º {matricula} ainda registra hipoteca em vigor[ ({ato_matricula})], e não veio documento capaz de cancelá-la.",
+   "defeito": "Verifica-se que a matrícula n.º {matricula} ainda registra hipoteca em vigor[ ({ato_matricula})], e não foi apresentado documento capaz de cancelá-la.",
    "providencia": "a autorização expressa ou a quitação outorgada pelo credor, em instrumento hábil ao cancelamento da hipoteca, acompanhada de requerimento {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
@@ -1411,7 +1411,7 @@
     "parte",
     "regime"
    ],
-   "defeito": "Verifica-se que {parte} contraiu casamento sob o regime da {regime}, depois da Lei n.º 6.515/1977 — hipótese que exige pacto antenupcial. Não vieram a escritura do pacto nem prova de seu registro.",
+   "defeito": "Verifica-se que {parte} contraiu casamento sob o regime da {regime}, depois da Lei n.º 6.515/1977 — hipótese que exige pacto antenupcial. Não foram apresentadas a escritura do pacto nem a prova de seu registro.",
    "providencia": "a apresentação da Escritura Pública de Pacto Antenupcial e da certidão de seu registro no Registro de Imóveis competente, com requerimento pedindo a averbação {protocolo_apartado}",
    "fecho": "fecho",
    "fundamentos": [
