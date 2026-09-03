@@ -2106,6 +2106,10 @@
    "fecho": "fecho",
    "fundamentos": [
     {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 1081"
+    },
+    {
      "norma": "LRP",
      "artigo": "Art. 167",
      "partes": [
@@ -2142,6 +2146,10 @@
    "providencia": "a declaração do responsável técnico, acompanhada da respectiva Anotação de Responsabilidade Técnica, indicando em qual lote permanecerá a edificação, {assinatura}",
    "fecho": "fecho",
    "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 1081"
+    },
     {
      "norma": "LRP",
      "artigo": "Art. 167",
