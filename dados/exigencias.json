@@ -353,6 +353,22 @@
     "o desmembramento do imóvel",
     "a unificação de imóveis"
    ]
+  },
+  "soma_parcelas": {
+   "rotulo": "Soma das parcelas",
+   "exemplo": "94,2000 ha"
+  },
+  "area_global": {
+   "rotulo": "Área global do imóvel",
+   "exemplo": "94,7616 ha"
+  },
+  "ato_parcelamento": {
+   "rotulo": "Ato pretendido",
+   "exemplo": "o desmembramento",
+   "opcoes": [
+    "o desmembramento",
+    "a unificação"
+   ]
   }
  },
  "exigencias": [
@@ -2169,6 +2185,73 @@
      "partes": [
       "II",
       "4 (2)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "parcelas-nao-somam-area-global",
+   "rotulo": "Parcelas desmembradas que não somam a área global",
+   "assunto": "desmembramento",
+   "revisado": false,
+   "campos": [
+    "soma_parcelas",
+    "area_global",
+    "ato_parcelamento"
+   ],
+   "defeito": "Verifica-se que a soma das áreas das parcelas é de {soma_parcelas}, enquanto a área global do imóvel é de {area_global}. As parcelas devem corresponder integralmente ao somatório da área global; enquanto não corresponderem, não se dispensa a certificação da área global pelo INCRA, e não há como averbar {ato_parcelamento}.",
+   "providencia": "a retificação do mapa e do memorial descritivo, de modo que a soma das parcelas corresponda à área global, ou a apresentação da certificação da área global pelo INCRA",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNN-CNJ",
+     "artigo": "Art. 440-AX",
+     "partes": [
+      "§ 4",
+      "I (2)",
+      "II (2)",
+      "§ 5",
+      "§ 6"
+     ]
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 176",
+     "partes": [
+      "§ 3o",
+      "§ 5º"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "desmembramento-sem-remanescente",
+   "rotulo": "Desmembramento sem a descrição do imóvel remanescente",
+   "assunto": "desmembramento",
+   "revisado": false,
+   "campos": [
+    "matricula"
+   ],
+   "defeito": "Verifica-se que o título descreve o imóvel desmembrado, mas não o remanescente[ da matrícula n.º {matricula}]. O desmembramento voluntário exige que ambos venham descritos com todas as circunstâncias que identificam o imóvel — características, confrontações, localização e área —, sob pena de o remanescente ficar sem descrição própria no fólio real.",
+   "providencia": "a retificação do título, para que dele conste também a descrição completa do imóvel remanescente",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 1081"
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 176",
+     "partes": [
+      "3"
+     ]
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 225",
+     "partes": [
+      "§ 1º"
      ]
     }
    ]
