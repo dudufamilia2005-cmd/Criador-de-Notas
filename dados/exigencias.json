@@ -344,6 +344,15 @@
     "não foi apresentada a declaração de confrontação referente à matrícula n.º",
     "não foram apresentadas as declarações de confrontação referentes às matrículas n.os"
    ]
+  },
+  "finalidade_geo": {
+   "rotulo": "Finalidade do georreferenciamento",
+   "exemplo": "o desmembramento do imóvel",
+   "opcoes": [
+    "a retificação da área",
+    "o desmembramento do imóvel",
+    "a unificação de imóveis"
+   ]
   }
  },
  "exigencias": [
@@ -1089,9 +1098,10 @@
    "campos": [
     "documento",
     "area_documento",
-    "area_memorial"
+    "area_memorial",
+    "finalidade_geo"
    ],
-   "defeito": "Verifica-se que {documento} indica área de {area_documento}, enquanto o Memorial Descritivo Certificado aponta {area_memorial}. Os dois precisam descrever o mesmo imóvel.",
+   "defeito": "Verifica-se que {documento} indica área de {area_documento}, enquanto o Memorial Descritivo Certificado aponta {area_memorial}.[ O georreferenciamento apresentado tem por fim {finalidade_geo}, e a área é o dado de que esse ato depende.] Os dois documentos precisam descrever o mesmo imóvel.",
    "providencia": "a retificação do documento, para que sua área coincida com a do Memorial Descritivo Certificado",
    "fecho": "fecho",
    "fundamentos": [
