@@ -862,6 +862,10 @@
    "fundamentos": [
     {
      "norma": "LRP",
+     "artigo": "Art. 237"
+    },
+    {
+     "norma": "LRP",
      "artigo": "Art. 195"
     },
     {
@@ -1092,15 +1096,28 @@
    "fecho": "fecho",
    "fundamentos": [
     {
+     "norma": "LRP",
+     "artigo": "Art. 176",
+     "partes": [
+      "3",
+      "§ 3o",
+      "§ 4o"
+     ]
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 225",
+     "partes": [
+      "§ 1º",
+      "§ 2º"
+     ]
+    },
+    {
      "norma": "DEC4449",
      "artigo": "Art. 9",
      "partes": [
       "§ 1o"
      ]
-    },
-    {
-     "norma": "LRP",
-     "artigo": "Art. 176"
     }
    ]
   },
@@ -1527,12 +1544,16 @@
    "fecho": "fecho",
    "fundamentos": [
     {
-     "norma": "CNPFE-GO",
-     "artigo": "Art. 914"
+     "norma": "LRP",
+     "artigo": "Art. 237"
     },
     {
      "norma": "LRP",
      "artigo": "Art. 186"
+    },
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 914"
     }
    ]
   },

@@ -1029,6 +1029,15 @@
   },
   {
    "norma": "LRP",
+   "artigo": "Art. 237",
+   "texto": "Art. 237 - Ainda que o imóvel esteja matriculado, não se fará registro que dependa da apresentação de título anterior, a fim de que se preserve a continuidade do registro..",
+   "caput": "Art. 237 - Ainda que o imóvel esteja matriculado, não se fará registro que dependa da apresentação de título anterior, a fim de que se preserve a continuidade do registro..",
+   "partes": [],
+   "revogadas": [],
+   "fonte": "lei"
+  },
+  {
+   "norma": "LRP",
    "artigo": "Art. 195",
    "texto": "Art. 195 - Se o imóvel não estiver matriculado ou registrado em nome do outorgante, o oficial exigirá a prévia matrícula e o registro do título anterior, qualquer que seja a sua natureza, para manter a continuidade do registro..",
    "caput": "Art. 195 - Se o imóvel não estiver matriculado ou registrado em nome do outorgante, o oficial exigirá a prévia matrícula e o registro do título anterior, qualquer que seja a sua natureza, para manter a continuidade do registro..",
@@ -1610,6 +1619,28 @@
    "fonte": "lei"
   },
   {
+   "norma": "LRP",
+   "artigo": "Art. 225",
+   "texto": "Art. 225 - Os tabeliães, escrivães e juizes farão com que, nas escrituras e nos autos judiciais, as partes indiquem, com precisão, os característicos, as confrontações e as localizações dos imóveis, mencionando os nomes dos confrontantes e, ainda, quando se tratar só de terreno, se esse fica do lado par ou do lado ímpar do logradouro, em que quadra e a que distância métrica da edificação ou da esquina mais próxima, exigindo dos interessados certidão do registro imobiliário.. § 1º As mesmas minúcias, com relação à caracterização do imóvel, devem constar dos instrumentos particulares apresentados em cartório para registro. § 2º Consideram-se irregulares, para efeito de matrícula, os títulos nos quais a caracterização do imóvel não coincida com a que consta do registro anterior. § 3o Nos autos judiciais que versem sobre imóveis rurais, a localização, os limites e as confrontações serão obtidos a partir de memorial descritivo assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica – ART, contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, geo-referenciadas ao Sistema Geodésico Brasileiro e com precisão posicional a ser fixada pelo INCRA, garantida a isenção de custos financeiros aos proprietários de imóveis rurais cuja somatória da área não exceda a quatro módulos fiscais.",
+   "caput": "Art. 225 - Os tabeliães, escrivães e juizes farão com que, nas escrituras e nos autos judiciais, as partes indiquem, com precisão, os característicos, as confrontações e as localizações dos imóveis, mencionando os nomes dos confrontantes e, ainda, quando se tratar só de terreno, se esse fica do lado par ou do lado ímpar do logradouro, em que quadra e a que distância métrica da edificação ou da esquina mais próxima, exigindo dos interessados certidão do registro imobiliário..",
+   "partes": [
+    {
+     "rotulo": "§ 1º",
+     "texto": "§ 1º As mesmas minúcias, com relação à caracterização do imóvel, devem constar dos instrumentos particulares apresentados em cartório para registro."
+    },
+    {
+     "rotulo": "§ 2º",
+     "texto": "§ 2º Consideram-se irregulares, para efeito de matrícula, os títulos nos quais a caracterização do imóvel não coincida com a que consta do registro anterior."
+    },
+    {
+     "rotulo": "§ 3o",
+     "texto": "§ 3o Nos autos judiciais que versem sobre imóveis rurais, a localização, os limites e as confrontações serão obtidos a partir de memorial descritivo assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica – ART, contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, geo-referenciadas ao Sistema Geodésico Brasileiro e com precisão posicional a ser fixada pelo INCRA, garantida a isenção de custos financeiros aos proprietários de imóveis rurais cuja somatória da área não exceda a quatro módulos fiscais."
+    }
+   ],
+   "revogadas": [],
+   "fonte": "lei"
+  },
+  {
    "norma": "CC",
    "artigo": "Art. 1691",
    "texto": "Art. 1.691. Não podem os pais alienar, ou gravar de ônus real os imóveis dos filhos, nem contrair, em nome deles, obrigações que ultrapassem os limites da simples administração, salvo por necessidade ou evidente interesse da prole, mediante prévia autorização do juiz. Parágrafo único. Podem pleitear a declaração de nulidade dos atos previstos neste artigo: I - os filhos; II - os herdeiros; III - o representante legal.",
@@ -1666,28 +1697,6 @@
     {
      "rotulo": "Parágrafo único",
      "texto": "Parágrafo único. São solidariamente responsáveis pelo imposto e pelos acréscimos legais, nos termos do art. 134 da Lei nº 5.172, de 25 de outubro de 1966 - Sistema Tributário Nacional, os serventuários do registro de imóveis que descumprirem o disposto neste artigo, sem prejuízo de outras sanções legais. Depósito Judicial na Desapropriação"
-    }
-   ],
-   "revogadas": [],
-   "fonte": "lei"
-  },
-  {
-   "norma": "LRP",
-   "artigo": "Art. 225",
-   "texto": "Art. 225 - Os tabeliães, escrivães e juizes farão com que, nas escrituras e nos autos judiciais, as partes indiquem, com precisão, os característicos, as confrontações e as localizações dos imóveis, mencionando os nomes dos confrontantes e, ainda, quando se tratar só de terreno, se esse fica do lado par ou do lado ímpar do logradouro, em que quadra e a que distância métrica da edificação ou da esquina mais próxima, exigindo dos interessados certidão do registro imobiliário.. § 1º As mesmas minúcias, com relação à caracterização do imóvel, devem constar dos instrumentos particulares apresentados em cartório para registro. § 2º Consideram-se irregulares, para efeito de matrícula, os títulos nos quais a caracterização do imóvel não coincida com a que consta do registro anterior. § 3o Nos autos judiciais que versem sobre imóveis rurais, a localização, os limites e as confrontações serão obtidos a partir de memorial descritivo assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica – ART, contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, geo-referenciadas ao Sistema Geodésico Brasileiro e com precisão posicional a ser fixada pelo INCRA, garantida a isenção de custos financeiros aos proprietários de imóveis rurais cuja somatória da área não exceda a quatro módulos fiscais.",
-   "caput": "Art. 225 - Os tabeliães, escrivães e juizes farão com que, nas escrituras e nos autos judiciais, as partes indiquem, com precisão, os característicos, as confrontações e as localizações dos imóveis, mencionando os nomes dos confrontantes e, ainda, quando se tratar só de terreno, se esse fica do lado par ou do lado ímpar do logradouro, em que quadra e a que distância métrica da edificação ou da esquina mais próxima, exigindo dos interessados certidão do registro imobiliário..",
-   "partes": [
-    {
-     "rotulo": "§ 1º",
-     "texto": "§ 1º As mesmas minúcias, com relação à caracterização do imóvel, devem constar dos instrumentos particulares apresentados em cartório para registro."
-    },
-    {
-     "rotulo": "§ 2º",
-     "texto": "§ 2º Consideram-se irregulares, para efeito de matrícula, os títulos nos quais a caracterização do imóvel não coincida com a que consta do registro anterior."
-    },
-    {
-     "rotulo": "§ 3o",
-     "texto": "§ 3o Nos autos judiciais que versem sobre imóveis rurais, a localização, os limites e as confrontações serão obtidos a partir de memorial descritivo assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica – ART, contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, geo-referenciadas ao Sistema Geodésico Brasileiro e com precisão posicional a ser fixada pelo INCRA, garantida a isenção de custos financeiros aos proprietários de imóveis rurais cuja somatória da área não exceda a quatro módulos fiscais."
     }
    ],
    "revogadas": [],
