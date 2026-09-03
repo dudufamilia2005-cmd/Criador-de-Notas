@@ -369,6 +369,23 @@
     "o desmembramento",
     "a unificação"
    ]
+  },
+  "dado_faltante": {
+   "rotulo": "Dado que falta",
+   "exemplo": "o número do CPF",
+   "opcoes": [
+    "o nome completo",
+    "a nacionalidade",
+    "o estado civil",
+    "o regime de bens",
+    "a data do casamento",
+    "a profissão",
+    "o número do CPF",
+    "o número e o órgão expedidor do documento de identidade",
+    "o endereço residencial",
+    "a filiação"
+   ],
+   "multiplos": true
   }
  },
  "exigencias": [
@@ -2253,6 +2270,72 @@
      "artigo": "Art. 176",
      "partes": [
       "3"
+     ]
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 225",
+     "partes": [
+      "§ 1º"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cedula-proprietario-localizacao-incompleto",
+   "rotulo": "Cédula sem a qualificação completa do proprietário do imóvel de localização",
+   "assunto": "cedula",
+   "revisado": false,
+   "campos": [
+    "dado_faltante"
+   ],
+   "defeito": "Verifica-se que a cédula não traz a qualificação completa do proprietário do imóvel de localização dos bens dados em garantia. Falta informar: {dado_faltante}. Sem a qualificação completa não há como identificar com segurança o titular do imóvel em que a garantia se registra.",
+   "providencia": "a retificação da cédula, para que dela conste a qualificação completa do proprietário do imóvel de localização",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 914"
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 176",
+     "partes": [
+      "II",
+      "a)"
+     ]
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 225",
+     "partes": [
+      "§ 1º"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cedula-conjuge-localizacao-incompleto",
+   "rotulo": "Cédula sem a qualificação completa do cônjuge do proprietário do imóvel de localização",
+   "assunto": "cedula",
+   "revisado": false,
+   "campos": [
+    "dado_faltante"
+   ],
+   "defeito": "Verifica-se que a cédula não traz a qualificação completa do cônjuge do proprietário do imóvel de localização dos bens dados em garantia. Falta informar: {dado_faltante}. O cônjuge integra a qualificação de quem é casado, e sem ela não se afere a titularidade nem a necessidade de outorga.",
+   "providencia": "a retificação da cédula, para que dela conste a qualificação completa do cônjuge do proprietário do imóvel de localização",
+   "fecho": "fecho",
+   "fundamentos": [
+    {
+     "norma": "CNPFE-GO",
+     "artigo": "Art. 914"
+    },
+    {
+     "norma": "LRP",
+     "artigo": "Art. 176",
+     "partes": [
+      "II",
+      "a)"
      ]
     },
     {
